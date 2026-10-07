@@ -1,0 +1,27 @@
+{
+  "passages": 3065,
+  "entities": 8176,
+  "relations": 4867,
+  "entity_types": {
+    "中药": 815,
+    "疾病": 3664,
+    "病机": 961,
+    "方药": 1285,
+    "治法": 118,
+    "症状": 1032,
+    "病位": 301
+  },
+  "relation_types": {
+    "治疗": 2193,
+    "导致": 931,
+    "主治": 116,
+    "提示": 359,
+    "涉及": 331,
+    "表现": 937
+  },
+  "model": "qwen-plus-2025-07-28",
+  "prompt_version": "xiaoke_final_v6_overlap_disambiguation_20260817",
+  "postprocess_version": "xiaoke_final_rules_v612_quality_gate_separation_20260817",
+  "run_mode": "full",
+  "completed_at": "2026-08-17 09:45:16"
+}

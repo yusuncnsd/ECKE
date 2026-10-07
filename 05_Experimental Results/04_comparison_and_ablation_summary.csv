@@ -1,0 +1,29 @@
+﻿experiment,method_or_setting,task,precision,recall,f1
+external_comparison,CENTRELINE,entity,0.5692,0.5953,0.5742
+external_comparison,TCMERE,entity,0.5597,0.3544,0.4226
+external_comparison,BSTR-GPRel,entity,0.5511,0.6755,0.6047
+external_comparison,CARE,entity,0.2788,0.6348,0.3866
+external_comparison,OneKE-Qwen,entity,0.5786,0.7457,0.6516
+external_comparison,YAYI-UIE,entity,0.2149,0.4062,0.2811
+external_comparison,LLMRE,entity,0.2620,0.7756,0.3916
+external_comparison,ADELIE,entity,0.1506,0.2957,0.1996
+external_comparison,ECKE,entity,0.9250,0.9079,0.9164
+external_comparison,CENTRELINE,relation,0.1847,0.2119,0.1895
+external_comparison,TCMERE,relation,0.2183,0.0348,0.0382
+external_comparison,BSTR-GPRel,relation,0.4711,0.2959,0.3552
+external_comparison,CARE,relation,0.0336,0.3885,0.0613
+external_comparison,OneKE-Qwen,relation,0.3964,0.5610,0.4645
+external_comparison,YAYI-UIE,relation,0.3858,0.0965,0.1543
+external_comparison,LLMRE,relation,0.1816,0.3543,0.2402
+external_comparison,ADELIE,relation,0.1614,0.0709,0.0985
+external_comparison,ECKE,relation,0.8038,0.8307,0.8170
+ablation,w/o Lexicon Anchoring,entity,0.6187,0.7860,0.6923
+ablation,w/o Lexicon Anchoring,relation,0.3851,0.6398,0.4808
+ablation,w/o Semantic Supplementation,entity,0.4035,0.5316,0.4588
+ablation,w/o Semantic Supplementation,relation,0.2055,0.1476,0.1718
+ablation,Simple Union,entity,0.3945,0.8734,0.5435
+ablation,Simple Union,relation,0.2447,0.7441,0.3682
+ablation,Schema-only RE,entity,0.9250,0.9079,0.9164
+ablation,Schema-only RE,relation,0.4197,0.8386,0.5594
+ablation,ECKE,entity,0.9250,0.9079,0.9164
+ablation,ECKE,relation,0.8038,0.8307,0.8170
