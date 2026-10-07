@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 
 root = Path(__file__).resolve().parent.parent
-records = [json.loads(line) for line in (root / "04_测试标签与预测/01_test300_gold_and_ECKE_predictions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
-summary = json.loads((root / "05_实验结果/03_ECKE_performance_summary.json").read_text(encoding="utf-8"))
+records = [json.loads(line) for line in (root / "04_Test Labels and Predictions/01_test300_gold_and_ECKE_predictions.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
+summary = json.loads((root / "05_Experimental Results/03_ECKE_performance_summary.json").read_text(encoding="utf-8"))
 assert len(records) == len({row["record_id"] for row in records}) == 300
 for task in ("entity", "relation"):
     suffix = "entities" if task == "entity" else "relations"
