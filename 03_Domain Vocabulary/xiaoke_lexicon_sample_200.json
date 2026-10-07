@@ -1,0 +1,1878 @@
+{
+  "items": [
+    {
+      "entity_type": "中药",
+      "concept": "石斛",
+      "aliases": [
+        "金钗石斛",
+        "金钗股",
+        "杜兰",
+        "林兰",
+        "石遂",
+        "禁生"
+      ],
+      "source_rows": [
+        5
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "竹茹",
+      "aliases": [
+        "姜竹茹",
+        "淡竹茹",
+        "青竹茹",
+        "竹皮"
+      ],
+      "source_rows": [
+        7
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "甘蔗",
+      "aliases": [
+        "竿蔗",
+        "糖蔗",
+        "薯梗",
+        "薯蔗"
+      ],
+      "source_rows": [
+        11
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "蜂蜜",
+      "aliases": [
+        "百花精",
+        "岩蜜",
+        "灵液",
+        "石蜜",
+        "蜂糖",
+        "蜜糖"
+      ],
+      "source_rows": [
+        12
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "莲实",
+      "aliases": [
+        "鸡头实（古混用）",
+        "莲蓬子"
+      ],
+      "source_rows": [
+        15
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "苦瓜",
+      "aliases": [
+        "癞葡萄",
+        "红姑娘",
+        "锦荔枝",
+        "凉瓜"
+      ],
+      "source_rows": [
+        18
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "荸荠",
+      "aliases": [
+        "黑山棱",
+        "乌芋",
+        "凫茨",
+        "地栗",
+        "葧脐",
+        "马蹄"
+      ],
+      "source_rows": [
+        20
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "枇杷叶",
+      "aliases": [
+        "芦桔叶",
+        "巴叶"
+      ],
+      "source_rows": [
+        21
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "余甘子",
+      "aliases": [
+        "庵摩勒",
+        "油甘子",
+        "滇橄榄",
+        "牛甘果"
+      ],
+      "source_rows": [
+        23
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "龙胆草",
+      "aliases": [
+        "苦龙胆",
+        "草龙胆",
+        "陵游",
+        "龙胆"
+      ],
+      "source_rows": [
+        33
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "秦艽",
+      "aliases": [
+        "左扭根",
+        "百枝膏",
+        "西大叶",
+        "秦胶"
+      ],
+      "source_rows": [
+        34
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "决明子",
+      "aliases": [
+        "马蹄决明",
+        "假绿豆",
+        "草决明",
+        "还瞳子"
+      ],
+      "source_rows": [
+        39
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "蒲公英",
+      "aliases": [
+        "黄花地丁",
+        "奶汁草",
+        "婆婆丁",
+        "蒲公草"
+      ],
+      "source_rows": [
+        41
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "半边莲",
+      "aliases": [
+        "急解索",
+        "水仙草",
+        "细米草",
+        "蛇舌草"
+      ],
+      "source_rows": [
+        44
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "金钱草",
+      "aliases": [
+        "神仙对坐草",
+        "过路黄",
+        "连钱草",
+        "铜钱草"
+      ],
+      "source_rows": [
+        46
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "白鲜皮",
+      "aliases": [
+        "八股牛",
+        "山羊鲜",
+        "白鲜",
+        "膻草"
+      ],
+      "source_rows": [
+        49
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "连翘",
+      "aliases": [
+        "旱莲子",
+        "连翘心",
+        "黄寿丹",
+        "空壳",
+        "落翘"
+      ],
+      "source_rows": [
+        53
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "黑豆",
+      "aliases": [
+        "冬豆子",
+        "生大豆",
+        "黑大豆",
+        "乌豆",
+        "料豆"
+      ],
+      "source_rows": [
+        55
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "密蒙花",
+      "aliases": [
+        "小锦花",
+        "米汤花",
+        "黄饭花",
+        "蒙花"
+      ],
+      "source_rows": [
+        58
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "木贼",
+      "aliases": [
+        "木贼草",
+        "笔筒草",
+        "节节草"
+      ],
+      "source_rows": [
+        59
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "薄荷",
+      "aliases": [
+        "猫儿薄荷",
+        "升阳菜",
+        "南薄荷",
+        "蕃荷菜",
+        "婆荷"
+      ],
+      "source_rows": [
+        61
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "石膏",
+      "aliases": [
+        "寒水石（古混用）",
+        "细理石",
+        "软石膏",
+        "白虎"
+      ],
+      "source_rows": [
+        70
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "知母",
+      "aliases": [
+        "穿地龙",
+        "水须",
+        "芪母",
+        "蚔母",
+        "连母"
+      ],
+      "source_rows": [
+        71
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "滑石",
+      "aliases": [
+        "共石",
+        "液石",
+        "留石",
+        "番石",
+        "脱石"
+      ],
+      "source_rows": [
+        73
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "党参",
+      "aliases": [
+        "中灵草",
+        "潞党参",
+        "狮头参",
+        "台党",
+        "潞党"
+      ],
+      "source_rows": [
+        76
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "黄芪",
+      "aliases": [
+        "戴椹",
+        "戴糁",
+        "独椹",
+        "王孙",
+        "百本",
+        "黄耆"
+      ],
+      "source_rows": [
+        78
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "黄精",
+      "aliases": [
+        "仙人余粮",
+        "戊己芝",
+        "救穷草",
+        "老虎姜",
+        "鹿竹"
+      ],
+      "source_rows": [
+        85
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "枸杞子",
+      "aliases": [
+        "地骨子",
+        "红耳坠",
+        "血杞子",
+        "西枸杞",
+        "枸忌",
+        "枸杞"
+      ],
+      "source_rows": [
+        86
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "墨旱莲",
+      "aliases": [
+        "墨斗草",
+        "旱莲草",
+        "莲子草",
+        "金陵草",
+        "鳢肠"
+      ],
+      "source_rows": [
+        87
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "仙茅",
+      "aliases": [
+        "婆罗门参",
+        "千年棕",
+        "独茅根",
+        "地棕"
+      ],
+      "source_rows": [
+        102
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "补骨脂",
+      "aliases": [
+        "破故纸",
+        "胡故子",
+        "胡韭子",
+        "黑故子"
+      ],
+      "source_rows": [
+        103
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "锁阳",
+      "aliases": [
+        "不老药",
+        "锈铁棒",
+        "黄骨郎",
+        "琐阳"
+      ],
+      "source_rows": [
+        107
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "杜仲",
+      "aliases": [
+        "丝连皮",
+        "玉丝皮",
+        "思仙",
+        "思仲",
+        "木棉"
+      ],
+      "source_rows": [
+        109
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "阳起石",
+      "aliases": [
+        "起阳石",
+        "白石",
+        "石生",
+        "阳石"
+      ],
+      "source_rows": [
+        112
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "葫芦巴",
+      "aliases": [
+        "小木夏",
+        "胡卢巴",
+        "香草子",
+        "季豆",
+        "苦豆"
+      ],
+      "source_rows": [
+        113
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "芡实",
+      "aliases": [
+        "水流黄",
+        "鸡头实",
+        "鸡头米",
+        "乌头",
+        "雁头"
+      ],
+      "source_rows": [
+        116
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "山茱萸",
+      "aliases": [
+        "枣皮",
+        "肉枣",
+        "萸肉",
+        "蜀枣",
+        "鸡足"
+      ],
+      "source_rows": [
+        118
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "青皮",
+      "aliases": [
+        "四花青皮",
+        "个青皮",
+        "青橘皮"
+      ],
+      "source_rows": [
+        139
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "木香",
+      "aliases": [
+        "五木香",
+        "南木香",
+        "青木香",
+        "蜜香"
+      ],
+      "source_rows": [
+        142
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "丁香",
+      "aliases": [
+        "丁子香",
+        "公丁香",
+        "支解香",
+        "母丁香",
+        "雄丁香"
+      ],
+      "source_rows": [
+        144
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "胡椒",
+      "aliases": [
+        "昧履支",
+        "浮椒",
+        "玉椒"
+      ],
+      "source_rows": [
+        147
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "高良姜",
+      "aliases": [
+        "小良姜",
+        "海良姜",
+        "膏良姜",
+        "良姜"
+      ],
+      "source_rows": [
+        148
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "干姜",
+      "aliases": [
+        "炮姜（制品）",
+        "干生姜",
+        "均姜",
+        "白姜"
+      ],
+      "source_rows": [
+        149
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "肉桂",
+      "aliases": [
+        "桂心",
+        "桂皮",
+        "牡桂",
+        "玉桂",
+        "菌桂"
+      ],
+      "source_rows": [
+        150
+      ]
+    },
+    {
+      "entity_type": "中药",
+      "concept": "牛膝",
+      "aliases": [
+        "土牛膝",
+        "怀牛膝",
+        "脚斯蹬",
+        "铁牛膝",
+        "牛茎"
+      ],
+      "source_rows": [
+        153
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "六味地黄丸",
+      "aliases": [],
+      "source_rows": [
+        213
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "幼幼新书六味丸",
+      "aliases": [],
+      "source_rows": [
+        216
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "生津汤",
+      "aliases": [],
+      "source_rows": [
+        218
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "生津饮",
+      "aliases": [],
+      "source_rows": [
+        221
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "甘露饮子",
+      "aliases": [],
+      "source_rows": [
+        222
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "当归润燥汤",
+      "aliases": [],
+      "source_rows": [
+        223
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "当归润燥饮",
+      "aliases": [],
+      "source_rows": [
+        225
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "补中益气汤",
+      "aliases": [],
+      "source_rows": [
+        226
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "白虎加入参汤",
+      "aliases": [],
+      "source_rows": [
+        233
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "麦冬汤",
+      "aliases": [],
+      "source_rows": [
+        239
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "猪苓散",
+      "aliases": [],
+      "source_rows": [
+        245
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "五苓散",
+      "aliases": [],
+      "source_rows": [
+        247
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "金匮肾气丸",
+      "aliases": [],
+      "source_rows": [
+        250
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "肾气丸",
+      "aliases": [],
+      "source_rows": [
+        251
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "加味肾气丸",
+      "aliases": [],
+      "source_rows": [
+        256
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "八味丸",
+      "aliases": [],
+      "source_rows": [
+        261
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "左归丸",
+      "aliases": [],
+      "source_rows": [
+        265
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "右归饮",
+      "aliases": [],
+      "source_rows": [
+        269
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "张景岳右归丸",
+      "aliases": [],
+      "source_rows": [
+        270
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "补阴丸",
+      "aliases": [],
+      "source_rows": [
+        274
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "参茸固本丸",
+      "aliases": [],
+      "source_rows": [
+        278
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "参茸固本膏",
+      "aliases": [],
+      "source_rows": [
+        279
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "薯蓣丸",
+      "aliases": [],
+      "source_rows": [
+        282
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "脾肾双补汤",
+      "aliases": [],
+      "source_rows": [
+        284
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "双补丸",
+      "aliases": [],
+      "source_rows": [
+        285
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "三消饮",
+      "aliases": [],
+      "source_rows": [
+        290
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "鹿茸丸",
+      "aliases": [],
+      "source_rows": [
+        292
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "玉液金丹",
+      "aliases": [],
+      "source_rows": [
+        295
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "耆婆汤",
+      "aliases": [],
+      "source_rows": [
+        300
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "黄芪饮",
+      "aliases": [],
+      "source_rows": [
+        301
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "二冬饮",
+      "aliases": [],
+      "source_rows": [
+        304
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "葛根玉泉丸",
+      "aliases": [],
+      "source_rows": [
+        307
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "清心莲子饮",
+      "aliases": [],
+      "source_rows": [
+        312
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "清心饮",
+      "aliases": [],
+      "source_rows": [
+        314
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "石莲散",
+      "aliases": [],
+      "source_rows": [
+        315
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "松石猪肚丸",
+      "aliases": [],
+      "source_rows": [
+        320
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "六黄汤",
+      "aliases": [],
+      "source_rows": [
+        325
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "乌梅汤",
+      "aliases": [],
+      "source_rows": [
+        330
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "酸梅汤",
+      "aliases": [],
+      "source_rows": [
+        332
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "文蛤散",
+      "aliases": [],
+      "source_rows": [
+        333
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "栝蒌牡蛎散",
+      "aliases": [],
+      "source_rows": [
+        339
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "瓜蒌牡蛎散",
+      "aliases": [],
+      "source_rows": [
+        340
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "百合知母汤",
+      "aliases": [],
+      "source_rows": [
+        344
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "百合知母饮",
+      "aliases": [],
+      "source_rows": [
+        345
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "泽泻茯苓汤",
+      "aliases": [],
+      "source_rows": [
+        347
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "大柴胡汤",
+      "aliases": [],
+      "source_rows": [
+        355
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "养阴承气汤",
+      "aliases": [],
+      "source_rows": [
+        360
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "生脉散",
+      "aliases": [],
+      "source_rows": [
+        364
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "生脉饮",
+      "aliases": [],
+      "source_rows": [
+        365
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "六味加知柏丸",
+      "aliases": [],
+      "source_rows": [
+        370
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "地黄明目丸",
+      "aliases": [],
+      "source_rows": [
+        376
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "缩泉饮",
+      "aliases": [],
+      "source_rows": [
+        381
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "益智缩泉丸",
+      "aliases": [],
+      "source_rows": [
+        382
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "玉女汤",
+      "aliases": [],
+      "source_rows": [
+        390
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "消渴方",
+      "aliases": [],
+      "source_rows": [
+        392
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "黄连消渴方",
+      "aliases": [],
+      "source_rows": [
+        393
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "兰香饮子",
+      "aliases": [],
+      "source_rows": [
+        395
+      ]
+    },
+    {
+      "entity_type": "方药",
+      "concept": "葛根芩连汤",
+      "aliases": [],
+      "source_rows": [
+        398
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "上消",
+      "aliases": [],
+      "source_rows": [
+        574
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "中消",
+      "aliases": [],
+      "source_rows": [
+        575
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "下消",
+      "aliases": [],
+      "source_rows": [
+        576
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "消中",
+      "aliases": [],
+      "source_rows": [
+        578
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "消渴",
+      "aliases": [],
+      "source_rows": [
+        580
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "三消",
+      "aliases": [],
+      "source_rows": [
+        581
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "消肾",
+      "aliases": [],
+      "source_rows": [
+        586
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "痟渴",
+      "aliases": [],
+      "source_rows": [
+        587
+      ]
+    },
+    {
+      "entity_type": "疾病",
+      "concept": "消脾",
+      "aliases": [],
+      "source_rows": [
+        598
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "口渴",
+      "aliases": [],
+      "source_rows": [
+        407
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "口淡",
+      "aliases": [],
+      "source_rows": [
+        413
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "嘈杂",
+      "aliases": [],
+      "source_rows": [
+        417
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "夜间多尿",
+      "aliases": [],
+      "source_rows": [
+        419
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "尿甜",
+      "aliases": [],
+      "source_rows": [
+        424
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "小便不利",
+      "aliases": [],
+      "source_rows": [
+        425
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "小便失禁",
+      "aliases": [],
+      "source_rows": [
+        427
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "身重",
+      "aliases": [],
+      "source_rows": [
+        434
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "潮热",
+      "aliases": [],
+      "source_rows": [
+        436
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "畏寒",
+      "aliases": [],
+      "source_rows": [
+        439
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "盗汗",
+      "aliases": [],
+      "source_rows": [
+        441
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "黄汗",
+      "aliases": [],
+      "source_rows": [
+        445
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "肌肤甲错",
+      "aliases": [],
+      "source_rows": [
+        448
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "皮肤脓疱",
+      "aliases": [],
+      "source_rows": [
+        449
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "皮肤水疱",
+      "aliases": [],
+      "source_rows": [
+        450
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "白内障",
+      "aliases": [],
+      "source_rows": [
+        461
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "云雾移晴",
+      "aliases": [],
+      "source_rows": [
+        462
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "视瞻昏渺",
+      "aliases": [],
+      "source_rows": [
+        463
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "耳鸣",
+      "aliases": [],
+      "source_rows": [
+        465
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "头晕",
+      "aliases": [],
+      "source_rows": [
+        467
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "健忘",
+      "aliases": [],
+      "source_rows": [
+        471
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "多梦",
+      "aliases": [],
+      "source_rows": [
+        473
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "嗜睡",
+      "aliases": [],
+      "source_rows": [
+        474
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "谵语",
+      "aliases": [],
+      "source_rows": [
+        478
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "晕厥",
+      "aliases": [],
+      "source_rows": [
+        483
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "四肢麻木",
+      "aliases": [],
+      "source_rows": [
+        486
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "足痛",
+      "aliases": [],
+      "source_rows": [
+        491
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "腰痠",
+      "aliases": [],
+      "source_rows": [
+        494
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "腰膝无力",
+      "aliases": [],
+      "source_rows": [
+        495
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "瘫痪",
+      "aliases": [],
+      "source_rows": [
+        500
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "心悸",
+      "aliases": [],
+      "source_rows": [
+        502
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "咳嗽",
+      "aliases": [],
+      "source_rows": [
+        505
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "喉中痰鸣",
+      "aliases": [],
+      "source_rows": [
+        507
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "腹胀",
+      "aliases": [],
+      "source_rows": [
+        512
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "口唇干裂",
+      "aliases": [],
+      "source_rows": [
+        523
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "舌裂",
+      "aliases": [],
+      "source_rows": [
+        531
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "舌剥落",
+      "aliases": [],
+      "source_rows": [
+        535
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "早泄",
+      "aliases": [],
+      "source_rows": [
+        538
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "闭经",
+      "aliases": [],
+      "source_rows": [
+        542
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "崩漏",
+      "aliases": [],
+      "source_rows": [
+        543
+      ]
+    },
+    {
+      "entity_type": "症状",
+      "concept": "阴疮",
+      "aliases": [],
+      "source_rows": [
+        546
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "五味偏嗜",
+      "aliases": [],
+      "source_rows": [
+        154
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "房劳过度",
+      "aliases": [],
+      "source_rows": [
+        157
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "邪郁化火",
+      "aliases": [],
+      "source_rows": [
+        162
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "津亏血瘀",
+      "aliases": [],
+      "source_rows": [
+        169
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "血瘀水停",
+      "aliases": [],
+      "source_rows": [
+        170
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "痰瘀互结",
+      "aliases": [],
+      "source_rows": [
+        171
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "痰热壅肺",
+      "aliases": [],
+      "source_rows": [
+        175
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "燥邪伤肺",
+      "aliases": [],
+      "source_rows": [
+        176
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "肺燥",
+      "aliases": [],
+      "source_rows": [
+        177
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "肾精不足",
+      "aliases": [],
+      "source_rows": [
+        181
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "三焦气化失司",
+      "aliases": [],
+      "source_rows": [
+        189
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "阳损及阴",
+      "aliases": [],
+      "source_rows": [
+        194
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "经络气机阻滞",
+      "aliases": [],
+      "source_rows": [
+        197
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "正气亏损",
+      "aliases": [],
+      "source_rows": [
+        198
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "气滞血瘀",
+      "aliases": [],
+      "source_rows": [
+        203
+      ]
+    },
+    {
+      "entity_type": "病机",
+      "concept": "水停气阻",
+      "aliases": [],
+      "source_rows": [
+        208
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "肺",
+      "aliases": [],
+      "source_rows": [
+        547
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "肝",
+      "aliases": [],
+      "source_rows": [
+        552
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "大肠",
+      "aliases": [],
+      "source_rows": [
+        555
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "三焦",
+      "aliases": [],
+      "source_rows": [
+        557
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "皮肤",
+      "aliases": [],
+      "source_rows": [
+        561
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "手太阴肺经",
+      "aliases": [],
+      "source_rows": [
+        564
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "手少阴心经",
+      "aliases": [],
+      "source_rows": [
+        568
+      ]
+    },
+    {
+      "entity_type": "病位",
+      "concept": "足少阴肾经",
+      "aliases": [],
+      "source_rows": [
+        571
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "热者寒之",
+      "aliases": [],
+      "source_rows": [
+        606
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "阳中求阴",
+      "aliases": [],
+      "source_rows": [
+        610
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "升清降浊",
+      "aliases": [],
+      "source_rows": [
+        616
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "治病必求于本",
+      "aliases": [],
+      "source_rows": [
+        619
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "既病防变",
+      "aliases": [],
+      "source_rows": [
+        621
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "急者缓之",
+      "aliases": [],
+      "source_rows": [
+        622
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "损者温之",
+      "aliases": [],
+      "source_rows": [
+        623
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "益气养阴",
+      "aliases": [],
+      "source_rows": [
+        626
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "健脾益气",
+      "aliases": [],
+      "source_rows": [
+        629
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "清热泻火",
+      "aliases": [],
+      "source_rows": [
+        631
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "从者反治",
+      "aliases": [],
+      "source_rows": [
+        635
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "先里后表",
+      "aliases": [],
+      "source_rows": [
+        637
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "先表后里",
+      "aliases": [],
+      "source_rows": [
+        638
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "扶弱",
+      "aliases": [],
+      "source_rows": [
+        639
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "经络证治",
+      "aliases": [],
+      "source_rows": [
+        643
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "客者除之",
+      "aliases": [],
+      "source_rows": [
+        647
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "诸热之而寒者取之阳",
+      "aliases": [],
+      "source_rows": [
+        650
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "泻肝法",
+      "aliases": [],
+      "source_rows": [
+        658
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "解肌",
+      "aliases": [],
+      "source_rows": [
+        661
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "中满者泻之于内",
+      "aliases": [],
+      "source_rows": [
+        664
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "升清固涩",
+      "aliases": [],
+      "source_rows": [
+        666
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "益火补土",
+      "aliases": [],
+      "source_rows": [
+        671
+      ]
+    },
+    {
+      "entity_type": "治法",
+      "concept": "固涩缩尿",
+      "aliases": [],
+      "source_rows": [
+        679
+      ]
+    }
+  ],
+  "sample_metadata": {
+    "purpose": "Public illustrative subset; not the complete experimental lexicon",
+    "original_concept_count": 680,
+    "sample_concept_count": 200,
+    "selection_date": "2026-10-07",
+    "selection_method": "Type-stratified deterministic SHA256 ranking with nine preserved disease-topic anchors; no test labels or performance used for selection",
+    "ranking_prefix": "20261007",
+    "counts_by_type": {
+      "中药": 45,
+      "方药": 58,
+      "疾病": 9,
+      "症状": 41,
+      "病机": 16,
+      "病位": 8,
+      "治法": 23
+    },
+    "preserved_disease_anchors": [
+      "三消",
+      "上消",
+      "下消",
+      "中消",
+      "消中",
+      "消渴",
+      "消肾",
+      "消脾",
+      "痟渴"
+    ],
+    "source_sha256": "a9025150158e5360e0651f812182d788548ed4a06ad9afc083fc89a9572b64b4",
+    "source_rows_meaning": "Row numbers in the original 680-row workbook, not row numbers in the public subset",
+    "not_for_reproducing_reported_experimental_results": true
+  }
+}

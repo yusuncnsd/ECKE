@@ -1,0 +1,20 @@
+{
+  "model": "qwen-plus-2025-07-28",
+  "api_url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+  "temperature": 0.0,
+  "random_seed_base": 20260813,
+  "max_retries": 6,
+  "max_workers": 5,
+  "timeout_seconds": 180,
+  "prompt_version": "xiaoke_final_v6_overlap_disambiguation_20260817",
+  "postprocess_version": "xiaoke_final_rules_v612_quality_gate_separation_20260817",
+  "schema_version": "xiaoke_schema_v5_20260816",
+  "bootstrap_resamples": 5000,
+  "bootstrap_seed": 20260822,
+  "python": "3.10 or later",
+  "dependencies": "Python standard library",
+  "api_key_included": false,
+  "experimental_lexicon_concepts": 680,
+  "public_lexicon_sample_concepts": 200,
+  "public_sample_was_used_for_reported_results": false
+}
