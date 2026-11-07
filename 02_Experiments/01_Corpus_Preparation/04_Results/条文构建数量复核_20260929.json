@@ -1,0 +1,9 @@
+{
+  "evidence_units": 405884,
+  "candidates": 5924,
+  "script": "主实验\\00_古籍清洗与主题条文构建\\01_正式代码\\03_运行消渴主题条文筛选.py",
+  "script_sha256": "734299bf665d22b097dc66fe6b2f5bc0a12fdfe33d494d080086330a2cf3d9e1",
+  "lexicon": "主实验\\02_主实验\\01_冻结配置与开发数据\\xiaoke_lexicon_normalized_v1.json",
+  "note": "仅内存运行重建与规则候选函数；未调用模型、未写缓存。候选核对使用现存冻结规范词表，区别于已未找到的原始xlsx。",
+  "expert_annotation": "用户2026-09-29确认两名专家独立盲标，分歧由第三名专家讨论。"
+}

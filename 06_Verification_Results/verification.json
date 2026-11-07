@@ -1,0 +1,912 @@
+{
+  "generated_at": "2026-11-07T16:09:28.599131+00:00",
+  "program_sha256": "93bc16a72657acbfcfc1e1556a307372671874b74925d263b37c49bbec3b6c30",
+  "checks": [
+    {
+      "name": "corpus_unique_records",
+      "passed": true,
+      "observed": 3065,
+      "expected": 3065
+    },
+    {
+      "name": "test_gold_unique_records",
+      "passed": true,
+      "observed": 300,
+      "expected": 300
+    },
+    {
+      "name": "development_annotations",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "gold_entity_count",
+      "passed": true,
+      "observed": 869,
+      "expected": 869
+    },
+    {
+      "name": "gold_relation_count",
+      "passed": true,
+      "observed": 508,
+      "expected": 508
+    },
+    {
+      "name": "development_test_overlap",
+      "passed": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "test_manifest_matches_gold",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "development_annotations_match_manifest",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "all_split_ids_in_corpus",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "test_text_matches_corpus",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "complete_lexicon_concepts",
+      "passed": true,
+      "observed": 680,
+      "expected": 680
+    },
+    {
+      "name": "schema_patterns",
+      "passed": true,
+      "observed": 7,
+      "expected": 7
+    },
+    {
+      "name": "gold_schema_valid",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "CENTRELINE_runs",
+      "passed": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "TCMERE_runs",
+      "passed": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "BSTR-GPRel_runs",
+      "passed": true,
+      "observed": 3,
+      "expected": 3
+    },
+    {
+      "name": "ECKE_TXT_JSONL_metrics_identical",
+      "passed": true,
+      "observed": {
+        "entity": {
+          "tp": 789,
+          "fp": 64,
+          "fn": 80,
+          "precision": 0.9249706916764361,
+          "recall": 0.9079401611047181,
+          "f1": 0.9163763066202091
+        },
+        "relation": {
+          "tp": 422,
+          "fp": 103,
+          "fn": 86,
+          "precision": 0.8038095238095239,
+          "recall": 0.8307086614173228,
+          "f1": 0.8170377541142305
+        }
+      },
+      "expected": {
+        "entity": {
+          "tp": 789,
+          "fp": 64,
+          "fn": 80,
+          "precision": 0.9249706916764361,
+          "recall": 0.9079401611047181,
+          "f1": 0.9163763066202091
+        },
+        "relation": {
+          "tp": 422,
+          "fp": 103,
+          "fn": 86,
+          "precision": 0.8038095238095239,
+          "recall": 0.8307086614173228,
+          "f1": 0.8170377541142305
+        }
+      }
+    },
+    {
+      "name": "A1_prediction_files",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "A2_prediction_files",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "A3_prediction_files",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "A4_prediction_files",
+      "passed": true,
+      "observed": 1,
+      "expected": 1
+    },
+    {
+      "name": "Table3:CENTRELINE:entity:P",
+      "passed": true,
+      "observed": "0.5692",
+      "expected": "0.5692"
+    },
+    {
+      "name": "Table3:CENTRELINE:entity:R",
+      "passed": true,
+      "observed": "0.5953",
+      "expected": "0.5953"
+    },
+    {
+      "name": "Table3:CENTRELINE:entity:F1",
+      "passed": true,
+      "observed": "0.5742",
+      "expected": "0.5742"
+    },
+    {
+      "name": "Table3:TCMERE:entity:P",
+      "passed": true,
+      "observed": "0.5597",
+      "expected": "0.5597"
+    },
+    {
+      "name": "Table3:TCMERE:entity:R",
+      "passed": true,
+      "observed": "0.3544",
+      "expected": "0.3544"
+    },
+    {
+      "name": "Table3:TCMERE:entity:F1",
+      "passed": true,
+      "observed": "0.4226",
+      "expected": "0.4226"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:entity:P",
+      "passed": true,
+      "observed": "0.5511",
+      "expected": "0.5511"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:entity:R",
+      "passed": true,
+      "observed": "0.6755",
+      "expected": "0.6755"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:entity:F1",
+      "passed": true,
+      "observed": "0.6047",
+      "expected": "0.6047"
+    },
+    {
+      "name": "Table3:CARE:entity:P",
+      "passed": true,
+      "observed": "0.2788",
+      "expected": "0.2788"
+    },
+    {
+      "name": "Table3:CARE:entity:R",
+      "passed": true,
+      "observed": "0.6348",
+      "expected": "0.6348"
+    },
+    {
+      "name": "Table3:CARE:entity:F1",
+      "passed": true,
+      "observed": "0.3866",
+      "expected": "0.3866"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:entity:P",
+      "passed": true,
+      "observed": "0.5786",
+      "expected": "0.5786"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:entity:R",
+      "passed": true,
+      "observed": "0.7457",
+      "expected": "0.7457"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:entity:F1",
+      "passed": true,
+      "observed": "0.6516",
+      "expected": "0.6516"
+    },
+    {
+      "name": "Table3:YAYI-UIE:entity:P",
+      "passed": true,
+      "observed": "0.2149",
+      "expected": "0.2149"
+    },
+    {
+      "name": "Table3:YAYI-UIE:entity:R",
+      "passed": true,
+      "observed": "0.4062",
+      "expected": "0.4062"
+    },
+    {
+      "name": "Table3:YAYI-UIE:entity:F1",
+      "passed": true,
+      "observed": "0.2811",
+      "expected": "0.2811"
+    },
+    {
+      "name": "Table3:LLMRE:entity:P",
+      "passed": true,
+      "observed": "0.2620",
+      "expected": "0.2620"
+    },
+    {
+      "name": "Table3:LLMRE:entity:R",
+      "passed": true,
+      "observed": "0.7756",
+      "expected": "0.7756"
+    },
+    {
+      "name": "Table3:LLMRE:entity:F1",
+      "passed": true,
+      "observed": "0.3916",
+      "expected": "0.3916"
+    },
+    {
+      "name": "Table3:ADELIE:entity:P",
+      "passed": true,
+      "observed": "0.1506",
+      "expected": "0.1506"
+    },
+    {
+      "name": "Table3:ADELIE:entity:R",
+      "passed": true,
+      "observed": "0.2957",
+      "expected": "0.2957"
+    },
+    {
+      "name": "Table3:ADELIE:entity:F1",
+      "passed": true,
+      "observed": "0.1996",
+      "expected": "0.1996"
+    },
+    {
+      "name": "Table3:ECKE:entity:P",
+      "passed": true,
+      "observed": "0.9250",
+      "expected": "0.9250"
+    },
+    {
+      "name": "Table3:ECKE:entity:R",
+      "passed": true,
+      "observed": "0.9079",
+      "expected": "0.9079"
+    },
+    {
+      "name": "Table3:ECKE:entity:F1",
+      "passed": true,
+      "observed": "0.9164",
+      "expected": "0.9164"
+    },
+    {
+      "name": "Table3:CENTRELINE:relation:P",
+      "passed": true,
+      "observed": "0.1847",
+      "expected": "0.1847"
+    },
+    {
+      "name": "Table3:CENTRELINE:relation:R",
+      "passed": true,
+      "observed": "0.2119",
+      "expected": "0.2119"
+    },
+    {
+      "name": "Table3:CENTRELINE:relation:F1",
+      "passed": true,
+      "observed": "0.1895",
+      "expected": "0.1895"
+    },
+    {
+      "name": "Table3:TCMERE:relation:P",
+      "passed": true,
+      "observed": "0.2183",
+      "expected": "0.2183"
+    },
+    {
+      "name": "Table3:TCMERE:relation:R",
+      "passed": true,
+      "observed": "0.0348",
+      "expected": "0.0348"
+    },
+    {
+      "name": "Table3:TCMERE:relation:F1",
+      "passed": true,
+      "observed": "0.0382",
+      "expected": "0.0382"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:relation:P",
+      "passed": true,
+      "observed": "0.4711",
+      "expected": "0.4711"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:relation:R",
+      "passed": true,
+      "observed": "0.2959",
+      "expected": "0.2959"
+    },
+    {
+      "name": "Table3:BSTR-GPRel:relation:F1",
+      "passed": true,
+      "observed": "0.3552",
+      "expected": "0.3552"
+    },
+    {
+      "name": "Table3:CARE:relation:P",
+      "passed": true,
+      "observed": "0.0336",
+      "expected": "0.0336"
+    },
+    {
+      "name": "Table3:CARE:relation:R",
+      "passed": true,
+      "observed": "0.3885",
+      "expected": "0.3885"
+    },
+    {
+      "name": "Table3:CARE:relation:F1",
+      "passed": true,
+      "observed": "0.0613",
+      "expected": "0.0613"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:relation:P",
+      "passed": true,
+      "observed": "0.3964",
+      "expected": "0.3964"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:relation:R",
+      "passed": true,
+      "observed": "0.5610",
+      "expected": "0.5610"
+    },
+    {
+      "name": "Table3:OneKE-Qwen:relation:F1",
+      "passed": true,
+      "observed": "0.4645",
+      "expected": "0.4645"
+    },
+    {
+      "name": "Table3:YAYI-UIE:relation:P",
+      "passed": true,
+      "observed": "0.3858",
+      "expected": "0.3858"
+    },
+    {
+      "name": "Table3:YAYI-UIE:relation:R",
+      "passed": true,
+      "observed": "0.0965",
+      "expected": "0.0965"
+    },
+    {
+      "name": "Table3:YAYI-UIE:relation:F1",
+      "passed": true,
+      "observed": "0.1543",
+      "expected": "0.1543"
+    },
+    {
+      "name": "Table3:LLMRE:relation:P",
+      "passed": true,
+      "observed": "0.1816",
+      "expected": "0.1816"
+    },
+    {
+      "name": "Table3:LLMRE:relation:R",
+      "passed": true,
+      "observed": "0.3543",
+      "expected": "0.3543"
+    },
+    {
+      "name": "Table3:LLMRE:relation:F1",
+      "passed": true,
+      "observed": "0.2402",
+      "expected": "0.2402"
+    },
+    {
+      "name": "Table3:ADELIE:relation:P",
+      "passed": true,
+      "observed": "0.1614",
+      "expected": "0.1614"
+    },
+    {
+      "name": "Table3:ADELIE:relation:R",
+      "passed": true,
+      "observed": "0.0709",
+      "expected": "0.0709"
+    },
+    {
+      "name": "Table3:ADELIE:relation:F1",
+      "passed": true,
+      "observed": "0.0985",
+      "expected": "0.0985"
+    },
+    {
+      "name": "Table3:ECKE:relation:P",
+      "passed": true,
+      "observed": "0.8038",
+      "expected": "0.8038"
+    },
+    {
+      "name": "Table3:ECKE:relation:R",
+      "passed": true,
+      "observed": "0.8307",
+      "expected": "0.8307"
+    },
+    {
+      "name": "Table3:ECKE:relation:F1",
+      "passed": true,
+      "observed": "0.8170",
+      "expected": "0.8170"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:entity:P",
+      "passed": true,
+      "observed": "0.6187",
+      "expected": "0.6187"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:entity:R",
+      "passed": true,
+      "observed": "0.7860",
+      "expected": "0.7860"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:entity:F1",
+      "passed": true,
+      "observed": "0.6923",
+      "expected": "0.6923"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:entity:P",
+      "passed": true,
+      "observed": "0.4035",
+      "expected": "0.4035"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:entity:R",
+      "passed": true,
+      "observed": "0.5316",
+      "expected": "0.5316"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:entity:F1",
+      "passed": true,
+      "observed": "0.4588",
+      "expected": "0.4588"
+    },
+    {
+      "name": "Table4:Simple Union:entity:P",
+      "passed": true,
+      "observed": "0.3945",
+      "expected": "0.3945"
+    },
+    {
+      "name": "Table4:Simple Union:entity:R",
+      "passed": true,
+      "observed": "0.8734",
+      "expected": "0.8734"
+    },
+    {
+      "name": "Table4:Simple Union:entity:F1",
+      "passed": true,
+      "observed": "0.5435",
+      "expected": "0.5435"
+    },
+    {
+      "name": "Table4:Schema-only RE:entity:P",
+      "passed": true,
+      "observed": "0.9250",
+      "expected": "0.9250"
+    },
+    {
+      "name": "Table4:Schema-only RE:entity:R",
+      "passed": true,
+      "observed": "0.9079",
+      "expected": "0.9079"
+    },
+    {
+      "name": "Table4:Schema-only RE:entity:F1",
+      "passed": true,
+      "observed": "0.9164",
+      "expected": "0.9164"
+    },
+    {
+      "name": "Table4:ECKE:entity:P",
+      "passed": true,
+      "observed": "0.9250",
+      "expected": "0.9250"
+    },
+    {
+      "name": "Table4:ECKE:entity:R",
+      "passed": true,
+      "observed": "0.9079",
+      "expected": "0.9079"
+    },
+    {
+      "name": "Table4:ECKE:entity:F1",
+      "passed": true,
+      "observed": "0.9164",
+      "expected": "0.9164"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:relation:P",
+      "passed": true,
+      "observed": "0.3851",
+      "expected": "0.3851"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:relation:R",
+      "passed": true,
+      "observed": "0.6398",
+      "expected": "0.6398"
+    },
+    {
+      "name": "Table4:w/o Lexicon Anchoring:relation:F1",
+      "passed": true,
+      "observed": "0.4808",
+      "expected": "0.4808"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:relation:P",
+      "passed": true,
+      "observed": "0.2055",
+      "expected": "0.2055"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:relation:R",
+      "passed": true,
+      "observed": "0.1476",
+      "expected": "0.1476"
+    },
+    {
+      "name": "Table4:w/o Semantic Supplementation:relation:F1",
+      "passed": true,
+      "observed": "0.1718",
+      "expected": "0.1718"
+    },
+    {
+      "name": "Table4:Simple Union:relation:P",
+      "passed": true,
+      "observed": "0.2447",
+      "expected": "0.2447"
+    },
+    {
+      "name": "Table4:Simple Union:relation:R",
+      "passed": true,
+      "observed": "0.7441",
+      "expected": "0.7441"
+    },
+    {
+      "name": "Table4:Simple Union:relation:F1",
+      "passed": true,
+      "observed": "0.3682",
+      "expected": "0.3682"
+    },
+    {
+      "name": "Table4:Schema-only RE:relation:P",
+      "passed": true,
+      "observed": "0.4197",
+      "expected": "0.4197"
+    },
+    {
+      "name": "Table4:Schema-only RE:relation:R",
+      "passed": true,
+      "observed": "0.8386",
+      "expected": "0.8386"
+    },
+    {
+      "name": "Table4:Schema-only RE:relation:F1",
+      "passed": true,
+      "observed": "0.5594",
+      "expected": "0.5594"
+    },
+    {
+      "name": "Table4:ECKE:relation:P",
+      "passed": true,
+      "observed": "0.8038",
+      "expected": "0.8038"
+    },
+    {
+      "name": "Table4:ECKE:relation:R",
+      "passed": true,
+      "observed": "0.8307",
+      "expected": "0.8307"
+    },
+    {
+      "name": "Table4:ECKE:relation:F1",
+      "passed": true,
+      "observed": "0.8170",
+      "expected": "0.8170"
+    },
+    {
+      "name": "ECKE_entity_CI95",
+      "passed": true,
+      "observed": [
+        "0.8869",
+        "0.9425"
+      ],
+      "expected": [
+        "0.8869",
+        "0.9425"
+      ]
+    },
+    {
+      "name": "ECKE_relation_CI95",
+      "passed": true,
+      "observed": [
+        "0.7332",
+        "0.8936"
+      ],
+      "expected": [
+        "0.7332",
+        "0.8936"
+      ]
+    },
+    {
+      "name": "entity_F1_疾病",
+      "passed": true,
+      "observed": "0.9889",
+      "expected": "0.9889"
+    },
+    {
+      "name": "entity_F1_症状",
+      "passed": true,
+      "observed": "0.7304",
+      "expected": "0.7304"
+    },
+    {
+      "name": "entity_F1_治法",
+      "passed": true,
+      "observed": "0.7143",
+      "expected": "0.7143"
+    },
+    {
+      "name": "relation_表现_recall",
+      "passed": true,
+      "observed": "0.6721",
+      "expected": "0.6721"
+    },
+    {
+      "name": "relation_表现_precision",
+      "passed": true,
+      "observed": "0.8039",
+      "expected": "0.8039"
+    },
+    {
+      "name": "relation_提示_recall",
+      "passed": true,
+      "observed": "0.7333",
+      "expected": "0.7333"
+    },
+    {
+      "name": "relation_提示_precision",
+      "passed": true,
+      "observed": "0.3667",
+      "expected": "0.3667"
+    },
+    {
+      "name": "relation_治疗_f1",
+      "passed": true,
+      "observed": "0.9113",
+      "expected": "0.9113"
+    },
+    {
+      "name": "relation_导致_f1",
+      "passed": true,
+      "observed": "0.8352",
+      "expected": "0.8352"
+    },
+    {
+      "name": "symptom_FN",
+      "passed": true,
+      "observed": 39,
+      "expected": 39
+    },
+    {
+      "name": "manifestation_FN",
+      "passed": true,
+      "observed": 40,
+      "expected": 40
+    },
+    {
+      "name": "A2_entity_F1_疾病",
+      "passed": true,
+      "observed": "0.9681",
+      "expected": "0.9681"
+    },
+    {
+      "name": "A2_entity_F1_症状",
+      "passed": true,
+      "observed": "0.0725",
+      "expected": "0.0725"
+    },
+    {
+      "name": "Oracle_relation_precision",
+      "passed": true,
+      "observed": "0.7835",
+      "expected": "0.7835"
+    },
+    {
+      "name": "Oracle_relation_recall",
+      "passed": true,
+      "observed": "0.9331",
+      "expected": "0.9331"
+    },
+    {
+      "name": "Oracle_relation_f1",
+      "passed": true,
+      "observed": "0.8518",
+      "expected": "0.8518"
+    },
+    {
+      "name": "full_prediction_IDs_match_inputs",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "frozen_test_subset_of_full",
+      "passed": true,
+      "observed": true,
+      "expected": true
+    },
+    {
+      "name": "full_passages",
+      "passed": true,
+      "observed": 3065,
+      "expected": 3065
+    },
+    {
+      "name": "full_entity_mentions",
+      "passed": true,
+      "observed": 8176,
+      "expected": 8176
+    },
+    {
+      "name": "full_relation_instances",
+      "passed": true,
+      "observed": 4867,
+      "expected": 4867
+    },
+    {
+      "name": "full_distinct_surface_type_entities",
+      "passed": true,
+      "observed": 2378,
+      "expected": 2378
+    },
+    {
+      "name": "full_distinct_surface_relations",
+      "passed": true,
+      "observed": 3220,
+      "expected": 3220
+    },
+    {
+      "name": "full_Disease_mentions",
+      "passed": true,
+      "observed": 3664,
+      "expected": 3664
+    },
+    {
+      "name": "full_Formula_mentions",
+      "passed": true,
+      "observed": 1285,
+      "expected": 1285
+    },
+    {
+      "name": "full_Treats_instances",
+      "passed": true,
+      "observed": 2193,
+      "expected": 2193
+    },
+    {
+      "name": "full_relation_schema_errors",
+      "passed": true,
+      "observed": 0,
+      "expected": 0
+    },
+    {
+      "name": "relation_FN_missing_entity_endpoint",
+      "passed": true,
+      "observed": 82,
+      "expected": 82
+    },
+    {
+      "name": "relation_FN_endpoints_present",
+      "passed": true,
+      "observed": 4,
+      "expected": 4
+    },
+    {
+      "name": "Figure3_edges",
+      "passed": true,
+      "observed": 100,
+      "expected": 100
+    },
+    {
+      "name": "Figure3_nodes",
+      "passed": true,
+      "observed": 104,
+      "expected": 104
+    },
+    {
+      "name": "Figure3_edge_frequencies_and_source_IDs",
+      "passed": true,
+      "observed": [],
+      "expected": []
+    },
+    {
+      "name": "book_count_02_Input_Data/488_Original_Books",
+      "passed": true,
+      "observed": 488,
+      "expected": 488
+    },
+    {
+      "name": "book_count_04_Results/488_Cleaned_Books",
+      "passed": true,
+      "observed": 488,
+      "expected": 488
+    },
+    {
+      "name": "ADELIE_terminal_failures",
+      "passed": true,
+      "observed": 79,
+      "expected": 79
+    }
+  ],
+  "passed": 142,
+  "failed": 0,
+  "all_passed": true,
+  "table3_and_table4_passed": true,
+  "network_calls": 0,
+  "inference_rerun": false,
+  "integrity_audit_requested": false,
+  "note": "Numerical reproduction of supplied frozen outputs. Candidate count is verified separately by verify_screening.py; no historical LLM decisions are regenerated."
+}

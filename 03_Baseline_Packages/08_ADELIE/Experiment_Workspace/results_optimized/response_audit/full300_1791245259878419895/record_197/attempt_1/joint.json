@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001923",
+  "ann_id": "test_197",
+  "text": "厥阴之为病。消渴。气上冲心。心中疼热。饥而不欲食。食则吐蛔。下之利不止。\n此邪热入厥阴而成消渴。成氏所谓邪愈深者热愈甚也。气上冲心。心中疼热者。火生于木。肝气通心也。饥而不欲食者。木喜攻土。胃虚求食。而客热复不能消谷也。食即吐蛔者。蛔无食而动。闻食臭而出也。下之利不止者。胃气重伤。而邪热下注也。夫厥阴风木之气。能生阳火而烁阴津。津虚火实。脏燥无液。求救于水。则为消渴。消渴者。水入不足以制火。而反为火所消也",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n厥阴之为病。消渴。气上冲心。心中疼热。饥而不欲食。食则吐蛔。下之利不止。\n此邪热入厥阴而成消渴。成氏所谓邪愈深者热愈甚也。气上冲心。心中疼热者。火生于木。肝气通心也。饥而不欲食者。木喜攻土。胃虚求食。而客热复不能消谷也。食即吐蛔者。蛔无食而动。闻食臭而出也。下之利不止者。胃气重伤。而邪热下注也。夫厥阴风木之气。能生阳火而烁阴津。津虚火实。脏燥无液。求救于水。则为消渴。消渴者。水入不足以制火。而反为火所消也",
+  "seed": 20261205,
+  "repetition_penalty": 1.1,
+  "input_tokens": 683,
+  "generated_tokens": 364,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    31032,
+    30545,
+    613,
+    376,
+    18237,
+    1115,
+    376,
+    30716,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"蛔\"], \"方药\": [\"蛔\"], \"疾病\": [\"消渴\", \"饥而不欲食\", \"下之利不止\", \"胃气重伤\"], \"症状\": [\"消渴\", \"饥而不欲食\", \"下之利不止\", \"胃气重伤\"], \"病机\": [\"邪热\"], \"病位\": [\"厥阴\"], \"治法\": [\"水\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"饥而不欲食\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"下之利不止\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃气重伤\"}, {\"head\": \"饥而不欲食\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"下之利不止\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"胃气重伤\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"水\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"蛔\"], \"方药\": [\"蛔\"], \"疾病\": [\"消渴\", \"饥而不欲食\", \"下之利不止\", \"胃气重伤\"], \"症状\": [\"消渴\", \"饥而不欲食\", \"下之利不止\", \"胃气重伤\"], \"病机\": [\"邪热\"], \"病位\": [\"厥阴\"], \"治法\": [\"水\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"饥而不欲食\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"下之利不止\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃气重伤\"}, {\"head\": \"饥而不欲食\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"下之利不止\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"胃气重伤\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"水\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:23:54+0800"
+}

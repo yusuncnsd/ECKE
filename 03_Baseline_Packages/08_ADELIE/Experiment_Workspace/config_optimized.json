@@ -1,0 +1,21 @@
+{
+  "model_repository": "THU-KEG/ADELIE-DPO",
+  "setting": "adapted_direct_joint_zero_shot",
+  "temperature": 0.0,
+  "do_sample": false,
+  "top_p": 1.0,
+  "top_k": 0,
+  "seed": 20260813,
+  "max_new_tokens": 768,
+  "max_retries": 6,
+  "load_dtype": "float16",
+  "quantization": null,
+  "batch_size": 1,
+  "prompt_version": "direct_joint_schema_grounded_v1_20261006",
+  "truncate_input": false,
+  "target_domain_training": false,
+  "repetition_penalty": 1.1,
+  "decode_condition": "user_approved_joint_prompt_greedy_rp1.1_20261006",
+  "paper_decode_difference": "Greedy decoding; repetition_penalty=1.1; single joint extraction prompt; same weights/seed/768-token budget; no lexicon or Gold examples.",
+  "engineering_version": "optimized_independent_round"
+}

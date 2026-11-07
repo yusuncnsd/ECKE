@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000694",
+  "ann_id": "test_220",
+  "text": "治消渴后虚乏。填骨煎方白茯苓（去黑皮） 菟丝子（酒浸焙别捣） 山茱萸 当归（切焙各二两半） 肉苁蓉（三两酒浸切焙） 大豆（炒去皮三合） 石苇（去毛一两三分） 牛膝（酒浸切焙） 巴戟天（去心）麦门冬（去心各二两半） 天门冬（去心三两三分） 五味子 人参 远志（去心各二两半）桂（去粗皮一两三分） 附子（炮裂去皮脐） 石斛（去根各二两半）上一十七味，捣罗为末，用生地黄生栝蒌根各三斤。捣绞取汁，以银石器，慢水煎减半，然后内药，并下白蜜十两，牛髓五两，再煎令如糜食，如鸡子黄大，米饮下，日三。药末不必尽入，惟看稀稠得所佳。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n治消渴后虚乏。填骨煎方白茯苓（去黑皮） 菟丝子（酒浸焙别捣） 山茱萸 当归（切焙各二两半） 肉苁蓉（三两酒浸切焙） 大豆（炒去皮三合） 石苇（去毛一两三分） 牛膝（酒浸切焙） 巴戟天（去心）麦门冬（去心各二两半） 天门冬（去心三两三分） 五味子 人参 远志（去心各二两半）桂（去粗皮一两三分） 附子（炮裂去皮脐） 石斛（去根各二两半）上一十七味，捣罗为末，用生地黄生栝蒌根各三斤。捣绞取汁，以银石器，慢水煎减半，然后内药，并下白蜜十两，牛髓五两，再煎令如糜食，如鸡子黄大，米饮下，日三。药末不必尽入，惟看稀稠得所佳。",
+  "seed": 20261251,
+  "repetition_penalty": 1.1,
+  "input_tokens": 801,
+  "generated_tokens": 631,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"菟丝子\", \"山茱萸\", \"当归\", \"肉苁蓉\", \"大豆\", \"石苇\", \"牛膝\", \"巴戟天\", \"麦门冬\", \"天门冬\", \"五味子\", \"人参\", \"桂\", \"附子\", \"石斛\"], \"方药\": [\"白茯苓\"], \"疾病\": [\"消渴\"], \"症状\": [\"虚乏\"], \"病机\": [\"消渴\"], \"病位\": [\"虚乏\"], \"治法\": [\"填骨煎方\"]}, \"relations\": [{\"head\": \"菟丝子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"山茱萸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"当归\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"肉苁蓉\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"大豆\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"石苇\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"牛膝\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"巴戟天\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"麦门冬\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"天门冬\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"五味子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"人参\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"桂\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"附子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"石斛\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"菟丝子\", \"山茱萸\", \"当归\", \"肉苁蓉\", \"大豆\", \"石苇\", \"牛膝\", \"巴戟天\", \"麦门冬\", \"天门冬\", \"五味子\", \"人参\", \"桂\", \"附子\", \"石斛\"], \"方药\": [\"白茯苓\"], \"疾病\": [\"消渴\"], \"症状\": [\"虚乏\"], \"病机\": [\"消渴\"], \"病位\": [\"虚乏\"], \"治法\": [\"填骨煎方\"]}, \"relations\": [{\"head\": \"菟丝子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"山茱萸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"当归\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"肉苁蓉\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"大豆\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"石苇\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"牛膝\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"巴戟天\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"麦门冬\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"天门冬\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"五味子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"人参\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"桂\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"附子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"石斛\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:26:04+0800"
+}

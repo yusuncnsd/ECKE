@@ -1,0 +1,7 @@
+{
+  "nodes": 104,
+  "edges": 100,
+  "incorrect_rows": [],
+  "typed_distinct_relations": 3224,
+  "note": "Figure uses typed relation keys; manuscript 3220 distinct relations uses surface-only endpoints. These are different deduplication keys."
+}

@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002233",
+  "ann_id": "test_060",
+  "text": "1。升陷汤。或问∶子所治大气下陷证，有两日不食者，有饮食减少者。此证亦大气下陷，何以转能多食？答曰∶事有常变，病亦有常变。王清任《医林改错》载有所治胸中瘀血二案∶一则胸不能着物，一则非以物重压其胸不安，皆治以血腑逐瘀汤而愈。夫同一胸中瘀血，其病状竟若斯悬殊，故同一大气之下陷也，其脾胃若因大气下陷，而运化之力减者，必然少食；若大气下陷，脾胃之气亦欲陷者，或转至多食。曾治一少妇，忽然饮食甚多，一时觉饥不食，即心中怔忡。医者以为中消证，屡治不效。向愚询方，疑其胸中大气下陷，为开升陷汤方，加龙骨、牡蛎（皆不用 ）各五钱，数剂而愈。盖病因虽同，而病之情状，恒因人之资禀不同，而有变易。斯在临证者，细心体察耳。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n1。升陷汤。或问∶子所治大气下陷证，有两日不食者，有饮食减少者。此证亦大气下陷，何以转能多食？答曰∶事有常变，病亦有常变。王清任《医林改错》载有所治胸中瘀血二案∶一则胸不能着物，一则非以物重压其胸不安，皆治以血腑逐瘀汤而愈。夫同一胸中瘀血，其病状竟若斯悬殊，故同一大气之下陷也，其脾胃若因大气下陷，而运化之力减者，必然少食；若大气下陷，脾胃之气亦欲陷者，或转至多食。曾治一少妇，忽然饮食甚多，一时觉饥不食，即心中怔忡。医者以为中消证，屡治不效。向愚询方，疑其胸中大气下陷，为开升陷汤方，加龙骨、牡蛎（皆不用 ）各五钱，数剂而愈。盖病因虽同，而病之情状，恒因人之资禀不同，而有变易。斯在临证者，细心体察耳。",
+  "seed": 20260931,
+  "repetition_penalty": 1.1,
+  "input_tokens": 865,
+  "generated_tokens": 177,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    187,
+    30275,
+    234,
+    155,
+    131,
+    235,
+    164,
+    131,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"升陷汤\"], \"方药\": [\"升陷汤\"], \"疾病\": [\"大气下陷\", \"胸中瘀血\"], \"症状\": [\"大气下陷\", \"胸不能着物\", \"胸不安\", \"少食\", \"饮食减少\", \"饥饿\", \"中消证\"]}, \"relations\": [{\"head\": \"大气下陷\", \"relation\": \"病机\", \"tail\": \"胸中瘀血\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"升陷汤\"], \"方药\": [\"升陷汤\"], \"疾病\": [\"大气下陷\", \"胸中瘀血\"], \"症状\": [\"大气下陷\", \"胸不能着物\", \"胸不安\", \"少食\", \"饮食减少\", \"饥饿\", \"中消证\"]}, \"relations\": [{\"head\": \"大气下陷\", \"relation\": \"病机\", \"tail\": \"胸中瘀血\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:12:42+0800"
+}

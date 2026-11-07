@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002274",
+  "ann_id": "test_090",
+  "text": "或五心烦热而消瘅骨蒸；或二便秘结而溺浆如汁；或吐血衄血；或咳嗽遗精；或斑黄无汗，由津液之枯涸；或中风螈 ，以精血之败伤。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n或五心烦热而消瘅骨蒸；或二便秘结而溺浆如汁；或吐血衄血；或咳嗽遗精；或斑黄无汗，由津液之枯涸；或中风螈 ，以精血之败伤。",
+  "seed": 20260991,
+  "repetition_penalty": 1.1,
+  "input_tokens": 477,
+  "generated_tokens": 439,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    235,
+    164,
+    131,
+    30577,
+    31955,
+    231,
+    191,
+    167,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"五心烦热\"], \"方药\": [\"二便秘结\"], \"疾病\": [\"吐血\", \"衄血\", \"斑黄无汗\", \"中风\"], \"症状\": [\"五心烦烦\", \"二便秘结\", \"咳嗽\", \"溺浆\", \"斑黄无汗\", \"津液之枯涸\", \"精血之败伤\"]}, \"relations\": [{\"head\": \"五心烦烦\", \"relation\": \"症状\", \"tail\": \"五心烦烦\"}, {\"head\": \"二便秘结\", \"relation\": \"症状\", \"tail\": \"二便秘结\"}, {\"head\": \"吐血\", \"relation\": \"症状\", \"tail\": \"吐血\"}, {\"head\": \"衄血\", \"relation\": \"症状\", \"tail\": \"衄血\"}, {\"head\": \"斑黄无汗\", \"relation\": \"症状\", \"tail\": \"斑黄无汗\"}, {\"head\": \"津液之枯涸\", \"relation\": \"症状\", \"tail\": \"津液之枯涸\"}, {\"head\": \"中风\", \"relation\": \"症状\", \"tail\": \"中风\"}, {\"head\": \"精血之败伤\", \"relation\": \"症状\", \"tail\": \"精血之败伤\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"五心烦热\"], \"方药\": [\"二便秘结\"], \"疾病\": [\"吐血\", \"衄血\", \"斑黄无汗\", \"中风\"], \"症状\": [\"五心烦烦\", \"二便秘结\", \"咳嗽\", \"溺浆\", \"斑黄无汗\", \"津液之枯涸\", \"精血之败伤\"]}, \"relations\": [{\"head\": \"五心烦烦\", \"relation\": \"症状\", \"tail\": \"五心烦烦\"}, {\"head\": \"二便秘结\", \"relation\": \"症状\", \"tail\": \"二便秘结\"}, {\"head\": \"吐血\", \"relation\": \"症状\", \"tail\": \"吐血\"}, {\"head\": \"衄血\", \"relation\": \"症状\", \"tail\": \"衄血\"}, {\"head\": \"斑黄无汗\", \"relation\": \"症状\", \"tail\": \"斑黄无汗\"}, {\"head\": \"津液之枯涸\", \"relation\": \"症状\", \"tail\": \"津液之枯涸\"}, {\"head\": \"中风\", \"relation\": \"症状\", \"tail\": \"中风\"}, {\"head\": \"精血之败伤\", \"relation\": \"症状\", \"tail\": \"精血之败伤\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:15:09+0800"
+}

@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002113",
+  "ann_id": "test_004",
+  "text": "三消得之气之实。血之虚也。久久不治。气尽虚则无能为力矣。有一僧专用黄 饮加减。\n其论盖详之。益血为主。三消。小便去多上消消心。心火炎上。大渴而小便多。中消消脾。脾气热燥。饮食倍常。皆消为小便。下消消肾。肾衰不能摄水。故小便虽多而渴。然小便既多。津液必竭。久而未有不渴者。谓之全不渴。未有的论。诸消不宜用燥烈峻补之剂。惟当滋养。除消脾外。心肾二消。宜用黄 饮。吞八味丸。或玄兔丹。或小菟丝子丸。又竹龙散皆可。又用六神饮亦治肾消。惟脾消则加当归。去黄 。三消小便既多。大便必秘宜常服四物汤。润其大肠。如加人参木瓜花粉在人。仍煮四皓粥食之。糯米泔。折二。亦可冷进",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n三消得之气之实。血之虚也。久久不治。气尽虚则无能为力矣。有一僧专用黄 饮加减。\n其论盖详之。益血为主。三消。小便去多上消消心。心火炎上。大渴而小便多。中消消脾。脾气热燥。饮食倍常。皆消为小便。下消消肾。肾衰不能摄水。故小便虽多而渴。然小便既多。津液必竭。久而未有不渴者。谓之全不渴。未有的论。诸消不宜用燥烈峻补之剂。惟当滋养。除消脾外。心肾二消。宜用黄 饮。吞八味丸。或玄兔丹。或小菟丝子丸。又竹龙散皆可。又用六神饮亦治肾消。惟脾消则加当归。去黄 。三消小便既多。大便必秘宜常服四物汤。润其大肠。如加人参木瓜花粉在人。仍煮四皓粥食之。糯米泔。折二。亦可冷进",
+  "seed": 20260819,
+  "repetition_penalty": 1.1,
+  "input_tokens": 825,
+  "generated_tokens": 704,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    30257,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"黄饮\", \"八味丸\", \"小菟丝子丸\", \"竹龙散\"], \"方药\": [\"玄兔丹\"], \"疾病\": [\"三消\", \"脾消\", \"心肾两消\"], \"症状\": [\"大渴\", \"小便多\", \"消脾\", \"下消\", \"津液竭乏\", \"全不渴\", \"虚血\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"小便多\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"消脾\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"下消\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"全不渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"全不渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"虚血\", \"relation\": \"症状\", \"tail\": \"大渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"黄饮\", \"八味丸\", \"小菟丝子丸\", \"竹龙散\"], \"方药\": [\"玄兔丹\"], \"疾病\": [\"三消\", \"脾消\", \"心肾两消\"], \"症状\": [\"大渴\", \"小便多\", \"消脾\", \"下消\", \"津液竭乏\", \"全不渴\", \"虚血\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"脾消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"黄饮\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"八味丸\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"小菟丝子丸\"}, {\"head\": \"心肾两消\", \"relation\": \"治疗\", \"tail\": \"竹龙散\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"小便多\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"消脾\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"下消\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"全不渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"全不渴\", \"relation\": \"症状\", \"tail\": \"津液竭乏\"}, {\"head\": \"虚血\", \"relation\": \"症状\", \"tail\": \"大渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:08:15+0800"
+}

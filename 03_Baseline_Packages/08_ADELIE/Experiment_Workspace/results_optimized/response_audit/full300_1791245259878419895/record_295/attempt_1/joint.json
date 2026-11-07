@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002239",
+  "ann_id": "test_295",
+  "text": "2。滋饮。尝阅报，有患消渴，延中医治疗，服药竟愈者。所用方中，以黄 为主药，为其能助脾气上升，还其散精达肺之旧也。《金匮》有肾气丸，善治消渴。其方以干地黄（即生地黄）为主，取其能助肾中之真阴，上潮以润肺，又能协同山萸肉以封固肾关也。又向因治消渴，曾拟有玉液汤，方中以生怀山药为主，屡试有效。近阅医报且有单服山药以治消渴而愈者。以其能补脾固肾，以止小便频数，而所含之蛋白质，又能滋补 脏，使其散膏充足，且又色白入肺，能润肺生水，即以止渴也。又俗传治消渴方，单服生猪胰子可愈。盖猪胰子即猪之 ，是人之 病，而可补以物之也。此亦犹鸡内金，诸家本草皆谓其能治消渴之理也。鸡内金与猪胰子，同为化食之物也。愚因集诸药，合为一方，以治消渴，屡次见效。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n2。滋饮。尝阅报，有患消渴，延中医治疗，服药竟愈者。所用方中，以黄 为主药，为其能助脾气上升，还其散精达肺之旧也。《金匮》有肾气丸，善治消渴。其方以干地黄（即生地黄）为主，取其能助肾中之真阴，上潮以润肺，又能协同山萸肉以封固肾关也。又向因治消渴，曾拟有玉液汤，方中以生怀山药为主，屡试有效。近阅医报且有单服山药以治消渴而愈者。以其能补脾固肾，以止小便频数，而所含之蛋白质，又能滋补 脏，使其散膏充足，且又色白入肺，能润肺生水，即以止渴也。又俗传治消渴方，单服生猪胰子可愈。盖猪胰子即猪之 ，是人之 病，而可补以物之也。此亦犹鸡内金，诸家本草皆谓其能治消渴之理也。鸡内金与猪胰子，同为化食之物也。愚因集诸药，合为一方，以治消渴，屡次见效。",
+  "seed": 20261401,
+  "repetition_penalty": 1.1,
+  "input_tokens": 895,
+  "generated_tokens": 303,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"黄\", \"生地黄\"], \"方药\": [\"肾气丸\", \"玉液汤\", \"生猪胰子\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴症\", \"大渴\", \"谷消\", \"滋饮\"], \"病机\": [\"脾气上升\", \"肾中之真阴\", \"肾关\"], \"病位\": [\"肾\"], \"治法\": [\"黄\", \"肾气丸\", \"玉液汤\", \"生猪胰子\"]}, \"relations\": [{\"head\": \"黄\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"肾气丸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"玉液汤\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"生猪胰子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"黄\", \"生地黄\"], \"方药\": [\"肾气丸\", \"玉液汤\", \"生猪胰子\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴症\", \"大渴\", \"谷消\", \"滋饮\"], \"病机\": [\"脾气上升\", \"肾中之真阴\", \"肾关\"], \"病位\": [\"肾\"], \"治法\": [\"黄\", \"肾气丸\", \"玉液汤\", \"生猪胰子\"]}, \"relations\": [{\"head\": \"黄\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"肾气丸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"玉液汤\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"生猪胰子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:32:22+0800"
+}

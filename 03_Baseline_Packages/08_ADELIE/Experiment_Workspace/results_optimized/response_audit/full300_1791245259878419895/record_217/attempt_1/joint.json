@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002381",
+  "ann_id": "test_217",
+  "text": "足厥阴肝经∶胸腹胀满，消渴饮水，谵语烦躁，便秘或下清水，舌干，黄黑燥苔，脉沉实有力，此热邪传入厥阴本病，宜六乙顺气汤下。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n足厥阴肝经∶胸腹胀满，消渴饮水，谵语烦躁，便秘或下清水，舌干，黄黑燥苔，脉沉实有力，此热邪传入厥阴本病，宜六乙顺气汤下。",
+  "seed": 20261245,
+  "repetition_penalty": 1.1,
+  "input_tokens": 485,
+  "generated_tokens": 492,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    234,
+    154,
+    136,
+    31429,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"六乙顺气汤\"], \"方药\": [\"六乙顺气汤\"], \"疾病\": [\"胸腹胀满\", \"便秘\", \"下清水\", \"舌干\", \"黄黑燥苔\", \"脉沉实有力\"], \"症状\": [\"消渴饮水\", \"谵语烦躁\", \"便秘或下清水\", \"舌干\", \"黄黑燥苔\", \"脉沉实有力\"], \"病机\": [\"阴肝经\"], \"病位\": [\"胸腹胀满\"], \"治法\": [\"六乙顺气汤\"]}, \"relations\": [{\"head\": \"胸腹胀满\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"便秘\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"下清水\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"舌干\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"黄黑燥苔\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"脉沉实有力\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"阴肝经\", \"relation\": \"病机\", \"tail\": \"治法\"}, {\"head\": \"六乙顺气汤\", \"relation\": \"治法\", \"tail\": \"病机\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"六乙顺气汤\"], \"方药\": [\"六乙顺气汤\"], \"疾病\": [\"胸腹胀满\", \"便秘\", \"下清水\", \"舌干\", \"黄黑燥苔\", \"脉沉实有力\"], \"症状\": [\"消渴饮水\", \"谵语烦躁\", \"便秘或下清水\", \"舌干\", \"黄黑燥苔\", \"脉沉实有力\"], \"病机\": [\"阴肝经\"], \"病位\": [\"胸腹胀满\"], \"治法\": [\"六乙顺气汤\"]}, \"relations\": [{\"head\": \"胸腹胀满\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"便秘\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"下清水\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"舌干\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"黄黑燥苔\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"脉沉实有力\", \"relation\": \"症状\", \"tail\": \"病机\"}, {\"head\": \"阴肝经\", \"relation\": \"病机\", \"tail\": \"治法\"}, {\"head\": \"六乙顺气汤\", \"relation\": \"治法\", \"tail\": \"病机\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:25:44+0800"
+}

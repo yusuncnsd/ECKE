@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000430",
+  "ann_id": "test_089",
+  "text": "粟米。味咸微寒。主养肾气。去胃脾中热。益气。陈者味苦。主胃热消渴。利小便。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n粟米。味咸微寒。主养肾气。去胃脾中热。益气。陈者味苦。主胃热消渴。利小便。",
+  "seed": 20260989,
+  "repetition_penalty": 1.1,
+  "input_tokens": 434,
+  "generated_tokens": 182,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    134,
+    235,
+    135,
+    193,
+    30275,
+    234,
+    134,
+    176,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"粟米\"], \"方药\": [\"粟米\"], \"疾病\": [\"消渴\", \"胃热\"], \"症状\": [\"消渴\", \"胃热\"], \"病机\": [\"去胃脾中热\"], \"病位\": [\"胃\"], \"治法\": [\"粟米\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃热\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"去胃脾中热\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"粟米\"], \"方药\": [\"粟米\"], \"疾病\": [\"消渴\", \"胃热\"], \"症状\": [\"消渴\", \"胃热\"], \"病机\": [\"去胃脾中热\"], \"病位\": [\"胃\"], \"治法\": [\"粟米\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃热\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"去胃脾中热\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:15:01+0800"
+}

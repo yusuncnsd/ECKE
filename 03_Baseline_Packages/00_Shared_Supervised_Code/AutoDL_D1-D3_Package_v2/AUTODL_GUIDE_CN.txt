@@ -1,0 +1,63 @@
+AutoDL操作指南：D1—D3监督式外部对比实验
+
+重要：在项目负责人确认“正式实验包已冻结，可以上传”之前，不创建计费实例。
+
+一、注册与充值
+1. 打开AutoDL官方网站并注册、实名认证。
+2. 账户只需准备本轮实验预计费用，不建议提前购买包月资源。
+3. 采用按量计费；三种方法全部完成并下载结果后立即关机。
+
+二、创建实例
+1. 进入“算力市场/租用实例”。
+2. GPU优先选择RTX 4090 24GB；无合适库存时选择RTX 3090 24GB；A10 24GB为再次备选。
+3. 不选择8GB、12GB、16GB显存卡，也不需要多卡。
+4. CPU内存建议32GB以上；默认50GB数据盘通常够用。
+5. 镜像选择带CUDA的PyTorch 2.x镜像，Python优先3.10。
+6. 创建后记录实例GPU型号、镜像名称和租用开始时间。
+
+三、上传实验包
+1. 在实例页面打开JupyterLab。
+2. 将完整“AutoDL_D1-D3实验包”上传到/root/autodl-tmp/目录。
+3. 不单独上传300条专家盲标Gold；正式包已经只保留300条无答案测试输入。
+4. 上传完成后检查资产清单、data、code、models、results目录是否齐全。
+
+四、安装和预检
+在JupyterLab中打开Terminal，依次执行：
+cd /root/autodl-tmp/AutoDL_D1-D3_Package_v2
+bash 00_install_environment.sh
+python 01_preflight.py
+
+必须看到CUDA可用、GPU显存不少于20GB、100条开发集与300条无答案测试输入核验通过。失败时立即停止，不进入训练。
+
+五、冻结预训练模型
+运行：
+python 02_download_models.py
+
+程序会下载并保存BERT-base-Chinese与Chinese-RoBERTa-WWM-Ext，同时生成模型文件哈希。下载后D1—D3均使用该冻结副本，不在正式运行中切换版本。
+
+六、方法运行顺序
+环境安装完成后，推荐直接运行：
+bash 06_run_all.sh
+
+程序自动依次完成：D1 GPU最小验证→D1五折开发→D1三种子正式运行→D2相同步骤→D3相同步骤→三方法输出完整性审计。
+如需逐步观察，也可以依次运行：
+python 01_preflight.py
+python 02_download_models.py
+python code/formal_train.py D1 --quick
+python 03_cross_validation.py D1
+python 04_formal_run.py D1
+然后将D1依次替换为D2、D3，最后运行python 05_output_audit.py。
+
+七、运行期间
+1. 关闭浏览器不会停止云端任务，但也不会停止计费。
+2. 不要删除checkpoints和run_state文件；发生中断时用原入口重新运行，程序将从检查点恢复。
+3. 定期观察GPU利用率、显存、训练损失和剩余时间。
+4. 不根据300条逐条答案调整阈值或规则，因为云端包中本来就不包含答案。
+
+八、下载与停止计费
+需要下载：results全部内容、正式配置、预训练模型资产清单、运行摘要、日志、300条预测及失败清单。
+在本地核验文件数量和SHA-256后，回到AutoDL控制台关机。
+如果不再需要保留云端环境，在确认本地备份完整后释放实例或镜像；注意数据盘是否仍单独计费。
+
+九、本地最终评价
+云端不计算正式测试性能。将D1—D3的300条预测下载回本项目后，再使用本地冻结的专家Gold和统一评价程序计算实体、关系指标及统计检验。

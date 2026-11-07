@@ -1,0 +1,52 @@
+{
+  "CENTRELINE": [
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D1_seed_20260823.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D1_seed_20260824.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D1_seed_20260825.jsonl"
+  ],
+  "TCMERE": [
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D2_repair_seed_20260823.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D2_repair_seed_20260824.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D2_repair_seed_20260825.jsonl"
+  ],
+  "BSTR-GPRel": [
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D3_seed_20260823.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D3_seed_20260824.jsonl",
+    "02_Experiments/03_External_Comparisons/04_Results/D1-D3/D3_seed_20260825.jsonl"
+  ],
+  "CARE": [
+    "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/results_calibrated_v1/seed_20260823/predictions.jsonl",
+    "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/results_calibrated_v1/seed_20260824/predictions.jsonl",
+    "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/results_calibrated_v1/seed_20260825/predictions.jsonl"
+  ],
+  "OneKE-Qwen": [
+    "02_Experiments/03_External_Comparisons/04_Results/E1/E1_OneKE-Qwen_300条正式预测.jsonl"
+  ],
+  "YAYI-UIE": [
+    "02_Experiments/03_External_Comparisons/04_Results/E3/E3_YAYI-UIE_300_predictions.jsonl"
+  ],
+  "LLMRE": [
+    "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/预测300.txt"
+  ],
+  "ADELIE": [
+    "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/results_optimized/ADELIE_full300_predictions.jsonl"
+  ],
+  "ECKE": [
+    "02_Experiments/02_ECKE/04_Results/Test_Predictions/消渴知识抽取_300条独立测试集专家预标注_V612.txt"
+  ],
+  "A1": [
+    "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_300条结构化预测.jsonl"
+  ],
+  "A2": [
+    "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_300条结构化预测.jsonl"
+  ],
+  "A3": [
+    "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_300条结构化预测.jsonl"
+  ],
+  "A4": [
+    "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_300条结构化预测.jsonl"
+  ],
+  "Oracle": [
+    "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/oracle_relation_cache.jsonl"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000046",
+  "ann_id": "test_050",
+  "text": "马刀。蚬肉，寒，去暴热，明目，利小便，下热气，香港脚，湿毒，解酒毒，目黄。浸取汁服，主消渴。烂壳，温，烧为白灰饮下，主反胃，吐食，除心胸痰水。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n马刀。蚬肉，寒，去暴热，明目，利小便，下热气，香港脚，湿毒，解酒毒，目黄。浸取汁服，主消渴。烂壳，温，烧为白灰饮下，主反胃，吐食，除心胸痰水。",
+  "seed": 20260911,
+  "repetition_penalty": 1.1,
+  "input_tokens": 486,
+  "generated_tokens": 340,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    18237,
+    1115,
+    376,
+    30888,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"浸取汁\"], \"方药\": [\"主消渴\"], \"疾病\": [\"暴热\", \"湿毒\", \"酒毒\", \"目黄\"], \"症状\": [\"明目\", \"利小便\", \"下热气\", \"香港脚\"], \"病机\": [\"暴热\", \"湿毒\", \"酒毒\", \"目黄\"], \"病位\": [\"胃\"], \"治法\": [\"浸取汁服\"]}, \"relations\": [{\"head\": \"暴热\", \"relation\": \"病机\", \"tail\": \"湿毒\"}, {\"head\": \"湿毒\", \"relation\": \"病机\", \"tail\": \"酒毒\"}, {\"head\": \"酒毒\", \"relation\": \"病机\", \"tail\": \"目黄\"}, {\"head\": \"目黄\", \"relation\": \"病机\", \"tail\": \"胃\"}, {\"head\": \"胃\", \"relation\": \"病位\", \"tail\": \"浸取汁\"}, {\"head\": \"浸取汁\", \"relation\": \"治法\", \"tail\": \"主消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"浸取汁\"], \"方药\": [\"主消渴\"], \"疾病\": [\"暴热\", \"湿毒\", \"酒毒\", \"目黄\"], \"症状\": [\"明目\", \"利小便\", \"下热气\", \"香港脚\"], \"病机\": [\"暴热\", \"湿毒\", \"酒毒\", \"目黄\"], \"病位\": [\"胃\"], \"治法\": [\"浸取汁服\"]}, \"relations\": [{\"head\": \"暴热\", \"relation\": \"病机\", \"tail\": \"湿毒\"}, {\"head\": \"湿毒\", \"relation\": \"病机\", \"tail\": \"酒毒\"}, {\"head\": \"酒毒\", \"relation\": \"病机\", \"tail\": \"目黄\"}, {\"head\": \"目黄\", \"relation\": \"病机\", \"tail\": \"胃\"}, {\"head\": \"胃\", \"relation\": \"病位\", \"tail\": \"浸取汁\"}, {\"head\": \"浸取汁\", \"relation\": \"治法\", \"tail\": \"主消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:11:49+0800"
+}

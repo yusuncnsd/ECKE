@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000013",
+  "ann_id": "test_140",
+  "text": "白石英。主消渴，阴痿不足，咳逆，胸膈间久寒，益气，除风湿痹，疗肺痿，下气，利小便，补五脏，通日月光。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n白石英。主消渴，阴痿不足，咳逆，胸膈间久寒，益气，除风湿痹，疗肺痿，下气，利小便，补五脏，通日月光。",
+  "seed": 20261091,
+  "repetition_penalty": 1.1,
+  "input_tokens": 451,
+  "generated_tokens": 400,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    30768,
+    30325,
+    30534,
+    30867,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"白石英\"], \"方药\": [\"除风湿痹\"], \"疾病\": [\"消渴\", \"阴痿不足\", \"咳逆\", \"胸膈间久寒\", \"益气\", \"肺痿\", \"下气\", \"小便\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"阴痿不足\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"咳逆\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"胸膈间久寒\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"益气\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"除风湿痹\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"肺痿\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"下气\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"利小便\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"补五脏\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"通日月光\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"白石英\"], \"方药\": [\"除风湿痹\"], \"疾病\": [\"消渴\", \"阴痿不足\", \"咳逆\", \"胸膈间久寒\", \"益气\", \"肺痿\", \"下气\", \"小便\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"阴痿不足\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"咳逆\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"胸膈间久寒\"}, {\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"益气\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"除风湿痹\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"肺痿\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"下气\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"利小便\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"补五脏\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"通日月光\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:18:57+0800"
+}

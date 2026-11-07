@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002752",
+  "ann_id": "test_061",
+  "text": "一、三消证，古人以上焦属肺，中焦属胃，下焦属肾，而多从火治，是固然矣，然以余论之，则三焦之火多有病本于肾，而无不由乎命门者。夫命门为水火之腑，凡水亏证固能为消为渴，而火亏证亦能为消为渴者何也？盖水不济火，则火不归原，故有火游于肺而为上消者，有火游于胃而为中消者，有火烁阴精而为下消者，是皆真阴不足，水亏于下之消证也。\n又有阳不化气则水精不布，水不得火则有降无升，所以直入膀胱而饮一溲二，以致泉源不滋，天壤枯涸者，是皆真阳不足，火亏于下之消证也。阴虚之消，治宜壮水，固有言之者矣。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n一、三消证，古人以上焦属肺，中焦属胃，下焦属肾，而多从火治，是固然矣，然以余论之，则三焦之火多有病本于肾，而无不由乎命门者。夫命门为水火之腑，凡水亏证固能为消为渴，而火亏证亦能为消为渴者何也？盖水不济火，则火不归原，故有火游于肺而为上消者，有火游于胃而为中消者，有火烁阴精而为下消者，是皆真阴不足，水亏于下之消证也。\n又有阳不化气则水精不布，水不得火则有降无升，所以直入膀胱而饮一溲二，以致泉源不滋，天壤枯涸者，是皆真阳不足，火亏于下之消证也。阴虚之消，治宜壮水，固有言之者矣。",
+  "seed": 20260933,
+  "repetition_penalty": 1.1,
+  "input_tokens": 724,
+  "generated_tokens": 124,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    235,
+    178,
+    132,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"上焦\"], \"方药\": [\"上焦\"], \"疾病\": [\"消证\"], \"症状\": [\"消证\"], \"病机\": [\"消证\"], \"病位\": [\"消证\"], \"治法\": [\"壮水\"]}, \"relations\": [{\"head\": \"上焦\", \"relation\": \"治疗\", \"tail\": \"消证\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"上焦\"], \"方药\": [\"上焦\"], \"疾病\": [\"消证\"], \"症状\": [\"消证\"], \"病机\": [\"消证\"], \"病位\": [\"消证\"], \"治法\": [\"壮水\"]}, \"relations\": [{\"head\": \"上焦\", \"relation\": \"治疗\", \"tail\": \"消证\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:12:44+0800"
+}

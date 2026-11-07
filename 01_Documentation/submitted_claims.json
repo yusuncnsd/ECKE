@@ -1,0 +1,434 @@
+{
+  "title": "ECKE: Evidence-constrained knowledge extraction with LLMs for ancient Chinese medical texts",
+  "source_sha256": "2dcdbebd169fe53958430524cbff969708a4692e2fa66b6a288674b7c9ab6580",
+  "paragraphs": [
+    {
+      "index": 23,
+      "text": "Knowledge in ancient Chinese medical texts is organized within hierarchical units such as chapters, volumes, thematic sections, treatises, and formula entries. The semantic links between headings and the main text provide complete statements of this knowledge. However, separation of headings from the main text can obscure the primary subject and semantic boundaries. Garbled characters, incorrect line breaks, and mixed chapter content introduced during scanning and transcription can disrupt text structure, while polysemy and elliptical expressions further complicate assessment of disease relevance. Consequently, keyword-based retrieval and fixed sentence or paragraph segmentation cannot adequately preserve both disease relevance and passage completeness. We therefore cleaned the texts according to text quality assessments, reconstructed their hierarchical structure to restore passage boundaries and necessary context, and used multi-evidence gating to retrieve candidate passages. An LLM then reviewed disease relevance and passage completeness, producing a structurally complete, disease-relevant passage corpus with traceable provenance."
+    },
+    {
+      "index": 24,
+      "text": "Text quality assessment identified abnormalities, including image placeholders, garbled characters, and invisible control characters, using character patterns and Unicode categories. Processing rules were established through manual review of abnormality locations and context. Image placeholders, garbled characters, and control characters without clear semantic information were removed. Literal escape sequences and backslashes were converted into layout boundaries, Chinese structural information was retained, and punctuation and whitespace were standardized. Variant characters, optical character recognition (OCR) errors involving visually similar characters, and specialized medical expressions were retained. Missing characters were not supplied, ancient wording was not rewritten, and sentence boundaries were not imposed. Checks of file counts, empty texts, residual abnormalities, and full-text duplicates yielded 488 cleaned ancient Chinese medical texts."
+    },
+    {
+      "index": 25,
+      "text": "Structural reconstruction used hierarchical relationships among chapters, volumes, and sections, together with the association of formula and medicinal names with their corresponding text. Blank lines, paragraph boundaries, and sentence-final punctuation provided additional boundary cues. Semantically complete text segments were treated as basic evidence units. In materia medica texts, medicinal names and descriptions of their nature and flavor, actions, and indications were used to identify the medicinal subject. In formularies, formula names and descriptions of actions, indications, and composition were used to identify the formula subject and its associated information. For omitted referents, incomplete sentences, and incorrect line breaks, adjacent text supplied the necessary context. Existing headings, formula names, and medicinal names were used to resolve omitted subjects within the source context. Each reconstructed passage evidence unit retained its source text, chapter information, original content, and character positions."
+    },
+    {
+      "index": 26,
+      "text": "Although reconstructed evidence units established text boundaries for disease-focused passage screening, relevant knowledge could appear explicitly as disease names or implicitly through headings, symptom combinations, and diagnostic or therapeutic descriptions. Retrieval based only on disease names could miss implicitly relevant passages, whereas symptoms, formulas, or headings alone could introduce passages concerning other diseases. We therefore developed a multi-evidence gating mechanism based on the strength of different evidence types and their internal relationships. Passages explicitly mentioning a target disease name were included directly in the candidate set. Passages without an explicit target disease name were included only if at least one of the following conditions was met: the heading contained a target disease name and the main text also provided supporting clues, such as relevant symptoms, pattern types, or formulas; the main text contained at least two typical symptom categories; a highly specific expression occurred; or a disease-focused formula occurred together with an explicit treatment statement. The mechanism is expressed in Eq. (1):"
+    },
+    {
+      "index": 27,
+      "text": "Here,  denotes an evidence unit;  indicates a target disease name in the main text;  indicates that a disease name in the heading is supported by diagnostic or therapeutic expressions and disease-relevant clues in the main text;  denotes the number of typical symptom categories in the passage; and  denotes the minimum number of categories required to trigger the gate.  indicates a highly specific expression;  indicates a disease-focused formula; and  indicates a treatment statement corresponding to that formula. When an individual or combined triggering condition is met, that is, , the evidence unit enters the candidate set for LLM semantic review. For wasting-thirst, disease names such as “wasting-thirst” and “the three forms of wasting-thirst”, and highly specific expressions such as “sweet-tasting urine” and “urine resembling grease”, can directly trigger candidate retrieval. The threshold for combinations of general symptoms was set to , requiring at least two symptom categories in the passage. Disease-focused formulas also required an explicit treatment indication. Highly ambiguous words such as “thirst” and “wasting” did not trigger inclusion on their own."
+    },
+    {
+      "index": 28,
+      "text": "Multi-evidence gating retrieved 5924 candidate passages from the reconstructed evidence units. An LLM assessed their relevance to the target disease in context and verified the corresponding source-text evidence. Passages involving low confidence, ambiguous disease names, or conflicts between decisions and evidence underwent a second LLM review. Inclusion or exclusion was determined when the two review decisions agreed; potentially problematic passages were subsequently reviewed by experts. Semantic review and duplicate removal yielded 3230 preliminary passages. Experts then reviewed 310 passages flagged as potentially problematic in disease relevance or structural completeness, resulting in a final corpus of 3065 wasting-thirst passages. Structural reconstruction restored passage boundaries and knowledge subjects. Multi-evidence gating extended retrieval through symptom combinations, heading support, and formula clues, while preventing weak evidence from triggering retrieval alone. Together, these steps improved overall retrieval coverage and candidate passage accuracy."
+    },
+    {
+      "index": 50,
+      "text": "3.1 Experimental data and settings"
+    },
+    {
+      "index": 51,
+      "text": "The experimental corpus comprised 3065 wasting-thirst passages extracted from 488 cleaned ancient Chinese medical texts. We first selected 100 passages by stratified sampling as a development set to establish annotation guidelines, prompt templates, and processing procedures, and to construct expert-annotated examples. After the ECKE framework design and configuration were fixed, 300 passages were selected by stratified sampling from the remaining 2965 passages as the test set. Two experts independently annotated the test set under blinded conditions. Disagreements were discussed with a third expert to determine final annotations. The test set contained 869 entities and 508 relations across seven entity types and seven relation patterns. Because Chinese medicinal–Treats–Disease and Formula–Treats–Disease share the Treats label, category-specific evaluation used six relation types."
+    },
+    {
+      "index": 52,
+      "text": "The ECKE framework used qwen-plus for semantic entity recognition and contextual assessment of candidate relations, accessed through the Tongyi Qianwen-compatible application programming interface. The temperature was set to 0.0, and no model parameters were trained. Annotation guidelines, prompt templates, and processing procedures were established using the method development set and then kept fixed. Entity recognition and relation extraction were performed on all 3065 passages using this fixed configuration."
+    },
+    {
+      "index": 53,
+      "text": "Fig. 2 Overall and category-specific knowledge extraction performance of ECKE. (a) Overall precision, recall, and F1 score for entity recognition; (b) recognition performance across seven entity categories; (c) overall precision, recall, and F1 score for relation extraction; (d) extraction performance across six relation types. Overall metrics are micro-averaged. Error bars for F1 scores in (a) and (c) indicate 95% confidence intervals (CIs)."
+    },
+    {
+      "index": 54,
+      "text": "3.2 Performance evaluation and analysis of results"
+    },
+    {
+      "index": 55,
+      "text": "Predictions for the 300 test passages were compared with expert annotations at the passage level. Duplicates within each passage were removed, while occurrences across passages were counted separately. Entity matching required exact agreement in surface form and entity type. Relation matching required exact agreement in head and tail surface forms and relation type, with direction considered. Precision, recall, and F1 were calculated from aggregated true-positive, false-positive, and false-negative counts. Micro-F1 was the primary metric, supplemented by category-specific evaluation. We estimated 95% CIs for F1 using 5000 passage-level bootstrap resamples. Figure 2 presents the overall and category-specific results."
+    },
+    {
+      "index": 56,
+      "text": "As shown in Fig. 2(a) and (b), the ECKE framework achieved precision, recall, and F1 scores of 0.9250, 0.9079, and 0.9164, respectively, for entity recognition, with a 95% CI for F1 of 0.8869–0.9425. Error analysis identified 80 false negatives and 64 false positives. Although overall precision and recall were similar, some entities were still missed. Disease entities had the highest F1 score, at 0.9889. F1 scores for Formula, Disease location, and Chinese medicinal exceeded 0.9200, indicating relatively consistent recognition performance. In contrast, Symptom and Therapeutic method had F1 scores of 0.7304 and 0.7143, respectively, with recall lower than precision in both categories. Missed entities were the main error pattern. There were 39 missed Symptom entities, accounting for 48.75% of all entity false negatives, whereas only one Disease entity was missed. These results indicate good coverage of disease names but incomplete coverage of symptom expressions. Although Therapeutic method had the lowest F1 score, this category contained only 15 annotated entities, of which five were missed. The distribution of error counts therefore identifies Symptom recognition as the main limitation on overall entity recall."
+    },
+    {
+      "index": 57,
+      "text": "Figure 2 (c) and (d) show that the ECKE framework achieved precision, recall, and F1 scores of 0.8038, 0.8307, and 0.8170, respectively, for relation extraction, with a 95% CI for F1 of 0.7332–0.8936. There were 103 false-positive and 86 false-negative relations. The greater number of false positives indicates room to improve the accuracy of relation outputs. The F1 CI was also wider than that for entity recognition, indicating greater uncertainty in the performance estimate. Among relation types, Treats had the highest F1 score, at 0.9113. Causes had an F1 score of 0.8352, with relatively balanced precision and recall. For Manifests as, recall was 0.6721, lower than precision of 0.8039. Its 40 false negatives accounted for 46.51% of all missed relations, making this type the main source of relation false negatives. In contrast, Suggests had recall of 0.7333 but precision of only 0.3667, with 19 false positives compared with 11 correctly extracted relations. Involves likewise had higher recall than precision. These results reveal different error patterns across relation types: Manifests as was mainly affected by missed relations, whereas Suggests and Involves were more affected by inaccurate outputs."
+    },
+    {
+      "index": 58,
+      "text": "To examine the effect of entity recognition errors on relation extraction, we conducted an oracle diagnostic analysis using gold-standard entities. Expert-annotated entities replaced ECKE-predicted entities, while the relation extraction procedure remained unchanged. With gold-standard entities, relation recall increased from 0.8307 to 0.9331 and F1 increased from 0.8170 to 0.8518, while precision decreased from 0.8038 to 0.7835. These results indicate that more complete entity inputs substantially improve relation coverage, but contextual assessment itself remains an important limitation on overall extraction performance. Further analysis found that 82 of the 86 missed relations contained at least one entity endpoint that the ECKE framework had not recognized, further indicating that entity omissions were an important source of relation false negatives."
+    },
+    {
+      "index": 59,
+      "text": "3.3 External comparison results and analysis"
+    },
+    {
+      "index": 60,
+      "text": "We selected eight comparison methods representing supervised deep learning and LLM-based approaches to evaluate the ECKE framework for disease-focused knowledge extraction using wasting-thirst. The supervised deep learning methods were CENTRELINE [11], TCMERE [12], BSTR-GPRel [13], and CARE [28], which use entity cascading, dictionary and graph convolution fusion, global pointer modeling, and joint extraction with co-attention, respectively. The LLM-based methods were OneKE-Qwen [24], YAYI-UIE [29], LLMRE [30], and ADELIE [31]. OneKE-Qwen and LLMRE used the same Qwen base model as ECKE to ensure a more controlled comparison. The former used a fixed case library constructed from the development data, whereas the latter used zero-shot prompts for task adaptation. YAYI-UIE and ADELIE used their respective released models, without annotated examples from this task. "
+    },
+    {
+      "index": 61,
+      "text": "Table 3 Knowledge extraction performance of the ECKE framework and comparison methods"
+    },
+    {
+      "index": 62,
+      "text": "As shown in Table 3, BSTR-GPRel achieved the highest F1 scores among the four supervised deep learning methods, with F1 scores of 0.6047 for entity recognition and 0.3552 for relation extraction. The ECKE framework exceeded these scores by 0.3117 and 0.4618, respectively. Relation recall was 0.2959 for BSTR-GPRel and 0.0348 for TCMERE, indicating substantial numbers of missed relations. CARE achieved relation precision of only 0.0336, indicating many false-positive relations. All four methods had lower F1 scores for relation extraction than for entity recognition, suggesting that relation extraction remained a weakness under limited annotation conditions."
+    },
+    {
+      "index": 63,
+      "text": "Among the LLM-based comparison methods, OneKE-Qwen achieved the highest F1 scores, with F1 scores of 0.6516 for entity recognition and 0.4645 for relation extraction. The ECKE framework exceeded these by 0.2648 and 0.3525, respectively. In contrast, relation recall was only 0.0965 for YAYI-UIE. LLMRE achieved relation precision of 0.1816, indicating many false-positive relations, whereas ADELIE achieved relation recall of only 0.0709, indicating substantial numbers of missed relations. These results suggest that generic extraction instructions or scenario-based prompts have limitations in adapting to disease-focused knowledge extraction from ancient Chinese medical texts. ECKE achieved better extraction performance under the reported settings."
+    },
+    {
+      "index": 64,
+      "text": "3.4 Component ablation experiments and analysis"
+    },
+    {
+      "index": 65,
+      "text": "We evaluated components of the ECKE framework using four ablation settings under the same test data and evaluation conditions. For entity recognition, w/o Lexicon Anchoring removed domain lexicon matching and entity fusion to assess the role of the lexicon. w/o Semantic Supplementation removed LLM semantic supplementation to assess its contribution to implicit entity recognition. Simple Union directly combined candidates from lexicon matching and semantic recognition, retaining source-text localization and entity type validity checks, to assess evidence-aligned fusion. For relation extraction, Schema-only RE removed LLM contextual assessment and directly output all candidates satisfying schema type constraints to assess contextual assessment in identifying valid relations. "
+    },
+    {
+      "index": 66,
+      "text": "Table 4 Knowledge extraction performance of the ECKE framework and its ablated variants"
+    },
+    {
+      "index": 67,
+      "text": "As shown in Table 4, w/o Lexicon Anchoring reduced entity recognition and relation extraction F1 to 0.6923 and 0.4808, respectively. For w/o Semantic Supplementation, these scores fell to 0.4588 and 0.1718. Category-specific evaluation further showed that removing LLM semantic supplementation reduced Disease entity F1 from 0.9889 to 0.9681 and Symptom entity F1 from 0.7304 to 0.0725. In Simple Union, entity recognition and relation extraction recall decreased by 0.0345 and 0.0866, while precision decreased by 0.5305 and 0.5591, respectively. Thus, directly combining lexicon matches and semantic recognition outputs retained many correct results but also many incorrect entities. The complete fusion component helped improve the accuracy of both entity recognition and relation extraction. In Schema-only RE, entity recognition results were unchanged, while relation recall increased by 0.0079 and precision and F1 decreased by 0.3841 and 0.2576, respectively. These findings show that schema type compatibility does not ensure that a relation holds. Contextual assessment reduced relation false positives while preserving recall."
+    },
+    {
+      "index": 68,
+      "text": "3.5 Knowledge extraction and organization across the full corpus"
+    },
+    {
+      "index": 69,
+      "text": "We summarized and organized full-corpus extraction results to characterize the scale and relational structure of wasting-thirst knowledge extracted by ECKE. Across the 3065 finalized passages, ECKE extracted 8176 entity mentions and 4867 relation instances. Disease and Formula accounted for 3664 and 1285 entity mentions, respectively, while Treats accounted for 2193 relation instances. Deduplication by entity surface form and type yielded 2378 unique entity expressions, whereas deduplication by head entity surface form, relation type, and tail entity surface form yielded 3220 distinct relations. To examine prominent relational patterns across the corpus, we selected the 100 most frequent distinct relations, involving 104 entity nodes, and constructed a local directed relation network."
+    },
+    {
+      "index": 70,
+      "text": "Fig. 3 Top 100 relation network for wasting-thirst. Nodes represent extracted entities and colors distinguish entity categories; directed edges and labels denote relation types. The network highlights connections among wasting-thirst, related disease names, Chinese medicinals, formulas, symptoms, pathogenesis, and disease locations."
+    },
+    {
+      "index": 71,
+      "text": "Fig. 3 shows that wasting-thirst is connected with Chinese medicinals, formulas, symptoms, and pathogenesis through relations such as Treats, Manifests as, and Causes. Pathogenesis entities are further linked to disease locations, forming a disease-focused network that connects multiple entity types. The network brings together knowledge dispersed across different passages and supports more systematic cross-passage retrieval and analysis. Combined with passage provenance and source-text evidence, these relations can be traced back to their textual sources for verification, providing a basis for organizing and using knowledge from ancient Chinese medical texts."
+    },
+    {
+      "index": 72,
+      "text": "4 Conclusions"
+    },
+    {
+      "index": 73,
+      "text": "We proposed the evidence-constrained ECKE framework, which combines domain knowledge with LLMs for disease-focused knowledge extraction from ancient Chinese medical texts. Through disease-focused passage screening, evidence-aligned entity recognition, and contextual assessment of candidate relations, the ECKE framework transformed dispersed knowledge into entities and relations supported by source-text evidence. Experiments on wasting-thirst achieved Micro-F1 scores of 0.9164 for entity recognition and 0.8170 for relation extraction, outperforming the selected comparison methods. Ablation experiments indicated that domain lexicon anchoring, semantic supplementation, and evidence-aligned fusion jointly improved entity recognition, while contextual assessment improved relation extraction precision. The knowledge extracted across the full corpus, together with passage provenance and source-text evidence, provides a foundation for linking knowledge across passages and supporting its application. This study evaluated only wasting-thirst. Future work will examine applicability to other disease topics and improve entity recognition and contextual assessment methods to address missed symptom entities and incorrect relation predictions."
+    }
+  ],
+  "tables": {
+    "3": [
+      [
+        "Entity type",
+        "Definition",
+        "Textual expressions",
+        "Examples"
+      ],
+      [
+        "Chinese medicinal",
+        "Individual medicinal substances and their alternative names",
+        "Indications and actions in materia medica descriptions",
+        "Dendrobium; Coptis rhizome; bamboo sap"
+      ],
+      [
+        "Formula",
+        "Names of formulas, pills, powders, pastes, and elixirs",
+        "Passages describing formulas used to treat diseases",
+        "Maimendong Pill; Liuwei Dihuang Pill"
+      ],
+      [
+        "Disease",
+        "Wasting-thirst and related disease names",
+        "Disease names and wasting-thirst subtypes",
+        "wasting-thirst; the three forms of wasting-thirst"
+      ],
+      [
+        "Symptom",
+        "Disease manifestations or accompanying symptoms",
+        "Expressions concerning drinking, thirst, urination",
+        "excessive drinking; frequent urination"
+      ],
+      [
+        "Pathogenesis",
+        "Etiology, pathogenesis, and summarized patterns",
+        "Explanations involving deficiency, heat, dryness",
+        "kidney qi deficiency; deficiency heat in the lower energizer"
+      ],
+      [
+        "Disease location",
+        "Zang-fu organs (viscera and bowels) or sites involved in a disease",
+        "Zang-fu organs and body locations",
+        "lung; stomach; kidney; triple energizer"
+      ],
+      [
+        "Therapeutic method",
+        "Therapeutic principles, methods, or rules",
+        "Methods such as tonify deficiency, nourish yin, and generate fluids",
+        "replenish true yin; strengthen water to control fire"
+      ]
+    ],
+    "5": [
+      [
+        "Schema ID",
+        "Relation pattern",
+        "Semantic definition"
+      ],
+      [
+        "S1",
+        "Chinese medicinal–Treats–Disease",
+        "An individual Chinese medicinal treats a disease."
+      ],
+      [
+        "S2",
+        "Formula–Treats–Disease",
+        "A formula is used to treat a disease."
+      ],
+      [
+        "S3",
+        "Therapeutic method–Indication–Disease",
+        "A therapeutic method is indicated for the corresponding disease."
+      ],
+      [
+        "S4",
+        "Pathogenesis–Causes–Disease",
+        "A pathogenesis entity causes the onset or progression of a disease."
+      ],
+      [
+        "S5",
+        "Pathogenesis–Involves–Disease location",
+        "A pathogenesis entity involves a zang-fu organ or body site."
+      ],
+      [
+        "S6",
+        "Symptom–Suggests–Pathogenesis",
+        "A symptom suggests the corresponding pathogenesis."
+      ],
+      [
+        "S7",
+        "Disease–Manifests as–Symptom",
+        "A disease manifests as the corresponding symptom."
+      ]
+    ],
+    "9": [
+      [
+        "Task",
+        "Method",
+        "Precision ↑",
+        "Recall ↑",
+        "F1 ↑"
+      ],
+      [
+        "Entity recognition",
+        "CENTRELINE",
+        "0.5692",
+        "0.5953",
+        "0.5742"
+      ],
+      [
+        "Entity recognition",
+        "TCMERE",
+        "0.5597",
+        "0.3544",
+        "0.4226"
+      ],
+      [
+        "Entity recognition",
+        "BSTR-GPRel",
+        "0.5511",
+        "0.6755",
+        "0.6047"
+      ],
+      [
+        "Entity recognition",
+        "CARE",
+        "0.2788",
+        "0.6348",
+        "0.3866"
+      ],
+      [
+        "Entity recognition",
+        "OneKE-Qwen",
+        "0.5786",
+        "0.7457",
+        "0.6516"
+      ],
+      [
+        "Entity recognition",
+        "YAYI-UIE",
+        "0.2149",
+        "0.4062",
+        "0.2811"
+      ],
+      [
+        "Entity recognition",
+        "LLMRE",
+        "0.2620",
+        "0.7756",
+        "0.3916"
+      ],
+      [
+        "Entity recognition",
+        "ADELIE",
+        "0.1506",
+        "0.2957",
+        "0.1996"
+      ],
+      [
+        "Entity recognition",
+        "ECKE",
+        "0.9250",
+        "0.9079",
+        "0.9164"
+      ],
+      [
+        "Relation extraction",
+        "CENTRELINE",
+        "0.1847",
+        "0.2119",
+        "0.1895"
+      ],
+      [
+        "Relation extraction",
+        "TCMERE",
+        "0.2183",
+        "0.0348",
+        "0.0382"
+      ],
+      [
+        "Relation extraction",
+        "BSTR-GPRel",
+        "0.4711",
+        "0.2959",
+        "0.3552"
+      ],
+      [
+        "Relation extraction",
+        "CARE",
+        "0.0336",
+        "0.3885",
+        "0.0613"
+      ],
+      [
+        "Relation extraction",
+        "OneKE-Qwen",
+        "0.3964",
+        "0.5610",
+        "0.4645"
+      ],
+      [
+        "Relation extraction",
+        "YAYI-UIE",
+        "0.3858",
+        "0.0965",
+        "0.1543"
+      ],
+      [
+        "Relation extraction",
+        "LLMRE",
+        "0.1816",
+        "0.3543",
+        "0.2402"
+      ],
+      [
+        "Relation extraction",
+        "ADELIE",
+        "0.1614",
+        "0.0709",
+        "0.0985"
+      ],
+      [
+        "Relation extraction",
+        "ECKE",
+        "0.8038",
+        "0.8307",
+        "0.8170"
+      ]
+    ],
+    "10": [
+      [
+        "Task",
+        "Setting",
+        "Precision ↑",
+        "Recall ↑",
+        "F1 ↑"
+      ],
+      [
+        "Entity recognition",
+        "w/o Lexicon Anchoring",
+        "0.6187",
+        "0.7860",
+        "0.6923"
+      ],
+      [
+        "Entity recognition",
+        "w/o Semantic Supplementation",
+        "0.4035",
+        "0.5316",
+        "0.4588"
+      ],
+      [
+        "Entity recognition",
+        "Simple Union",
+        "0.3945",
+        "0.8734",
+        "0.5435"
+      ],
+      [
+        "Entity recognition",
+        "Schema-only RE",
+        "0.9250",
+        "0.9079",
+        "0.9164"
+      ],
+      [
+        "Entity recognition",
+        "ECKE",
+        "0.9250",
+        "0.9079",
+        "0.9164"
+      ],
+      [
+        "Relation extraction",
+        "w/o Lexicon Anchoring",
+        "0.3851",
+        "0.6398",
+        "0.4808"
+      ],
+      [
+        "Relation extraction",
+        "w/o Semantic Supplementation",
+        "0.2055",
+        "0.1476",
+        "0.1718"
+      ],
+      [
+        "Relation extraction",
+        "Simple Union",
+        "0.2447",
+        "0.7441",
+        "0.3682"
+      ],
+      [
+        "Relation extraction",
+        "Schema-only RE",
+        "0.4197",
+        "0.8386",
+        "0.5594"
+      ],
+      [
+        "Relation extraction",
+        "ECKE",
+        "0.8038",
+        "0.8307",
+        "0.8170"
+      ]
+    ]
+  }
+}

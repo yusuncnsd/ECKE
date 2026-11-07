@@ -1,0 +1,2064 @@
+{
+  "selected_condition": "ADELIE-DPO-7B-Optimized",
+  "cleanup_date": "2026-10-06",
+  "previous_archive_sha256": "e7174529bef60c7190c27141146518f3099f491c44890142169ed447e03bec4d",
+  "files": [
+    {
+      "path": "实验工作目录/00_install_environment.sh",
+      "bytes": 440,
+      "sha256": "bc96797db1e43b9f66e9e1472ffaecb45ae58847b5212052e322440b82893b02"
+    },
+    {
+      "path": "实验工作目录/01_download_model.py",
+      "bytes": 3796,
+      "sha256": "0fbe23f35e3f6fc1815110ee2e1aa1c21e92c674b6f147e645e12b04468ed252"
+    },
+    {
+      "path": "实验工作目录/02_run_adelie_optimized.py",
+      "bytes": 19421,
+      "sha256": "01688df3a6c7e6477fe0ba10bf5dc92869c236e070ea522099e65a369d3b9a4a"
+    },
+    {
+      "path": "实验工作目录/03_evaluate_local_optimized.py",
+      "bytes": 1774,
+      "sha256": "4b08174e87d4c43668b3ba25ba595c696a5ee5ea34ba10f9ff65634cd5a08f6a"
+    },
+    {
+      "path": "实验工作目录/05_check_optimized.py",
+      "bytes": 1813,
+      "sha256": "36326a6cf8485f619de6a8dd3dbbba90ac7a1b9809ea4472c9c77e57b3c7ed13"
+    },
+    {
+      "path": "实验工作目录/asset_manifest.json",
+      "bytes": 585,
+      "sha256": "3d7eb16d2c30cd2f41c0d86a0a80fd4765eff0c15def937ed4ed360bda8d0897"
+    },
+    {
+      "path": "实验工作目录/config_optimized.json",
+      "bytes": 777,
+      "sha256": "ebbee92cd6fd50a19e916f6e502af4c4ff0aeb591c9895ed995a6669409c61ca"
+    },
+    {
+      "path": "实验工作目录/data/independent_test_300_input_only.jsonl",
+      "bytes": 80526,
+      "sha256": "fdf183fa85d337ef34de8cdafc7c67bcf1dbe78450815e56b5e9602ebcbaef49"
+    },
+    {
+      "path": "实验工作目录/data/xiaoke_schema_v5.json",
+      "bytes": 1917,
+      "sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4"
+    },
+    {
+      "path": "实验工作目录/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.json",
+      "bytes": 313611,
+      "sha256": "0714898733cd58072091dce0913aaec769f4a88dc7733571f492f63490b2ad39"
+    },
+    {
+      "path": "实验工作目录/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.txt",
+      "bytes": 1515,
+      "sha256": "a75e1aed2379a6e9174061632d69bf54c28014313613e53a07612a1aa890416b"
+    },
+    {
+      "path": "实验工作目录/evaluation_optimized/ADELIE_processing_coverage.json",
+      "bytes": 270,
+      "sha256": "1c8f16a980578df1040201856a1301992e45e1af68a13ffde467f1cbeac0f2cc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/ADELIE_full300_predictions.jsonl",
+      "bytes": 211422,
+      "sha256": "7508b57fe965cdc90be321062e45fb5b6e32d30530985aa37aea711ba20dd8cc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/full300_audit.json",
+      "bytes": 3235,
+      "sha256": "c43bc3fa064d3bc0de34d53d3be5b53d4e9900f5700d354faa731f65ca418621"
+    },
+    {
+      "path": "实验工作目录/results_optimized/length_audit.json",
+      "bytes": 67,
+      "sha256": "02fdf42c3edabae9e6dffd14decc7d352d63c9d9f8e9e62543c4ca4a1a09abce"
+    },
+    {
+      "path": "实验工作目录/results_optimized/raw_cache.jsonl",
+      "bytes": 357405,
+      "sha256": "cc46cca3969a994c0d753a0c311305b26580efa0c076d9235ecd0cc2a4f89ab8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_001/attempt_1/joint.json",
+      "bytes": 2852,
+      "sha256": "a67dcf9c716ee7ec580eff4ee577f1dec91501bbe991535dca5e1daa0e292e29"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_002/attempt_1/joint.json",
+      "bytes": 4237,
+      "sha256": "c939f36c6f14d26df64b1c7bdfb0ea978a9ff95aa0439672da582d16cf9f5fad"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_003/attempt_1/joint.json",
+      "bytes": 2530,
+      "sha256": "e2717458b8dbcf36df2327f0ca8a0b906aa01f1a0876592ae531aebaea9cd98a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_004/attempt_1/joint.json",
+      "bytes": 6670,
+      "sha256": "0dde150a2731265ebf5fdbcbe932721c5948d6bad2213354f3b35f74c4913516"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_005/attempt_1/joint.json",
+      "bytes": 2188,
+      "sha256": "a01b7f411ee171058e8bcd4c6883b3c07a5d6416043b2010de2da568c9af0b00"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_006/attempt_1/joint.json",
+      "bytes": 2220,
+      "sha256": "fca9960b890eb88e797a07e2a1e8e043d78af3073ba4c75c98903f359df13ede"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_007/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "79bdb0b4760dbb63576892c2b69ce63e026709acbbcbdb61882900eb71ad9ca1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_007/attempt_1/joint.json",
+      "bytes": 4188,
+      "sha256": "26ccedff7b7f233cc600d0e0fc81c9465acb5b29436dc70f93c9a3313a89e460"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_008/attempt_1/joint.json",
+      "bytes": 3264,
+      "sha256": "662f28f9cea5cb2f50e7c4da8d52f9640eb6039dbcf9e8f4f1d34af72030913c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_009/attempt_1/joint.json",
+      "bytes": 2247,
+      "sha256": "98c05e3eba0020f68094de33c11408ee1396342fbd28df466e9aee13d3e4b4b2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_010/attempt_1/joint.json",
+      "bytes": 3366,
+      "sha256": "a22ae21f919a689e245975bd2a71d37b96050b9ca45031acdad1c5befb99ef34"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_011/attempt_1/joint.json",
+      "bytes": 2373,
+      "sha256": "c55ba1bb08895c065faed9de4a5c0abcf3130b9c4ff2e378b3b658edafae3b38"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_012/attempt_1/joint.json",
+      "bytes": 3870,
+      "sha256": "1e619a0438fe8922dad1fef0493d009242f08ca8f86a7b7a96567e2c58a8ddae"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_013/attempt_1/joint.json",
+      "bytes": 2129,
+      "sha256": "d7a047ba6c0d8a81568a5f9e8697b5aa8ad7fe1a1f273829bd530a24203d6075"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_014/attempt_1/joint.json",
+      "bytes": 2356,
+      "sha256": "2bfed72c1bf3c1e1284c672fc2a613ad74f50af08165378f69285886db33b3eb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_015/attempt_1/joint.json",
+      "bytes": 2316,
+      "sha256": "dd7b2eb524b5f809058275762fb4fef849931548d6e76aaae444cff4ebbbe6e8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_016/attempt_1/joint.json",
+      "bytes": 2616,
+      "sha256": "95236676335bcce333149921a0fc9e47d59484bb3f268c2ca42fbb57ca3dcffa"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_017/attempt_1/joint.json",
+      "bytes": 3218,
+      "sha256": "838c75f8c23b0d503b3896185733ed47d353026a8c541d9931001428168811a1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_018/attempt_1/joint.json",
+      "bytes": 2501,
+      "sha256": "6161a8ff0c27337b458f9a0a905bb11cf9880aed92e7cf8c5b92904baca66ba5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_019/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "a52f67cddaf34c882bf470f0c5e4b56248a29526b55ea2d81158f7e05ae5a2ad"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_019/attempt_1/joint.json",
+      "bytes": 3777,
+      "sha256": "d9c736ad83fc5bdc1329a12d8de059aa2504ce3d921384075261d71d008ad4a1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_020/attempt_1/joint.json",
+      "bytes": 2689,
+      "sha256": "5c33fe38da402070d60c3b627d33aae1121ea2898c03d02c2f881e03e53b9f64"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_021/attempt_1/joint.json",
+      "bytes": 2557,
+      "sha256": "1ed367b9b2126dd54fe5669d4c483f09f5a55722d261f727e601f83a51cfe9e5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_022/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "17cb1d40de0a9278833a042561c9f3aba81e6ee1fd0d1e59376c961df69aec98"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_022/attempt_1/joint.json",
+      "bytes": 2872,
+      "sha256": "935ada2b1739428a083b0f21b801547d9162e9b95f87d0d4c287e84acc624658"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_023/attempt_1/joint.json",
+      "bytes": 2208,
+      "sha256": "1612b4741c11767572bf4b17066a97bed8ce42d2fe96479140260a3090f86ff6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_024/attempt_1/joint.json",
+      "bytes": 3094,
+      "sha256": "d6c0d4c348c0e8335b1da65bcb0f520bccd5feb1cc92077747e84f428a390220"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_025/attempt_1/joint.json",
+      "bytes": 2359,
+      "sha256": "43b323bf478e0e0798872d9191517b0bb8b563a32a3c47e7dbe6d718ea64153c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_026/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "5be8914d1c6adaa3f9393ac349dcab3c09012c18692582fd66cfa2a6f3e2451c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_026/attempt_1/joint.json",
+      "bytes": 2952,
+      "sha256": "e527f47f434e37144eb0ec9cd1ccf208d58214b40ea77cbd1390ebef264a2232"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_027/attempt_1/joint.json",
+      "bytes": 2620,
+      "sha256": "b6cc99f40cdea6ff896fbd76d1b919d5bde4b91597b444edd4ad057803bb2dbb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_028/attempt_1/joint.json",
+      "bytes": 2277,
+      "sha256": "aeb022d705f4075b1eadc5b1c66e17f39bd0084ea2eba8a7122a5d68506e9c70"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_029/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "db297f8b9d5dbb97ae46a95afde5bdd6fd95173317f33290a06e52bb80a46822"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_029/attempt_1/joint.json",
+      "bytes": 4152,
+      "sha256": "9bd76342490395df0ace072119be4d848b164e066280505b218b7baf42630c6d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_030/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "0a26f99c6695d31de79ab0023b1d23d623ecca80f3bd8012090f5d055ca20b31"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_030/attempt_1/joint.json",
+      "bytes": 2140,
+      "sha256": "029af2df658a3fd619b0a97bb0d4a3d81eb67b4f42688081e3363cac97cfdfdf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_031/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "2e4f8e93fcffaed12e39129a7d4c8bd259e030eebc6f67980d2959d96b62ae31"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_031/attempt_1/joint.json",
+      "bytes": 3586,
+      "sha256": "3fb319aeec0f47ab26e640394c7a6a628cdc6baa451bc91da980eb22b6602e81"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_032/attempt_1/joint.json",
+      "bytes": 2736,
+      "sha256": "dc22c8e1f55337f4eb22363a2643fbca9b4250b822238075edde590291e31101"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_033/attempt_1/joint.json",
+      "bytes": 2542,
+      "sha256": "382408f8dcb5c0a9855764fc4bc833ff0878f89b768e939f607999e475285ceb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_034/attempt_1/joint.json",
+      "bytes": 3304,
+      "sha256": "765de383db5091b9fd78c1663b0d76e8791e6fc5bb6dbe9f66670b1d4256f493"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_035/attempt_1/joint.json",
+      "bytes": 2412,
+      "sha256": "30619f4afdc6ea78c93680469a02f3e16451e459905315a0956c9251363b64a1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_036/attempt_1/joint.json",
+      "bytes": 3050,
+      "sha256": "d4412091f86b58be2a4762c8cef3ef3c150de77158df24d11f4cf454fa1ee631"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_037/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "5e81ea254562021f17d050c0fa7d5e756f9ef859394050c6f11688287b2ed6fd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_037/attempt_1/joint.json",
+      "bytes": 2204,
+      "sha256": "d1e9ca2232adff7038485dc069940a84f841ffc4ced8dc49aa5083b2cd92674a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_038/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "993966b206feb2dd054a467ce805d5059da83e3af90cd097a364557908756e80"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_038/attempt_1/joint.json",
+      "bytes": 5033,
+      "sha256": "1a76d4f7f7edc61231f2c836d9231ad4fe21df376bcd4f48f7d6e8d9e8232394"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_039/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "6ad1435430ecb8b7e977f842f7f7d8e90ca417a2757a8a09cbf64d3eecee140b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_039/attempt_1/joint.json",
+      "bytes": 2342,
+      "sha256": "075cd1116242ba374c693ccd4910a65e9aa18a88325ab80aafe6fa7a8efcadcc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_040/attempt_1/joint.json",
+      "bytes": 2093,
+      "sha256": "be76a3ec1935b62d913f0a93ebebbacf51eb67e40d4ac1c36204bd968326c6d0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_041/attempt_1/joint.json",
+      "bytes": 2750,
+      "sha256": "769938b92c8e84cea1e8e1c06729d84cef62d7783d63bb148fcc0278add9d50b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_042/attempt_1/joint.json",
+      "bytes": 2365,
+      "sha256": "961ca770136c5be2a521afeeb0f83f2da158aa1c8c0ce89e561697b8b794c1fe"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_043/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "09f093bbf5768670959c0e8c000494ed97167e05ef2a2218ff6ab9cb1152af59"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_043/attempt_1/joint.json",
+      "bytes": 4618,
+      "sha256": "5bb8df39b48a0980c09a96eca5dacea51996f8436e8fd08dd9634b352b2171e9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_044/attempt_1/joint.json",
+      "bytes": 2844,
+      "sha256": "b68de4fd1fc6818e82821e7752834a661752ca2d5397b1030903a72284e20f23"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_045/attempt_1/joint.json",
+      "bytes": 3126,
+      "sha256": "b09db5656d70e7335bc9accd073d4f7d1ce9b3fd31b37f1bf5b7720bb667c868"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_046/attempt_1/joint.json",
+      "bytes": 2488,
+      "sha256": "f9c263107dc4a21be9c7ed19f3c4fb8ed3ff4ed19bffb958d23a36f5eb7cb7f5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_047/attempt_1/joint.json",
+      "bytes": 1964,
+      "sha256": "a2163046673d7bff620deda6862c03fc49d106a0392e903b4025e341d4e82920"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_048/attempt_1/joint.json",
+      "bytes": 2214,
+      "sha256": "469fcf9a6cfed97e3be346f3abd06acdd9f73a61a8d40ae32934520f28331958"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_049/attempt_1/joint.json",
+      "bytes": 2944,
+      "sha256": "1db356e3ce91ed90667ee10fa1e308bf0ec401e07a25866802e3861898590e9a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_050/attempt_1/joint.json",
+      "bytes": 3458,
+      "sha256": "3acde3ea60201a75f6c9698b8bdb54a76e2dafcd8798b09accbbda148973bdd8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_051/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "e02429f2ced90661ddbeb615663122b27a8c814e95ff2732a16a8078d79ccbdb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_051/attempt_1/joint.json",
+      "bytes": 3510,
+      "sha256": "b8e72dcec4dae2818de90993f4ed719067715ffc2e3a1d4544bccd34d8230b36"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_052/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "e68bf98f0400a26c0e6b52c9e391e0257adcafd37fff39f2d45eaed5dc20e511"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_052/attempt_1/joint.json",
+      "bytes": 2442,
+      "sha256": "6c4fe3a91ea3276cd9246b385ef8969e238a3e08d44d33951d5d75c9e82c5e5f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_053/attempt_1/joint.json",
+      "bytes": 3328,
+      "sha256": "b8421078abc2c74e45f8aa980c4288a27c76aeea0b947c6e6c6ec2d852b74cff"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_054/attempt_1/joint.json",
+      "bytes": 2540,
+      "sha256": "ed225907ff8e824a07d03ee66ea162d516b96ad03146c48f6da2f1f6e98f8234"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_055/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "ddf9ff4c2b699617d6d2e6074c41d084b408dc844d2b3b757bb2f1f21e21719c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_055/attempt_1/joint.json",
+      "bytes": 4776,
+      "sha256": "5b158b836bb151d6a414d7cea5c7f68977c29b8c9f5f6137f9fed3f5c64719e4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_056/attempt_1/joint.json",
+      "bytes": 2256,
+      "sha256": "b9bc34629a1599fa4f1050cee9bfcc8de01d34e1528b9b0de125c7ba94d45cda"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_057/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "5f07eb22690faab9249861df2c783005d1c26698df3b2d3e679269863824a3ba"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_057/attempt_1/joint.json",
+      "bytes": 2542,
+      "sha256": "09723bbabd2d21f90f3bf61c086e53c6044adc2508d9a1a6547db76c6407932b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_058/attempt_1/joint.json",
+      "bytes": 4520,
+      "sha256": "d73571dc4d8a02b1627dbff8cb32ec2366cd7b410e034c3673c91bd5c6ae9374"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_059/attempt_1/joint.json",
+      "bytes": 2318,
+      "sha256": "9d42bb1648e8985e36fc2398841f9fe91936e22508ba9c50e6541297b691da98"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_060/attempt_1/joint.json",
+      "bytes": 3979,
+      "sha256": "48ae122e27a989dc9ea7a6ccfaa0586dfb5cf80b1362f20410cb57ce7cba285e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_061/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "7b2816a2e02de67c400117e7f40342758012dc8dc9a42a0eb5b486bc00b3cbba"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_061/attempt_1/joint.json",
+      "bytes": 3484,
+      "sha256": "e645ce4192a58daf8c1c2e4a7b6cf061d9265774c5e439fb2699b329e9efc296"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_062/attempt_1/joint.json",
+      "bytes": 2388,
+      "sha256": "4ee2e3e2876ba7f89803f9f2b8cded0dcd78c04eadb0551fe7c1dbe67fa329fd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_063/attempt_1/joint.json",
+      "bytes": 2174,
+      "sha256": "94c86fd9cd6659be21a3d2fa3aae93a8357934bd471c14d7063dd983e28e87c6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_064/attempt_1/joint.json",
+      "bytes": 3002,
+      "sha256": "8376f8090b36af6e556e055593208d55fc0df19bb0af2914dc6c0a4a43fd8bd1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_065/attempt_1/joint.json",
+      "bytes": 2750,
+      "sha256": "08d4bd7063e1d40a6276ccc448cafc042fa82b12598533d5461693356858dd8d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_066/attempt_1/joint.json",
+      "bytes": 3520,
+      "sha256": "a4e6e85b312a788382ac932c75a3b61a567998755c277e35d1d5eaa460528f23"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_067/attempt_1/joint.json",
+      "bytes": 2364,
+      "sha256": "74da22cf42d3e36d107cd7e6365b16a1fd329c0f640803ddefaab9c54dc5013b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_068/attempt_1/joint.json",
+      "bytes": 3028,
+      "sha256": "0c522455c4e7d04595f6ef602f8a23f6c198bd75bb3d93ee8ec957b566d40678"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_069/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "15229c97a25f88eff2dcac657b1abc73d2677ed44f1cd16879a1d9ac7f3af86c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_069/attempt_1/joint.json",
+      "bytes": 4824,
+      "sha256": "2d18827f8df9b905f4c41d654614cd1de84422f5c8b81f37fdd157d36c913a69"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_070/attempt_1/joint.json",
+      "bytes": 2560,
+      "sha256": "5169620cc2d17e105bd6d33037d8aaf1ef69e2c21b2973464cda46d3653d7636"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_071/attempt_1/joint.json",
+      "bytes": 2936,
+      "sha256": "b8f44062c53f1ad12fac27ea2912e0bee9c36a90d241c80721aeb6f91776b6e3"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_072/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "591b775e17e8a24ef492af3746fee3a700c2c19c430c4684fb227ef15d55ba47"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_072/attempt_1/joint.json",
+      "bytes": 2356,
+      "sha256": "db98b051bdde84f8a4358d94bfd17f37a94dca2b7738221e1f51ceb654d74d0b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_073/attempt_1/joint.json",
+      "bytes": 2648,
+      "sha256": "70485e544c2bc2e92916979d267cdd30474f87f7e8f52d1b439a2b63df6b8c8a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_074/attempt_1/joint.json",
+      "bytes": 5097,
+      "sha256": "ccdbf34aa530e1234f65b792df049f89cafaea54528f4622bcd7d6b15bc9b06b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_075/attempt_1/joint.json",
+      "bytes": 2326,
+      "sha256": "3cfc1d95b414ac1c03139d19e3698df48cc8027df176c93829276b804c076d80"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_076/attempt_1/joint.json",
+      "bytes": 2175,
+      "sha256": "6f11bd855bd3da83a3149950653d7c783197c284c6005ace9eaf9311587fa1e0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_077/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "f5c473df04b1c6c6fdd43b363b74a5361d0ab7b3e8d777d73f9d5b272e0b3972"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_077/attempt_1/joint.json",
+      "bytes": 2420,
+      "sha256": "71bea8a2b886d8b3aba5b6c6059d9c52bbdb558278b1aa5fb1a9f587a2c58325"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_078/attempt_1/joint.json",
+      "bytes": 2861,
+      "sha256": "21bf12484e73fa205ddc65bafae4513a4f975828e5bc972ea60e3ad9aa29c317"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_079/attempt_1/joint.json",
+      "bytes": 4165,
+      "sha256": "67722eafcb3531dad90d2f327eb5d978deafe37f5b99c9a8852dbf1e52a87bcf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_080/attempt_1/joint.json",
+      "bytes": 3548,
+      "sha256": "b9b0cd645e72c970c0bc25a3f1d4c730ce78dd6e3a82b61d1bd2fed249843dc0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_081/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "6f1187e1225dc1ed61cb668e01fda5b970ecb078c00bb59bd0d11ba3646552fc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_081/attempt_1/joint.json",
+      "bytes": 2981,
+      "sha256": "8d26f69cb18b030244faabc63622277011376077a601f88cff03c186f7a5cdc5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_082/attempt_1/joint.json",
+      "bytes": 3498,
+      "sha256": "85ce5da2004ca55f49929c07cb97f9661fda1ecfa1eb9d758c90df0dd064dfe2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_083/attempt_1/joint.json",
+      "bytes": 2253,
+      "sha256": "0f952adb8b6dffb20fd434bfee5af6193ce5130b7cfc2b255d0e9a2b81b90a1b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_084/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "1982f0ec67d1f5ddf2295cd1991cf56cbc1d51093ca8cd4f5a2163209fb5d361"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_084/attempt_1/joint.json",
+      "bytes": 4130,
+      "sha256": "80231f9179594f377b555c40ab9283f5ee11b6b409d3604a2f416d7350177516"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_085/attempt_1/joint.json",
+      "bytes": 2316,
+      "sha256": "5410a3d49f89c2ae67a1ad5cedc330de386541cc8565688f56af144ea1384a55"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_086/attempt_1/joint.json",
+      "bytes": 2377,
+      "sha256": "86d4f5373b6ff3c1565605db92269a8098e1da09d9b2639c41b16bfe327abb9f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_087/attempt_1/joint.json",
+      "bytes": 2647,
+      "sha256": "673dc5ad61023788b58606216ebd9d1a628b73f2206dcb3ceca4aa0bc05bae16"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_088/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "6ba6cf0d914ee2dbd4980e4d3a843ab76bd34c2a8dfc632cc6111ce259407415"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_088/attempt_1/joint.json",
+      "bytes": 4287,
+      "sha256": "03c33c6bce0b2ac1362e4b23033778f4e61d01ce768c76be4f0bdc4134f87a6c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_089/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "adac4192b1e68a83e0150237be4dd8f7876e88bb870aa187ea451f0128319f4c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_089/attempt_1/joint.json",
+      "bytes": 2493,
+      "sha256": "c3ef3121b52cf133aa89334377882b3ddca4905980753eec711b5233d85450d4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_090/attempt_1/joint.json",
+      "bytes": 3727,
+      "sha256": "3deb5f6f59ef1e62fe7657cc31e56d37b9610c611f2c907fc1aa92f35d20070c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_091/attempt_1/joint.json",
+      "bytes": 2408,
+      "sha256": "7343f757e5490dc3e657eaba61f5dd56fbb6c9ed76bfbef348840f8c8786f96c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_092/attempt_1/joint.json",
+      "bytes": 2658,
+      "sha256": "f99d5ac71486bfa1701e47cab9ac74cee1e7054bd43348544c3fc6108039fa36"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_093/attempt_1/joint.json",
+      "bytes": 2291,
+      "sha256": "4cd94adebb90c080a541cb1a7155f6c0f36b489a7aea69c876f1544bdb5f14f5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_094/attempt_1/joint.json",
+      "bytes": 2257,
+      "sha256": "47992e31de9e8f0e6e60143e01f3b515e083eead53cc5a9e29d1ae63a4d69d09"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_095/attempt_1/joint.json",
+      "bytes": 2289,
+      "sha256": "10c8d89a4e7222a08fb47e62bf7ac674a68efe686216371bb4652c0c593f2ab2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_096/attempt_1/joint.json",
+      "bytes": 3181,
+      "sha256": "2f539d6b3ed0733a4c2f4f19b45f8d848258d906498cfb6bd0ad2628058fec4f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_097/attempt_1/joint.json",
+      "bytes": 2481,
+      "sha256": "89630e4b2aabdc87a11df4ea46847d4223040623db606b08dc23af72115039db"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_098/attempt_1/joint.json",
+      "bytes": 2127,
+      "sha256": "46f5129901257f860df78b164a2453b10b7916cd85d0302a365e6686b255ac25"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_099/attempt_1/joint.json",
+      "bytes": 2244,
+      "sha256": "0e6b12f2012fca2432aa5e44cb2f79a0eb47d6e6672c74546d8e8d0d94efc533"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_100/attempt_1/joint.json",
+      "bytes": 2119,
+      "sha256": "8b0f6fe87f3dac4620ce53aff99efb1aab2d0aa5a5c28712e4468592423285d8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_101/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "c59da88cf92734cdde5176ccaa5ad14f4a3ccdaa9677f5e6f9eb6987023b5206"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_101/attempt_1/joint.json",
+      "bytes": 7123,
+      "sha256": "2002a1db26b79fb332f594a5cebcecb0c46223cf8ac93d38bd202d020be8918c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_102/attempt_1/joint.json",
+      "bytes": 2740,
+      "sha256": "06133d80035d4080937fb6bf0c26cb40cbbd45bb3f5970c447588d3a96faefcd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_103/attempt_1/joint.json",
+      "bytes": 2119,
+      "sha256": "2fc152f6e87331c81b430de598a9cf8e6d3861e256398d54cafc756156a841b5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_104/attempt_1/joint.json",
+      "bytes": 2913,
+      "sha256": "5f15fb4897493f7c71af7f1c14359a5dbef2dd81dfeba7b774015e42f83ac227"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_105/attempt_1/joint.json",
+      "bytes": 2120,
+      "sha256": "243530a435ab3a56742eb3d0a4bde5c4b35822fd37fdf1a7a25d797a2f99557e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_106/attempt_1/joint.json",
+      "bytes": 3758,
+      "sha256": "7419e07fb55703b83e691f020639978912f8720186fbaff35e9001152fdad545"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_107/attempt_1/joint.json",
+      "bytes": 2211,
+      "sha256": "9a59cfc7ee2a6c314663ffa4dffe02146e6e5174de95001f0514339951a0d174"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_108/attempt_1/joint.json",
+      "bytes": 2338,
+      "sha256": "096a17c34ca63733ad7a67d840bd19f9c5eee963c2d466be260d5a99dd000d09"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_109/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "63be348cfdf6832071a24e50507c8a4fe48db95b62a0b35c95f620b456d20db5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_109/attempt_1/joint.json",
+      "bytes": 2318,
+      "sha256": "47bd41ecbda567c8702e83719011ab656a8ac52fa22112c50ce98723897da09c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_110/attempt_1/joint.json",
+      "bytes": 2370,
+      "sha256": "a5e92712455f474a18f283c85bf5542e7dd549d3fcef33cc43c27f635bcb023c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_111/attempt_1/joint.json",
+      "bytes": 2532,
+      "sha256": "0e4665979d99aecbb1a68b7bfabe775ae152bd13918e5151c9a772d2a60405db"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_112/attempt_1/joint.json",
+      "bytes": 4561,
+      "sha256": "63addd23850d679bfcd40be1d2c8ab60f87a69780c0a64a7218d6b9401ef6b48"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_113/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "e56a352b9f8122f260017427eefb7bdf5cb2c640625732f3b32f696967f4797b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_113/attempt_1/joint.json",
+      "bytes": 5100,
+      "sha256": "7ca0a620faf7f7c5f53deb5231602e999f19faddf205de856c04a896189430db"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_114/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "19ac79d880f008490addb8ad54611889bf53e724e692140756ea4ba1dfec3d35"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_114/attempt_1/joint.json",
+      "bytes": 7768,
+      "sha256": "4c8794776bb0847ae5cc7324c416bc65523f78488d5b1c7c3eb76a6ea29cb645"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_115/attempt_1/joint.json",
+      "bytes": 2340,
+      "sha256": "dccff61dfc03a1d54b5204e7341298d3f6bb043ff0bd2fb3564e83e0c5c7e952"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_116/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "ba5b58202db1da40f41a5fc8dd890a0d08a6282d65c23ecd99eee6a2a3d87b1c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_116/attempt_1/joint.json",
+      "bytes": 3114,
+      "sha256": "712d10f2ec69b9ce2eaa2c6ef8aab6d872f1368d08939034e30e80c0a3cff6be"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_117/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "3c7f9e27b2ecc28ef82e04b3b5de8a960cf7aba48f5f7a24b51f6fdf733df2a2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_117/attempt_1/joint.json",
+      "bytes": 4250,
+      "sha256": "8ec749d4fe6990e17fdf29b5058b4b6e5d7fab8055efec365a4f32da464c74d4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_118/attempt_1/joint.json",
+      "bytes": 3018,
+      "sha256": "632ba7cfc4aa29eeabe4c482bd09b07e2afb2e94c30e54cc188044295dfd0c95"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_119/attempt_1/joint.json",
+      "bytes": 2881,
+      "sha256": "dbbe61d21f26575d915bcffa13be32f62e39871dfbbe4f1b6bcd11039f2bc0e4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_120/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "fb7173dc72ba20f2bb654dbe85f633beaba360c354d534cdc95f76b458d2d577"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_120/attempt_1/joint.json",
+      "bytes": 2350,
+      "sha256": "e38fc3f9fae6fbad5dda20c80a35d956be0be90c6535b85d6c44b700707e131c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_121/attempt_1/joint.json",
+      "bytes": 2884,
+      "sha256": "9e12a994d6243125430964838f0858ce8e0548b2b40b75d6b74da3a811c6f292"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_122/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "f6c96719b40ac1971c120853ab7fc12af97dd10fdfbf3dfe11210c0c8f4503f9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_122/attempt_1/joint.json",
+      "bytes": 2321,
+      "sha256": "35de4a82fa329303228e7c0833769ddb28592dc84b6a40bec076334b99e15614"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_123/attempt_1/joint.json",
+      "bytes": 2504,
+      "sha256": "70b8a4721d4ce933784bdb226b7f84a78b9d626bfc01997b08309146605d9e02"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_124/attempt_1/joint.json",
+      "bytes": 2699,
+      "sha256": "61155108cdcb5e0162426ef7107301f654e1d0bfa3f3d12b3b16814392b6865c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_125/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "549740d2025f2317458fd4815786385ee5a6ad99c2ffc550ef0ea5afef92dc36"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_125/attempt_1/joint.json",
+      "bytes": 2914,
+      "sha256": "17f33415a2a78fae3578acd70489921e923f85eccc07fe77b3fa2880557fa773"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_126/attempt_1/joint.json",
+      "bytes": 3298,
+      "sha256": "30f6ce425a41c1901ea73da1825c2acb9a184f2c709b8d36906d5469f5a1a0d7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_127/attempt_1/joint.json",
+      "bytes": 2361,
+      "sha256": "c2b77e97563b74476f6155824028d4755c0f8afdbbd2550c0a3eb021adedfa28"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_128/attempt_1/joint.json",
+      "bytes": 2232,
+      "sha256": "658dcb1087f3a8a92f2932e19cf9bd51ba9fa17ea9084362003cb7296f4f3ea5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_129/attempt_1/joint.json",
+      "bytes": 3107,
+      "sha256": "4144ffe8b9ac4eaad58a531ca2ec5abc93d8991a9870ca9cc3ecbcd701a183e7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_130/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "5c7862b7913833b0ee88105278064281d5403496208a9aa2e266de02850fad5d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_130/attempt_1/joint.json",
+      "bytes": 2684,
+      "sha256": "0275bb5554e128b530d7c4172752abeca730ecb12f0914bd65be074b57700178"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_131/attempt_1/joint.json",
+      "bytes": 2699,
+      "sha256": "1aafc950cb14bc0eecea026cbb9a92e66ec5ebed3ca19d1f782d16689e318b18"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_132/attempt_1/joint.json",
+      "bytes": 2797,
+      "sha256": "832e7cb838e13f3a5a7604ab2e7c176b949870e77bc5a0bef6e31a4a2c1936aa"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_133/attempt_1/joint.json",
+      "bytes": 2697,
+      "sha256": "3bd5264bbee9c0ce9458fa5c35661e712f7ba788e92e3c8115d72173a10c952d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_134/attempt_1/joint.json",
+      "bytes": 2977,
+      "sha256": "9a6796e91a6acc8b4bfc1aa3957cd0f295c6428c2b9435631c4ee0cef2f0dce7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_135/attempt_1/joint.json",
+      "bytes": 2508,
+      "sha256": "31cc7c72c52775d7ad22404f7255946866c5e2cc2e418d3ec08a6b1e5728cd26"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_136/attempt_1/joint.json",
+      "bytes": 2043,
+      "sha256": "27e4025882bd53a2c8273a9653eb4adfe849b7401c28449e43709bdfc789875f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_137/attempt_1/joint.json",
+      "bytes": 1989,
+      "sha256": "be235f7d4e6a9d1232e04ada5b7be130f5ca430d27b5ed472540401accf411f9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_138/attempt_1/joint.json",
+      "bytes": 3928,
+      "sha256": "951e75379ee67aba2bb3435297eb4eb464d69d32cf388de686e15af395b046e8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_139/attempt_1/joint.json",
+      "bytes": 2949,
+      "sha256": "c323e241ecafe224cde97c9e7f71593ecf8e34128d83a77750b9f17194763d0e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_140/attempt_1/joint.json",
+      "bytes": 3728,
+      "sha256": "404eb19eefa8a95cf4ce9b3f1b2011ba31ea2cedcac8b2f4dd12d7988fc0234e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_141/attempt_1/joint.json",
+      "bytes": 2814,
+      "sha256": "b97bc1efb4c9fafede2b9625226876c822e4685df8566d74a892bd9a9b15d220"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_142/attempt_1/joint.json",
+      "bytes": 2823,
+      "sha256": "0c67fa1826e3d4214f7d497391781e2f945256af7c2968b8c2f8059a1311ce2f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_143/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "06c7f081d83526c2e271818411c83198d87bce865cdafde7a44fc16c7ebfa1f5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_143/attempt_1/joint.json",
+      "bytes": 2726,
+      "sha256": "f37bbb82f0f071f99a0919ad91046e4df0d141e3a316e2bafa8b2f7365e92620"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_144/attempt_1/joint.json",
+      "bytes": 3045,
+      "sha256": "8f805871a1dc1a39661ecb1f268ee02ece08391fc8194088138c2f92314a6fa6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_145/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "556ec5c56d9a55f9c6e375941df4de5dfce85f64c6004db82412f034aa8a0636"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_145/attempt_1/joint.json",
+      "bytes": 4328,
+      "sha256": "8019b64ece9f7cd1c61a26b8d89a03535a99769f34376aba4dffbf39486238c9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_146/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "5e56524cc27b8249cfedcd7f2876514a1d6f7f9454bdf0f9e0c3276d80a8e43b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_146/attempt_1/joint.json",
+      "bytes": 4967,
+      "sha256": "bece4ac5a802e77490c342aaf04d8e66403df098a2d81ead012670b77816a8bb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_147/attempt_1/joint.json",
+      "bytes": 3048,
+      "sha256": "a20bd61cb5a543fabd65c66daa4a87219f4e1d1214e8baf97c59c70e45aa3d45"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_148/attempt_1/joint.json",
+      "bytes": 2852,
+      "sha256": "25346f3cbeb60f26b153da908bb75ce12b2e0a606568671fc88bf7cb61a30a70"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_149/attempt_1/joint.json",
+      "bytes": 2736,
+      "sha256": "152e9288640b1f893e1178a5a0c4dff2ec6a5bde6cc074e00ab58c1347499d07"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_150/attempt_1/joint.json",
+      "bytes": 2109,
+      "sha256": "a2cd0ea682b4194ac870cfb90f4bc1b74e62357e12116b170a5704365d16efc9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_151/attempt_1/joint.json",
+      "bytes": 2474,
+      "sha256": "637aa9d632e170f0d39f16f8f41bd6aebe704c5ec009887651b50c950ed5cbb6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_152/attempt_1/joint.json",
+      "bytes": 3122,
+      "sha256": "776cb32cb6d813c5939bf219c7da8f24043bf3803822250a96c6235a16ce195a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_153/attempt_1/joint.json",
+      "bytes": 3321,
+      "sha256": "a1b9a59fc9c04a65e44ddf30ef4cd1b71aecc02db20ed609a25b0614c1dee68c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_154/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "02328b5b055432a53c5ad1f0db4737e21789758c750af7a145939a7562d2de51"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_154/attempt_1/joint.json",
+      "bytes": 2242,
+      "sha256": "9026cf36b5a811b3e8c7ed1d4e3e1d98c140962db77c67283b7ad7a40c05c17c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_155/attempt_1/joint.json",
+      "bytes": 2814,
+      "sha256": "b52b864de1a6ebf8e91d5722adce59049d02b7be2e5f35fe1f257daa3ec944af"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_156/attempt_1/joint.json",
+      "bytes": 2370,
+      "sha256": "692c6e8d90cbcb7fd3b16186157449b002c1b1566b48f2f61ff7a93e28be21cb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_157/attempt_1/joint.json",
+      "bytes": 2362,
+      "sha256": "5b7fe6175c76a4d7cb67b1f12be3b15976bf8cbadd6db84251b5c2b217de6477"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_158/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "3328175ecebc5a7a093b3061672292018bf55f25927eb60fababba197073f460"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_158/attempt_1/joint.json",
+      "bytes": 5299,
+      "sha256": "f57585c23e81db59abfbecd50f87474cde74224e0676e621ee4a1bdc0981942f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_159/attempt_1/joint.json",
+      "bytes": 2244,
+      "sha256": "34f2e62eeb26493ffb2f85349730c5bb0e89ecb3ff3c97e5e937460e09aad8db"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_160/attempt_1/joint.json",
+      "bytes": 2376,
+      "sha256": "d9cf2147441116b96f199bdf02242621cf3ce5c904e995db31222594018a6ae6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_161/attempt_1/joint.json",
+      "bytes": 2583,
+      "sha256": "8ba37cc58fde87fdfe6d43c061b2290fdcef63c5a9c15aea98a5da3ba8891432"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_162/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "4b1ce37484265582f72facc20b9aa12bb4c64689a95de922a44f52796402a537"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_162/attempt_1/joint.json",
+      "bytes": 3606,
+      "sha256": "b3276cd2438d945f8ec344f32f952640bb31d327ed873d4102e7800a7371589a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_163/attempt_1/joint.json",
+      "bytes": 3384,
+      "sha256": "5da11c0272672eb4ea510c96150f5637e4d61b2a62ee7ada9b9e72adc98b80c0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_164/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "273708e4a0fd30748af30ee57fa6c6e22f029f28cbdc4be3fc97115c569a86fb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_164/attempt_1/joint.json",
+      "bytes": 5096,
+      "sha256": "912453576dfbef95577eebaa18eb096f4f1ee0de79f8527075d1b3b32eaafa17"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_165/attempt_1/joint.json",
+      "bytes": 2535,
+      "sha256": "9a6fad2e3efc72507f0bf2297cc22038a808e79899e65a3b1329d339605e9c16"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_166/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "7529d58f88c303d5d04b0207d42375e148b63512aff24732ec0e62337a58d425"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_166/attempt_1/joint.json",
+      "bytes": 6198,
+      "sha256": "7646bb3b36484ac177d8f9265ad0467edad9a595e47c948f7a717a09a1a1c915"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_167/attempt_1/joint.json",
+      "bytes": 1985,
+      "sha256": "b2358817e3c8056ced62e6f8a314bf414b937ba8eb7f8b0d7e466b145de2df41"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_168/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "121b7197b1b3694e9981684ca3a8ff33e5916be3c03dd1e0ff13308a7ee6e8e0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_168/attempt_1/joint.json",
+      "bytes": 2632,
+      "sha256": "275d9e85581750d005cde6565e24340303290d9a471df6234a7d246d60694995"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_169/attempt_1/joint.json",
+      "bytes": 2153,
+      "sha256": "b07bb3d824bd10cffb31ecae4f0418e17aebc29b5f83bbf83efb4ced97355737"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_170/attempt_1/joint.json",
+      "bytes": 2383,
+      "sha256": "eba8b9ae70577fee0deb787dd90cd5007de9ebc1bef6ebfffdca47b90319698c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_171/attempt_1/joint.json",
+      "bytes": 2832,
+      "sha256": "25667670ab9fde58937519daaf40ab539f7fef6851c278a4ba9f90accefb9bf9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_172/attempt_1/joint.json",
+      "bytes": 4279,
+      "sha256": "4e6e3f5e8a325bb39d8429738b955d3d5d22d6dd575770d1a408a9c35ad1fa34"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_173/attempt_1/joint.json",
+      "bytes": 2727,
+      "sha256": "29195c2fd88e69d96fa598f868fdac9ec520f5acfa05591574d0db17c57c60b6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_174/attempt_1/joint.json",
+      "bytes": 2967,
+      "sha256": "c9df627d4b43a27bf707ed6e9cef2527d371daa212f923b6fba056784557005c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_175/attempt_1/joint.json",
+      "bytes": 2504,
+      "sha256": "da44696fb8614d1a73732ee1b9685ab7651faea238ef495eca2203df60a785b1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_176/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "301a968cf6316c73115bb8d7fa6375a718f987bc8bde0d32396476833165af61"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_176/attempt_1/joint.json",
+      "bytes": 2720,
+      "sha256": "a252f4cff2af4aceda48c7cf6c20d07dd9e96b6cc1d3667d1ff0ebe686bf4b5f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_177/attempt_1/joint.json",
+      "bytes": 4064,
+      "sha256": "457a54feb788b84a161cc06c57ade4b4e1dc0e9b7ce4a39ef87c2d9a672fd5eb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_178/attempt_1/joint.json",
+      "bytes": 2120,
+      "sha256": "a8e215e72aa1de11f04eab67845925831f4bc59f126f353b56e8880307330476"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_179/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "7574073119b6a62da88750e6e794342ae063d924233c7623ad5eb8bc08ff5fdb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_179/attempt_1/joint.json",
+      "bytes": 6065,
+      "sha256": "efca1606267f4dbb1eebd28e19ce9393c7f28fae7f38567c61c68804f14e3522"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_180/attempt_1/joint.json",
+      "bytes": 2838,
+      "sha256": "6a001ea7676f9ab1cd61b4c977e4234f89e19ed0113fb081c60a568c695c600f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_181/attempt_1/joint.json",
+      "bytes": 2492,
+      "sha256": "f9a9a50aca210435d9c8f0e5dc2c87d44d69c94dbebd32d5ce33241a7408b4fa"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_182/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "eb127ffabf64c1f020e90443b50d45271c2a6dc495898cbc55bc691d7cbf02ec"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_182/attempt_1/joint.json",
+      "bytes": 3158,
+      "sha256": "97f19f7057dbef79e96bfd7515ad271119da1bcb72d3216103a5a10ccf255cdf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_183/attempt_1/joint.json",
+      "bytes": 2382,
+      "sha256": "7223ac6b71bfbe44b7e51b165c1c98e407794d98e8735e8abdfaaa13702f9dea"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_184/attempt_1/joint.json",
+      "bytes": 4800,
+      "sha256": "457509a39f0c7172495c5b3e26aeb7396f64a429e3faa660e5b4b6126267b20a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_185/attempt_1/joint.json",
+      "bytes": 2447,
+      "sha256": "40e61c0ea66e52ac96dca0e2d39438164390b00baa011b3f51e8d09722877cfc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_186/attempt_1/joint.json",
+      "bytes": 2340,
+      "sha256": "c29fedf2891383c5eccfd71244344d3e14f42621f91b8b71c8627816bb3a6d05"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_187/attempt_1/joint.json",
+      "bytes": 2740,
+      "sha256": "4f07dae8306bc681e489f0c679bd85dc068931976b9957c167c128133c60d60b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_188/attempt_1/joint.json",
+      "bytes": 2160,
+      "sha256": "47cfc0ed977f7a19a5e721593d6f05bab03f84db7711bc849b19b8048a37674d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_189/attempt_1/joint.json",
+      "bytes": 2594,
+      "sha256": "9246bea914a1f0b1041da27db8fbadb9efb4c3ffb84ece71fef701ed9c7efad7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_190/attempt_1/joint.json",
+      "bytes": 2427,
+      "sha256": "6ee31634344fc8b6f6548ba78b86aecec4346ba8d110e14a0407aa892febfa38"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_191/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "435c9569ef17639e170e58a0aa54d56b5964b77dcd2cef2b4849d806228d9eda"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_191/attempt_1/joint.json",
+      "bytes": 6172,
+      "sha256": "6532ddd6a779a783479b135919aa877713553ffbfc195b24ebbec3b3206e33dd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_192/attempt_1/joint.json",
+      "bytes": 3255,
+      "sha256": "0daa6024c4429d60934b498e5b1042d1c50e44a3074e8ceadd1a991c5dc22867"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_193/attempt_1/joint.json",
+      "bytes": 2071,
+      "sha256": "ddfa194199db244bf2646fa76afd31a0d92b4b8c67be35e47bc7b747787839cc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_194/attempt_1/joint.json",
+      "bytes": 2684,
+      "sha256": "85eb5b886bf8150c3ae8eb734e5f93894b56fd122be27cb0dcc4ec2eb49d3045"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_195/attempt_1/joint.json",
+      "bytes": 2157,
+      "sha256": "a0c5102bf867c686644c71b7a17ffba7429f854a8fa6d93e7c7e1c447c1c31f7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_196/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "637ffee8c58ebf0f02a6ccdac338d9ab2b45efebb62aa622af0ec9b4915de8a7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_196/attempt_1/joint.json",
+      "bytes": 3702,
+      "sha256": "75e50bff92d5a203d30d3a35bfc80bd40f8f01f89d46b4a57860c7acaf244e46"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_197/attempt_1/joint.json",
+      "bytes": 4454,
+      "sha256": "d4f819be1ec6eae76c82ac44f92ba8fb1f6f67b0a01d8aa3b914ab59586c37f0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_198/attempt_1/joint.json",
+      "bytes": 2379,
+      "sha256": "970b6d206aa7afe08f1dee15558dbacdaf82d090ce5b6dbbe2c182ef2f62efdf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_199/attempt_1/joint.json",
+      "bytes": 2084,
+      "sha256": "a11da4b4ff2cd12f60def7fac7d847accdfe70be7dbd8898399787f0b2de8a4b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_200/attempt_1/joint.json",
+      "bytes": 3451,
+      "sha256": "235403181337a11282218ff540909adb6a28cc30a4fc15fea2d3c683a1e83d79"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_201/attempt_1/joint.json",
+      "bytes": 2048,
+      "sha256": "fdf17829981f698dd5177fafdff32fac7eb77fbb61b8a40686bbf98c0d8e680e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_202/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "5e2af2930148cab59e92558a8081f3fc6d9df459af8e99855ced01f401993dac"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_202/attempt_1/joint.json",
+      "bytes": 2308,
+      "sha256": "e533f0f9cd23cbd9d26a395045bb526a59974af155a4bc5131efddc8484f0e8d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_203/attempt_1/joint.json",
+      "bytes": 2276,
+      "sha256": "8eedf702866dee5a9805c3ff56a434c648a9a0e998b58195c4aab3d4445f709d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_204/attempt_1/joint.json",
+      "bytes": 2097,
+      "sha256": "9b13ad6b0e02f224a013d9407e3af2503446acf7b3bfa073dedd296abc6d653d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_205/attempt_1/joint.json",
+      "bytes": 2698,
+      "sha256": "df136f82dacff1c4bac9cd12a32050e9ca0e749629be7eeabac40c027d804cc5"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_206/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "57c58f04c3dd0e16e8821567e5536be8601d29828840118eefdaeb2a0916694b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_206/attempt_1/joint.json",
+      "bytes": 5486,
+      "sha256": "f2aa94c670bcd625c6d5c0f1bdf605cbffe9d418ace0fbf38aab9ddf8746d9a2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_207/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "baa93675ebd0dd100e0d1a53bca4e66fc3912840332eed786983edbca41c552f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_207/attempt_1/joint.json",
+      "bytes": 5533,
+      "sha256": "d235a41d5aff3f471deb07e08459ee311f966b0ba72e17d9ed7801960f1052ac"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_208/attempt_1/joint.json",
+      "bytes": 2182,
+      "sha256": "aaadf9c7213325bff9909ce9264f7ca43056ad619445a928d7eadb64de2977d4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_209/attempt_1/joint.json",
+      "bytes": 2134,
+      "sha256": "5c83e2845e85d7b277119ef455868fc025a25ccec87665788a2621574f4a8f81"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_210/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "3d007fa12bc45b63e18556f1dec5368a310c279db67cb9d9cb1306dc3f0bd057"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_210/attempt_1/joint.json",
+      "bytes": 3085,
+      "sha256": "dd11d95c3ff309429b8c38c1a85624b775d627cf4a1680bd055f98c88b2f54b7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_211/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "9faae8bc07919526be84df2841985123c4f86f9bdd83fbea164478485b5688bd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_211/attempt_1/joint.json",
+      "bytes": 5618,
+      "sha256": "24b7eb36aa517483d6c3f05a8faf091ed4171a55514cb70b810061960450dcc0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_212/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "df905739e87509a61063584db6c1ee50fce7b71133c8e20e7ccda2f879439f33"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_212/attempt_1/joint.json",
+      "bytes": 4660,
+      "sha256": "d34dc1040340dc694231ca7c154a8e42c9dc1a182fe86999bb407de5be63392b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_213/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "61056fe5913d7f406bfe0b49392519fea5c6c81c1bdfc371a3e5963bcb8c4779"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_213/attempt_1/joint.json",
+      "bytes": 2082,
+      "sha256": "334c80cd8ebba404d4aa819de1149dd394714afb9519473fbc1214c218c7b959"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_214/attempt_1/joint.json",
+      "bytes": 2228,
+      "sha256": "50816b37aa26c765996367b8f75eb1b7fb682d8da8fea868a525d69cc7bb1bac"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_215/attempt_1/joint.json",
+      "bytes": 3232,
+      "sha256": "6607d40050f283a758cb4d230dfaf6d6c68d2675ac666af0f22b6d8fb21973b0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_216/attempt_1/joint.json",
+      "bytes": 2470,
+      "sha256": "8224c4ab0de4393d590b99a91c1819cc139685bae10dbd25a2e529a1447bed4d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_217/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "9c2470ed3153d5141c3f08b9eb847f8de77724f9878b6a130e204c3c5fa6ca42"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_217/attempt_1/joint.json",
+      "bytes": 3930,
+      "sha256": "97a503d4760a9500d1497b39363e704b7523afe436e45b3ff7225f97e193731e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_218/attempt_1/joint.json",
+      "bytes": 2947,
+      "sha256": "2da4b9de6bc3c424ca2e16cfe4d3457ce8775228a31b51f698d88b577cec7968"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_219/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "41d93cf77cb8ae03ada6234f67df0a518c492b3286c41e1b7cf33ad15859980e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_219/attempt_1/joint.json",
+      "bytes": 3084,
+      "sha256": "90aa94047e926be6aff3335cc906af03ebfc9cb4ff531b79b520d8c2175f6a43"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_220/attempt_1/joint.json",
+      "bytes": 5986,
+      "sha256": "f356f82de80a5c2388d91a9fda96c9e3f3f93b978152271e8c3dac4aa2099ab9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_221/attempt_1/joint.json",
+      "bytes": 2854,
+      "sha256": "f9c8a5e85e7ac824b234b7b4ee3df7305ab8eaf7037efe628816219a782795b4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_222/attempt_1/joint.json",
+      "bytes": 2466,
+      "sha256": "33beca4a2c2865f8d563f8446f1586c656213d9f9124ffe040b1645893270f64"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_223/attempt_1/joint.json",
+      "bytes": 2594,
+      "sha256": "c89a75a60edf1d87e606e23b6e8f4e35dd534609c7ec7da92e4bc682482d6e72"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_224/attempt_1/joint.json",
+      "bytes": 2306,
+      "sha256": "45cf619e5ecc66ef6acd3e2d133c6e79a1b2ff84639babd3aeda2fd652962cfa"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_225/attempt_1/joint.json",
+      "bytes": 2511,
+      "sha256": "930fd5e1219a27953e8e42ec2e524d958e4794c6736aaec68d16d45ca96a56bc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_226/attempt_1/joint.json",
+      "bytes": 2946,
+      "sha256": "6b6bdfa70839eb3bab61a7d71a1fd10a98396c99927ac84cd0921475a95d65b1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_227/attempt_1/joint.json",
+      "bytes": 2720,
+      "sha256": "16156a7f777acc85c4c82062fc7134dc79426f88e32a41fa56d93f58bea465c9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_228/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "22866cfa1f06fd3f6c763a1e8c0da132d3b01ee7821a6c3236bda4f63edf5f80"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_228/attempt_1/joint.json",
+      "bytes": 5016,
+      "sha256": "453308758d8fbd1d2692ba14b6f46a4b08071d6339e1c60b7e5774838c6987ee"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_229/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "b576580a1674ba7e6c9ca6628b63cbc0def85651beb31263864e64bd27204ef8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_229/attempt_1/joint.json",
+      "bytes": 5480,
+      "sha256": "3a23ea7c45913a5b1c869dcae5e0a96cc1661dfdcb1ebc9e2a9e717db5912300"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_230/attempt_1/joint.json",
+      "bytes": 2335,
+      "sha256": "7051d024b76d865d0cf1a3f96730e52bcbd3357c8012b515e9528cfa737a3b1e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_231/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "31ed593e74030cde521126c94c152a2be0c8f4eb3355889acc29cae4a016d984"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_231/attempt_1/joint.json",
+      "bytes": 3123,
+      "sha256": "72ff6628f146924df4290deded17daeafd83b660d98fa980430a198dc7ab139b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_232/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "9bce1540dceaa72d2b1d4ef25e93d4fd42fde9cdb1fcafa8d4c1da0489afa3cd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_232/attempt_1/joint.json",
+      "bytes": 2987,
+      "sha256": "b1db734b0cc780afc6953a9e77afaf7e6cd24e45c6d306033acd6805104758f0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_233/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "986b364aea4a099a804b2e56ef7d2b3710a7bf955902ca837d322d3c7eba10b6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_233/attempt_1/joint.json",
+      "bytes": 3891,
+      "sha256": "e729f0e77731032b3a74e92e91686687d380032af9fd295a57c85b2f34dd4cad"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_234/attempt_1/joint.json",
+      "bytes": 3239,
+      "sha256": "cc60b9f2928b5c4816c5c21c6ae55a643014f8ef87b55e32de6d2ea7363b5f08"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_235/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "17f38ac0328740ea4683e1acd33dcc853c03a89f926ec4ed14a099130d007c52"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_235/attempt_1/joint.json",
+      "bytes": 2919,
+      "sha256": "78448e5c1051a171abfb81b2b144d55ad94ffe580a9be64a1409d97807c1d8b9"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_236/attempt_1/joint.json",
+      "bytes": 2362,
+      "sha256": "4e1136b4c1dd91812f1a203aef0ec8c1c11eeee6f7e37bc977cc3e3ec6abb09f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_237/attempt_1/joint.json",
+      "bytes": 4329,
+      "sha256": "eae501035ca745e137a4749ab1460c70726160065a79354b9cf394ba3721ac18"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_238/attempt_1/joint.json",
+      "bytes": 3138,
+      "sha256": "a0c281af7c65146dc3d7815b5e5d9396df74e6d3d2f44caaf980bba88edef254"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_239/attempt_1/joint.json",
+      "bytes": 2136,
+      "sha256": "ac74dd9b443805cc47cc1dec48b2735429671caf83ca67175c719545220941de"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_240/attempt_1/joint.json",
+      "bytes": 2927,
+      "sha256": "9011637f0dd4082a557bbf73ed6cc8e066abda59ad841b4e6a454f14c3272212"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_241/attempt_1/joint.json",
+      "bytes": 2388,
+      "sha256": "d87abf39e999119bfb6c45109169476aaa03c79018f8ebb3a0630dd6e719a2cd"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_242/attempt_1/joint.json",
+      "bytes": 2286,
+      "sha256": "f179b4476bd940ccecf0b07c197582f72d8a386277436faaa7d7528abccb6cde"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_243/attempt_1/joint.json",
+      "bytes": 3187,
+      "sha256": "a1aaa6e338ab0248054c332012426f98363013336cd7d567b58e7dec06d8b509"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_244/attempt_1/joint.json",
+      "bytes": 2269,
+      "sha256": "d75a3c39383081881632b97a687e4fcdfa9bc47deb9d8dafc0a0bf579429453e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_245/attempt_1/joint.json",
+      "bytes": 3498,
+      "sha256": "6ff31b2c7fc6ba4a1fa8fc0ccfbc67283d489d0cbada08f2e1d399320245d41f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_246/attempt_1/joint.json",
+      "bytes": 2092,
+      "sha256": "246c1ba832ea528593d3b23d040b9a2c83e00edf4ee27eedaae385da9ea7cb4c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_247/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "71f71caf43c4756479eeabfd9ca86e7dde3208fe682bbe3e9c73f6b8ee293622"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_247/attempt_1/joint.json",
+      "bytes": 2622,
+      "sha256": "675c0cec320561ec43259f771c873ca478c585d90623e4951ec32f597eb41c1f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_248/attempt_1/joint.json",
+      "bytes": 3332,
+      "sha256": "b58d6f5c5d33445add9b4d374c1cd93ca4b3811e841d6f1c282493d7e9138120"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_249/attempt_1/joint.json",
+      "bytes": 3028,
+      "sha256": "44fb05826cc61237f29c3549277b407830b2b53db1de27eb70d5cb797556f392"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_250/attempt_1/joint.json",
+      "bytes": 2403,
+      "sha256": "ac2d2bd23c4a8f56445c5c4aa55a1725f1fddfbc71010b96a6923c18d1fe79cf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_251/attempt_1/joint.json",
+      "bytes": 2153,
+      "sha256": "6ba77cbce9013c9c14f41483fbe4e1d6c4f7a910e79afc62714b0020c0e510f8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_252/attempt_1/joint.json",
+      "bytes": 2538,
+      "sha256": "a876a038e99bcbcbf92179477fcfce8774d5b36b3933a1df3d0614ade91c36a0"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_253/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "91f80fc94ad438dbd983a6e95cc4da6bde81d64eb9d8deaf8eac8535ef340fa7"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_253/attempt_1/joint.json",
+      "bytes": 5924,
+      "sha256": "602babf34823230e10cdbd5b02cf339a007ae5e5f51495434df0cda178531164"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_254/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "95acd72f165b8e397908d9e9ae8abf933fc2644d64e5034904bed400a54ceb0a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_254/attempt_1/joint.json",
+      "bytes": 5170,
+      "sha256": "6e226a1c53584f0a82f4c1d626b8a4a4498c1f618e2645cb6c9775b20ca56ffc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_255/attempt_1/joint.json",
+      "bytes": 2999,
+      "sha256": "41426e6144df7b00ce40b0e7898a53ef8aa441402fe480cd9296f85fed14a145"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_256/attempt_1/joint.json",
+      "bytes": 2928,
+      "sha256": "0e20fff78cd275a14d4a9ae8c30d444724f1a8eabd72e7b051f76ab43177984d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_257/attempt_1/joint.json",
+      "bytes": 2705,
+      "sha256": "7f08fc2e0bf00116156d8cfe6f880c22c8e1802eaf53b14e0ed4cc27e95b5b87"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_258/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "024977b2524e28ad415c16ec501fcf33a3e8edc168de486fb3c33d307152a23f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_258/attempt_1/joint.json",
+      "bytes": 2872,
+      "sha256": "c062f5c5cbf598dac0ebc6c287188ab40e525a1c67ca92691b614a3e2194cf2b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_259/attempt_1/joint.json",
+      "bytes": 2802,
+      "sha256": "73c3d5ae6a758091b4161faeeaaa26c0bb91fcc686b08247265064cb5ca2273d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_260/attempt_1/joint.json",
+      "bytes": 2226,
+      "sha256": "ea30640395df40d506c62b45be7a7ac49acfdaeb09477bbd4f844456b0a36bd1"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_261/attempt_1/joint.json",
+      "bytes": 2389,
+      "sha256": "a0eafbad0973299813af7b9e34bc3db885ba2d124439129b49c5ebb516dd8054"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_262/attempt_1/joint.json",
+      "bytes": 2320,
+      "sha256": "9d06996ede200936d384cfd4fbbb478010287ebc8b75d054cb1abb65df6f4cfa"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_263/attempt_1/joint.json",
+      "bytes": 2810,
+      "sha256": "2e537736d2f6b1640c0f8e3336cb732b3fc724e1c141acb2b8da8bb62d91b21b"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_264/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "b6c687ca6a8fb2cd3ce428f76a3592563bca9efc74a62f6be02b488b8a872d9e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_264/attempt_1/joint.json",
+      "bytes": 5028,
+      "sha256": "76960a3667a86e171cfc4eea26258767ee13d8cc22c47030685398b42dae5646"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_265/attempt_1/joint.json",
+      "bytes": 2264,
+      "sha256": "957327851ad9763377111c5f29aabd301f96e8a4d346349a4f9bb460d7a19408"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_266/attempt_1/joint.json",
+      "bytes": 2480,
+      "sha256": "984ce9952cbada5bb70a8dfbb9ee0a5042af2d9011bd71475cdae1f6d5ddc347"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_267/attempt_1/joint.json",
+      "bytes": 2289,
+      "sha256": "50c210382faf50a537b641645584803f225d75e7d90616ae50ebc183cc390aba"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_268/attempt_1/joint.json",
+      "bytes": 3006,
+      "sha256": "bbd8821a075cef8ad09b02bc3bbe501488b4b454f1702da6f90c6a69f6cd3287"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_269/attempt_1/joint.json",
+      "bytes": 2422,
+      "sha256": "eeb5637c683a550ca01b5a2d36a603f4611aab22a828f931a70875ff8b2dc3cb"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_270/attempt_1/joint.json",
+      "bytes": 3119,
+      "sha256": "73147eea5b14d74f067ec28946ca0245daa5476008cfba66a4384c7f83534293"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_271/attempt_1/joint.json",
+      "bytes": 2445,
+      "sha256": "bcf2d835b562ef20f0216bdc38855196aab8c6b6500ee5bdfc8f60913a76af28"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_272/attempt_1/joint.json",
+      "bytes": 4154,
+      "sha256": "118bafedcf4b5e69cbf8a2cdbfdbc9662cf3c6c365dce1da3b81b70a5e30f0c6"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_273/attempt_1/failure.json",
+      "bytes": 274,
+      "sha256": "191e81653301b1c766bd1c43d0f84c324b1b08cc7a1b213bd4b7d8af2a42d7b4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_273/attempt_1/joint.json",
+      "bytes": 3348,
+      "sha256": "a83104b53617f3ddfe45b0d143472236b4b0ccfa6d8c00d531c7bd3f40730110"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_274/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "9146707e8799687b84a82560d2e6b99d589e2f1203967058ef894d6bc508fa37"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_274/attempt_1/joint.json",
+      "bytes": 6180,
+      "sha256": "e7167e734a4c23cd14c296c17efd0affb8a048f91b0468d5b5ccc6112dcf063a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_275/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "353d1aba5c0882c1c0d9a2ef325ded1889adbd6ac61f2c7d1ba8a366dd2f62da"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_275/attempt_1/joint.json",
+      "bytes": 2460,
+      "sha256": "8c5be635ac289ebdd5c4532bb5cdc08fdeab9177ece7cd66d14d226020bd3136"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_276/attempt_1/joint.json",
+      "bytes": 4311,
+      "sha256": "9f1061622089ed909725880596b59d961ce09c58e7e2bd2037877b454a2ee944"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_277/attempt_1/joint.json",
+      "bytes": 2013,
+      "sha256": "39ab57e5d3b12c8180458f6742717e12a45d81c0c2c7bea85ef6d19f4cd6a74f"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_278/attempt_1/joint.json",
+      "bytes": 3637,
+      "sha256": "52208bea273e8f054a1ecb771a82235a3c4938e5fdb5e43a5eb450adb991fddf"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_279/attempt_1/joint.json",
+      "bytes": 2708,
+      "sha256": "a825f12411b4556fd9e506c94c3ea17b9eb4000bb48f96199acad02c1b4c3113"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_280/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "f8c472dddef673f32b7666ff345d73f5ad34d954093dfc51f7daf22142d147b3"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_280/attempt_1/joint.json",
+      "bytes": 3656,
+      "sha256": "1ec6bb102695055c156075295093dc9adac0bf5f7073dd726a257dafdf29f5ff"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_281/attempt_1/joint.json",
+      "bytes": 2768,
+      "sha256": "9c95d5ed46a3725e927c182e9fd8345e59387f25ad17e09dbfd960413dbd7769"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_282/attempt_1/joint.json",
+      "bytes": 2124,
+      "sha256": "ab6ddc6c71dd40e3a8a1f57e9317e72869c897620f74cab01c161114e8731162"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_283/attempt_1/joint.json",
+      "bytes": 2204,
+      "sha256": "9a6c3fda598d9f9e4f2b066c164b85ab060e9b0445368a2b2478e936b69b9523"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_284/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "de49c31577432ad5a23b8021809d9ca8ce7066dd2ca1d2775a7041420de447df"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_284/attempt_1/joint.json",
+      "bytes": 4812,
+      "sha256": "d83cb21d9f4c75d97b7d9b6029826d7a87d03b06f46ba820252053756d4ee257"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_285/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "3e9c36f69f8905852639d605698992f4b5ccb0a2c0d120f294895d845fa7c3d3"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_285/attempt_1/joint.json",
+      "bytes": 2045,
+      "sha256": "f6624b5229406e0c73fd76133b8352149b3775c157f79eabc456087841b46781"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_286/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "3261a137d74441dce83e71eb1897ab378b2d5b518624a67321fc63fea507dd9e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_286/attempt_1/joint.json",
+      "bytes": 2570,
+      "sha256": "362f8a87876ba76d66a54d0fcda02a90d1d1ab74b64252ada7de0f0acef78ae8"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_287/attempt_1/joint.json",
+      "bytes": 2230,
+      "sha256": "b591f45b21e7a6859633930aee5a4b26ff1bf61cfc2e077d9f91eee37b229781"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_288/attempt_1/joint.json",
+      "bytes": 4278,
+      "sha256": "7fb025d96c12f62e29a36bcfdab15d38df82caa3193eddaebdfc97a49242399a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_289/attempt_1/joint.json",
+      "bytes": 2980,
+      "sha256": "3d4b871956e190e8091a540419a69125db99ef93adafba6fe404b32d4ed94e78"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_290/attempt_1/joint.json",
+      "bytes": 3032,
+      "sha256": "f5305fb259622f101bcdfd60c3a592741968e3063a889376a24b62b71884371e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_291/attempt_1/failure.json",
+      "bytes": 257,
+      "sha256": "5ed679e47810ae05d4438b818729bcb3efc4eeb428fb2372b4bc2410c622569c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_291/attempt_1/joint.json",
+      "bytes": 2418,
+      "sha256": "ea6bddd82377e33a7e912bc1bbb2125e7e33467070a92ea40bc2de470d23ca7c"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_292/attempt_1/failure.json",
+      "bytes": 314,
+      "sha256": "a7284a38ecfcd00d9fed9c7ee670d90ddf3978f90766ed3d494db6f6c6558ddc"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_292/attempt_1/joint.json",
+      "bytes": 4098,
+      "sha256": "d31459cc7b834b3169414c8e10d05dc5a89f9cc66063d6f278c5b07b1cc699a3"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_293/attempt_1/joint.json",
+      "bytes": 3524,
+      "sha256": "6e96500714b5e0c2c0d90d97cc9cd4f68eb6528ea526880b892350c87404fd68"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_294/attempt_1/joint.json",
+      "bytes": 3049,
+      "sha256": "6e7f0a89dbce4f9632bfcdbadfcaaf638b37b4a53b09856c1179b720554b5c3a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_295/attempt_1/joint.json",
+      "bytes": 4720,
+      "sha256": "6e85b5f5c7579857972a896a3af3b5f3a4b5d8bfb592475dc8c0d26942858d65"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_296/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "5073948ca67cd7016446e8051b900a4465c95e32461bd2941aca6d82a6ede6b2"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_296/attempt_1/joint.json",
+      "bytes": 2844,
+      "sha256": "fd2c718e139764cf1b36f4aa82910065f931de2616d5f8958fba3ad026f080a4"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_297/attempt_1/joint.json",
+      "bytes": 4442,
+      "sha256": "97fb175a68576650756bc7c64c639412c17a8ed818028d2489da73af575f0435"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_298/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "43c1a0a24b211f7ffff964b815eec7baf5557112ddeba8aa829df30a1ac0f7ab"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_298/attempt_1/joint.json",
+      "bytes": 2349,
+      "sha256": "96ef4653938c7ed2e13341dcdd27fb1bca7968e2faed905332e29b535488903d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_299/attempt_1/failure.json",
+      "bytes": 285,
+      "sha256": "65ff17d4ba1f0c0a2c5155b9c22b0cb2d4816aca5c48df4bf943a8915eef098e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_299/attempt_1/joint.json",
+      "bytes": 2441,
+      "sha256": "925f030f64171fd785e8209500fcd244ec025219faeb2d2420bdac49102af01a"
+    },
+    {
+      "path": "实验工作目录/results_optimized/response_audit/full300_1791245259878419895/record_300/attempt_1/joint.json",
+      "bytes": 3649,
+      "sha256": "062ff83dd5d84c4f18c3a803fe1fe93fa6d1cca6ca16570d6c34c4d8359ba77e"
+    },
+    {
+      "path": "实验工作目录/results_optimized/run_manifest.json",
+      "bytes": 2663,
+      "sha256": "ae2574b6b87359b4bc85d06e656e6056c0571af8e1dc04bd0a0d14f4c9cc1a0d"
+    },
+    {
+      "path": "实验工作目录/results_optimized/terminal_failures.json",
+      "bytes": 24445,
+      "sha256": "f2dfc97fe74d6debb84be434a0a635b4cf76ea41486250d75e9f3d333b71b10f"
+    },
+    {
+      "path": "归档说明.md",
+      "bytes": 2404,
+      "sha256": "1c5adc23e6cee81fedfb24bf494560da8f47b07a7d61702731fe432e60f1b0eb"
+    },
+    {
+      "path": "统一评价依赖/03_统一评价.py",
+      "bytes": 6631,
+      "sha256": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee"
+    },
+    {
+      "path": "统一评价依赖/统一结构.py",
+      "bytes": 3723,
+      "sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c"
+    },
+    {
+      "path": "统一评价依赖/运行归档评价.py",
+      "bytes": 630,
+      "sha256": "4a255dabdd52905d7e797320c737671102be6b26a4cba01a4f7c1c94ece5d8ef"
+    },
+    {
+      "path": "评价Gold快照/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
+      "bytes": 148577,
+      "sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d"
+    }
+  ],
+  "removed_redundant_files": [
+    {
+      "path": "原始交付包/ADELIE_Optimized_Results.zip",
+      "bytes": 574130,
+      "sha256": "5a8d6dee61ae04594d47a5fe042ea901c1a91950c1dee4738ef2f958a2c44818"
+    },
+    {
+      "path": "原始交付包/ADELIE_Optimized_update.sha256.txt",
+      "bytes": 95,
+      "sha256": "e66a9d614e783d80bd60213744b5aaf74b6935e16289bfebd0850f65c340e4af"
+    },
+    {
+      "path": "原始交付包/ADELIE_Optimized_update.zip",
+      "bytes": 49303,
+      "sha256": "3ba52707be3605a4bd368bf5a373efb61b834f10480d327404200958e6a03968"
+    },
+    {
+      "path": "实验工作目录/04_package_results_optimized.py",
+      "bytes": 753,
+      "sha256": "13863529ae61d1380c28299f6d95513dc91af3e554a354f0e5d1586521624905"
+    },
+    {
+      "path": "实验工作目录/results_optimized/full300_failures.json",
+      "bytes": 24445,
+      "sha256": "f2dfc97fe74d6debb84be434a0a635b4cf76ea41486250d75e9f3d333b71b10f"
+    },
+    {
+      "path": "实验工作目录/优化代码文件清单.json",
+      "bytes": 1707,
+      "sha256": "6fcf847c125d02e2e58452912f6efb202f7d2f05662d34ecf0a84c4a2d385bef"
+    },
+    {
+      "path": "实验工作目录/运行说明.md",
+      "bytes": 1876,
+      "sha256": "a1723c75ac3b45a5330f25d7006f8544c65092c4b121dcbe192d4facc07e62c1"
+    },
+    {
+      "path": "归档说明.md",
+      "bytes": 1510,
+      "sha256": "7ef72658de9b352218d99318e7b207e6ffb6e5503aa9f0c0e1eddf6384627c24"
+    },
+    {
+      "path": "文件指纹清单.json",
+      "bytes": 98682,
+      "sha256": "4f2a0acf17da65c58c48346e04e008ee17044addaac49e1bda805f685bf44bfd"
+    }
+  ]
+}

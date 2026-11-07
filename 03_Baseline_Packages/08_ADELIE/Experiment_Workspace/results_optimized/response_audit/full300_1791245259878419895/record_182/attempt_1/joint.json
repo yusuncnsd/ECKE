@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002561",
+  "ann_id": "test_182",
+  "text": "当归润燥汤。大黄甘草饮子治男妇一切消渴不能止者。\n大豆（先煮二三沸，淘去苦水再煮） 大黄（一两半） 甘草（四两，一指长槌碎）上用沸水一桶煎药，同煮三五时，如稠强更添水煮，豆烂软为度，盛于盆中放冷，令病人食豆，渴饮汤汁无时，候食尽。如燥渴止罢药，未止根据前再煮。食之不过三剂，其病悉愈。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n当归润燥汤。大黄甘草饮子治男妇一切消渴不能止者。\n大豆（先煮二三沸，淘去苦水再煮） 大黄（一两半） 甘草（四两，一指长槌碎）上用沸水一桶煎药，同煮三五时，如稠强更添水煮，豆烂软为度，盛于盆中放冷，令病人食豆，渴饮汤汁无时，候食尽。如燥渴止罢药，未止根据前再煮。食之不过三剂，其病悉愈。",
+  "seed": 20261175,
+  "repetition_penalty": 1.1,
+  "input_tokens": 599,
+  "generated_tokens": 179,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"大黄\", \"甘草\"], \"方药\": [\"大豆\"], \"疾病\": [\"消渴\"], \"症状\": [\"大渴\", \"渴疾\", \"渴症\", \"谷消\"], \"病机\": [\"消渴\"], \"病位\": [\"消渴\"], \"治法\": [\"大黄甘草饮子\"]}, \"relations\": [{\"head\": \"大黄\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"甘草\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"大黄\", \"甘草\"], \"方药\": [\"大豆\"], \"疾病\": [\"消渴\"], \"症状\": [\"大渴\", \"渴疾\", \"渴症\", \"谷消\"], \"病机\": [\"消渴\"], \"病位\": [\"消渴\"], \"治法\": [\"大黄甘草饮子\"]}, \"relations\": [{\"head\": \"大黄\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"甘草\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:22:43+0800"
+}

@@ -1,0 +1,38 @@
+{
+  "version": "CARE_balanced_fixed100_20261004",
+  "files": {
+    "care_data.py": "80bdc3f25a9ebfaf1d19a6bfe3be61b10059c80b4b9ee1da0c81feb5ec1c86f0",
+    "care_model.py": "e0b1cefe041d716a64fbfeea0cb9abd2263677b5a59f6a9bd49cd55bee06cda6",
+    "CARE_run.py": "948a67eaf907342929b51070e385d1050df0534935e5e3bf5604cb3df77d15d5",
+    "config.json": "54c8122a5ce63a741a5476f9a80c9bcbcd2343180f5fa7db5c3132c260e0565b",
+    "author_source/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "data/cv_fold0_train.jsonl": "8ac013919a4ed12f70212367ec840da08c3230b845959f7daa6aa768894f7989",
+    "data/cv_fold0_valid.jsonl": "5be54b8baaab795379c87c4d89a8dbf6565be1a3892c0b14d1e7da0e133e467b",
+    "data/cv_fold1_train.jsonl": "f41b662272b537385cbe98660600b063b9124450ea896c1956394402da996865",
+    "data/cv_fold1_valid.jsonl": "15fc527c0b9b25ce47f6458374a526cf61429a57c34306295b071aab7bdcf7d3",
+    "data/cv_fold2_train.jsonl": "7ea478711112e99faa310970d4b0e2c104949a514fc6cce4e87125115540cb4b",
+    "data/cv_fold2_valid.jsonl": "dd29b3333d4e203f149e8ab25352f3bcea532b4fd5a51d86fc2b7e74d414b880",
+    "data/cv_fold3_train.jsonl": "9d99226ead0cdc5b8674c472d36dc66640f92d745eae056640fdb577cf235016",
+    "data/cv_fold3_valid.jsonl": "1b17c7305707a4251af759ece6a5cd6c2310312c5f793fa18c34f003aff994d3",
+    "data/cv_fold4_train.jsonl": "ee81da212dc0d3c18d8f1953ee1c8885999336e534cd1410bcec76dcd8bcbb04",
+    "data/cv_fold4_valid.jsonl": "f9853ef2d465775a3be124cdeae0f420d297e464a044054cf243634117e6af08",
+    "data/cv_manifest.json": "4f11f8bb8f8e9f90adfe29815e16643fdb24ff2b507a7330deac4296d19a77b1",
+    "data/development_100_gold.jsonl": "34aafe57d8d1496230438d875b7345daa0949dbf7818fbedeffb0f8471e10c19",
+    "data/development_100_span_supervision.jsonl": "8e141df03015cebaf75da3c85a20d099485dda13e498fa23f4b601ce21afdc34",
+    "data/independent_test_300_input_only.jsonl": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
+    "data/span_conversion_audit.json": "8db8aab638805bc31d8aba95ad1e0b96cc95483ffa65a9b9d11cc2e5b8dd95e7",
+    "data/xiaoke_schema_v5.json": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+    "evaluation_source/01_外部方法配对统计比较.py": "1d166821996a4a59e98990c6a78a9d74812162f8e67213aa55dec527ea9cd5e5",
+    "evaluation_source/03_统一评价.py": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee",
+    "evaluation_source/统一结构.py": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
+    "author_source/code/model/care.py": "eecc4cae80c4365f54aa0b127cc88d8991c16e39f2d2bc0c39f4db0124328785"
+  },
+  "submission_cleanup": {
+    "original_training_manifest_sha256": "da825496b747a5f54a6a9ec28f8e61a5a534e6eb039fb4a19e22870d9630fdbe",
+    "removed_nonfinal_auxiliary_files": [
+      "CARE_evaluate.py",
+      "README.txt"
+    ],
+    "note": "Submission manifest excludes retired auxiliary files; model/training code, data and frozen cloud bindings are unchanged."
+  }
+}

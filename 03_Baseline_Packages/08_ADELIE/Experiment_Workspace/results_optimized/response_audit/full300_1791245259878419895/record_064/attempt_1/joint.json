@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000879",
+  "ann_id": "test_064",
+  "text": "家宝方大救生丸。变为小便频数。其色如浓油。上有浮。此名消渴。中焦得此病。谓之脾消。早夜小便频数。腰膝无力。小便如油。日渐消。肾宫日耗。饮水不多。吃食渐少。腰脚细矣。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n家宝方大救生丸。变为小便频数。其色如浓油。上有浮。此名消渴。中焦得此病。谓之脾消。早夜小便频数。腰膝无力。小便如油。日渐消。肾宫日耗。饮水不多。吃食渐少。腰脚细矣。",
+  "seed": 20260939,
+  "repetition_penalty": 1.1,
+  "input_tokens": 501,
+  "generated_tokens": 212,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    235,
+    135,
+    193,
+    31276,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"家宝方\"], \"方药\": [\"大救生丸\"], \"疾病\": [\"消渴\", \"脾消\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"]}, \"relations\": [{\"head\": \"家宝方\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"家宝方\", \"relation\": \"治疗\", \"tail\": \"脾消\"}, {\"head\": \"大救生丸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"大救生丸\", \"relation\": \"治疗\", \"tail\": \"脾消\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"家宝方\"], \"方药\": [\"大救生丸\"], \"疾病\": [\"消渴\", \"脾消\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"]}, \"relations\": [{\"head\": \"家宝方\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"家宝方\", \"relation\": \"治疗\", \"tail\": \"脾消\"}, {\"head\": \"大救生丸\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"大救生丸\", \"relation\": \"治疗\", \"tail\": \"脾消\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:12:53+0800"
+}

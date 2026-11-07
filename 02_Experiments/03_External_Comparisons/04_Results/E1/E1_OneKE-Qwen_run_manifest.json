@@ -1,0 +1,9 @@
+{
+  "version": "E1_OneKE-Qwen_v1",
+  "model": "qwen-plus-2025-07-28",
+  "mode_shared_cache": true,
+  "development_sha256": "34aafe57d8d1496230438d875b7345daa0949dbf7818fbedeffb0f8471e10c19",
+  "test_sha256": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
+  "schema_sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+  "config_sha256": "14188903efd65c09d2f1f6f1131ff3d691fa0674466076a23c60aa2065c30001"
+}

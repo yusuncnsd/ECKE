@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002213",
+  "ann_id": "test_173",
+  "text": "服人乳，大能益心气，补脑，治消渴证，治风火证，养老尤宜。每用一吸，即以指塞鼻孔，按唇贴齿而漱，乳与口津相和，然后以鼻内引上吸，使气由明堂入脑，方可徐徐咽下。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n服人乳，大能益心气，补脑，治消渴证，治风火证，养老尤宜。每用一吸，即以指塞鼻孔，按唇贴齿而漱，乳与口津相和，然后以鼻内引上吸，使气由明堂入脑，方可徐徐咽下。",
+  "seed": 20261157,
+  "repetition_penalty": 1.1,
+  "input_tokens": 497,
+  "generated_tokens": 178,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    236,
+    166,
+    145,
+    31313,
+    235,
+    178,
+    132,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"乳\"], \"方药\": [\"乳\"], \"疾病\": [\"消渴\", \"风火证\"], \"症状\": [\"大渴\", \"渴疾\", \"渴症\"], \"病机\": [\"消渴\"], \"病位\": [\"鼻\", \"脑\"], \"治法\": [\"吸\"]}, \"relations\": [{\"head\": \"乳\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"乳\", \"relation\": \"治疗\", \"tail\": \"风火证\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"乳\"], \"方药\": [\"乳\"], \"疾病\": [\"消渴\", \"风火证\"], \"症状\": [\"大渴\", \"渴疾\", \"渴症\"], \"病机\": [\"消渴\"], \"病位\": [\"鼻\", \"脑\"], \"治法\": [\"吸\"]}, \"relations\": [{\"head\": \"乳\", \"relation\": \"治疗\", \"tail\": \"消渴\"}, {\"head\": \"乳\", \"relation\": \"治疗\", \"tail\": \"风火证\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:22:00+0800"
+}

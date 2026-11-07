@@ -1,0 +1,608 @@
+{
+  "method": "D2_TCMERE_faithful_reimplementation_repair_v1",
+  "selection_data": "100条开发集五折；未使用300条测试Gold",
+  "epoch_candidates": [
+    12,
+    20
+  ],
+  "threshold_candidates": [
+    0.05,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "optimizer_groups": {
+    "encoder": "AdamW@5e-5",
+    "extraction": "Adam@8e-4",
+    "CompGCN": "Adam@1e-4"
+  },
+  "all_config_means": [
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.002127659574468085,
+      "mean_joint": 0.10252160901921589
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.0030888030888030892,
+      "mean_joint": 0.10300218077638339
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.004395604395604396,
+      "mean_joint": 0.10365558142978404
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.0061068702290076335,
+      "mean_joint": 0.10451121434648566
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.008333333333333333,
+      "mean_joint": 0.10562444589864853
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.2029155584639637,
+      "mean_relation_f1": 0.010526315789473686,
+      "mean_joint": 0.10672093712671868
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.002285714285714286,
+      "mean_joint": 0.10616566948064365
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.0031746031746031746,
+      "mean_joint": 0.1066101139250881
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.004469273743016759,
+      "mean_joint": 0.10725744920929489
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.0061068702290076335,
+      "mean_joint": 0.10807624745229034
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.008333333333333333,
+      "mean_joint": 0.1091894790044532
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.21004562467557303,
+      "mean_relation_f1": 0.010526315789473686,
+      "mean_joint": 0.11028597023252336
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.0027303754266211604,
+      "mean_joint": 0.1160029683164602
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.0035242290748898676,
+      "mean_joint": 0.11639989514059454
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.004790419161676647,
+      "mean_joint": 0.11703299018398794
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.006201550387596901,
+      "mean_joint": 0.11773855579694807
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.008333333333333333,
+      "mean_joint": 0.11880444726981629
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.22927556120629924,
+      "mean_relation_f1": 0.010526315789473686,
+      "mean_joint": 0.11990093849788645
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.0032520325203252037,
+      "mean_joint": 0.12109873885521165
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.003864734299516908,
+      "mean_joint": 0.12140508974480749
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.005095541401273886,
+      "mean_joint": 0.12202049329568598
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.006504065040650407,
+      "mean_joint": 0.12272475511537424
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.008421052631578947,
+      "mean_joint": 0.12368324891083851
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.23894544519009808,
+      "mean_relation_f1": 0.010526315789473686,
+      "mean_joint": 0.12473588048978587
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.0037209302325581393,
+      "mean_joint": 0.12336715344721094
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.00418848167539267,
+      "mean_joint": 0.12360092916862819
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.005405405405405406,
+      "mean_joint": 0.12420939103363457
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.006722689075630252,
+      "mean_joint": 0.124868032868747
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.00851063829787234,
+      "mean_joint": 0.12576200747986804
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.24301337666186376,
+      "mean_relation_f1": 0.010526315789473686,
+      "mean_joint": 0.12676984622566873
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.004395604395604396,
+      "mean_joint": 0.1268124512702826
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.004790419161676647,
+      "mean_joint": 0.12700985865331874
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.005714285714285713,
+      "mean_joint": 0.12747179192962327
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.006896551724137931,
+      "mean_joint": 0.12806292493454935
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.008602150537634409,
+      "mean_joint": 0.1289157243412976
+    },
+    {
+      "epochs": 12,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.2492292981449608,
+      "mean_relation_f1": 0.010666666666666666,
+      "mean_joint": 0.12994798240581373
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.026215878495658873,
+      "mean_joint": 0.11879917100559653
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.03019469277013755,
+      "mean_joint": 0.12078857814283586
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.03484597976102531,
+      "mean_joint": 0.12311422163827974
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.03684981684981685,
+      "mean_joint": 0.12411614018267551
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.03963410890785192,
+      "mean_joint": 0.12550828621169305
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.05,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.2113824635155342,
+      "mean_relation_f1": 0.03650490888222811,
+      "mean_joint": 0.12394368619888115
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.02642782517411769,
+      "mean_joint": 0.12292396041903927
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.0297788351111883,
+      "mean_joint": 0.12459946538757458
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.03423559869354685,
+      "mean_joint": 0.12682784717875387
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.036936936936936934,
+      "mean_joint": 0.1281785163004489
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.03963410890785192,
+      "mean_joint": 0.12952710228590641
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.1,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.21942009566396087,
+      "mean_relation_f1": 0.03650490888222811,
+      "mean_joint": 0.1279625022730945
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.030180410704841044,
+      "mean_joint": 0.13507368009464044
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.03323116931364355,
+      "mean_joint": 0.1365990593990417
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.03544399549823804,
+      "mean_joint": 0.13770547249133896
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.03835156071998177,
+      "mean_joint": 0.1391592551022108
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.04116178755948208,
+      "mean_joint": 0.14056436852196097
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.2,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.23996694948443986,
+      "mean_relation_f1": 0.037220311113995805,
+      "mean_joint": 0.13859363029921784
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.031824833952493525,
+      "mean_joint": 0.14015926188569777
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.03488460755464253,
+      "mean_joint": 0.14168914868677226
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.03715578539107951,
+      "mean_joint": 0.14282473760499076
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.03951266125179168,
+      "mean_joint": 0.14400317553534686
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.042150072150072146,
+      "mean_joint": 0.1453218809844871
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.3,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.24849368981890202,
+      "mean_relation_f1": 0.03808134283768949,
+      "mean_joint": 0.14328751632829576
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.03334899875058745,
+      "mean_joint": 0.14309958587852556
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.03668321521507117,
+      "mean_joint": 0.14476669411076742
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.03881286869792617,
+      "mean_joint": 0.14583152085219492
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.040644403802298536,
+      "mean_joint": 0.1467472884043811
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.04330696447960291,
+      "mean_joint": 0.1480785687430333
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.4,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.2528501730064637,
+      "mean_relation_f1": 0.038998812133140486,
+      "mean_joint": 0.14592449256980208
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.05,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.03520565736408096,
+      "mean_joint": 0.1456334783231827
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.1,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.03811651242775591,
+      "mean_joint": 0.14708890585502019
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.2,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.039935806621285944,
+      "mean_joint": 0.1479985529517852
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.3,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.04140220257484101,
+      "mean_joint": 0.14873175092856275
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.4,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.043593519882179674,
+      "mean_joint": 0.14982740958223206
+    },
+    {
+      "epochs": 20,
+      "entity_threshold": 0.5,
+      "relation_threshold": 0.5,
+      "mean_entity_f1": 0.2560612992822845,
+      "mean_relation_f1": 0.039201507988010253,
+      "mean_joint": 0.14763140363514737
+    }
+  ],
+  "selected": {
+    "epochs": 20,
+    "entity_threshold": 0.5,
+    "relation_threshold": 0.4,
+    "mean_entity_f1": 0.2560612992822845,
+    "mean_relation_f1": 0.043593519882179674,
+    "mean_joint": 0.14982740958223206
+  },
+  "stage_gate": "passed"
+}

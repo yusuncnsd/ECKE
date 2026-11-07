@@ -1,0 +1,2938 @@
+{
+  "generated_at": "2026-10-22T15:01:47.554761+00:00",
+  "books": 488,
+  "all_match": true,
+  "mismatches": [],
+  "files": [
+    {
+      "file": "001-神农本草经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "335e862739ca980cf55983a9be89c57301ca7e0c846c0f5d02524de884e9eea5",
+      "frozen_text_sha256": "335e862739ca980cf55983a9be89c57301ca7e0c846c0f5d02524de884e9eea5"
+    },
+    {
+      "file": "002-新修本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cdb5532b0b806cbf655a5bcef29f183f10d6ef5742a067ac6da3c6522a40d002",
+      "frozen_text_sha256": "cdb5532b0b806cbf655a5bcef29f183f10d6ef5742a067ac6da3c6522a40d002"
+    },
+    {
+      "file": "003-食疗本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "92a4035968aa6624aba9579caa5ee8dc2c10e1d96f5aa841fbf8320439b4b91d",
+      "frozen_text_sha256": "92a4035968aa6624aba9579caa5ee8dc2c10e1d96f5aa841fbf8320439b4b91d"
+    },
+    {
+      "file": "004-本草图经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f28937239b2b063b9119ab443361af8eb4bd9855399e229800773956110f8947",
+      "frozen_text_sha256": "f28937239b2b063b9119ab443361af8eb4bd9855399e229800773956110f8947"
+    },
+    {
+      "file": "005-本草衍义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6b023ff5c5b3392848c372b0f3326a84702fa6485ff24ec4cd94927893c7944e",
+      "frozen_text_sha256": "6b023ff5c5b3392848c372b0f3326a84702fa6485ff24ec4cd94927893c7944e"
+    },
+    {
+      "file": "006-汤液本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "df4d7f7529b67748fcea7ea419f201f66bf67e2d512dfcaac2edc9cdeb3067d6",
+      "frozen_text_sha256": "df4d7f7529b67748fcea7ea419f201f66bf67e2d512dfcaac2edc9cdeb3067d6"
+    },
+    {
+      "file": "007-饮膳正要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e2d356e64ce94d031ebcbe6bc5a7c0dc03bc441a728fb243f5c9cd09efe1a606",
+      "frozen_text_sha256": "e2d356e64ce94d031ebcbe6bc5a7c0dc03bc441a728fb243f5c9cd09efe1a606"
+    },
+    {
+      "file": "008-滇南本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d651744d1f9c5548f19cd2564dbd8807b00a0a7bb1056d02ad623d3275080dcc",
+      "frozen_text_sha256": "d651744d1f9c5548f19cd2564dbd8807b00a0a7bb1056d02ad623d3275080dcc"
+    },
+    {
+      "file": "009-本草蒙筌.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1ca2e8fca4004a7547e38ee12c5fdfa9c1af88db2f6cee5d5c3b712d5884c56f",
+      "frozen_text_sha256": "1ca2e8fca4004a7547e38ee12c5fdfa9c1af88db2f6cee5d5c3b712d5884c56f"
+    },
+    {
+      "file": "010-本草纲目.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b505a988fd8c6cd88582292511f5848f82728ec7dc563678c4c6b0d94a77f22b",
+      "frozen_text_sha256": "b505a988fd8c6cd88582292511f5848f82728ec7dc563678c4c6b0d94a77f22b"
+    },
+    {
+      "file": "011-本草乘雅半偈.txt",
+      "text_matches": true,
+      "recleaned_sha256": "13a75f41283a745a9412defe522fda3179fa08ae6bfe9b002823b2d6a6b9285d",
+      "frozen_text_sha256": "13a75f41283a745a9412defe522fda3179fa08ae6bfe9b002823b2d6a6b9285d"
+    },
+    {
+      "file": "012-本草征要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "294e44404e14e6d8e5ca51933a196cca610dab68dbc93dfcdcf782b317c3833a",
+      "frozen_text_sha256": "294e44404e14e6d8e5ca51933a196cca610dab68dbc93dfcdcf782b317c3833a"
+    },
+    {
+      "file": "013-本草易读.txt",
+      "text_matches": true,
+      "recleaned_sha256": "51e33bd300f8b33145bfec52142e954bb701f52023ca600b553d91f3a32446b8",
+      "frozen_text_sha256": "51e33bd300f8b33145bfec52142e954bb701f52023ca600b553d91f3a32446b8"
+    },
+    {
+      "file": "014-本草新编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4091930ddd48a22df9783e2397382d2acd5b4bd39a54802d5b4dabfb0c4abd6f",
+      "frozen_text_sha256": "4091930ddd48a22df9783e2397382d2acd5b4bd39a54802d5b4dabfb0c4abd6f"
+    },
+    {
+      "file": "015-本草备要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2f0992885644ffea287f835e3d546b8bde29f8c4419c84f73233216859349489",
+      "frozen_text_sha256": "2f0992885644ffea287f835e3d546b8bde29f8c4419c84f73233216859349489"
+    },
+    {
+      "file": "016-本草经解.txt",
+      "text_matches": true,
+      "recleaned_sha256": "01c82bba451894a06011ab6fbc370006ee1850cad59b53d166c09bf6eb023f75",
+      "frozen_text_sha256": "01c82bba451894a06011ab6fbc370006ee1850cad59b53d166c09bf6eb023f75"
+    },
+    {
+      "file": "017-本草从新.txt",
+      "text_matches": true,
+      "recleaned_sha256": "df22adc1682adee3922863c748bfce372c99e898919bb1ebc7dd45bc9a48144e",
+      "frozen_text_sha256": "df22adc1682adee3922863c748bfce372c99e898919bb1ebc7dd45bc9a48144e"
+    },
+    {
+      "file": "018-神农本草经百种录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f1d981b81e8e5f36d1b20cf7c4b4a7ab96497d0c86332782bd549ce6b7bdff47",
+      "frozen_text_sha256": "f1d981b81e8e5f36d1b20cf7c4b4a7ab96497d0c86332782bd549ce6b7bdff47"
+    },
+    {
+      "file": "019-本草纲目拾遗.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d73cd71e70fb5bfb7f854e95b767d99cd3b666e558b27b8d008de12e9e8b2cb7",
+      "frozen_text_sha256": "d73cd71e70fb5bfb7f854e95b767d99cd3b666e558b27b8d008de12e9e8b2cb7"
+    },
+    {
+      "file": "020-本草崇原.txt",
+      "text_matches": true,
+      "recleaned_sha256": "faf04e11401fa9853c2f9a2bac2bd88a6553a57460898ce4914329f4cf34968d",
+      "frozen_text_sha256": "faf04e11401fa9853c2f9a2bac2bd88a6553a57460898ce4914329f4cf34968d"
+    },
+    {
+      "file": "021-神农本草经读.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2374719f8351fccbf9dfc19be132f8e8b40cf0d8911654adaed80a099af59753",
+      "frozen_text_sha256": "2374719f8351fccbf9dfc19be132f8e8b40cf0d8911654adaed80a099af59753"
+    },
+    {
+      "file": "022-本草述钩元.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e009fb4a717e98312f965a3916705edcba7eed99d05089676811895dd84581a5",
+      "frozen_text_sha256": "e009fb4a717e98312f965a3916705edcba7eed99d05089676811895dd84581a5"
+    },
+    {
+      "file": "023-本草便读.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f3c0025a9bc53428e111ce70bda9f5417a368b6ed1b956c66946b04861604981",
+      "frozen_text_sha256": "f3c0025a9bc53428e111ce70bda9f5417a368b6ed1b956c66946b04861604981"
+    },
+    {
+      "file": "024-本草撮要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1e24631a13947a43014ca398e39b854701034988cb52389e80da62f6d474d7bc",
+      "frozen_text_sha256": "1e24631a13947a43014ca398e39b854701034988cb52389e80da62f6d474d7bc"
+    },
+    {
+      "file": "025-神农本草经赞.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f72d3506309a6ab5a11bf65eac4e6af7374996dabe343829fb04c82e6a53cd77",
+      "frozen_text_sha256": "f72d3506309a6ab5a11bf65eac4e6af7374996dabe343829fb04c82e6a53cd77"
+    },
+    {
+      "file": "026-得配本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2117ca857f7f9220dbabb59624ea4b563f01784b8e9c53042b53dcda461825a4",
+      "frozen_text_sha256": "2117ca857f7f9220dbabb59624ea4b563f01784b8e9c53042b53dcda461825a4"
+    },
+    {
+      "file": "027-本草害利.txt",
+      "text_matches": true,
+      "recleaned_sha256": "211bac76f60204f6686cd87c5c300bc5b0a1c7353f9dbc5431517d3978a7688a",
+      "frozen_text_sha256": "211bac76f60204f6686cd87c5c300bc5b0a1c7353f9dbc5431517d3978a7688a"
+    },
+    {
+      "file": "028-本草分经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5018c37c804281d8ffbae5409316d16cb26429b0f89103bf987fe9726fefd0fa",
+      "frozen_text_sha256": "5018c37c804281d8ffbae5409316d16cb26429b0f89103bf987fe9726fefd0fa"
+    },
+    {
+      "file": "029-雷公炮炙论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d9279f20f9ed8c91d062f49da87d83fe44d54fb30c6cea4400d53983b4aea729",
+      "frozen_text_sha256": "d9279f20f9ed8c91d062f49da87d83fe44d54fb30c6cea4400d53983b4aea729"
+    },
+    {
+      "file": "030-炮炙全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0ff253e652405d77670d30e336c8281dcced2ca74d902f6b622a4ec2e40af61f",
+      "frozen_text_sha256": "0ff253e652405d77670d30e336c8281dcced2ca74d902f6b622a4ec2e40af61f"
+    },
+    {
+      "file": "031-雷公炮制药性解.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f99090fabf5df7a4ca7d5e718a932c3df471546c713f9f687f2286e3e3d3116f",
+      "frozen_text_sha256": "f99090fabf5df7a4ca7d5e718a932c3df471546c713f9f687f2286e3e3d3116f"
+    },
+    {
+      "file": "032-濒湖炮炙法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a301f8b0a86c44633a9e47979fd33b08929a6ceceb192140961729790e413bbd",
+      "frozen_text_sha256": "a301f8b0a86c44633a9e47979fd33b08929a6ceceb192140961729790e413bbd"
+    },
+    {
+      "file": "033-要药分剂.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1cd96e73b4190359e09ad52bb5582f4b3df2205e06a90c9a49dbe6d763bf2080",
+      "frozen_text_sha256": "1cd96e73b4190359e09ad52bb5582f4b3df2205e06a90c9a49dbe6d763bf2080"
+    },
+    {
+      "file": "034-珍珠囊补遗药性赋.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5a36d982271d4c000a1a64b6ecc65bf188e9f3e879a730c4044e5cd81f4c7b29",
+      "frozen_text_sha256": "5a36d982271d4c000a1a64b6ecc65bf188e9f3e879a730c4044e5cd81f4c7b29"
+    },
+    {
+      "file": "035-药鉴.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a7b0fbfd100f6042e01b1875e545eb448c854d40e1ff8c2106e27a7399a37c4f",
+      "frozen_text_sha256": "a7b0fbfd100f6042e01b1875e545eb448c854d40e1ff8c2106e27a7399a37c4f"
+    },
+    {
+      "file": "036-药征.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d310c44d05aab2e68d098fb3272ae6610c5da96c7d314bf8087f78307fde5530",
+      "frozen_text_sha256": "d310c44d05aab2e68d098fb3272ae6610c5da96c7d314bf8087f78307fde5530"
+    },
+    {
+      "file": "037-名医别录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "16cad01f54a9e4640e9a5ee7a5d38c59161624ef3a0a8ba32b6aafde724704d7",
+      "frozen_text_sha256": "16cad01f54a9e4640e9a5ee7a5d38c59161624ef3a0a8ba32b6aafde724704d7"
+    },
+    {
+      "file": "038-千金翼方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "99fad6e4a8406d80c81e76a9573795bc32676df1d637b88e3862fa3a816d6b76",
+      "frozen_text_sha256": "99fad6e4a8406d80c81e76a9573795bc32676df1d637b88e3862fa3a816d6b76"
+    },
+    {
+      "file": "039-医心方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d473a94d5b0161795f7a2f1c3fde21ab72685e0e5b08e39f6d2618e0c30c10b5",
+      "frozen_text_sha256": "d473a94d5b0161795f7a2f1c3fde21ab72685e0e5b08e39f6d2618e0c30c10b5"
+    },
+    {
+      "file": "040-苏沈良方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6953f347640d6f736a23052214fbf6d5ad9618c924bd4c5812e3d3f66e06cd24",
+      "frozen_text_sha256": "6953f347640d6f736a23052214fbf6d5ad9618c924bd4c5812e3d3f66e06cd24"
+    },
+    {
+      "file": "041-史载之方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "470a71925b8d0e02f175fd99c87324878da6f192dc46933c7ad7ec978d252bc5",
+      "frozen_text_sha256": "470a71925b8d0e02f175fd99c87324878da6f192dc46933c7ad7ec978d252bc5"
+    },
+    {
+      "file": "042-太平惠民和剂局方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d86436c138b3a97b13f8b52cd0dc9b8b8b6a394de58619f94ba9a317152c7a5f",
+      "frozen_text_sha256": "d86436c138b3a97b13f8b52cd0dc9b8b8b6a394de58619f94ba9a317152c7a5f"
+    },
+    {
+      "file": "043-圣济总录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3548556f5f8c0c4e9ce6cd4f5d6894f911ae1faa66de994ab572a9e769a840a0",
+      "frozen_text_sha256": "3548556f5f8c0c4e9ce6cd4f5d6894f911ae1faa66de994ab572a9e769a840a0"
+    },
+    {
+      "file": "044-鸡峰普济方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "78e12bddb1bfb46a5268f514f6a8bd5d84bedb0bfff765ad857117072bc8d233",
+      "frozen_text_sha256": "78e12bddb1bfb46a5268f514f6a8bd5d84bedb0bfff765ad857117072bc8d233"
+    },
+    {
+      "file": "045-洪氏集验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9208f1c6ee311927ef64c16407d5d2ffdaac1a39a0820ba4374434fb00f9245b",
+      "frozen_text_sha256": "9208f1c6ee311927ef64c16407d5d2ffdaac1a39a0820ba4374434fb00f9245b"
+    },
+    {
+      "file": "046-杨氏家藏方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1bcb86738c24ff32339c92f43348c05d107018a3d3d4a9bb096f4bebe3d02bf4",
+      "frozen_text_sha256": "1bcb86738c24ff32339c92f43348c05d107018a3d3d4a9bb096f4bebe3d02bf4"
+    },
+    {
+      "file": "047-千金宝要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9f112d9ffbd87bc91a04c188b8c2d5409ed666e2ff70275604133b75e24750cd",
+      "frozen_text_sha256": "9f112d9ffbd87bc91a04c188b8c2d5409ed666e2ff70275604133b75e24750cd"
+    },
+    {
+      "file": "048-卫生易简方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f789fe462405eb26aa3cb842a1e794d5ae1fbc9813d3caffac28f6600a09c7f9",
+      "frozen_text_sha256": "f789fe462405eb26aa3cb842a1e794d5ae1fbc9813d3caffac28f6600a09c7f9"
+    },
+    {
+      "file": "049-全生指迷方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "28e45d1b30640629c3f8e4683ab2fe1f19f68533b71c6530a5d6e790e272392e",
+      "frozen_text_sha256": "28e45d1b30640629c3f8e4683ab2fe1f19f68533b71c6530a5d6e790e272392e"
+    },
+    {
+      "file": "050-仁斋直指方论（附补遗）.txt",
+      "text_matches": true,
+      "recleaned_sha256": "356c662e1dbc77b8c2c2d3c03b20b94d19369b657c2b8a2253d93e5decd4342c",
+      "frozen_text_sha256": "356c662e1dbc77b8c2c2d3c03b20b94d19369b657c2b8a2253d93e5decd4342c"
+    },
+    {
+      "file": "051-瑞竹堂经验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "43a8066debc2bd8e2b57cbf066c3b99dd8ac78804a2e1462c93ec4ea109e79fc",
+      "frozen_text_sha256": "43a8066debc2bd8e2b57cbf066c3b99dd8ac78804a2e1462c93ec4ea109e79fc"
+    },
+    {
+      "file": "052-增广和剂局方药性总论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "73ef612dac75e556d25431be8d9b4bf12182860910971c163011735a319f3ef3",
+      "frozen_text_sha256": "73ef612dac75e556d25431be8d9b4bf12182860910971c163011735a319f3ef3"
+    },
+    {
+      "file": "053-普济方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "62c6b2aff9e959c8738cf0caa428eaa7f289425fc48e42b2c4a5e2dfecd9b25d",
+      "frozen_text_sha256": "62c6b2aff9e959c8738cf0caa428eaa7f289425fc48e42b2c4a5e2dfecd9b25d"
+    },
+    {
+      "file": "054-肘后备急方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "22790ac3649942c27f524629b90484a176a6ef443164296402b4a74de653eb72",
+      "frozen_text_sha256": "22790ac3649942c27f524629b90484a176a6ef443164296402b4a74de653eb72"
+    },
+    {
+      "file": "055-普济本事方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "75eba33894760bfea380213ef3fa5d734e861ea821f3a944638a715b18e8538f",
+      "frozen_text_sha256": "75eba33894760bfea380213ef3fa5d734e861ea821f3a944638a715b18e8538f"
+    },
+    {
+      "file": "056-严氏济生方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b9b86fa662ea1a220e42197775c92a8b8935f7f4d185e26a1861a88a2ef0ed4a",
+      "frozen_text_sha256": "b9b86fa662ea1a220e42197775c92a8b8935f7f4d185e26a1861a88a2ef0ed4a"
+    },
+    {
+      "file": "057-仁术便览.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ca2e7fa0400e440af572f4cf801bd13e66ed974577df0b7696bec17a0ad28cbf",
+      "frozen_text_sha256": "ca2e7fa0400e440af572f4cf801bd13e66ed974577df0b7696bec17a0ad28cbf"
+    },
+    {
+      "file": "058-古今名医方论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "30abfe7c3e3dd0d57f803b32315f889a5f62db7eccee6bcf987e15434cfaaa6b",
+      "frozen_text_sha256": "30abfe7c3e3dd0d57f803b32315f889a5f62db7eccee6bcf987e15434cfaaa6b"
+    },
+    {
+      "file": "059-汤头歌诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9ede16b12f9438b3b46d1d40667425204c3426b5a05ae06a3dd6fef00e2e86a1",
+      "frozen_text_sha256": "9ede16b12f9438b3b46d1d40667425204c3426b5a05ae06a3dd6fef00e2e86a1"
+    },
+    {
+      "file": "060-急救便方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e1ceb1715e4352a4cf98d671e18c63645222b29463dd32bd3c3fd7ab7198d434",
+      "frozen_text_sha256": "e1ceb1715e4352a4cf98d671e18c63645222b29463dd32bd3c3fd7ab7198d434"
+    },
+    {
+      "file": "061-医方集解.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7850daf50b94d79726a7cdeb4d9e6a4b2c602801e45bf6b0c5d7c25777ac198a",
+      "frozen_text_sha256": "7850daf50b94d79726a7cdeb4d9e6a4b2c602801e45bf6b0c5d7c25777ac198a"
+    },
+    {
+      "file": "062-绛雪园古方选注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ddbe13e51867eea7772a25f445e052b3ab01b7d59d3e234b64d967e87f2945da",
+      "frozen_text_sha256": "ddbe13e51867eea7772a25f445e052b3ab01b7d59d3e234b64d967e87f2945da"
+    },
+    {
+      "file": "063-医方论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9cf915d942325e46f52994396f5d049b28581063f179222e11bc0476262b1cc2",
+      "frozen_text_sha256": "9cf915d942325e46f52994396f5d049b28581063f179222e11bc0476262b1cc2"
+    },
+    {
+      "file": "064-串雅内外编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7a4763ddee438dab9ff9d1110622826269608b75f721f72ea68c7c367544a4dd",
+      "frozen_text_sha256": "7a4763ddee438dab9ff9d1110622826269608b75f721f72ea68c7c367544a4dd"
+    },
+    {
+      "file": "065-时方妙用.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3420e68d5853123c993a99e3ec2f256c4e00af6f29f82d61a4dcc6e5f620ff20",
+      "frozen_text_sha256": "3420e68d5853123c993a99e3ec2f256c4e00af6f29f82d61a4dcc6e5f620ff20"
+    },
+    {
+      "file": "066-时方歌括.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b50bb54003b3d1ae7e7281705f4ed73cf99c8ceb5f3d7edd720d1ff67f770659",
+      "frozen_text_sha256": "b50bb54003b3d1ae7e7281705f4ed73cf99c8ceb5f3d7edd720d1ff67f770659"
+    },
+    {
+      "file": "067-长沙方歌括.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c5cb5a2b126c96dba678cf91d81c9a949bf9406872da1ea4678cb03000ff687c",
+      "frozen_text_sha256": "c5cb5a2b126c96dba678cf91d81c9a949bf9406872da1ea4678cb03000ff687c"
+    },
+    {
+      "file": "068-金匮方歌括.txt",
+      "text_matches": true,
+      "recleaned_sha256": "29501ef6d670ddb7d9594253bf37804393ef4332818b1f8bef45cc36a1a78188",
+      "frozen_text_sha256": "29501ef6d670ddb7d9594253bf37804393ef4332818b1f8bef45cc36a1a78188"
+    },
+    {
+      "file": "069-医方证治汇编歌诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dd94de6b8e8efd37fa58acd1db1d674641c9cd0e6543d07bda4bfbd6fefd6c4c",
+      "frozen_text_sha256": "dd94de6b8e8efd37fa58acd1db1d674641c9cd0e6543d07bda4bfbd6fefd6c4c"
+    },
+    {
+      "file": "070-验方新编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "52fb1df8801c47db860b31eafef2a35fea3dfb3f4b3cefa7a46857261f3964bc",
+      "frozen_text_sha256": "52fb1df8801c47db860b31eafef2a35fea3dfb3f4b3cefa7a46857261f3964bc"
+    },
+    {
+      "file": "071-经验丹方汇编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a6aa491c78877f21dc493fef5ef4db2553b37eb8111434bb5f382f9f79e2c7e2",
+      "frozen_text_sha256": "a6aa491c78877f21dc493fef5ef4db2553b37eb8111434bb5f382f9f79e2c7e2"
+    },
+    {
+      "file": "072-桂林古本伤寒杂病论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3a7620b9dd72f043a15de64c487d0a80e1d6777a70cbb7b82ba6fe7ef5fd77e6",
+      "frozen_text_sha256": "3a7620b9dd72f043a15de64c487d0a80e1d6777a70cbb7b82ba6fe7ef5fd77e6"
+    },
+    {
+      "file": "073-药性切用.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7feace199539ea852c231a9c73f87ac6e24edb8b5b4bece28e7ea70814508a11",
+      "frozen_text_sha256": "7feace199539ea852c231a9c73f87ac6e24edb8b5b4bece28e7ea70814508a11"
+    },
+    {
+      "file": "074-退思集类方歌注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6d9af9dbd8b103f6139db39132f3aaa468eb4c1c41bf4ca53c9ee7e0b8312807",
+      "frozen_text_sha256": "6d9af9dbd8b103f6139db39132f3aaa468eb4c1c41bf4ca53c9ee7e0b8312807"
+    },
+    {
+      "file": "075-集验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c082c35d5a72798137052a0ffe0e247f944eeff1abf94a44391c119e95d914b4",
+      "frozen_text_sha256": "c082c35d5a72798137052a0ffe0e247f944eeff1abf94a44391c119e95d914b4"
+    },
+    {
+      "file": "076-是斋百一选方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b9100fc22d1a5e74ffcd7dabb52f3dd3988faf487a080e8a80844eeb7c43a48a",
+      "frozen_text_sha256": "b9100fc22d1a5e74ffcd7dabb52f3dd3988faf487a080e8a80844eeb7c43a48a"
+    },
+    {
+      "file": "077-惠直堂经验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "44d8fbd7756a5f5c866f83839b7a78dba1b06ae95b448bd51514ec54bb290b96",
+      "frozen_text_sha256": "44d8fbd7756a5f5c866f83839b7a78dba1b06ae95b448bd51514ec54bb290b96"
+    },
+    {
+      "file": "078-经验奇方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1135c84982da3643be636d41e10b6c33a7b2f9a48f195486e38ba4230657578a",
+      "frozen_text_sha256": "1135c84982da3643be636d41e10b6c33a7b2f9a48f195486e38ba4230657578a"
+    },
+    {
+      "file": "079-古方汇精.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e485228f93e82c709cc91620d114a6259c1f591319c9a4051c5913fe46930dc0",
+      "frozen_text_sha256": "e485228f93e82c709cc91620d114a6259c1f591319c9a4051c5913fe46930dc0"
+    },
+    {
+      "file": "080-外治寿世方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "12447bd8bd127d266571803eb2d68f814d613b485099ee996363a683009be547",
+      "frozen_text_sha256": "12447bd8bd127d266571803eb2d68f814d613b485099ee996363a683009be547"
+    },
+    {
+      "file": "081-文堂集验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a400a90ce4b1689e636a0051e2807f7c0e6c1d3c9b5bad7069dfb555bb1ae25d",
+      "frozen_text_sha256": "a400a90ce4b1689e636a0051e2807f7c0e6c1d3c9b5bad7069dfb555bb1ae25d"
+    },
+    {
+      "file": "082-回生集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4036d9ec60f4e41d418e7221f866439eb9006f78362cd8b3edcf4a04ec17e806",
+      "frozen_text_sha256": "4036d9ec60f4e41d418e7221f866439eb9006f78362cd8b3edcf4a04ec17e806"
+    },
+    {
+      "file": "083-本草简要方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e11e4fdce0aca839a8d825a0c7eb729b56750d71420aaa9837176b7d7c782648",
+      "frozen_text_sha256": "e11e4fdce0aca839a8d825a0c7eb729b56750d71420aaa9837176b7d7c782648"
+    },
+    {
+      "file": "084-济世神验良方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f4ca2306c365e13672c13e516b7fdcb0d214ba83eb56dbcdba2863b8ce83504d",
+      "frozen_text_sha256": "f4ca2306c365e13672c13e516b7fdcb0d214ba83eb56dbcdba2863b8ce83504d"
+    },
+    {
+      "file": "085-伤寒恒论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ee2801dde916be2f2f3a72272e0e3f5190595b0030e3f214bbefa122d0def0b4",
+      "frozen_text_sha256": "ee2801dde916be2f2f3a72272e0e3f5190595b0030e3f214bbefa122d0def0b4"
+    },
+    {
+      "file": "086-医方简义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "49c8bb9545c5ee11ffc94254bedf70f502bcb96c4733c63152d065a5b59c784a",
+      "frozen_text_sha256": "49c8bb9545c5ee11ffc94254bedf70f502bcb96c4733c63152d065a5b59c784a"
+    },
+    {
+      "file": "087-女科切要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9f8c2b0b14921d5504ccc07ccef39c4d2926bb945db49e4dd330b8755c2aa8b4",
+      "frozen_text_sha256": "9f8c2b0b14921d5504ccc07ccef39c4d2926bb945db49e4dd330b8755c2aa8b4"
+    },
+    {
+      "file": "088-产宝.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0ae5dfe3f1ab74ecb97369ae39e2e9d2f859acafa4ca979b4cd8d89b4b8a0866",
+      "frozen_text_sha256": "0ae5dfe3f1ab74ecb97369ae39e2e9d2f859acafa4ca979b4cd8d89b4b8a0866"
+    },
+    {
+      "file": "089-女科百问.txt",
+      "text_matches": true,
+      "recleaned_sha256": "69b36c8edb909f00396285ceb9b66d9c10f9ca8f06171bae6d4bafd4254a032e",
+      "frozen_text_sha256": "69b36c8edb909f00396285ceb9b66d9c10f9ca8f06171bae6d4bafd4254a032e"
+    },
+    {
+      "file": "090-沈氏女科辑要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9f4f2e20958fab63dce2959a626f05a52a563763d43848f1e00a80e1f1aa2ba9",
+      "frozen_text_sha256": "9f4f2e20958fab63dce2959a626f05a52a563763d43848f1e00a80e1f1aa2ba9"
+    },
+    {
+      "file": "091-小儿药证直诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "66bbde4741201dfc2080eeb800faf15ce0235631f0601331d2f6fa08cb97e08a",
+      "frozen_text_sha256": "66bbde4741201dfc2080eeb800faf15ce0235631f0601331d2f6fa08cb97e08a"
+    },
+    {
+      "file": "092-幼科切要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7db445debaffdb4c61af3f97fc6923966f0e1dc506c326d4bf9f93fd434cb33e",
+      "frozen_text_sha256": "7db445debaffdb4c61af3f97fc6923966f0e1dc506c326d4bf9f93fd434cb33e"
+    },
+    {
+      "file": "093-活幼心书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "45b97858005381d0bc2d4c2568b76f219a67a05bbc14e1f0a2e0b59e42910260",
+      "frozen_text_sha256": "45b97858005381d0bc2d4c2568b76f219a67a05bbc14e1f0a2e0b59e42910260"
+    },
+    {
+      "file": "094-儿科萃精.txt",
+      "text_matches": true,
+      "recleaned_sha256": "46c8b0059f423247c2f18a008b1b62475860756d583f803405fc33025902fc6c",
+      "frozen_text_sha256": "46c8b0059f423247c2f18a008b1b62475860756d583f803405fc33025902fc6c"
+    },
+    {
+      "file": "095-痧疹辑要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b9f2635a0997a904d3481fa66397c461641ae2c861690077d1bfa57efec190b1",
+      "frozen_text_sha256": "b9f2635a0997a904d3481fa66397c461641ae2c861690077d1bfa57efec190b1"
+    },
+    {
+      "file": "096-小儿推拿广意.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b842ff1aa42397c2e46278bbd691b67ec5287de8bc88a6a01c3963f87dbe4774",
+      "frozen_text_sha256": "b842ff1aa42397c2e46278bbd691b67ec5287de8bc88a6a01c3963f87dbe4774"
+    },
+    {
+      "file": "097-女科折衷纂要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ca4c9aff7a0000fdc21b807618c8a44cb1c96b375580ae69554eebbd2fa7119c",
+      "frozen_text_sha256": "ca4c9aff7a0000fdc21b807618c8a44cb1c96b375580ae69554eebbd2fa7119c"
+    },
+    {
+      "file": "098-女科要旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0f373ad25c00cb53597e268a827204a103bac761565fa5f0911718487e64d18b",
+      "frozen_text_sha256": "0f373ad25c00cb53597e268a827204a103bac761565fa5f0911718487e64d18b"
+    },
+    {
+      "file": "099-女科秘旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8cfaff1a932455d53b3ae4eab190613b9908ab1ae9df515fb63344f55860536e",
+      "frozen_text_sha256": "8cfaff1a932455d53b3ae4eab190613b9908ab1ae9df515fb63344f55860536e"
+    },
+    {
+      "file": "100-女科经纶.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dfc0561dd6db198b4674130b8f933abc2ce30e055a27489d72dcd39cf9e3581a",
+      "frozen_text_sha256": "dfc0561dd6db198b4674130b8f933abc2ce30e055a27489d72dcd39cf9e3581a"
+    },
+    {
+      "file": "101-女科撮要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "25b997c79e0899c47b41fe0a382b337186a6b99f531039dbe24f7ad707cddfd5",
+      "frozen_text_sha256": "25b997c79e0899c47b41fe0a382b337186a6b99f531039dbe24f7ad707cddfd5"
+    },
+    {
+      "file": "102-幼幼集成.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3a8a40ddf85fdd5636971af1e460b2af557a40a218c699231d4fb69d25a073c1",
+      "frozen_text_sha256": "3a8a40ddf85fdd5636971af1e460b2af557a40a218c699231d4fb69d25a073c1"
+    },
+    {
+      "file": "103-幼科心法要诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f2441769b265256cb33554e8d6ac65f76d7760786bcb91830a194568d4428066",
+      "frozen_text_sha256": "f2441769b265256cb33554e8d6ac65f76d7760786bcb91830a194568d4428066"
+    },
+    {
+      "file": "104-幼科折衷.txt",
+      "text_matches": true,
+      "recleaned_sha256": "64be9d0dfff6342f7ec7be9f23d066bca4dda5c930dc2fc26fd6c0a532a3feef",
+      "frozen_text_sha256": "64be9d0dfff6342f7ec7be9f23d066bca4dda5c930dc2fc26fd6c0a532a3feef"
+    },
+    {
+      "file": "105-幼科推拿秘书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a86957a08dbd1d6443e7ae61af0103713b1e1853ff51a8dc389caa122fcb9977",
+      "frozen_text_sha256": "a86957a08dbd1d6443e7ae61af0103713b1e1853ff51a8dc389caa122fcb9977"
+    },
+    {
+      "file": "106-幼科类萃.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ec13176d023f5a9279b9a91558d4766243f95fb76949bcd7596fae0aaae704c4",
+      "frozen_text_sha256": "ec13176d023f5a9279b9a91558d4766243f95fb76949bcd7596fae0aaae704c4"
+    },
+    {
+      "file": "107-儿科醒.txt",
+      "text_matches": true,
+      "recleaned_sha256": "022aeb9b9e04f0afd7dae7764612f29ef16e29586407c8908fc673e7da714c9c",
+      "frozen_text_sha256": "022aeb9b9e04f0afd7dae7764612f29ef16e29586407c8908fc673e7da714c9c"
+    },
+    {
+      "file": "108-保婴撮要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d356a13bbf15f768b6673d7c0acd2468f1bb125a8486d6b57887d7495400b5bc",
+      "frozen_text_sha256": "d356a13bbf15f768b6673d7c0acd2468f1bb125a8486d6b57887d7495400b5bc"
+    },
+    {
+      "file": "109-胎产心法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "be71d35018933e56858b00d79d7f9e600446de498371253f17b888c1e4eade15",
+      "frozen_text_sha256": "be71d35018933e56858b00d79d7f9e600446de498371253f17b888c1e4eade15"
+    },
+    {
+      "file": "110-胎产指南.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0b37c2376bdabcec451a1163a05a4393e273d00005c4797fed1c2d80a03237aa",
+      "frozen_text_sha256": "0b37c2376bdabcec451a1163a05a4393e273d00005c4797fed1c2d80a03237aa"
+    },
+    {
+      "file": "111-家传女科经验摘奇.txt",
+      "text_matches": true,
+      "recleaned_sha256": "eab9836fa60c7a1a0b0a0939bb8cc85c2cac7b358f7a8ebefd40387531cedd43",
+      "frozen_text_sha256": "eab9836fa60c7a1a0b0a0939bb8cc85c2cac7b358f7a8ebefd40387531cedd43"
+    },
+    {
+      "file": "112-妇人规.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0a9be04b301dd1ae2af2ffb9fe89d6dd6d9e4ba098d50f26feca7bdd51dae3e0",
+      "frozen_text_sha256": "0a9be04b301dd1ae2af2ffb9fe89d6dd6d9e4ba098d50f26feca7bdd51dae3e0"
+    },
+    {
+      "file": "113-妇科秘方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b6f23c94f3f1ca97af3439566f61e3cae4d9e8abdcd6d2fe136052bc1d627023",
+      "frozen_text_sha256": "b6f23c94f3f1ca97af3439566f61e3cae4d9e8abdcd6d2fe136052bc1d627023"
+    },
+    {
+      "file": "114-妇科秘书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a855f29c422d57a49b99c1cd2d0f3d7d226ee75ce44d1cc362ad4943a2d98c20",
+      "frozen_text_sha256": "a855f29c422d57a49b99c1cd2d0f3d7d226ee75ce44d1cc362ad4943a2d98c20"
+    },
+    {
+      "file": "115-张氏妇科.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d316621456f50f451786e92cb32b6842cab6f6f4a7e5960d7bcefce18bcbcaf2",
+      "frozen_text_sha256": "d316621456f50f451786e92cb32b6842cab6f6f4a7e5960d7bcefce18bcbcaf2"
+    },
+    {
+      "file": "116-麻疹备要方论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e35a77ec9153fa14aa890351c85a8eb11b389bf0c6242926483d192486182361",
+      "frozen_text_sha256": "e35a77ec9153fa14aa890351c85a8eb11b389bf0c6242926483d192486182361"
+    },
+    {
+      "file": "117-麻疹阐注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7d1449512adfc68506d61a66e209cc9952f736e60c786051ddfcae8dd87cdf0f",
+      "frozen_text_sha256": "7d1449512adfc68506d61a66e209cc9952f736e60c786051ddfcae8dd87cdf0f"
+    },
+    {
+      "file": "118-痘疹心法要诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0cea9866875896a3006c77c71218938d483b6f68f3bb22ccb7305d4ff816876a",
+      "frozen_text_sha256": "0cea9866875896a3006c77c71218938d483b6f68f3bb22ccb7305d4ff816876a"
+    },
+    {
+      "file": "119-经验麻科.txt",
+      "text_matches": true,
+      "recleaned_sha256": "565c6207fe9f4e7a62347f8ff92a9931d79cb440846bbed714ab708ffdb32706",
+      "frozen_text_sha256": "565c6207fe9f4e7a62347f8ff92a9931d79cb440846bbed714ab708ffdb32706"
+    },
+    {
+      "file": "120-达生编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2e3ffdb0a6bbbb9cc2e6fd79a09aeb09b0aea2a1e6c7c4dc2a0d66b08087a26f",
+      "frozen_text_sha256": "2e3ffdb0a6bbbb9cc2e6fd79a09aeb09b0aea2a1e6c7c4dc2a0d66b08087a26f"
+    },
+    {
+      "file": "121-盘珠集胎产症治.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b96f11389429c21b351cdea3ed2d93da4dc57ce7d8131efa8588f7f8d924688a",
+      "frozen_text_sha256": "b96f11389429c21b351cdea3ed2d93da4dc57ce7d8131efa8588f7f8d924688a"
+    },
+    {
+      "file": "122-医林改错.txt",
+      "text_matches": true,
+      "recleaned_sha256": "84972cdbfd03ab0773c7bf3eb53245b2a068a8766c2ba4970d92ab27361f758f",
+      "frozen_text_sha256": "84972cdbfd03ab0773c7bf3eb53245b2a068a8766c2ba4970d92ab27361f758f"
+    },
+    {
+      "file": "123-血证论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7720405472df8304f3118c34fef64d82753a0f0f105ef462a24b649fe9985548",
+      "frozen_text_sha256": "7720405472df8304f3118c34fef64d82753a0f0f105ef462a24b649fe9985548"
+    },
+    {
+      "file": "124-外科精义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f55fadec2ae37afbbac8e1f502fdaba3ceabd977531d17966a0a377ab8995c1d",
+      "frozen_text_sha256": "f55fadec2ae37afbbac8e1f502fdaba3ceabd977531d17966a0a377ab8995c1d"
+    },
+    {
+      "file": "125-外科枢要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "04a15b1cea1a9960082a0637cf00ecfc49e31e7816b4d5004ede322d085c1d1c",
+      "frozen_text_sha256": "04a15b1cea1a9960082a0637cf00ecfc49e31e7816b4d5004ede322d085c1d1c"
+    },
+    {
+      "file": "126-杂病心法要诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5ee457d05aa08268afae553e76a9a1aa99f3cdcdd77605170152bc27111cdf97",
+      "frozen_text_sha256": "5ee457d05aa08268afae553e76a9a1aa99f3cdcdd77605170152bc27111cdf97"
+    },
+    {
+      "file": "127-跌打秘方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "212b5715bed9f94e05811921c53592f0f2810d3e5e0dcad7e31c9efe9b13d722",
+      "frozen_text_sha256": "212b5715bed9f94e05811921c53592f0f2810d3e5e0dcad7e31c9efe9b13d722"
+    },
+    {
+      "file": "128-余无言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "42baf5a3966629a2023c975359cfe50589b89413ddd825bf7d322799ec011488",
+      "frozen_text_sha256": "42baf5a3966629a2023c975359cfe50589b89413ddd825bf7d322799ec011488"
+    },
+    {
+      "file": "129-跌打损伤回生集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a51c00c840b0db84cc5e811e2d573abe03a76e0c0ab1017a4a3e54bfe9a1712",
+      "frozen_text_sha256": "6a51c00c840b0db84cc5e811e2d573abe03a76e0c0ab1017a4a3e54bfe9a1712"
+    },
+    {
+      "file": "130-傅青主男科重编考释.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0da034ae0a8b02e4362bc5c7a0673f39ff100067b43519f43862a3bc3ca793a4",
+      "frozen_text_sha256": "0da034ae0a8b02e4362bc5c7a0673f39ff100067b43519f43862a3bc3ca793a4"
+    },
+    {
+      "file": "131-疡科心得集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e4772c601cdd356ad65877c0c6f662c3a1ff11b0c9f763108eb71f81257a7a29",
+      "frozen_text_sha256": "e4772c601cdd356ad65877c0c6f662c3a1ff11b0c9f763108eb71f81257a7a29"
+    },
+    {
+      "file": "132-阴证略例.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f30108af37d31ec71e52eaadcbeca54e6f44471faa194b1dbee4a840faa6df9f",
+      "frozen_text_sha256": "f30108af37d31ec71e52eaadcbeca54e6f44471faa194b1dbee4a840faa6df9f"
+    },
+    {
+      "file": "133-集验背疽方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c41c01a4996ebdf5580e427a5c7973629f259df8bb5fed1b52ffe85eb6b83485",
+      "frozen_text_sha256": "c41c01a4996ebdf5580e427a5c7973629f259df8bb5fed1b52ffe85eb6b83485"
+    },
+    {
+      "file": "134-中风论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "37462b2604458105bd1686cd8cf280d9a45df1d3213886dc1f378cc7a81c8582",
+      "frozen_text_sha256": "37462b2604458105bd1686cd8cf280d9a45df1d3213886dc1f378cc7a81c8582"
+    },
+    {
+      "file": "135-内外伤辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c6c42783735b31e32c7d7cd5e1e4df28e4529c3a003602f72a891e8ae8de35ab",
+      "frozen_text_sha256": "c6c42783735b31e32c7d7cd5e1e4df28e4529c3a003602f72a891e8ae8de35ab"
+    },
+    {
+      "file": "136-内科摘要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ec375edb8a20751cd1400818e3ee0f582dddc703f135638df5621cd263614ab3",
+      "frozen_text_sha256": "ec375edb8a20751cd1400818e3ee0f582dddc703f135638df5621cd263614ab3"
+    },
+    {
+      "file": "137-仙授理伤续断秘方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "15f4ae4b17b40ddc4bcc5945645fcc0ca1970e0b7972b41b942ea1c760172752",
+      "frozen_text_sha256": "15f4ae4b17b40ddc4bcc5945645fcc0ca1970e0b7972b41b942ea1c760172752"
+    },
+    {
+      "file": "138-外科十三方考.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a4f73f27673271d4ae310813181e6f0710eac7dee7805edac41b0010482e41f",
+      "frozen_text_sha256": "6a4f73f27673271d4ae310813181e6f0710eac7dee7805edac41b0010482e41f"
+    },
+    {
+      "file": "139-外科全生集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4210f30299c6ab89e9a9acba07f2ed38e2d88db01cc56b851ece0c31478920f8",
+      "frozen_text_sha256": "4210f30299c6ab89e9a9acba07f2ed38e2d88db01cc56b851ece0c31478920f8"
+    },
+    {
+      "file": "140-外科启玄.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f4b0e17867640117f24114eff32c38ba4dce695c4e54dc78c0c0552f5a694180",
+      "frozen_text_sha256": "f4b0e17867640117f24114eff32c38ba4dce695c4e54dc78c0c0552f5a694180"
+    },
+    {
+      "file": "141-外科理例.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a0e8de53f36f516e8fc64d45ab35e82ea4ef76c4535e7631b6b2020fd79ecb51",
+      "frozen_text_sha256": "a0e8de53f36f516e8fc64d45ab35e82ea4ef76c4535e7631b6b2020fd79ecb51"
+    },
+    {
+      "file": "142-外科传薪集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d83c4b3ae27d4dfbee67a80046bb32e0ad7ca8bcce2185d9842f96022e0e8c9b",
+      "frozen_text_sha256": "d83c4b3ae27d4dfbee67a80046bb32e0ad7ca8bcce2185d9842f96022e0e8c9b"
+    },
+    {
+      "file": "143-外科选要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b63b1f56922c834a4958c95e673a5e8c1009041285140507e2bdc5aea420b9fc",
+      "frozen_text_sha256": "b63b1f56922c834a4958c95e673a5e8c1009041285140507e2bdc5aea420b9fc"
+    },
+    {
+      "file": "144-何氏虚劳心传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e0bd20c2fc1eb808a87961446fb8c97c0f2e0b926ed8317fa5087deb6bc2a7f8",
+      "frozen_text_sha256": "e0bd20c2fc1eb808a87961446fb8c97c0f2e0b926ed8317fa5087deb6bc2a7f8"
+    },
+    {
+      "file": "145-周慎斋遗书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "591df8b8f333e131042f0e99fb9ac8e0dd326080ad84d1a4fc3026b4f0ff60af",
+      "frozen_text_sha256": "591df8b8f333e131042f0e99fb9ac8e0dd326080ad84d1a4fc3026b4f0ff60af"
+    },
+    {
+      "file": "146-奇经八脉考.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8c8d9f6e9ab117fb22d22a0a5438a9406915f54f83d863c882f6ad9fed682b2b",
+      "frozen_text_sha256": "8c8d9f6e9ab117fb22d22a0a5438a9406915f54f83d863c882f6ad9fed682b2b"
+    },
+    {
+      "file": "147-急救良方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b13374b6712b9380a6d47640a2d1336010eef07ffd233106a312671c2e18f41b",
+      "frozen_text_sha256": "b13374b6712b9380a6d47640a2d1336010eef07ffd233106a312671c2e18f41b"
+    },
+    {
+      "file": "148-订正太素脉秘诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "75bd476bbec95cc4d92cc1b8a9c21c2a37be1a02bc215be3440d6a634b2b2f95",
+      "frozen_text_sha256": "75bd476bbec95cc4d92cc1b8a9c21c2a37be1a02bc215be3440d6a634b2b2f95"
+    },
+    {
+      "file": "149-症因脉治.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1d4fed50b922da6680e79fd5cf1ee48b8fcdaa1b5844e736da262c0454844f17",
+      "frozen_text_sha256": "1d4fed50b922da6680e79fd5cf1ee48b8fcdaa1b5844e736da262c0454844f17"
+    },
+    {
+      "file": "150-脉症治方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a4de2e8f8ec57e5d86987cd313ca61d2e410696fbba18e7eff313639a7774efa",
+      "frozen_text_sha256": "a4de2e8f8ec57e5d86987cd313ca61d2e410696fbba18e7eff313639a7774efa"
+    },
+    {
+      "file": "151-脉确.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2f0f2a670297bfc6369d52e8172e4b027a13ec0fe1d0e8af0355671c9827b5ff",
+      "frozen_text_sha256": "2f0f2a670297bfc6369d52e8172e4b027a13ec0fe1d0e8af0355671c9827b5ff"
+    },
+    {
+      "file": "152-理虚元鉴.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8329a327d3942378d4a17695b54a505ea666492592a014228f71ca4e43a7ca96",
+      "frozen_text_sha256": "8329a327d3942378d4a17695b54a505ea666492592a014228f71ca4e43a7ca96"
+    },
+    {
+      "file": "153-虚损启微.txt",
+      "text_matches": true,
+      "recleaned_sha256": "259580b61587cad5017c5ed07fb475fe15086895dce7813ca2e79da6aca89b9c",
+      "frozen_text_sha256": "259580b61587cad5017c5ed07fb475fe15086895dce7813ca2e79da6aca89b9c"
+    },
+    {
+      "file": "154-诊脉三十二辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "da67450058d03c1f49339c8deef17f210392781f8dbbb91cb815d26b560da8c6",
+      "frozen_text_sha256": "da67450058d03c1f49339c8deef17f210392781f8dbbb91cb815d26b560da8c6"
+    },
+    {
+      "file": "155-伤科方书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7c6b1bd68a76017b9c5d50abc79cc9fc64309bfaaa8cf2261066d8f7da1d89dd",
+      "frozen_text_sha256": "7c6b1bd68a76017b9c5d50abc79cc9fc64309bfaaa8cf2261066d8f7da1d89dd"
+    },
+    {
+      "file": "156-伤科汇纂.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a3a73f4c6cc5d2f1cf1097b67c58ac5fc135d403e39f1a1a86ab9859a744a29",
+      "frozen_text_sha256": "6a3a73f4c6cc5d2f1cf1097b67c58ac5fc135d403e39f1a1a86ab9859a744a29"
+    },
+    {
+      "file": "157-伤科补要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "10b286526f1c60f3a9346011f1272a653e5caa1e0bae06800ff3130ac355344d",
+      "frozen_text_sha256": "10b286526f1c60f3a9346011f1272a653e5caa1e0bae06800ff3130ac355344d"
+    },
+    {
+      "file": "158-痰火点雪.txt",
+      "text_matches": true,
+      "recleaned_sha256": "542e2b657a8ae87ef8ff3063accc7676d848b0355467f1e9b2c2e1ddfe480c9e",
+      "frozen_text_sha256": "542e2b657a8ae87ef8ff3063accc7676d848b0355467f1e9b2c2e1ddfe480c9e"
+    },
+    {
+      "file": "159-解围元薮.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0d79ad672a38eff31cb5af52aab36011c06fbdb09d7fb9e267bbca7d4bb36b86",
+      "frozen_text_sha256": "0d79ad672a38eff31cb5af52aab36011c06fbdb09d7fb9e267bbca7d4bb36b86"
+    },
+    {
+      "file": "160-医略.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6e34a1789c09178076d2d6e24d1471dc72b5d9a859fff192d3ac3eeb82883e3f",
+      "frozen_text_sha256": "6e34a1789c09178076d2d6e24d1471dc72b5d9a859fff192d3ac3eeb82883e3f"
+    },
+    {
+      "file": "161-医门补要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f7ce4df7f66ad05ca1766ec49616445a56e8ce1f20824ebee7f03a3c8cf9f7a5",
+      "frozen_text_sha256": "f7ce4df7f66ad05ca1766ec49616445a56e8ce1f20824ebee7f03a3c8cf9f7a5"
+    },
+    {
+      "file": "162-医源.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9588fc607a9c91a1c016e913406ba72170e12cd9cd9613ce004a6cc39580d2a7",
+      "frozen_text_sha256": "9588fc607a9c91a1c016e913406ba72170e12cd9cd9613ce004a6cc39580d2a7"
+    },
+    {
+      "file": "163-仙传外科集验方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e755ccdf127c1bc340763d0ffd5219c1acbc7893dbf0ace5cc27033adb4abc04",
+      "frozen_text_sha256": "e755ccdf127c1bc340763d0ffd5219c1acbc7893dbf0ace5cc27033adb4abc04"
+    },
+    {
+      "file": "164-外科十法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "17b234787d42ae27422312c5feb32056b2eae70cd47a43a8da973ec053e9bc3f",
+      "frozen_text_sha256": "17b234787d42ae27422312c5feb32056b2eae70cd47a43a8da973ec053e9bc3f"
+    },
+    {
+      "file": "165-脉诀乳海.txt",
+      "text_matches": true,
+      "recleaned_sha256": "96730078b9a7e445322da99b1c2edc0da037d5d1fb4f53f5507e64109274cdfa",
+      "frozen_text_sha256": "96730078b9a7e445322da99b1c2edc0da037d5d1fb4f53f5507e64109274cdfa"
+    },
+    {
+      "file": "166-脉诀考证.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0cfe331cea364d4c86d3045cf8d036cc4a11153ef69134e844ceea94eef2f5b7",
+      "frozen_text_sha256": "0cfe331cea364d4c86d3045cf8d036cc4a11153ef69134e844ceea94eef2f5b7"
+    },
+    {
+      "file": "167-眼科秘诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7765135f61be950d6b93aa3626ae7a188c847b77f6a8da42b54130c3feab34db",
+      "frozen_text_sha256": "7765135f61be950d6b93aa3626ae7a188c847b77f6a8da42b54130c3feab34db"
+    },
+    {
+      "file": "168-审视瑶函.txt",
+      "text_matches": true,
+      "recleaned_sha256": "878a4b1d6df77737b2bfb9d500f426eafb12318b0d3bb347021d8ad79cc15d43",
+      "frozen_text_sha256": "878a4b1d6df77737b2bfb9d500f426eafb12318b0d3bb347021d8ad79cc15d43"
+    },
+    {
+      "file": "169-针灸大全.txt",
+      "text_matches": true,
+      "recleaned_sha256": "007364db7f1423daa919a208d2824443449570685cb47afe8fbb443044a4cd22",
+      "frozen_text_sha256": "007364db7f1423daa919a208d2824443449570685cb47afe8fbb443044a4cd22"
+    },
+    {
+      "file": "170-扁鹊神应针灸玉龙经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d3e36be284435447eac5dce9b31647ff1b0025d7f0fe6950a1668c05538d5f52",
+      "frozen_text_sha256": "d3e36be284435447eac5dce9b31647ff1b0025d7f0fe6950a1668c05538d5f52"
+    },
+    {
+      "file": "171-针灸易学.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cc33459b55b92a526074c7387d93c4483a43963bd1eb8b7e419f99534a5fcfdd",
+      "frozen_text_sha256": "cc33459b55b92a526074c7387d93c4483a43963bd1eb8b7e419f99534a5fcfdd"
+    },
+    {
+      "file": "172-针灸聚英.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1ae32ed31aa4769c915497483beb7806b25906ad623e59c796129de67a1e9d36",
+      "frozen_text_sha256": "1ae32ed31aa4769c915497483beb7806b25906ad623e59c796129de67a1e9d36"
+    },
+    {
+      "file": "173-针灸大成.txt",
+      "text_matches": true,
+      "recleaned_sha256": "26f7f2570956039d9cb81811ecce4cb7ebf5a40c28786d328110dff63747785e",
+      "frozen_text_sha256": "26f7f2570956039d9cb81811ecce4cb7ebf5a40c28786d328110dff63747785e"
+    },
+    {
+      "file": "174-一草亭目科全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c300dcd6c64e0a805f49cbefb163891e24c01994857c99ae0ee3bc1d55603fa9",
+      "frozen_text_sha256": "c300dcd6c64e0a805f49cbefb163891e24c01994857c99ae0ee3bc1d55603fa9"
+    },
+    {
+      "file": "175-口齿类要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4f959e122203517b1a48e96f62fcd4c25ea176ffca2ad614aa4169aca27f8a22",
+      "frozen_text_sha256": "4f959e122203517b1a48e96f62fcd4c25ea176ffca2ad614aa4169aca27f8a22"
+    },
+    {
+      "file": "176-白喉全生集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7c176c3b85678e71b74fe47928c0c48d406e7a2fd41d041a9df2f2c460bc3dc5",
+      "frozen_text_sha256": "7c176c3b85678e71b74fe47928c0c48d406e7a2fd41d041a9df2f2c460bc3dc5"
+    },
+    {
+      "file": "177-白喉条辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6d57592da69e4afb9b8c635891804aec6c489c43c5ee5c7b5dcf1daf2e56818a",
+      "frozen_text_sha256": "6d57592da69e4afb9b8c635891804aec6c489c43c5ee5c7b5dcf1daf2e56818a"
+    },
+    {
+      "file": "178-银海指南.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7b00c0a59ca035fa57d348c99d8c6c8353f530e0ff32415c71a832f2c3389bd6",
+      "frozen_text_sha256": "7b00c0a59ca035fa57d348c99d8c6c8353f530e0ff32415c71a832f2c3389bd6"
+    },
+    {
+      "file": "179-明目至宝.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7541a539bd7a3400affe8e997d89b34dbae8ceda2988839d0bc9b482d16c7f9d",
+      "frozen_text_sha256": "7541a539bd7a3400affe8e997d89b34dbae8ceda2988839d0bc9b482d16c7f9d"
+    },
+    {
+      "file": "180-金针秘传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "91fccad5195f4139ff5c775b9a6694c46512488d7d7872220d73d1879d9e73c5",
+      "frozen_text_sha256": "91fccad5195f4139ff5c775b9a6694c46512488d7d7872220d73d1879d9e73c5"
+    },
+    {
+      "file": "181-灵药秘方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "bec5e6f98456989473b433a03cb7f417828a36132c6130ffa08356cbdd02acf0",
+      "frozen_text_sha256": "bec5e6f98456989473b433a03cb7f417828a36132c6130ffa08356cbdd02acf0"
+    },
+    {
+      "file": "182-重楼玉钥.txt",
+      "text_matches": true,
+      "recleaned_sha256": "47a65262de7ace4c19c9cc858643ef0a5d2735534c64f98a36b67e783ae5c31a",
+      "frozen_text_sha256": "47a65262de7ace4c19c9cc858643ef0a5d2735534c64f98a36b67e783ae5c31a"
+    },
+    {
+      "file": "183-重楼玉钥续编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7d23cbee4fc0c2a84dee364a354e5d41d570da48f70bbb37409f4000a59ab539",
+      "frozen_text_sha256": "7d23cbee4fc0c2a84dee364a354e5d41d570da48f70bbb37409f4000a59ab539"
+    },
+    {
+      "file": "184-原机启微.txt",
+      "text_matches": true,
+      "recleaned_sha256": "abfb5dac076a7ab4b7a13c4a715d45ac45526aa6e3131d52c44b4aa384128ac9",
+      "frozen_text_sha256": "abfb5dac076a7ab4b7a13c4a715d45ac45526aa6e3131d52c44b4aa384128ac9"
+    },
+    {
+      "file": "185-神应经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ee7207b3a0b91c6bbbc93c1c304a35283c7f497a3cd6c0e761175f42dea0da5b",
+      "frozen_text_sha256": "ee7207b3a0b91c6bbbc93c1c304a35283c7f497a3cd6c0e761175f42dea0da5b"
+    },
+    {
+      "file": "186-针灸神书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8d7df896ac3cf2a970145a3351a8369c86e86e08213b40b3d89af0001ec6232f",
+      "frozen_text_sha256": "8d7df896ac3cf2a970145a3351a8369c86e86e08213b40b3d89af0001ec6232f"
+    },
+    {
+      "file": "187-针灸素难要旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4b6d7c4641008809eb54421df304ed67d77829dc5446bd3527fa3ea849178c46",
+      "frozen_text_sha256": "4b6d7c4641008809eb54421df304ed67d77829dc5446bd3527fa3ea849178c46"
+    },
+    {
+      "file": "188-针灸问对.txt",
+      "text_matches": true,
+      "recleaned_sha256": "549fe593844e3e3e58148c005532f4a6f64c543a69f1d1bc73fa31b1ae1b4234",
+      "frozen_text_sha256": "549fe593844e3e3e58148c005532f4a6f64c543a69f1d1bc73fa31b1ae1b4234"
+    },
+    {
+      "file": "189-针经指南.txt",
+      "text_matches": true,
+      "recleaned_sha256": "69c283ffd24c1eed36f40632f8ebd26f3298a6b44e0961a81c83d565cb055930",
+      "frozen_text_sha256": "69c283ffd24c1eed36f40632f8ebd26f3298a6b44e0961a81c83d565cb055930"
+    },
+    {
+      "file": "190-巢氏病源补养宣导法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "82b911b9587acef572cfb6ce1f4481da6c02e6355a727556d7f2a234dc820939",
+      "frozen_text_sha256": "82b911b9587acef572cfb6ce1f4481da6c02e6355a727556d7f2a234dc820939"
+    },
+    {
+      "file": "191-推拿抉微.txt",
+      "text_matches": true,
+      "recleaned_sha256": "057b763dc57e77d3b5eaefd59f39da3b0128ee514cf17fc6122033e8ffff7ce5",
+      "frozen_text_sha256": "057b763dc57e77d3b5eaefd59f39da3b0128ee514cf17fc6122033e8ffff7ce5"
+    },
+    {
+      "file": "192-理瀹骈文.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4939d0521f854f3c62a29acfb065703ff3399cb03a188f40e8d5095be3903200",
+      "frozen_text_sha256": "4939d0521f854f3c62a29acfb065703ff3399cb03a188f40e8d5095be3903200"
+    },
+    {
+      "file": "193-异授眼科.txt",
+      "text_matches": true,
+      "recleaned_sha256": "fdb7a4a01de99b8dd3db6b20750572656670f074306a460e50fc8c6748d0f654",
+      "frozen_text_sha256": "fdb7a4a01de99b8dd3db6b20750572656670f074306a460e50fc8c6748d0f654"
+    },
+    {
+      "file": "194-喉舌备要秘旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3b99db923a647e1952d0a18e9cded6518dd5b3618fa3a3d07d1f40e3ddc915c0",
+      "frozen_text_sha256": "3b99db923a647e1952d0a18e9cded6518dd5b3618fa3a3d07d1f40e3ddc915c0"
+    },
+    {
+      "file": "195-喉科秘诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0a36ecfd48c49ab4cfa1e55854fb20a30a5f82f974e13bb0b75f0089d59a80af",
+      "frozen_text_sha256": "0a36ecfd48c49ab4cfa1e55854fb20a30a5f82f974e13bb0b75f0089d59a80af"
+    },
+    {
+      "file": "196-焦氏喉科枕秘.txt",
+      "text_matches": true,
+      "recleaned_sha256": "37cf666f84ca641ed219515256b886a9c49721faa3098abfba6a43502a2eeda5",
+      "frozen_text_sha256": "37cf666f84ca641ed219515256b886a9c49721faa3098abfba6a43502a2eeda5"
+    },
+    {
+      "file": "197-黄帝明堂灸经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a6142bddf077630c5c8b05457ab589478bc296051fd43843ae7496dc3014135",
+      "frozen_text_sha256": "6a6142bddf077630c5c8b05457ab589478bc296051fd43843ae7496dc3014135"
+    },
+    {
+      "file": "198-经络全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d4a89b4a8808bb780c6de7cfffe63ee186ca0146f9a0b8328c107e983af746c8",
+      "frozen_text_sha256": "d4a89b4a8808bb780c6de7cfffe63ee186ca0146f9a0b8328c107e983af746c8"
+    },
+    {
+      "file": "199-经络考.txt",
+      "text_matches": true,
+      "recleaned_sha256": "30959940f846fb9c795cf301faa6e009eac09cab882f579979c8e0873acb4587",
+      "frozen_text_sha256": "30959940f846fb9c795cf301faa6e009eac09cab882f579979c8e0873acb4587"
+    },
+    {
+      "file": "200-包氏喉证家宝.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1a12d69bb3a776f8685c266deb81d7bd41bdac6516c91008c84a345b112a7eed",
+      "frozen_text_sha256": "1a12d69bb3a776f8685c266deb81d7bd41bdac6516c91008c84a345b112a7eed"
+    },
+    {
+      "file": "201-厘正按摩要术.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a19711556dd06c3a6b82d77b70b99a4fd39c5d6da7300c699616b79ff5a55838",
+      "frozen_text_sha256": "a19711556dd06c3a6b82d77b70b99a4fd39c5d6da7300c699616b79ff5a55838"
+    },
+    {
+      "file": "202-广嗣要语.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ebfd8e154ec1653c5d22b8e8e7ab11432a67a2d8773208f4e07ba65a1ac7ed9d",
+      "frozen_text_sha256": "ebfd8e154ec1653c5d22b8e8e7ab11432a67a2d8773208f4e07ba65a1ac7ed9d"
+    },
+    {
+      "file": "203-西方子明堂灸经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "50547c7b1436ea32343e60207b7b1f16230deca2ff673429db329a7baf3af019",
+      "frozen_text_sha256": "50547c7b1436ea32343e60207b7b1f16230deca2ff673429db329a7baf3af019"
+    },
+    {
+      "file": "204-友渔斋医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "be07d86f96da5f2f325e7ff30f60bdbe712fa39fa562d6382d580672c273a89e",
+      "frozen_text_sha256": "be07d86f96da5f2f325e7ff30f60bdbe712fa39fa562d6382d580672c273a89e"
+    },
+    {
+      "file": "205-徐批叶天士晚年方案真本.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4a54068d2b0c07d166d9cb525a159a65766f9237891d20c90b94207010fba9eb",
+      "frozen_text_sha256": "4a54068d2b0c07d166d9cb525a159a65766f9237891d20c90b94207010fba9eb"
+    },
+    {
+      "file": "206-吴鞠通医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7ae87628a2f7645a5d816cfaa43077f6dd1812935b31e8b52080aab7cf9e6284",
+      "frozen_text_sha256": "7ae87628a2f7645a5d816cfaa43077f6dd1812935b31e8b52080aab7cf9e6284"
+    },
+    {
+      "file": "207-冷庐医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "128209845203ad2def1106255235f0c6e198abcfca1765fdc389c1f470089711",
+      "frozen_text_sha256": "128209845203ad2def1106255235f0c6e198abcfca1765fdc389c1f470089711"
+    },
+    {
+      "file": "208-柳洲医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "275e027da0465dae91350a314441f26a72e343edf663addb1d2a21304441d6bc",
+      "frozen_text_sha256": "275e027da0465dae91350a314441f26a72e343edf663addb1d2a21304441d6bc"
+    },
+    {
+      "file": "209-医贯.txt",
+      "text_matches": true,
+      "recleaned_sha256": "005fe32810ea036d2594175b660effd9f7ce71c7f65a1f3cf7ff230971e3e46c",
+      "frozen_text_sha256": "005fe32810ea036d2594175b660effd9f7ce71c7f65a1f3cf7ff230971e3e46c"
+    },
+    {
+      "file": "210-古今医案按.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ad2e333006682bef336df3c6c60f9d64b8af323cdb845b9c39c97fc3ea92bce7",
+      "frozen_text_sha256": "ad2e333006682bef336df3c6c60f9d64b8af323cdb845b9c39c97fc3ea92bce7"
+    },
+    {
+      "file": "211-侣山堂类辩.txt",
+      "text_matches": true,
+      "recleaned_sha256": "18886f88f7df6321fe7634667ef4e270d83d0676bd3bf1e014f68e7baacc87fd",
+      "frozen_text_sha256": "18886f88f7df6321fe7634667ef4e270d83d0676bd3bf1e014f68e7baacc87fd"
+    },
+    {
+      "file": "212-临证指南医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "deb085acfb11b2705bcd2533e23d3b9abe03cd81c2ad854af154f9ebc9ce82af",
+      "frozen_text_sha256": "deb085acfb11b2705bcd2533e23d3b9abe03cd81c2ad854af154f9ebc9ce82af"
+    },
+    {
+      "file": "213-存存斋医话稿.txt",
+      "text_matches": true,
+      "recleaned_sha256": "46b960d83c0975bde6acdedcf1d85e6ca6ed358e310f96b52e650adf710b4588",
+      "frozen_text_sha256": "46b960d83c0975bde6acdedcf1d85e6ca6ed358e310f96b52e650adf710b4588"
+    },
+    {
+      "file": "214-丹溪治法心要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "484335a1a3557e06b956e5a0e9bc416a8ef03b88a5bfe4a933d85d42ca5ce7a4",
+      "frozen_text_sha256": "484335a1a3557e06b956e5a0e9bc416a8ef03b88a5bfe4a933d85d42ca5ce7a4"
+    },
+    {
+      "file": "215-医经溯洄集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "509db861326873223b38cd8e374ba8e42efa82ff93d2a92253e3d0b74cacf58d",
+      "frozen_text_sha256": "509db861326873223b38cd8e374ba8e42efa82ff93d2a92253e3d0b74cacf58d"
+    },
+    {
+      "file": "216-叶天士医案精华.txt",
+      "text_matches": true,
+      "recleaned_sha256": "54898919cccac8a88ffa09a7db1b49a385f6ba0dfa678a56135ace29df21e5b1",
+      "frozen_text_sha256": "54898919cccac8a88ffa09a7db1b49a385f6ba0dfa678a56135ace29df21e5b1"
+    },
+    {
+      "file": "217-一得集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ff16862b2ec8c9997897a86b15f0daa93cd012b1bf5b9ae4e1d7386ae0115333",
+      "frozen_text_sha256": "ff16862b2ec8c9997897a86b15f0daa93cd012b1bf5b9ae4e1d7386ae0115333"
+    },
+    {
+      "file": "218-三家医案合刻.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1992784a945b386a8a7f7b0371f4c916dcc173ea532880d323703cc1cff0b600",
+      "frozen_text_sha256": "1992784a945b386a8a7f7b0371f4c916dcc173ea532880d323703cc1cff0b600"
+    },
+    {
+      "file": "219-上池杂说.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b5779c2171d9a10231eb1eabc321dc6b51b9638053595a8944f510312fb90f1e",
+      "frozen_text_sha256": "b5779c2171d9a10231eb1eabc321dc6b51b9638053595a8944f510312fb90f1e"
+    },
+    {
+      "file": "220-也是山人医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3784e75af86f661ec4ec711679be24ba9166540bffcdaf189b02b3018be698e8",
+      "frozen_text_sha256": "3784e75af86f661ec4ec711679be24ba9166540bffcdaf189b02b3018be698e8"
+    },
+    {
+      "file": "221-市隐庐医学杂着.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f53e96104bb1b3df9b91e2adc4da3422d26c2eef1422b2dde942c28912e97c47",
+      "frozen_text_sha256": "f53e96104bb1b3df9b91e2adc4da3422d26c2eef1422b2dde942c28912e97c47"
+    },
+    {
+      "file": "222-未刻本叶氏医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "18243207d6d6a16246221b704ab9c9afebcf1f3fc8379292afa2fc117de29cf1",
+      "frozen_text_sha256": "18243207d6d6a16246221b704ab9c9afebcf1f3fc8379292afa2fc117de29cf1"
+    },
+    {
+      "file": "223-先哲医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8d645551fbb61375c7105b29cec2b7421b2fa2435a0a0f6dc99cfa3b58ca5828",
+      "frozen_text_sha256": "8d645551fbb61375c7105b29cec2b7421b2fa2435a0a0f6dc99cfa3b58ca5828"
+    },
+    {
+      "file": "224-回春录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "12197a3f61b2fbe6e46e91783d68a0665b75c6ed62ef33e380d2b78be4f35d6c",
+      "frozen_text_sha256": "12197a3f61b2fbe6e46e91783d68a0665b75c6ed62ef33e380d2b78be4f35d6c"
+    },
+    {
+      "file": "225-吴医汇讲.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c5cbd0683ca41d731240b3dc2d3f84f94cf7f97ea001aa703cfc41ba01b5f0b8",
+      "frozen_text_sha256": "c5cbd0683ca41d731240b3dc2d3f84f94cf7f97ea001aa703cfc41ba01b5f0b8"
+    },
+    {
+      "file": "226-知医必辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d81db2a45a025d883504886b4fa80ea40e153001b58914056f9f648b18e2b519",
+      "frozen_text_sha256": "d81db2a45a025d883504886b4fa80ea40e153001b58914056f9f648b18e2b519"
+    },
+    {
+      "file": "227-证治心传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3b48d4c7b354d32ced357ea1f6dbd0202fcd0e1e8a125494077fe71d5c130248",
+      "frozen_text_sha256": "3b48d4c7b354d32ced357ea1f6dbd0202fcd0e1e8a125494077fe71d5c130248"
+    },
+    {
+      "file": "228-研经言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a0fe7d84d1d78ac2bda81a6c0cf63faabd029f624acf631b6f451774e4169e4",
+      "frozen_text_sha256": "6a0fe7d84d1d78ac2bda81a6c0cf63faabd029f624acf631b6f451774e4169e4"
+    },
+    {
+      "file": "229-重订灵兰要览.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e0ee08452d6043c09c7be844faec3e0e7454b15e3daefb35f30f0fc73df000f6",
+      "frozen_text_sha256": "e0ee08452d6043c09c7be844faec3e0e7454b15e3daefb35f30f0fc73df000f6"
+    },
+    {
+      "file": "230-孙文垣医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "93da280242986cd72d3fbf9eec2db728001936e6c92e98d2e8317ef8b9e30feb",
+      "frozen_text_sha256": "93da280242986cd72d3fbf9eec2db728001936e6c92e98d2e8317ef8b9e30feb"
+    },
+    {
+      "file": "231-塘医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c67713f6c7c8a6323976f9cf67d0317bd72c0702c7e00a3032dc0d4e44d97d7f",
+      "frozen_text_sha256": "c67713f6c7c8a6323976f9cf67d0317bd72c0702c7e00a3032dc0d4e44d97d7f"
+    },
+    {
+      "file": "232-张聿青医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "89e91c2f599825e0dc62ef6653795c487aa8d89daf99a9188c12563e940186cf",
+      "frozen_text_sha256": "89e91c2f599825e0dc62ef6653795c487aa8d89daf99a9188c12563e940186cf"
+    },
+    {
+      "file": "233-曹仁伯医案论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3610b3722b92a73793ef1432b6e707b72665f0a29ba3707cb5365ab12c479b6d",
+      "frozen_text_sha256": "3610b3722b92a73793ef1432b6e707b72665f0a29ba3707cb5365ab12c479b6d"
+    },
+    {
+      "file": "234-热病衡正.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3f5e5730af43e6f6e491d8bd920998e2b14fcdf0347761b4509a9f6ecbf8b68c",
+      "frozen_text_sha256": "3f5e5730af43e6f6e491d8bd920998e2b14fcdf0347761b4509a9f6ecbf8b68c"
+    },
+    {
+      "file": "235-寓意草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d25c55eee7eb84e930e6b37e33b8e229b4f7dad06f63b7a4307c0f92a2b20694",
+      "frozen_text_sha256": "d25c55eee7eb84e930e6b37e33b8e229b4f7dad06f63b7a4307c0f92a2b20694"
+    },
+    {
+      "file": "236-程杏轩医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "178f67d902b8bccd6cc28bb19e73dfe30bf342cd3d119433bd7d21baebd954d8",
+      "frozen_text_sha256": "178f67d902b8bccd6cc28bb19e73dfe30bf342cd3d119433bd7d21baebd954d8"
+    },
+    {
+      "file": "237-慎疾刍言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "985c7beb2ea6d9664d98f82545eeb365838f1d6e00fe5f5249cb7ab9a3222da8",
+      "frozen_text_sha256": "985c7beb2ea6d9664d98f82545eeb365838f1d6e00fe5f5249cb7ab9a3222da8"
+    },
+    {
+      "file": "238-叶选医衡.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cfead5b12ffdfff14d0d01818a3603b38ac82b6955a4db1dd6193ccee4191155",
+      "frozen_text_sha256": "cfead5b12ffdfff14d0d01818a3603b38ac82b6955a4db1dd6193ccee4191155"
+    },
+    {
+      "file": "239-对山医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "73b08536db817c68009ad37bd02b4b88a18ff72b907eaa3850aa9a29f54c6e33",
+      "frozen_text_sha256": "73b08536db817c68009ad37bd02b4b88a18ff72b907eaa3850aa9a29f54c6e33"
+    },
+    {
+      "file": "240-质疑录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d00af0d9350596a0ded3f32af3ab57515ddd4abf6e799cec35c0e4f4cb5a7173",
+      "frozen_text_sha256": "d00af0d9350596a0ded3f32af3ab57515ddd4abf6e799cec35c0e4f4cb5a7173"
+    },
+    {
+      "file": "241-医暇卮言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ef7296d66d9bd90955383c7855318070013f53a2098011dc98140c198ff77d28",
+      "frozen_text_sha256": "ef7296d66d9bd90955383c7855318070013f53a2098011dc98140c198ff77d28"
+    },
+    {
+      "file": "242-医学读书记.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5a6c126c14a6dcd8127c210638ceaaecaef69cd50221609a4e04494f351f4d6a",
+      "frozen_text_sha256": "5a6c126c14a6dcd8127c210638ceaaecaef69cd50221609a4e04494f351f4d6a"
+    },
+    {
+      "file": "243-医医医.txt",
+      "text_matches": true,
+      "recleaned_sha256": "873bb99ab325bcf1c0e36bbd9c38c2a2d03b53c20a9682f65e1aa1f76331a763",
+      "frozen_text_sha256": "873bb99ab325bcf1c0e36bbd9c38c2a2d03b53c20a9682f65e1aa1f76331a763"
+    },
+    {
+      "file": "244-续名医类案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0faf40537093f6217c89df8fe58b71cfb34e308bd3d47a4681f89f9ef9578fbb",
+      "frozen_text_sha256": "0faf40537093f6217c89df8fe58b71cfb34e308bd3d47a4681f89f9ef9578fbb"
+    },
+    {
+      "file": "245-邵兰荪医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2c1924d796fe4679c8236bccaa0c9355324ff5b165b606843cd519450fbf6d0f",
+      "frozen_text_sha256": "2c1924d796fe4679c8236bccaa0c9355324ff5b165b606843cd519450fbf6d0f"
+    },
+    {
+      "file": "246-八十一难经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2066206284e0f74c81b3a0d3ca3e05b4dd96b5b771f8ac4556ea8e58a99ea25f",
+      "frozen_text_sha256": "2066206284e0f74c81b3a0d3ca3e05b4dd96b5b771f8ac4556ea8e58a99ea25f"
+    },
+    {
+      "file": "247-内经博议.txt",
+      "text_matches": true,
+      "recleaned_sha256": "16e3d38e0554627e30a9ca2ca4a169330048d08ee9e0874516563bbb2c0fd5bd",
+      "frozen_text_sha256": "16e3d38e0554627e30a9ca2ca4a169330048d08ee9e0874516563bbb2c0fd5bd"
+    },
+    {
+      "file": "248-医经原旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ebc274ae7168bca5f1ef211de9d054692a2caba30d1aeec44f29c87c61d29234",
+      "frozen_text_sha256": "ebc274ae7168bca5f1ef211de9d054692a2caba30d1aeec44f29c87c61d29234"
+    },
+    {
+      "file": "249-类经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3fc004262bcb501b6b52ea0aea6472682d509d5092a245d141aa1b6270811689",
+      "frozen_text_sha256": "3fc004262bcb501b6b52ea0aea6472682d509d5092a245d141aa1b6270811689"
+    },
+    {
+      "file": "250-内经知要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0ee56421a55481bb060ea769d690bc4af0fb0172929ff92ef1c47cc3809cedd1",
+      "frozen_text_sha256": "0ee56421a55481bb060ea769d690bc4af0fb0172929ff92ef1c47cc3809cedd1"
+    },
+    {
+      "file": "251-黄帝内经素问集注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7c452eb0357c6615d739285083e1c40772de6b6b1d36da30006b758acf644ec1",
+      "frozen_text_sha256": "7c452eb0357c6615d739285083e1c40772de6b6b1d36da30006b758acf644ec1"
+    },
+    {
+      "file": "252-黄帝内经灵枢集注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "88e6e5971f7678ad2fefe42f712f72a6fc127a83093c1c93dfe46f2b500b42b5",
+      "frozen_text_sha256": "88e6e5971f7678ad2fefe42f712f72a6fc127a83093c1c93dfe46f2b500b42b5"
+    },
+    {
+      "file": "253-素问病机气宜保命集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d5adc2f06520eaf778189b707001d3d4b3f77ff6f6cae13847f09d0dd3cbe3e7",
+      "frozen_text_sha256": "d5adc2f06520eaf778189b707001d3d4b3f77ff6f6cae13847f09d0dd3cbe3e7"
+    },
+    {
+      "file": "254-六因条辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "53b57f45fd63da7178e0cd69a7090500d87b36d72094a3aeb949aae380d44713",
+      "frozen_text_sha256": "53b57f45fd63da7178e0cd69a7090500d87b36d72094a3aeb949aae380d44713"
+    },
+    {
+      "file": "255-素问灵枢类纂约注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cffa39aae4dbdcc5097fd01ec95f1b1c88206e62cca18e6997cc81e8482c07f9",
+      "frozen_text_sha256": "cffa39aae4dbdcc5097fd01ec95f1b1c88206e62cca18e6997cc81e8482c07f9"
+    },
+    {
+      "file": "256-黄帝内经素问.txt",
+      "text_matches": true,
+      "recleaned_sha256": "186a9e41de34096bc0cadd8fe960465bef55efb72975a6d73e2a103d62e86322",
+      "frozen_text_sha256": "186a9e41de34096bc0cadd8fe960465bef55efb72975a6d73e2a103d62e86322"
+    },
+    {
+      "file": "257-黄帝内经太素.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b60a52e7c2ac2a69ea96abb7c22e593216eeaf6bf6bcbefde8056f88a5b272c7",
+      "frozen_text_sha256": "b60a52e7c2ac2a69ea96abb7c22e593216eeaf6bf6bcbefde8056f88a5b272c7"
+    },
+    {
+      "file": "258-中西汇通医经精义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e5fdb6c45ec1e00c0ecd8aa67975dccc09d3280c7545b718c3135606ee9388c7",
+      "frozen_text_sha256": "e5fdb6c45ec1e00c0ecd8aa67975dccc09d3280c7545b718c3135606ee9388c7"
+    },
+    {
+      "file": "259-内经评文.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0fc24096ae12716925f1ed45c5af163c4920fd816187ccc8762767f3100b0fc2",
+      "frozen_text_sha256": "0fc24096ae12716925f1ed45c5af163c4920fd816187ccc8762767f3100b0fc2"
+    },
+    {
+      "file": "260-医效秘传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8d0ff2adc7df113d2ca3f22e694a8438db627eae7581ec71c03170a75211bf8c",
+      "frozen_text_sha256": "8d0ff2adc7df113d2ca3f22e694a8438db627eae7581ec71c03170a75211bf8c"
+    },
+    {
+      "file": "261-灵素节注类编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "bd71149fd8f63ca693770a38b33b99d51c4ba63533bf6fc1735f074887590998",
+      "frozen_text_sha256": "bd71149fd8f63ca693770a38b33b99d51c4ba63533bf6fc1735f074887590998"
+    },
+    {
+      "file": "262-古本难经阐注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ce3122e3ff0c24c12c45a61f6fc8a6f94b940a407ae014f48739432a053643a6",
+      "frozen_text_sha256": "ce3122e3ff0c24c12c45a61f6fc8a6f94b940a407ae014f48739432a053643a6"
+    },
+    {
+      "file": "263-难经正义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "fac4747ee333374f3f592697fdd1116745b461f7c6ad6fd3674b57d94d8301b9",
+      "frozen_text_sha256": "fac4747ee333374f3f592697fdd1116745b461f7c6ad6fd3674b57d94d8301b9"
+    },
+    {
+      "file": "264-难经经释.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e360980d8ba829bf9488f5ee96f025b40f1cedac50ff9a65df67c4071c5c4866",
+      "frozen_text_sha256": "e360980d8ba829bf9488f5ee96f025b40f1cedac50ff9a65df67c4071c5c4866"
+    },
+    {
+      "file": "265-黄帝素问宣明论方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "20ae784d7845e732f7758a4131dcba833f8fb716299baa5de77eb0279de11f08",
+      "frozen_text_sha256": "20ae784d7845e732f7758a4131dcba833f8fb716299baa5de77eb0279de11f08"
+    },
+    {
+      "file": "266-难经集注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1ec8925a7d60f91110291912587f0f14bdc982b9e5e76f3653d148b6e78af51f",
+      "frozen_text_sha256": "1ec8925a7d60f91110291912587f0f14bdc982b9e5e76f3653d148b6e78af51f"
+    },
+    {
+      "file": "267-难经古义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ee686337596440542b05ba95917a13432ad8ca9afc3ca226531c2b76a41df4ac",
+      "frozen_text_sha256": "ee686337596440542b05ba95917a13432ad8ca9afc3ca226531c2b76a41df4ac"
+    },
+    {
+      "file": "268-伤寒捷诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2e3744eef4359a36e5e74b17a5566c85aaf39d873917ce782b64a89c12a5973b",
+      "frozen_text_sha256": "2e3744eef4359a36e5e74b17a5566c85aaf39d873917ce782b64a89c12a5973b"
+    },
+    {
+      "file": "269-伤寒总病论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "756a31e729520c99b63240bc6b3c0fbe0cfa86d68a0493f17b1676dd0fbf9aec",
+      "frozen_text_sha256": "756a31e729520c99b63240bc6b3c0fbe0cfa86d68a0493f17b1676dd0fbf9aec"
+    },
+    {
+      "file": "270-注解伤寒论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5a510cf480cfb4b9001b3fc0443c55411aa55ac2395b0e9f3fc00a9bef8b7a0f",
+      "frozen_text_sha256": "5a510cf480cfb4b9001b3fc0443c55411aa55ac2395b0e9f3fc00a9bef8b7a0f"
+    },
+    {
+      "file": "271-伤寒九十论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "fe5eab0ccd61a949a0fd7d17c39e7bcc3ac9c4b1960aae6355347e2722710e9a",
+      "frozen_text_sha256": "fe5eab0ccd61a949a0fd7d17c39e7bcc3ac9c4b1960aae6355347e2722710e9a"
+    },
+    {
+      "file": "272-伤寒百证歌.txt",
+      "text_matches": true,
+      "recleaned_sha256": "814052f9c575e7036a6e6fb69abe8f70e9299b2983f70432c6c1bd81de30e63f",
+      "frozen_text_sha256": "814052f9c575e7036a6e6fb69abe8f70e9299b2983f70432c6c1bd81de30e63f"
+    },
+    {
+      "file": "273-伤寒发微论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "89a784225ac71c32eddaf23392de251cd39b8acec5437d36da44723d3972f83d",
+      "frozen_text_sha256": "89a784225ac71c32eddaf23392de251cd39b8acec5437d36da44723d3972f83d"
+    },
+    {
+      "file": "274-伤寒明理论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "986ae9f293563dc4b3aa8e5ee0cd8291ac24b774b5e193556d85c3db7c348929",
+      "frozen_text_sha256": "986ae9f293563dc4b3aa8e5ee0cd8291ac24b774b5e193556d85c3db7c348929"
+    },
+    {
+      "file": "275-仲景伤寒补亡论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5b98dd5a0815f5a73c2b1b623a0ad82c62131059993a591a9dc27bec8a873ad8",
+      "frozen_text_sha256": "5b98dd5a0815f5a73c2b1b623a0ad82c62131059993a591a9dc27bec8a873ad8"
+    },
+    {
+      "file": "276-伤寒寻源.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a84e3d216dbb039e300062d0b08ed04bbc2649b68359e74270436f377b2c92ea",
+      "frozen_text_sha256": "a84e3d216dbb039e300062d0b08ed04bbc2649b68359e74270436f377b2c92ea"
+    },
+    {
+      "file": "277-伤寒直格.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1baf7d19aff498f6944d94a1fc4d91302491ecda69e065ce84e05419486e9f02",
+      "frozen_text_sha256": "1baf7d19aff498f6944d94a1fc4d91302491ecda69e065ce84e05419486e9f02"
+    },
+    {
+      "file": "278-伤寒标本心法类萃.txt",
+      "text_matches": true,
+      "recleaned_sha256": "beceed7ef97c2fa01b0b4b6fdd4bf959e9d7a35cc5946cd1ecfa8901fba581e1",
+      "frozen_text_sha256": "beceed7ef97c2fa01b0b4b6fdd4bf959e9d7a35cc5946cd1ecfa8901fba581e1"
+    },
+    {
+      "file": "279-伤寒六书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f81dc42677465f46255a7a61c0f6863cab0345b93ba45f46e667e59778e340a3",
+      "frozen_text_sha256": "f81dc42677465f46255a7a61c0f6863cab0345b93ba45f46e667e59778e340a3"
+    },
+    {
+      "file": "280-伤寒论条辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a4f026febb2d297bd604b5b47e0e2171c79bf2d1851f8f59c4743c848f291b5b",
+      "frozen_text_sha256": "a4f026febb2d297bd604b5b47e0e2171c79bf2d1851f8f59c4743c848f291b5b"
+    },
+    {
+      "file": "281-张卿子伤寒论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "86a60e44fecddbd6cbe09501c406190ac7ff9a78caae9dfdbbd905b85ac53c28",
+      "frozen_text_sha256": "86a60e44fecddbd6cbe09501c406190ac7ff9a78caae9dfdbbd905b85ac53c28"
+    },
+    {
+      "file": "282-伤寒论注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "890bd53a922b0a180b7588a5d9043568d233002cc796a3b2f85b59a514d8c967",
+      "frozen_text_sha256": "890bd53a922b0a180b7588a5d9043568d233002cc796a3b2f85b59a514d8c967"
+    },
+    {
+      "file": "283-伤寒溯源集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dcb2f1dfeafe3a14e21e62ce35a01d8c84c6998f5e4c46df65a21bbbc4172129",
+      "frozen_text_sha256": "dcb2f1dfeafe3a14e21e62ce35a01d8c84c6998f5e4c46df65a21bbbc4172129"
+    },
+    {
+      "file": "284-伤寒括要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "00ff74f2cd2d67fdf81a534c8ffc224ea72e101f0106c24ba408ea9459b09595",
+      "frozen_text_sha256": "00ff74f2cd2d67fdf81a534c8ffc224ea72e101f0106c24ba408ea9459b09595"
+    },
+    {
+      "file": "285-伤寒缵论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cc8e0ba57199195be296a4957225ef70d6eb5fd950b907ed4ac7b1bc74ec09bb",
+      "frozen_text_sha256": "cc8e0ba57199195be296a4957225ef70d6eb5fd950b907ed4ac7b1bc74ec09bb"
+    },
+    {
+      "file": "286-伤寒贯珠集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ca274209adee48157ab200519ecd82aaa75167ec78d642c671bd5a76a5a338d6",
+      "frozen_text_sha256": "ca274209adee48157ab200519ecd82aaa75167ec78d642c671bd5a76a5a338d6"
+    },
+    {
+      "file": "287-伤寒法祖.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b5b02447bee44c799ead6c9eb6465fa2270c4d8a59aab7750d2f578e4bcd785d",
+      "frozen_text_sha256": "b5b02447bee44c799ead6c9eb6465fa2270c4d8a59aab7750d2f578e4bcd785d"
+    },
+    {
+      "file": "288-伤寒大白.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8d6b3fec584a207a18d1f94d707eb85b6ac3d9648fc0541768239b5028a8ad8c",
+      "frozen_text_sha256": "8d6b3fec584a207a18d1f94d707eb85b6ac3d9648fc0541768239b5028a8ad8c"
+    },
+    {
+      "file": "289-伤寒论辩证广注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "54b2bfc8013a1785c28c219ad9854e8ef39c54bb9958c9be8a9e0a0f65753993",
+      "frozen_text_sha256": "54b2bfc8013a1785c28c219ad9854e8ef39c54bb9958c9be8a9e0a0f65753993"
+    },
+    {
+      "file": "290-伤寒论辑义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1770f436c92ae1fb4b1471eadbff5771531f2f0aeeaf4086d9bd1178b0dfaeee",
+      "frozen_text_sha256": "1770f436c92ae1fb4b1471eadbff5771531f2f0aeeaf4086d9bd1178b0dfaeee"
+    },
+    {
+      "file": "291-伤寒医诀串解.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f97a250093b5197dd628042ea6e53e067cac0a86e00af48ce61ad096d4d04f72",
+      "frozen_text_sha256": "f97a250093b5197dd628042ea6e53e067cac0a86e00af48ce61ad096d4d04f72"
+    },
+    {
+      "file": "292-伤寒补例.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4235ae22cab2b73ac88ea79afaa8a046a6d4e7a5f32d8ae959456fc9639f37d7",
+      "frozen_text_sha256": "4235ae22cab2b73ac88ea79afaa8a046a6d4e7a5f32d8ae959456fc9639f37d7"
+    },
+    {
+      "file": "293-增订叶评伤暑全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f264c76f3a46782feed76a4b84f6a3f2c037daea127bdf393443d2e9dc108b61",
+      "frozen_text_sha256": "f264c76f3a46782feed76a4b84f6a3f2c037daea127bdf393443d2e9dc108b61"
+    },
+    {
+      "file": "294-伤寒附翼.txt",
+      "text_matches": true,
+      "recleaned_sha256": "88e7a627127102d177f3d4d68a32729f24d65e109fe0cf8c406bfdd134d46575",
+      "frozen_text_sha256": "88e7a627127102d177f3d4d68a32729f24d65e109fe0cf8c406bfdd134d46575"
+    },
+    {
+      "file": "295-伤寒指掌.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7ac81a614fe42e44be6d63efbbad68b9f4c87d2393a513c09f4ddab97dc0253d",
+      "frozen_text_sha256": "7ac81a614fe42e44be6d63efbbad68b9f4c87d2393a513c09f4ddab97dc0253d"
+    },
+    {
+      "file": "296-中寒论辩证广注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "358241bbff0b9f4b95e4f11e6a0ae4b93993441555b22adba87e25d1c8ec568a",
+      "frozen_text_sha256": "358241bbff0b9f4b95e4f11e6a0ae4b93993441555b22adba87e25d1c8ec568a"
+    },
+    {
+      "file": "297-刘河间伤寒医鉴.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3f213a86a2b33cbcf37cda3adec68b00fc2f4790b86de0a76fa50cc86ce5fddb",
+      "frozen_text_sha256": "3f213a86a2b33cbcf37cda3adec68b00fc2f4790b86de0a76fa50cc86ce5fddb"
+    },
+    {
+      "file": "298-金匮要略浅注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5366212b2cc6027472ffee82ffcaf5803a60a63342d72006be8ffbb2e69f05c7",
+      "frozen_text_sha256": "5366212b2cc6027472ffee82ffcaf5803a60a63342d72006be8ffbb2e69f05c7"
+    },
+    {
+      "file": "299-金匮要略心典.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3eab287783fe9f7c6dea1509df048e3b5cab3789f2bcb2baf516790e467148d9",
+      "frozen_text_sha256": "3eab287783fe9f7c6dea1509df048e3b5cab3789f2bcb2baf516790e467148d9"
+    },
+    {
+      "file": "300-金匮玉函要略述义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2ca2b9fb77985e6fc6654d37de484bbc0393ff87a475c5aa60e64177dd549f28",
+      "frozen_text_sha256": "2ca2b9fb77985e6fc6654d37de484bbc0393ff87a475c5aa60e64177dd549f28"
+    },
+    {
+      "file": "301-脉经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "425c5e93d863d43b96179246202ff9aaec6f3ad9ef62971059cd7f6ef9026bef",
+      "frozen_text_sha256": "425c5e93d863d43b96179246202ff9aaec6f3ad9ef62971059cd7f6ef9026bef"
+    },
+    {
+      "file": "302-诊家枢要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d38a759181733773232382054bfa0ed397cd13b87aee23d510eececaa79ac542",
+      "frozen_text_sha256": "d38a759181733773232382054bfa0ed397cd13b87aee23d510eececaa79ac542"
+    },
+    {
+      "file": "303-诊家正眼.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7e2f0d0cc5fe93b7f338553eb19cf90607cd4496a6e267bc42987c286208a245",
+      "frozen_text_sha256": "7e2f0d0cc5fe93b7f338553eb19cf90607cd4496a6e267bc42987c286208a245"
+    },
+    {
+      "file": "304-三指禅.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f402290c22fe0d76f989d5b8c7d9262106d2e13c56b209182b80092083842def",
+      "frozen_text_sha256": "f402290c22fe0d76f989d5b8c7d9262106d2e13c56b209182b80092083842def"
+    },
+    {
+      "file": "305-形色外诊简摩.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6635df7461b8d24685c5952309300d833e404c4e72873ffc6a754bf859b2740c",
+      "frozen_text_sha256": "6635df7461b8d24685c5952309300d833e404c4e72873ffc6a754bf859b2740c"
+    },
+    {
+      "file": "306-金匮玉函要略辑义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a24dd340c66deb3d36270b0f8e13967732f34229f21ba988d2fdad92b524696b",
+      "frozen_text_sha256": "a24dd340c66deb3d36270b0f8e13967732f34229f21ba988d2fdad92b524696b"
+    },
+    {
+      "file": "307-脉理求真.txt",
+      "text_matches": true,
+      "recleaned_sha256": "14e7ed6cfe49213f8bf27ab1036d9b3fba0f076ff004c035a51b590f11c34dbb",
+      "frozen_text_sha256": "14e7ed6cfe49213f8bf27ab1036d9b3fba0f076ff004c035a51b590f11c34dbb"
+    },
+    {
+      "file": "308-脉诀汇辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "44144fd7a233fff2049609c8e7829a2336c1c91dc42b4451dcae50e1f74082da",
+      "frozen_text_sha256": "44144fd7a233fff2049609c8e7829a2336c1c91dc42b4451dcae50e1f74082da"
+    },
+    {
+      "file": "309-临症验舌法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e687db9c7049857a54c245eb9c81fbeb21dd17a9cae678368758931c344330a1",
+      "frozen_text_sha256": "e687db9c7049857a54c245eb9c81fbeb21dd17a9cae678368758931c344330a1"
+    },
+    {
+      "file": "310-望诊遵经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5446118a3100ba0485a1327a713c88af3f77f4aa115c250848adcacc56cc06c9",
+      "frozen_text_sha256": "5446118a3100ba0485a1327a713c88af3f77f4aa115c250848adcacc56cc06c9"
+    },
+    {
+      "file": "311-诊宗三昧.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4a3715a6d7ad7b9606c95437c6218a72ad3402ca6c4cfd846b239f4d0d7427af",
+      "frozen_text_sha256": "4a3715a6d7ad7b9606c95437c6218a72ad3402ca6c4cfd846b239f4d0d7427af"
+    },
+    {
+      "file": "312-医灯续焰.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c062ef4e0c5bcf58db7dd8b1406ec3ec30d23df834138ab6515eb202e7fe654c",
+      "frozen_text_sha256": "c062ef4e0c5bcf58db7dd8b1406ec3ec30d23df834138ab6515eb202e7fe654c"
+    },
+    {
+      "file": "313-察病指南.txt",
+      "text_matches": true,
+      "recleaned_sha256": "464b6b18eeed9c16f7974228ce8a92b1b3e9a3fdba164790d67dbeaa544283d9",
+      "frozen_text_sha256": "464b6b18eeed9c16f7974228ce8a92b1b3e9a3fdba164790d67dbeaa544283d9"
+    },
+    {
+      "file": "314-察舌辨症新法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e0da8074a294e9cc43a62e3ececa006e773aa7a9a7c65e9b89bfd37c8eba0e43",
+      "frozen_text_sha256": "e0da8074a294e9cc43a62e3ececa006e773aa7a9a7c65e9b89bfd37c8eba0e43"
+    },
+    {
+      "file": "315-千金食治.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3fc6ca4ede89e91d1bc47da660761c165e7cf09dbf0e738c00afaff48ec7e1a8",
+      "frozen_text_sha256": "3fc6ca4ede89e91d1bc47da660761c165e7cf09dbf0e738c00afaff48ec7e1a8"
+    },
+    {
+      "file": "316-温热暑疫全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3391acb37237eac9ee1b006e64cbba3cfa9d85d7ab47a2603d424977eb495ca4",
+      "frozen_text_sha256": "3391acb37237eac9ee1b006e64cbba3cfa9d85d7ab47a2603d424977eb495ca4"
+    },
+    {
+      "file": "317-温病条辨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5db945bd715632386c27e54e06ef9b3a629a756920d24d987bcbd0c93bb105da",
+      "frozen_text_sha256": "5db945bd715632386c27e54e06ef9b3a629a756920d24d987bcbd0c93bb105da"
+    },
+    {
+      "file": "318-温热逢源.txt",
+      "text_matches": true,
+      "recleaned_sha256": "63289e6793b8772dbdcd269baa4e6fe42ebfa59b3c395fe73dfe7f3c5046178b",
+      "frozen_text_sha256": "63289e6793b8772dbdcd269baa4e6fe42ebfa59b3c395fe73dfe7f3c5046178b"
+    },
+    {
+      "file": "319-女丹合编选注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "74749b078a642709d9fdf4f73aca16d30bca3c61b89aa616a1a1ece14e02c122",
+      "frozen_text_sha256": "74749b078a642709d9fdf4f73aca16d30bca3c61b89aa616a1a1ece14e02c122"
+    },
+    {
+      "file": "320-备急千金要方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9472e890f420b2e6422f292875b13e3c6b2b34314648c508fd1267121b0aa8fe",
+      "frozen_text_sha256": "9472e890f420b2e6422f292875b13e3c6b2b34314648c508fd1267121b0aa8fe"
+    },
+    {
+      "file": "321-心医集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "310e91f590f490d3d4ba26db390b0080a2ac1183f9b6d21a41d096fd3ef0c85b",
+      "frozen_text_sha256": "310e91f590f490d3d4ba26db390b0080a2ac1183f9b6d21a41d096fd3ef0c85b"
+    },
+    {
+      "file": "322-性命要旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2fe15fe5aa675b3848c29502a083c9afd1167922a17fbb6f00d4b47845ddf24e",
+      "frozen_text_sha256": "2fe15fe5aa675b3848c29502a083c9afd1167922a17fbb6f00d4b47845ddf24e"
+    },
+    {
+      "file": "323-松峰说疫.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4bdb0f967d99a1ddbb0e2c8d655d468512316bf704167cd56ed3fcc074dd51bb",
+      "frozen_text_sha256": "4bdb0f967d99a1ddbb0e2c8d655d468512316bf704167cd56ed3fcc074dd51bb"
+    },
+    {
+      "file": "324-温病正宗.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f404a7159f537511f53b0abf9480f5a341e4e38e0ed3f32f7f8a6c8ae5c63827",
+      "frozen_text_sha256": "f404a7159f537511f53b0abf9480f5a341e4e38e0ed3f32f7f8a6c8ae5c63827"
+    },
+    {
+      "file": "325-寿世保元.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3896f5b211a62101c40344f2b49e437b9328e8e3a555024fbdbc5eec30e9885b",
+      "frozen_text_sha256": "3896f5b211a62101c40344f2b49e437b9328e8e3a555024fbdbc5eec30e9885b"
+    },
+    {
+      "file": "326-温热论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "87b0dc76429ba7be21c7d86789e1575f84b6320eac7bd8447f87b92e7e3e722a",
+      "frozen_text_sha256": "87b0dc76429ba7be21c7d86789e1575f84b6320eac7bd8447f87b92e7e3e722a"
+    },
+    {
+      "file": "327-达摩洗髓易筋经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "56c2d47bb08c5fd159068cdb139efa4876f3c405c72834c79f59e52748d00e36",
+      "frozen_text_sha256": "56c2d47bb08c5fd159068cdb139efa4876f3c405c72834c79f59e52748d00e36"
+    },
+    {
+      "file": "328-广瘟疫论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "66c8d963cdefcdb0e5146683d99453a194dae56dfcb7c77a237ba4cc42c861a3",
+      "frozen_text_sha256": "66c8d963cdefcdb0e5146683d99453a194dae56dfcb7c77a237ba4cc42c861a3"
+    },
+    {
+      "file": "329-养生导引秘籍.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d0afd9ae3e0ef6cd567e63bec0ff7fbeaf633dfcecd17534aee5539a83f71266",
+      "frozen_text_sha256": "d0afd9ae3e0ef6cd567e63bec0ff7fbeaf633dfcecd17534aee5539a83f71266"
+    },
+    {
+      "file": "330-随息居重订霍乱论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4bd1f11eefa720a67f2f5543c1255196e838234f61c9187fbf40002ce98f5555",
+      "frozen_text_sha256": "4bd1f11eefa720a67f2f5543c1255196e838234f61c9187fbf40002ce98f5555"
+    },
+    {
+      "file": "331-修昆仑证验.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d50fa6b517922be688a0a5d68ed4456ef8fdcebb12f8556b6a4c96874d29cc9b",
+      "frozen_text_sha256": "d50fa6b517922be688a0a5d68ed4456ef8fdcebb12f8556b6a4c96874d29cc9b"
+    },
+    {
+      "file": "332-寿世青编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a236ec9d8eae54c99eb6ea4b3970a8f45084f0f264e86bf5e9512865833e90b9",
+      "frozen_text_sha256": "a236ec9d8eae54c99eb6ea4b3970a8f45084f0f264e86bf5e9512865833e90b9"
+    },
+    {
+      "file": "333-华氏中藏经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "512062c0f7a7ab59e4b4549393c1bb8868d3ee4dd759d5009209ea63c5318a69",
+      "frozen_text_sha256": "512062c0f7a7ab59e4b4549393c1bb8868d3ee4dd759d5009209ea63c5318a69"
+    },
+    {
+      "file": "334-扁鹊心书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "29756a39b02a29fd8097834dec65ef8c3471aca1dae4c402c57f6bb433d928d4",
+      "frozen_text_sha256": "29756a39b02a29fd8097834dec65ef8c3471aca1dae4c402c57f6bb433d928d4"
+    },
+    {
+      "file": "335-明医指掌.txt",
+      "text_matches": true,
+      "recleaned_sha256": "098cc00920d5b3bfa252ac22d733fa49703020fcc149086b1d97d46cf7da4bd3",
+      "frozen_text_sha256": "098cc00920d5b3bfa252ac22d733fa49703020fcc149086b1d97d46cf7da4bd3"
+    },
+    {
+      "file": "336-明医杂着.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c57d7c5714833290c2a4ef65ad36bf80d78278096d1f4cfac1c1a085e1892da9",
+      "frozen_text_sha256": "c57d7c5714833290c2a4ef65ad36bf80d78278096d1f4cfac1c1a085e1892da9"
+    },
+    {
+      "file": "337-此事难知.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cd18039a2b52b76637b023c90df30ad5f852c473bd46bb601a666e6a489e7eb0",
+      "frozen_text_sha256": "cd18039a2b52b76637b023c90df30ad5f852c473bd46bb601a666e6a489e7eb0"
+    },
+    {
+      "file": "338-金匮钩玄.txt",
+      "text_matches": true,
+      "recleaned_sha256": "108025b7b612766e38e18e5401abdaa9580afcc441729ce2ee323e6191643b45",
+      "frozen_text_sha256": "108025b7b612766e38e18e5401abdaa9580afcc441729ce2ee323e6191643b45"
+    },
+    {
+      "file": "339-校注医醇剩义.txt",
+      "text_matches": true,
+      "recleaned_sha256": "79d70c8bfd2bdf5c71591ee11eb0580c4a0e5dae6ab335fe27f04133addb36e0",
+      "frozen_text_sha256": "79d70c8bfd2bdf5c71591ee11eb0580c4a0e5dae6ab335fe27f04133addb36e0"
+    },
+    {
+      "file": "340-秘传证治要诀及类方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2a5f9cda3c693bfcdc906a69bb216f64f016e18c0d3096998b80621dd03461da",
+      "frozen_text_sha256": "2a5f9cda3c693bfcdc906a69bb216f64f016e18c0d3096998b80621dd03461da"
+    },
+    {
+      "file": "341-丹溪心法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f75b7554e59e914150ad686f02ad929c88b10cb32fedb9a5f39a791f0c1e61bb",
+      "frozen_text_sha256": "f75b7554e59e914150ad686f02ad929c88b10cb32fedb9a5f39a791f0c1e61bb"
+    },
+    {
+      "file": "342-诸病源候论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "837f970d8c5d137593973dbd640ddc36044efeb082236d325c752cda63fe2b01",
+      "frozen_text_sha256": "837f970d8c5d137593973dbd640ddc36044efeb082236d325c752cda63fe2b01"
+    },
+    {
+      "file": "343-儒门事亲.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9bd986393b7951cafe8129dbe5e07e4b5ee0ffc112ece00fd1eaf63b574cbe63",
+      "frozen_text_sha256": "9bd986393b7951cafe8129dbe5e07e4b5ee0ffc112ece00fd1eaf63b574cbe63"
+    },
+    {
+      "file": "344-医宗金鉴.txt",
+      "text_matches": true,
+      "recleaned_sha256": "af3aa4abc6f3b3beefd733a9d5701de1e8152a820388521aea559d82ef9a859d",
+      "frozen_text_sha256": "af3aa4abc6f3b3beefd733a9d5701de1e8152a820388521aea559d82ef9a859d"
+    },
+    {
+      "file": "345-医学启源.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6fc5bd87e1d8e52cb91a1eb732fa36357dd38d41cedf4a2b4a8fabae230f2242",
+      "frozen_text_sha256": "6fc5bd87e1d8e52cb91a1eb732fa36357dd38d41cedf4a2b4a8fabae230f2242"
+    },
+    {
+      "file": "347-韩氏医通.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7624bfdabffcb1cbc802d4b415179a9ddc617097332301fd4640842c460e57ad",
+      "frozen_text_sha256": "7624bfdabffcb1cbc802d4b415179a9ddc617097332301fd4640842c460e57ad"
+    },
+    {
+      "file": "348-医学正传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "63119d1f96e07ae50cc8d5ea641a6046312165043b79261b24cf5bdd5a2fca52",
+      "frozen_text_sha256": "63119d1f96e07ae50cc8d5ea641a6046312165043b79261b24cf5bdd5a2fca52"
+    },
+    {
+      "file": "349-医学衷中参西录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "593b9d10e6a34354db7d890d0e7a2eb6026e9c2775424900b9079996a75f0924",
+      "frozen_text_sha256": "593b9d10e6a34354db7d890d0e7a2eb6026e9c2775424900b9079996a75f0924"
+    },
+    {
+      "file": "350-卫济宝书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c0d2e96b473190e573adb865d6ff3315c93e30922b129a8508b9cde2e015ab3b",
+      "frozen_text_sha256": "c0d2e96b473190e573adb865d6ff3315c93e30922b129a8508b9cde2e015ab3b"
+    },
+    {
+      "file": "351-三消论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "faf2036c5ef6cb9ca84e356bbbc2b864f5ffd918979fe66e8138c2988f43dbbe",
+      "frozen_text_sha256": "faf2036c5ef6cb9ca84e356bbbc2b864f5ffd918979fe66e8138c2988f43dbbe"
+    },
+    {
+      "file": "352-丹溪手镜.txt",
+      "text_matches": true,
+      "recleaned_sha256": "26988ee4268f888d640367ebc72b9d0fd64e306fbbb363c01c7637b85ea47540",
+      "frozen_text_sha256": "26988ee4268f888d640367ebc72b9d0fd64e306fbbb363c01c7637b85ea47540"
+    },
+    {
+      "file": "353-古今名医汇粹.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3999d7367516cc8d36af59fa60ae02d08b8cd473a196c061cae60ad89486b65a",
+      "frozen_text_sha256": "3999d7367516cc8d36af59fa60ae02d08b8cd473a196c061cae60ad89486b65a"
+    },
+    {
+      "file": "354-轩岐救正论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3444270f651074822c4576e48be3f2cd547b0df0440acae00499def7db33ac48",
+      "frozen_text_sha256": "3444270f651074822c4576e48be3f2cd547b0df0440acae00499def7db33ac48"
+    },
+    {
+      "file": "355-痧胀玉衡.txt",
+      "text_matches": true,
+      "recleaned_sha256": "af24c45b79a227a91ca24af36c33677184f15b8dba1eb2ea119b1eb520d79f5b",
+      "frozen_text_sha256": "af24c45b79a227a91ca24af36c33677184f15b8dba1eb2ea119b1eb520d79f5b"
+    },
+    {
+      "file": "356-辨证录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b8e36d41633289e57f078558744c2c0fc192d1c8f8ce2b2fc1445977b1d7fe6a",
+      "frozen_text_sha256": "b8e36d41633289e57f078558744c2c0fc192d1c8f8ce2b2fc1445977b1d7fe6a"
+    },
+    {
+      "file": "357-医学实在易.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ceff19164b8e103eaed91e970460b2de3b4fb16ee5497dca13020376cb0c4b26",
+      "frozen_text_sha256": "ceff19164b8e103eaed91e970460b2de3b4fb16ee5497dca13020376cb0c4b26"
+    },
+    {
+      "file": "358-医学摘粹.txt",
+      "text_matches": true,
+      "recleaned_sha256": "70aeb15dc8b3fea8e5bd79c93a67c8cb9c68dcfc2ea5dcadf365c20f3df81274",
+      "frozen_text_sha256": "70aeb15dc8b3fea8e5bd79c93a67c8cb9c68dcfc2ea5dcadf365c20f3df81274"
+    },
+    {
+      "file": "359-冯氏锦囊秘录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8e62996dd9df91739d36230895eb7c0a2aaaa35cb399ade759eafcdf87ba7d1c",
+      "frozen_text_sha256": "8e62996dd9df91739d36230895eb7c0a2aaaa35cb399ade759eafcdf87ba7d1c"
+    },
+    {
+      "file": "360-简明医彀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "92e882725a9e17fb852ced2da52a229b97b88a8ff23adec6b0047e7797688462",
+      "frozen_text_sha256": "92e882725a9e17fb852ced2da52a229b97b88a8ff23adec6b0047e7797688462"
+    },
+    {
+      "file": "361-医述.txt",
+      "text_matches": true,
+      "recleaned_sha256": "323e7f87b88ede403e55a25e70ee67850fa9e2ec51601c460efc96d5949013b4",
+      "frozen_text_sha256": "323e7f87b88ede403e55a25e70ee67850fa9e2ec51601c460efc96d5949013b4"
+    },
+    {
+      "file": "362-医学心悟.txt",
+      "text_matches": true,
+      "recleaned_sha256": "be10ed05a3e59b9b55de3caff7bf63cc3b801c0ddd4325b4a9aab3a3700097dc",
+      "frozen_text_sha256": "be10ed05a3e59b9b55de3caff7bf63cc3b801c0ddd4325b4a9aab3a3700097dc"
+    },
+    {
+      "file": "363-类证治裁.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7be12738f3cfd03553675df02126f3f99d5f0fe133fdbfab4ab447fbbbfa67ae",
+      "frozen_text_sha256": "7be12738f3cfd03553675df02126f3f99d5f0fe133fdbfab4ab447fbbbfa67ae"
+    },
+    {
+      "file": "364-医碥.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e1a62b28f8daa5e7bbdaec485e2cc2d7bd80d2ec6f5740d4a2655b249a96ebaf",
+      "frozen_text_sha256": "e1a62b28f8daa5e7bbdaec485e2cc2d7bd80d2ec6f5740d4a2655b249a96ebaf"
+    },
+    {
+      "file": "365-医学真传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6cbbcf4641af2e2735c1d25eb7213027287c00e3649edcecd0a9491f7fd7f98a",
+      "frozen_text_sha256": "6cbbcf4641af2e2735c1d25eb7213027287c00e3649edcecd0a9491f7fd7f98a"
+    },
+    {
+      "file": "366-张氏医通.txt",
+      "text_matches": true,
+      "recleaned_sha256": "91f40bba5b1740e20e1f829c464e192ebf67e0da7926d905c14b4b5def2cfd4a",
+      "frozen_text_sha256": "91f40bba5b1740e20e1f829c464e192ebf67e0da7926d905c14b4b5def2cfd4a"
+    },
+    {
+      "file": "367-中国医籍考.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5810a092527b2fabe3814a1d2da6f04ce3c644f32b9f39f8c145181ffcc088d7",
+      "frozen_text_sha256": "5810a092527b2fabe3814a1d2da6f04ce3c644f32b9f39f8c145181ffcc088d7"
+    },
+    {
+      "file": "368-丹台玉案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dc0b8259187b51b7e6b7cd86d2e4c3a8c1cc66ec725bedb7d715d5e9f845a9ad",
+      "frozen_text_sha256": "dc0b8259187b51b7e6b7cd86d2e4c3a8c1cc66ec725bedb7d715d5e9f845a9ad"
+    },
+    {
+      "file": "369-伤寒论纲目.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8d4968fc88d2279aaeaf73b22acbc6aa28430ca68d25ad920392be1ca1d98250",
+      "frozen_text_sha256": "8d4968fc88d2279aaeaf73b22acbc6aa28430ca68d25ad920392be1ca1d98250"
+    },
+    {
+      "file": "370-幼科释谜.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1f14e9ae446339b91e9b2db25d226b5683dac27d14c90ce864e85e2ca2fef3f7",
+      "frozen_text_sha256": "1f14e9ae446339b91e9b2db25d226b5683dac27d14c90ce864e85e2ca2fef3f7"
+    },
+    {
+      "file": "371-古今医彻.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8355b73b3feb8c164f09aa1d9815249182ec6535e655f34bb73bffea6eba9c34",
+      "frozen_text_sha256": "8355b73b3feb8c164f09aa1d9815249182ec6535e655f34bb73bffea6eba9c34"
+    },
+    {
+      "file": "372-外经微言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b2522c7d6ab98df7ac6dc451143288781a168a4baca9ccfee141a93dbe0f68cf",
+      "frozen_text_sha256": "b2522c7d6ab98df7ac6dc451143288781a168a4baca9ccfee141a93dbe0f68cf"
+    },
+    {
+      "file": "373-洗冤集录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "2432460dd8676b732b2528e4539590d8e11521708a686924694c256846d366b8",
+      "frozen_text_sha256": "2432460dd8676b732b2528e4539590d8e11521708a686924694c256846d366b8"
+    },
+    {
+      "file": "374-古今医统大全.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8184aa5b6ff438e7180f52ff0845e0539b5d2d52150ce615fe84ec4a3224d428",
+      "frozen_text_sha256": "8184aa5b6ff438e7180f52ff0845e0539b5d2d52150ce615fe84ec4a3224d428"
+    },
+    {
+      "file": "375-格致余论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0ba8b08460f7caecc20cdff643a2f8268358f9828d76613e31e2edf4c6d6ca88",
+      "frozen_text_sha256": "0ba8b08460f7caecc20cdff643a2f8268358f9828d76613e31e2edf4c6d6ca88"
+    },
+    {
+      "file": "376-验方家秘.txt",
+      "text_matches": true,
+      "recleaned_sha256": "db8a3ca07a263bcad990d455a679b7caf171d558435e40b9d0229a3725ae8f07",
+      "frozen_text_sha256": "db8a3ca07a263bcad990d455a679b7caf171d558435e40b9d0229a3725ae8f07"
+    },
+    {
+      "file": "377-诸脉主病诗.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a268f0fa62e75086ffcd346cda348f984de6eed12c2042fcfdbc5213bd88010c",
+      "frozen_text_sha256": "a268f0fa62e75086ffcd346cda348f984de6eed12c2042fcfdbc5213bd88010c"
+    },
+    {
+      "file": "378-医旨绪余.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6c72539f4b22a0f06eca83ccc3f5811bc7b764dbb3e8575a5e74980df54d66e8",
+      "frozen_text_sha256": "6c72539f4b22a0f06eca83ccc3f5811bc7b764dbb3e8575a5e74980df54d66e8"
+    },
+    {
+      "file": "379-医宗己任编.txt",
+      "text_matches": true,
+      "recleaned_sha256": "f0cd5846580d3a1109429021217093f28161781fcdc022c88061df0e3fc7f1c0",
+      "frozen_text_sha256": "f0cd5846580d3a1109429021217093f28161781fcdc022c88061df0e3fc7f1c0"
+    },
+    {
+      "file": "380-眼科奇书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6b80a0ef9ff8a53b562e944479b42a5af429678cfeee37251865a311ee17aaf7",
+      "frozen_text_sha256": "6b80a0ef9ff8a53b562e944479b42a5af429678cfeee37251865a311ee17aaf7"
+    },
+    {
+      "file": "381-医学传灯.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d2200835e4635a201ae301bcf5249179d08204e4bbb44e67586ae276a1f71d1e",
+      "frozen_text_sha256": "d2200835e4635a201ae301bcf5249179d08204e4bbb44e67586ae276a1f71d1e"
+    },
+    {
+      "file": "382-医法圆通.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9d8293a5a720eb933d4cc9a38e55a39ec9f0514fa990811167cf379b7dc4ef68",
+      "frozen_text_sha256": "9d8293a5a720eb933d4cc9a38e55a39ec9f0514fa990811167cf379b7dc4ef68"
+    },
+    {
+      "file": "383-证治准绳·类方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cfad6278cfef5ec7b4c841e201d678218f7bc2b526fecfed21ef521fe3a1d39d",
+      "frozen_text_sha256": "cfad6278cfef5ec7b4c841e201d678218f7bc2b526fecfed21ef521fe3a1d39d"
+    },
+    {
+      "file": "384-幼科种痘心法要旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e65bdf8917e8c998cc675878848f5992d947a316207a27938d12c3bc9b646841",
+      "frozen_text_sha256": "e65bdf8917e8c998cc675878848f5992d947a316207a27938d12c3bc9b646841"
+    },
+    {
+      "file": "385-证治准绳·幼科.txt",
+      "text_matches": true,
+      "recleaned_sha256": "574e9f3a8a88cf76f20817873e94258499ec3a833ff46accf4a5241059b358b9",
+      "frozen_text_sha256": "574e9f3a8a88cf76f20817873e94258499ec3a833ff46accf4a5241059b358b9"
+    },
+    {
+      "file": "386-景岳全书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c8d21b6cd17929445b75e700d6a9b53e82a6503abbc07c57931bc37ec6ea88c2",
+      "frozen_text_sha256": "c8d21b6cd17929445b75e700d6a9b53e82a6503abbc07c57931bc37ec6ea88c2"
+    },
+    {
+      "file": "387-订正仲景全书伤寒论注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5aa90102223b3eb23d08d4a324efa8bfc97d6db583976334441f18ecf1a7bc64",
+      "frozen_text_sha256": "5aa90102223b3eb23d08d4a324efa8bfc97d6db583976334441f18ecf1a7bc64"
+    },
+    {
+      "file": "388-医理真传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7740b3d86bcd82ac1d7ee6278b1376f406dc788b444955fffcd32834e5106dbd",
+      "frozen_text_sha256": "7740b3d86bcd82ac1d7ee6278b1376f406dc788b444955fffcd32834e5106dbd"
+    },
+    {
+      "file": "389-订正仲景全书金匮要略注.txt",
+      "text_matches": true,
+      "recleaned_sha256": "07320daaaa0aa780bea435d8d48570d61ba0dead326ce24f49338a091424e2b2",
+      "frozen_text_sha256": "07320daaaa0aa780bea435d8d48570d61ba0dead326ce24f49338a091424e2b2"
+    },
+    {
+      "file": "390-证治准绳·疡医.txt",
+      "text_matches": true,
+      "recleaned_sha256": "95efd68d1eeed38fef825cdf38681b67e5811e62356f693d8d4e79ef22c9f891",
+      "frozen_text_sha256": "95efd68d1eeed38fef825cdf38681b67e5811e62356f693d8d4e79ef22c9f891"
+    },
+    {
+      "file": "391-证治准绳·杂病.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7739ab593ba759c8a5cd982627eb6d1ac41892e92b43040161ca0aa7752d1a48",
+      "frozen_text_sha256": "7739ab593ba759c8a5cd982627eb6d1ac41892e92b43040161ca0aa7752d1a48"
+    },
+    {
+      "file": "392-证类本草.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4e3f55483622344bc89d2226f628f04ee8805b984b121ca80be78912b9425a61",
+      "frozen_text_sha256": "4e3f55483622344bc89d2226f628f04ee8805b984b121ca80be78912b9425a61"
+    },
+    {
+      "file": "393-伤寒心法要诀.txt",
+      "text_matches": true,
+      "recleaned_sha256": "60a06526535f008c84611f8f6366b0e3884074ec28485a3c15f2dc7cc89004f9",
+      "frozen_text_sha256": "60a06526535f008c84611f8f6366b0e3884074ec28485a3c15f2dc7cc89004f9"
+    },
+    {
+      "file": "394-万病回春.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a08a4565e941e50588e79bdf2306dcd8b17208dcd9289c1a89acbaa3a8470dfa",
+      "frozen_text_sha256": "a08a4565e941e50588e79bdf2306dcd8b17208dcd9289c1a89acbaa3a8470dfa"
+    },
+    {
+      "file": "395-伤寒辨要笺记.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d619e7f45f7ecc115dfaa324bc805dc0c9c2d16ae5c9d3e6881fb2c6dd2de194",
+      "frozen_text_sha256": "d619e7f45f7ecc115dfaa324bc805dc0c9c2d16ae5c9d3e6881fb2c6dd2de194"
+    },
+    {
+      "file": "396-医学传心录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8af0e3324a83d5c964c96cdaebc8ab773575db6312f8c3170971414ae6994925",
+      "frozen_text_sha256": "8af0e3324a83d5c964c96cdaebc8ab773575db6312f8c3170971414ae6994925"
+    },
+    {
+      "file": "397-民间草药药性赋.txt",
+      "text_matches": true,
+      "recleaned_sha256": "81ee624bb0828e120fc96dfe38b8baa122f6f0f584f6d6ef30853efb1645eb58",
+      "frozen_text_sha256": "81ee624bb0828e120fc96dfe38b8baa122f6f0f584f6d6ef30853efb1645eb58"
+    },
+    {
+      "file": "398-七十二症辨治方法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "14324b9b2e45b950083a55b91c62b2a240f053ec3aad72dce4e8928f9d7f4b79",
+      "frozen_text_sha256": "14324b9b2e45b950083a55b91c62b2a240f053ec3aad72dce4e8928f9d7f4b79"
+    },
+    {
+      "file": "399-洄溪医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c06c732c8b8ab1e25dfd41be6a88af0518a8873ed70fdbc34d3d03af9001aa44",
+      "frozen_text_sha256": "c06c732c8b8ab1e25dfd41be6a88af0518a8873ed70fdbc34d3d03af9001aa44"
+    },
+    {
+      "file": "400-许氏医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c3fe2fbe7a74241efc3c60770c6cba6c0098a0c5b7b9dac8bcc5fe86eecdfd4e",
+      "frozen_text_sha256": "c3fe2fbe7a74241efc3c60770c6cba6c0098a0c5b7b9dac8bcc5fe86eecdfd4e"
+    },
+    {
+      "file": "401-医病简要.txt",
+      "text_matches": true,
+      "recleaned_sha256": "211b7b300437861191817fc2c5de89f92aaa50e66a588397b53ce8a5584981c3",
+      "frozen_text_sha256": "211b7b300437861191817fc2c5de89f92aaa50e66a588397b53ce8a5584981c3"
+    },
+    {
+      "file": "402-一瓢医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6e7760b32adfa4a87fb5921efb284e52bb0c9952f68c96c24e0a1ddb9d2f901c",
+      "frozen_text_sha256": "6e7760b32adfa4a87fb5921efb284e52bb0c9952f68c96c24e0a1ddb9d2f901c"
+    },
+    {
+      "file": "403-玉台新案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9c0233b32404323d0b1fd3194745bc9f80b7f677dad43e7eddb0377854fb59ec",
+      "frozen_text_sha256": "9c0233b32404323d0b1fd3194745bc9f80b7f677dad43e7eddb0377854fb59ec"
+    },
+    {
+      "file": "404-经方实验录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8f1dbd4163689512cb5fb10d1127d0a11ce57264aabfe27738ffb989f8520c81",
+      "frozen_text_sha256": "8f1dbd4163689512cb5fb10d1127d0a11ce57264aabfe27738ffb989f8520c81"
+    },
+    {
+      "file": "405-旧德堂医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6326d82444f13b715b215988a4f5db51152cdc979455babe8a11628436eb894e",
+      "frozen_text_sha256": "6326d82444f13b715b215988a4f5db51152cdc979455babe8a11628436eb894e"
+    },
+    {
+      "file": "406-医学经验录·医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c390e25d1a3f169be2b613367327706b306ba6b08fac079e0eadd008cb74adee",
+      "frozen_text_sha256": "c390e25d1a3f169be2b613367327706b306ba6b08fac079e0eadd008cb74adee"
+    },
+    {
+      "file": "407-诊余举隅录.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0609f8d4cf9bd1a5ca267d55eb17a635a6729f04f485ca1cd5b9f6cb4ff902b8",
+      "frozen_text_sha256": "0609f8d4cf9bd1a5ca267d55eb17a635a6729f04f485ca1cd5b9f6cb4ff902b8"
+    },
+    {
+      "file": "408-醉花窗医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0c3e0c01fe07279abe3199dd43faff2fff66a36c49a44d5ad469cf58b142dd32",
+      "frozen_text_sha256": "0c3e0c01fe07279abe3199dd43faff2fff66a36c49a44d5ad469cf58b142dd32"
+    },
+    {
+      "file": "409-经穴秘密.txt",
+      "text_matches": true,
+      "recleaned_sha256": "57d5b2951fbc712a38fbc6cf2741b7d4d9cfdb84e203cc92a6efc05546cf7be7",
+      "frozen_text_sha256": "57d5b2951fbc712a38fbc6cf2741b7d4d9cfdb84e203cc92a6efc05546cf7be7"
+    },
+    {
+      "file": "410-百家针灸歌赋.txt",
+      "text_matches": true,
+      "recleaned_sha256": "135287f3ad32da8d61fec4ec5a5877032f9245c5635acea410584282de922399",
+      "frozen_text_sha256": "135287f3ad32da8d61fec4ec5a5877032f9245c5635acea410584282de922399"
+    },
+    {
+      "file": "411-黄帝内经十二经脉秘与应用.txt",
+      "text_matches": true,
+      "recleaned_sha256": "740e8c92422cdbaa5bbc1243063b2ecb4aa5f8e6ada66a43f79f7c51ec38066e",
+      "frozen_text_sha256": "740e8c92422cdbaa5bbc1243063b2ecb4aa5f8e6ada66a43f79f7c51ec38066e"
+    },
+    {
+      "file": "412-鲙残篇.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e93be05a02075df004fd9fa8cee70d6c35189dc291fc7b7fbbd21ba3330ef390",
+      "frozen_text_sha256": "e93be05a02075df004fd9fa8cee70d6c35189dc291fc7b7fbbd21ba3330ef390"
+    },
+    {
+      "file": "413-景景医话.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3d47201a9a7aa34631072a4d2cc1ef3f7bf3db438e94e5115774dc0f60d2b404",
+      "frozen_text_sha256": "3d47201a9a7aa34631072a4d2cc1ef3f7bf3db438e94e5115774dc0f60d2b404"
+    },
+    {
+      "file": "414-推逢寤语 医林琐语.txt",
+      "text_matches": true,
+      "recleaned_sha256": "979892183765f5e04f3d3ca7305aa795c17ba7fff268f1df1305805442e783e4",
+      "frozen_text_sha256": "979892183765f5e04f3d3ca7305aa795c17ba7fff268f1df1305805442e783e4"
+    },
+    {
+      "file": "415-医中一得 医医十病.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cb4810623fd2e28b960a38d5bd1913f50a6956fbcce020c1f3a796963466babb",
+      "frozen_text_sha256": "cb4810623fd2e28b960a38d5bd1913f50a6956fbcce020c1f3a796963466babb"
+    },
+    {
+      "file": "417-脉诀阐微 脉学阐微-清-陈士铎.txt",
+      "text_matches": true,
+      "recleaned_sha256": "11dca9462065529da5a4db30830fe749f69b5945e88697b003dd424305f3a0a6",
+      "frozen_text_sha256": "11dca9462065529da5a4db30830fe749f69b5945e88697b003dd424305f3a0a6"
+    },
+    {
+      "file": "418-万全养生四要-万全.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5c04a0ee1c5d48978cbd2086a1aa5a4588f8c8cc47789b69508d34daa02432b8",
+      "frozen_text_sha256": "5c04a0ee1c5d48978cbd2086a1aa5a4588f8c8cc47789b69508d34daa02432b8"
+    },
+    {
+      "file": "419-丹医秘授古脉法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "79ffcc7bca780d0f3cbfe23af409205707b9c3293bf6ca5c0569e560d5490bae",
+      "frozen_text_sha256": "79ffcc7bca780d0f3cbfe23af409205707b9c3293bf6ca5c0569e560d5490bae"
+    },
+    {
+      "file": "420-伤寒兼证析义-张倬.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4a793d70ed9fdd8a5f3c7234b88e4d58d8392f7406c197049ec077bf07515d2f",
+      "frozen_text_sha256": "4a793d70ed9fdd8a5f3c7234b88e4d58d8392f7406c197049ec077bf07515d2f"
+    },
+    {
+      "file": "421-伤寒来苏集-柯琴.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b5e5be807629d70bc5faa6ae03185281459cc93ba472c94044b60eb7bb23eadd",
+      "frozen_text_sha256": "b5e5be807629d70bc5faa6ae03185281459cc93ba472c94044b60eb7bb23eadd"
+    },
+    {
+      "file": "423-伤寒论-张仲景.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b9b07b98c0049e525ddb769b6df4e6b17fbcf0e7edbe4f9c2938d409947fd779",
+      "frozen_text_sha256": "b9b07b98c0049e525ddb769b6df4e6b17fbcf0e7edbe4f9c2938d409947fd779"
+    },
+    {
+      "file": "424-傅青主女科-傅山.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0a26f27c22acf09fb5387fa2668b1aafc091f432ad3e622a2cc60aa55f3bdd73",
+      "frozen_text_sha256": "0a26f27c22acf09fb5387fa2668b1aafc091f432ad3e622a2cc60aa55f3bdd73"
+    },
+    {
+      "file": "425-养生三要-袁开昌.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1a6491bda3f4f787f447134e569516bd7ca98cdb20a99116f88113b582f34b9f",
+      "frozen_text_sha256": "1a6491bda3f4f787f447134e569516bd7ca98cdb20a99116f88113b582f34b9f"
+    },
+    {
+      "file": "427-医学三字经-陈修园(详注).txt",
+      "text_matches": true,
+      "recleaned_sha256": "edb3f73595b730af666c223e2aad9625e221d4996b39a1e0d1451bcbafb69dde",
+      "frozen_text_sha256": "edb3f73595b730af666c223e2aad9625e221d4996b39a1e0d1451bcbafb69dde"
+    },
+    {
+      "file": "428-医学举要-徐镛.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7c87bdd2ad7a0980d492921bf1ff30ce2d06cf5cc57245ce9df36d1b8222d231",
+      "frozen_text_sha256": "7c87bdd2ad7a0980d492921bf1ff30ce2d06cf5cc57245ce9df36d1b8222d231"
+    },
+    {
+      "file": "429-医学发明-李杲.txt",
+      "text_matches": true,
+      "recleaned_sha256": "3624b296feb4633a05f3a10c2f7e5c4acb7a8d0326b7eaec4572e5d7375ba10a",
+      "frozen_text_sha256": "3624b296feb4633a05f3a10c2f7e5c4acb7a8d0326b7eaec4572e5d7375ba10a"
+    },
+    {
+      "file": "430-医学集成-刘仕廉.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cb22d6e1af0261a3ecb12f6a704d75a99219f978bee12bf0a4a8b8fdf4c15b88",
+      "frozen_text_sha256": "cb22d6e1af0261a3ecb12f6a704d75a99219f978bee12bf0a4a8b8fdf4c15b88"
+    },
+    {
+      "file": "431-医家心法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5a9c68a4c56fb94758bf7eb7d810cf58e427492d64bbb5556eff9bb171c1cc09",
+      "frozen_text_sha256": "5a9c68a4c56fb94758bf7eb7d810cf58e427492d64bbb5556eff9bb171c1cc09"
+    },
+    {
+      "file": "432-医家秘奥-周之千.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5e3631006e789f50da568a824931e1f4776216aa27a063ed0bea2fdb370016b1",
+      "frozen_text_sha256": "5e3631006e789f50da568a824931e1f4776216aa27a063ed0bea2fdb370016b1"
+    },
+    {
+      "file": "434-医林改错.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b04a0247113f4e127632a8169fdd71b0420c5ea76d5e29baffd607d209e15e4f",
+      "frozen_text_sha256": "b04a0247113f4e127632a8169fdd71b0420c5ea76d5e29baffd607d209e15e4f"
+    },
+    {
+      "file": "435-医林琐语-陆九芝.txt",
+      "text_matches": true,
+      "recleaned_sha256": "de9f6524412391b11963b9f5017ebc615002561e6cc8f927e0986bec28efac77",
+      "frozen_text_sha256": "de9f6524412391b11963b9f5017ebc615002561e6cc8f927e0986bec28efac77"
+    },
+    {
+      "file": "437-医法圆通.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b72d78fde7b653bc636fa8757f7f839ee125ed22363e2d4a750b770d7a28fe28",
+      "frozen_text_sha256": "b72d78fde7b653bc636fa8757f7f839ee125ed22363e2d4a750b770d7a28fe28"
+    },
+    {
+      "file": "438-医源.txt",
+      "text_matches": true,
+      "recleaned_sha256": "80cca4d4ad35f118e1bd190fcc91c5b6074ab9faeef0a28705d1dab5426fd66e",
+      "frozen_text_sha256": "80cca4d4ad35f118e1bd190fcc91c5b6074ab9faeef0a28705d1dab5426fd66e"
+    },
+    {
+      "file": "439-医理真传.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c019038335843d893b334133aa34b371d23c1473a6dbaea77cb488613d4a8da7",
+      "frozen_text_sha256": "c019038335843d893b334133aa34b371d23c1473a6dbaea77cb488613d4a8da7"
+    },
+    {
+      "file": "440-医经秘旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1a314b041ddd4f2dd9c7537478271e4021466689af34e3dca5d214849e25a8ce",
+      "frozen_text_sha256": "1a314b041ddd4f2dd9c7537478271e4021466689af34e3dca5d214849e25a8ce"
+    },
+    {
+      "file": "441-毛对山医话-毛对山.txt",
+      "text_matches": true,
+      "recleaned_sha256": "561694b4ab8e6db7aa844faf5a9ee91b5b3bbac35f24ab5c74e333ee27b8b6dd",
+      "frozen_text_sha256": "561694b4ab8e6db7aa844faf5a9ee91b5b3bbac35f24ab5c74e333ee27b8b6dd"
+    },
+    {
+      "file": "442-博济方博济方.txt",
+      "text_matches": true,
+      "recleaned_sha256": "28d42251a3768b2723113315caddff42064f89ac3e1c155153466b1c488ec0f4",
+      "frozen_text_sha256": "28d42251a3768b2723113315caddff42064f89ac3e1c155153466b1c488ec0f4"
+    },
+    {
+      "file": "444-咽喉脉证通论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1ca84d3d994b7f249c2c745ff0f687b667820985d70795488516ef5e3f2e2d28",
+      "frozen_text_sha256": "1ca84d3d994b7f249c2c745ff0f687b667820985d70795488516ef5e3f2e2d28"
+    },
+    {
+      "file": "445-四圣心源-黄元御.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4521e03d1899d2f1f181783126c02669508c666419ee9b8983a31fca7185c882",
+      "frozen_text_sha256": "4521e03d1899d2f1f181783126c02669508c666419ee9b8983a31fca7185c882"
+    },
+    {
+      "file": "446-四圣悬枢.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e0b05384f60456bb9985c95bd4357e37aa9789b4dda85243e7caed58cc9e7240",
+      "frozen_text_sha256": "e0b05384f60456bb9985c95bd4357e37aa9789b4dda85243e7caed58cc9e7240"
+    },
+    {
+      "file": "447-四诊心法.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7b6db3f865782e141ac5f771849d117bee32efdb79e8e5ac9b3426faf262ebe5",
+      "frozen_text_sha256": "7b6db3f865782e141ac5f771849d117bee32efdb79e8e5ac9b3426faf262ebe5"
+    },
+    {
+      "file": "448-四诊抉微-林之钧.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b26e7c451a35a599136505ae7522e2f55b967ba3f8cc98040dc8395618905898",
+      "frozen_text_sha256": "b26e7c451a35a599136505ae7522e2f55b967ba3f8cc98040dc8395618905898"
+    },
+    {
+      "file": "449-大小诸证方论-傅青主.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b8e2289dbb4a002144c5369faceb48e85574e0b129783f48ad166b6f573ece4d",
+      "frozen_text_sha256": "b8e2289dbb4a002144c5369faceb48e85574e0b129783f48ad166b6f573ece4d"
+    },
+    {
+      "file": "450-妇科百辨-庄履严.txt",
+      "text_matches": true,
+      "recleaned_sha256": "6a1c6fb432972ffdc682c803512f62d6719a02c36999bf73fcaa930a216727a4",
+      "frozen_text_sha256": "6a1c6fb432972ffdc682c803512f62d6719a02c36999bf73fcaa930a216727a4"
+    },
+    {
+      "file": "451-妙一斋医学正印种子编-岳甫嘉.txt",
+      "text_matches": true,
+      "recleaned_sha256": "b38dae8e0af063abbe1b06567d7220983b3bd0594a2a6cb6f088dc0ccbe8d206",
+      "frozen_text_sha256": "b38dae8e0af063abbe1b06567d7220983b3bd0594a2a6cb6f088dc0ccbe8d206"
+    },
+    {
+      "file": "453-尚论后篇-喻嘉言.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0a4e5420a5d328c957f9f9218ba78b3c4c206098a001ddd0868023f198223c71",
+      "frozen_text_sha256": "0a4e5420a5d328c957f9f9218ba78b3c4c206098a001ddd0868023f198223c71"
+    },
+    {
+      "file": "454-幼科折衷秘传-秦昌遇.txt",
+      "text_matches": true,
+      "recleaned_sha256": "cc28b65327270f64bad37e95b17794fdd7aea334ebe8938a44969e68bb3a68c2",
+      "frozen_text_sha256": "cc28b65327270f64bad37e95b17794fdd7aea334ebe8938a44969e68bb3a68c2"
+    },
+    {
+      "file": "455-广嗣纪要-万全.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4fc2c9621d7a134a4fce4a70f053d9be3876ad858a058139e4c2f5945e04df42",
+      "frozen_text_sha256": "4fc2c9621d7a134a4fce4a70f053d9be3876ad858a058139e4c2f5945e04df42"
+    },
+    {
+      "file": "456-广温疫论-戴天章.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d537294b9b0028a89eaeb7fd80f7b6ab4f036d0bbda0bcbf00e96b1cb51603ad",
+      "frozen_text_sha256": "d537294b9b0028a89eaeb7fd80f7b6ab4f036d0bbda0bcbf00e96b1cb51603ad"
+    },
+    {
+      "file": "457-御药院方-许国祯.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ac59dfde8df8d8d6de2155e1372203cbf2c66ba741bb1d43b65db6048d24cd91",
+      "frozen_text_sha256": "ac59dfde8df8d8d6de2155e1372203cbf2c66ba741bb1d43b65db6048d24cd91"
+    },
+    {
+      "file": "458-扁鹊神应针灸玉龙经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "9fcdb86f9cb9eafd68f13dee56436066809090de846ce2c112e8d953345bd535",
+      "frozen_text_sha256": "9fcdb86f9cb9eafd68f13dee56436066809090de846ce2c112e8d953345bd535"
+    },
+    {
+      "file": "459-推篷寤语-李豫亨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1fdec66abd434e24bc06d12956c16f775910b311143da418d1002599b509f54b",
+      "frozen_text_sha256": "1fdec66abd434e24bc06d12956c16f775910b311143da418d1002599b509f54b"
+    },
+    {
+      "file": "461-摄生总要（明）洪基.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a0d757ba7f34974bdbb70cb4198afd3c94538db376bbdee7a7f0f70a02fdf474",
+      "frozen_text_sha256": "a0d757ba7f34974bdbb70cb4198afd3c94538db376bbdee7a7f0f70a02fdf474"
+    },
+    {
+      "file": "462-伤寒发微-曹穎甫.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5fc05736acdc02f4eb55554dc1ce7cce10388cffece17e4a1425475713f1e9a5",
+      "frozen_text_sha256": "5fc05736acdc02f4eb55554dc1ce7cce10388cffece17e4a1425475713f1e9a5"
+    },
+    {
+      "file": "463-月令采奇-李一楫.txt",
+      "text_matches": true,
+      "recleaned_sha256": "ebf1dd562e20bcf579b1af18b94ceaab8bbae41b83055428599b0d6a6895374e",
+      "frozen_text_sha256": "ebf1dd562e20bcf579b1af18b94ceaab8bbae41b83055428599b0d6a6895374e"
+    },
+    {
+      "file": "464-本草备要(489种).txt",
+      "text_matches": true,
+      "recleaned_sha256": "3d821389c2e1d8103cb050c465bec0cec1a5b3cf85dd821a50bf69b5de5d5189",
+      "frozen_text_sha256": "3d821389c2e1d8103cb050c465bec0cec1a5b3cf85dd821a50bf69b5de5d5189"
+    },
+    {
+      "file": "465-本草新编(284条).txt",
+      "text_matches": true,
+      "recleaned_sha256": "e00e6df149ef5650f50adb2b972c1de17a95586d43dec0330ff0f87934225737",
+      "frozen_text_sha256": "e00e6df149ef5650f50adb2b972c1de17a95586d43dec0330ff0f87934225737"
+    },
+    {
+      "file": "466-本草纲目.txt",
+      "text_matches": true,
+      "recleaned_sha256": "861b6ed9f06185466cdf898eb8132490217d2484fa2d4ff4714946e1d9224500",
+      "frozen_text_sha256": "861b6ed9f06185466cdf898eb8132490217d2484fa2d4ff4714946e1d9224500"
+    },
+    {
+      "file": "467-杂症会心录-汪蕴谷.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d2d616b41d806a43d74f1c3eb20ef2bcabc668d557da4f86e91330ab305f27f9",
+      "frozen_text_sha256": "d2d616b41d806a43d74f1c3eb20ef2bcabc668d557da4f86e91330ab305f27f9"
+    },
+    {
+      "file": "468-松崖医径-程頡玠.txt",
+      "text_matches": true,
+      "recleaned_sha256": "184a905943d94166296a1a27ff63c59150fbffc6be0d88c62c28c97e4bc6e97f",
+      "frozen_text_sha256": "184a905943d94166296a1a27ff63c59150fbffc6be0d88c62c28c97e4bc6e97f"
+    },
+    {
+      "file": "469-济生集.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d3af86dd712349b9fd17ae7afd1a6015f82e993ccb9977730c3099dc306e2aaf",
+      "frozen_text_sha256": "d3af86dd712349b9fd17ae7afd1a6015f82e993ccb9977730c3099dc306e2aaf"
+    },
+    {
+      "file": "470-灵枢经十二卷-王冰.txt",
+      "text_matches": true,
+      "recleaned_sha256": "8119b4aa66052fc576a4a225b853185eaff072ccaf6b784a297c9789b95cfadd",
+      "frozen_text_sha256": "8119b4aa66052fc576a4a225b853185eaff072ccaf6b784a297c9789b95cfadd"
+    },
+    {
+      "file": "471-爱月庐医案.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5132d56561ff830f9ba54acc7e0e96e0b7db30a61a420cb6dd411034cce6bd52",
+      "frozen_text_sha256": "5132d56561ff830f9ba54acc7e0e96e0b7db30a61a420cb6dd411034cce6bd52"
+    },
+    {
+      "file": "472-玉楸药解.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dcf98d905a1d36af7f7c45aee6a47c657b36d607b52d5de4cbd5357a04a0cd45",
+      "frozen_text_sha256": "dcf98d905a1d36af7f7c45aee6a47c657b36d607b52d5de4cbd5357a04a0cd45"
+    },
+    {
+      "file": "473-珍珠囊补遗药性赋-李东垣.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a56ab3f58a80dc65b2e7bf6156499609879d0c06da6261bfffc6f7fe988a61bb",
+      "frozen_text_sha256": "a56ab3f58a80dc65b2e7bf6156499609879d0c06da6261bfffc6f7fe988a61bb"
+    },
+    {
+      "file": "474-神农本草经-佚名.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4d800b71ca0334509247a208588cb900cb59e671ad87e1d17fc002ef34290059",
+      "frozen_text_sha256": "4d800b71ca0334509247a208588cb900cb59e671ad87e1d17fc002ef34290059"
+    },
+    {
+      "file": "475-秘本种子金丹（清）叶天士.txt",
+      "text_matches": true,
+      "recleaned_sha256": "48b09a78fe7bb1cf6b8394ab1159d48b023232dea2b0dce20d8bd1eb7c51da7c",
+      "frozen_text_sha256": "48b09a78fe7bb1cf6b8394ab1159d48b023232dea2b0dce20d8bd1eb7c51da7c"
+    },
+    {
+      "file": "476-太医院秘藏膏丹丸散方剂.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5b0f4ef3770c25dd852705255a8f81beb716b208fb78f0387bfcd428c6b2c68a",
+      "frozen_text_sha256": "5b0f4ef3770c25dd852705255a8f81beb716b208fb78f0387bfcd428c6b2c68a"
+    },
+    {
+      "file": "477-竹林寺女科.txt",
+      "text_matches": true,
+      "recleaned_sha256": "dcebe3762d5da24be5fe1b56a46b3ef81049ee0a16666233b395b1d455a3ae4b",
+      "frozen_text_sha256": "dcebe3762d5da24be5fe1b56a46b3ef81049ee0a16666233b395b1d455a3ae4b"
+    },
+    {
+      "file": "478-素女妙论.txt",
+      "text_matches": true,
+      "recleaned_sha256": "21b1b0a82b615fae3e9171f01b18911c47bba611182039d44955811cae7e783f",
+      "frozen_text_sha256": "21b1b0a82b615fae3e9171f01b18911c47bba611182039d44955811cae7e783f"
+    },
+    {
+      "file": "479-紫闺秘术 兰房要旨.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4011ca3c9904702d57a97d5faeae7810ac49d7fd87111b961c5d19e8fba42658",
+      "frozen_text_sha256": "4011ca3c9904702d57a97d5faeae7810ac49d7fd87111b961c5d19e8fba42658"
+    },
+    {
+      "file": "480-红炉点雪.txt",
+      "text_matches": true,
+      "recleaned_sha256": "1de8f8af53724bac1cbedcb11c6cd8a41f1354d1f0709e00f2899c0e0f599164",
+      "frozen_text_sha256": "1de8f8af53724bac1cbedcb11c6cd8a41f1354d1f0709e00f2899c0e0f599164"
+    },
+    {
+      "file": "481-脉诀指掌病式图说-李杲.txt",
+      "text_matches": true,
+      "recleaned_sha256": "044d9e87aa4676014782b1084a77d77374dc4a268f291366670ae8daf47fc5b3",
+      "frozen_text_sha256": "044d9e87aa4676014782b1084a77d77374dc4a268f291366670ae8daf47fc5b3"
+    },
+    {
+      "file": "482-药笼小品-黄凯钧.txt",
+      "text_matches": true,
+      "recleaned_sha256": "a986e5559124b8d173c877bc21935ade0ec7b2a6d35d005428fd91a8b94752c6",
+      "frozen_text_sha256": "a986e5559124b8d173c877bc21935ade0ec7b2a6d35d005428fd91a8b94752c6"
+    },
+    {
+      "file": "483-蠢子医-龙绘堂.txt",
+      "text_matches": true,
+      "recleaned_sha256": "e41894e731997c95799e288e74de1a27574fea552a22b6cb42545c96cb8d0b99",
+      "frozen_text_sha256": "e41894e731997c95799e288e74de1a27574fea552a22b6cb42545c96cb8d0b99"
+    },
+    {
+      "file": "484-诚求集-朱世扬.txt",
+      "text_matches": true,
+      "recleaned_sha256": "7c10670ed86bb328edfde3801c722a81333c4cc2c35785d79d69ccb47c9ebd32",
+      "frozen_text_sha256": "7c10670ed86bb328edfde3801c722a81333c4cc2c35785d79d69ccb47c9ebd32"
+    },
+    {
+      "file": "485-诸脉主病诗.txt",
+      "text_matches": true,
+      "recleaned_sha256": "0f1d5f5f5e6d9652e6ee67ecdc4c1506c575cfdc81f9fbaf0d02550c69994721",
+      "frozen_text_sha256": "0f1d5f5f5e6d9652e6ee67ecdc4c1506c575cfdc81f9fbaf0d02550c69994721"
+    },
+    {
+      "file": "487-遵生八笺-高濂.txt",
+      "text_matches": true,
+      "recleaned_sha256": "4a241a969e65feb11affec2ccb83098c64441e5effa6e2aedb7a0622d1909612",
+      "frozen_text_sha256": "4a241a969e65feb11affec2ccb83098c64441e5effa6e2aedb7a0622d1909612"
+    },
+    {
+      "file": "488-重广补注黄帝内经素问-王冰.txt",
+      "text_matches": true,
+      "recleaned_sha256": "50376f542a3017e2e97ca0e6fde7ea3f0dadd81ea331f72a9f9d691269273308",
+      "frozen_text_sha256": "50376f542a3017e2e97ca0e6fde7ea3f0dadd81ea331f72a9f9d691269273308"
+    },
+    {
+      "file": "489-重订产孕集-张曜孙.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5e5d74e6c33b5bcf41e8bb6ba19ee22d57ee74eadbddb689ad3e23f171fc9af1",
+      "frozen_text_sha256": "5e5d74e6c33b5bcf41e8bb6ba19ee22d57ee74eadbddb689ad3e23f171fc9af1"
+    },
+    {
+      "file": "490-重订诊家直诀序目-周学海.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d262d0d46f94729f0b7c24842e65b1fa27500de35786f2a39e6d9c6743e234b9",
+      "frozen_text_sha256": "d262d0d46f94729f0b7c24842e65b1fa27500de35786f2a39e6d9c6743e234b9"
+    },
+    {
+      "file": "491-针灸神书.txt",
+      "text_matches": true,
+      "recleaned_sha256": "936cd6e765e926bd62d865aa91273b903b6cc83f1db7269e1b98ca503e0576d6",
+      "frozen_text_sha256": "936cd6e765e926bd62d865aa91273b903b6cc83f1db7269e1b98ca503e0576d6"
+    },
+    {
+      "file": "492-铜人针灸经-佚名.txt",
+      "text_matches": true,
+      "recleaned_sha256": "85b72bd1f7195eb11e9948cbd6a38f7ba9d9100ff55efe6f4d55ac625b9c61da",
+      "frozen_text_sha256": "85b72bd1f7195eb11e9948cbd6a38f7ba9d9100ff55efe6f4d55ac625b9c61da"
+    },
+    {
+      "file": "493-长沙药解-黄元御.txt",
+      "text_matches": true,
+      "recleaned_sha256": "d1af1f82b35bd340aaaa84db50d4b99279e20cbebb5bc1c2b543f8e2e0e56d19",
+      "frozen_text_sha256": "d1af1f82b35bd340aaaa84db50d4b99279e20cbebb5bc1c2b543f8e2e0e56d19"
+    },
+    {
+      "file": "494-难经本义-滑寿.txt",
+      "text_matches": true,
+      "recleaned_sha256": "86131c1eb2dafd05eca2e2d521484f152b0405aa2b46f34ade61e7b55398cdf4",
+      "frozen_text_sha256": "86131c1eb2dafd05eca2e2d521484f152b0405aa2b46f34ade61e7b55398cdf4"
+    },
+    {
+      "file": "495-风劳臌膈四大证治.txt",
+      "text_matches": true,
+      "recleaned_sha256": "92228cd9bbd5823cfb3732c2cbac611a2b4cf3a9a3711f971a431a99e134d689",
+      "frozen_text_sha256": "92228cd9bbd5823cfb3732c2cbac611a2b4cf3a9a3711f971a431a99e134d689"
+    },
+    {
+      "file": "496-鲁府禁方-龚廷贤.txt",
+      "text_matches": true,
+      "recleaned_sha256": "baab7405b57e3a005aaff5cf279ff07b0b6786081776df88b75be74fd6225880",
+      "frozen_text_sha256": "baab7405b57e3a005aaff5cf279ff07b0b6786081776df88b75be74fd6225880"
+    },
+    {
+      "file": "497-黄帝八十一难经.txt",
+      "text_matches": true,
+      "recleaned_sha256": "5c28edaac0849a6338b10be854456bccf97af6efd796cd656ff39ffcfeba0433",
+      "frozen_text_sha256": "5c28edaac0849a6338b10be854456bccf97af6efd796cd656ff39ffcfeba0433"
+    },
+    {
+      "file": "498-黄庭内景五藏六府图.txt",
+      "text_matches": true,
+      "recleaned_sha256": "c5f6e2321363df2543d5245c787360af46ae21b7567dab27b7ff1dfc21916d63",
+      "frozen_text_sha256": "c5f6e2321363df2543d5245c787360af46ae21b7567dab27b7ff1dfc21916d63"
+    }
+  ],
+  "network_calls": 0,
+  "comparison": "decoded UTF-8 text after original reader; transport CRLF and BOM are not scientific differences"
+}

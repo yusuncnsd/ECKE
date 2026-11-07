@@ -1,0 +1,76 @@
+{
+  "development_count": 100,
+  "test_input_count": 300,
+  "test_gold_included": false,
+  "entity_types": [
+    "中药",
+    "方药",
+    "疾病",
+    "症状",
+    "病机",
+    "病位",
+    "治法"
+  ],
+  "relation_schemas": [
+    {
+      "head_type": "中药",
+      "relation": "治疗",
+      "tail_type": "疾病"
+    },
+    {
+      "head_type": "方药",
+      "relation": "治疗",
+      "tail_type": "疾病"
+    },
+    {
+      "head_type": "治法",
+      "relation": "主治",
+      "tail_type": "疾病"
+    },
+    {
+      "head_type": "病机",
+      "relation": "导致",
+      "tail_type": "疾病"
+    },
+    {
+      "head_type": "病机",
+      "relation": "涉及",
+      "tail_type": "病位"
+    },
+    {
+      "head_type": "症状",
+      "relation": "提示",
+      "tail_type": "病机"
+    },
+    {
+      "head_type": "疾病",
+      "relation": "表现",
+      "tail_type": "症状"
+    }
+  ],
+  "span_supervision_count": 451,
+  "span_exclusion_audit_count": 4,
+  "hashes": {
+    "development": "34aafe57d8d1496230438d875b7345daa0949dbf7818fbedeffb0f8471e10c19",
+    "span_supervision": "8e141df03015cebaf75da3c85a20d099485dda13e498fa23f4b601ce21afdc34",
+    "test_input": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
+    "schema": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+    "cv_files": {
+      "cv_fold0_train.jsonl": "8ac013919a4ed12f70212367ec840da08c3230b845959f7daa6aa768894f7989",
+      "cv_fold0_valid.jsonl": "5be54b8baaab795379c87c4d89a8dbf6565be1a3892c0b14d1e7da0e133e467b",
+      "cv_fold1_train.jsonl": "f41b662272b537385cbe98660600b063b9124450ea896c1956394402da996865",
+      "cv_fold1_valid.jsonl": "15fc527c0b9b25ce47f6458374a526cf61429a57c34306295b071aab7bdcf7d3",
+      "cv_fold2_train.jsonl": "7ea478711112e99faa310970d4b0e2c104949a514fc6cce4e87125115540cb4b",
+      "cv_fold2_valid.jsonl": "dd29b3333d4e203f149e8ab25352f3bcea532b4fd5a51d86fc2b7e74d414b880",
+      "cv_fold3_train.jsonl": "9d99226ead0cdc5b8674c472d36dc66640f92d745eae056640fdb577cf235016",
+      "cv_fold3_valid.jsonl": "1b17c7305707a4251af759ece6a5cd6c2310312c5f793fa18c34f003aff994d3",
+      "cv_fold4_train.jsonl": "ee81da212dc0d3c18d8f1953ee1c8885999336e534cd1410bcec76dcd8bcbb04",
+      "cv_fold4_valid.jsonl": "f9853ef2d465775a3be124cdeae0f420d297e464a044054cf243634117e6af08"
+    },
+    "code_files": {
+      "d1_centreline.py": "c27b9406ce259cecaadde380a1a62d11306471d48b2bd5bd449455135714026b",
+      "d2_d3_models.py": "b61e39024ee0c8fbb72804ba2852f194e86f8e03da4b5108e9ea3f9b410c0c60",
+      "formal_train.py": "91fbac337e96ab55713c2146efa97a9e96daee79bfd91f8ea5b10263cd142aa2"
+    }
+  }
+}

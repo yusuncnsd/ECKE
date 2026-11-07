@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002048",
+  "ann_id": "test_071",
+  "text": "邪在表则不渴，在里则渴。三阳虽亦有渴症，但不如三阴之甚也。故太阴腹满嗌干，少阴口燥舌干而渴，厥阴则消渴矣。（饮水多，而小便少，热能消水故也。）瘟病之渴，一于为热，初传则热微而渴微，传深则热甚而渴甚，但未有不见兼症而独渴者。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n邪在表则不渴，在里则渴。三阳虽亦有渴症，但不如三阴之甚也。故太阴腹满嗌干，少阴口燥舌干而渴，厥阴则消渴矣。（饮水多，而小便少，热能消水故也。）瘟病之渴，一于为热，初传则热微而渴微，传深则热甚而渴甚，但未有不见兼症而独渴者。",
+  "seed": 20260953,
+  "repetition_penalty": 1.1,
+  "input_tokens": 558,
+  "generated_tokens": 186,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    1115,
+    376,
+    233,
+    187,
+    183,
+    234,
+    154,
+    138,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"三阳\"], \"方药\": [\"三阳\"], \"疾病\": [\"渴症\", \"渴病\"], \"症状\": [\"渴症\", \"渴病\"], \"病机\": [\"瘟病\"], \"病位\": [\"腹满\", \"口燥\"], \"治法\": [\"饮水多\"]}, \"relations\": [{\"head\": \"渴症\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"渴病\", \"relation\": \"症状\", \"tail\": \"渴症\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"三阳\"], \"方药\": [\"三阳\"], \"疾病\": [\"渴症\", \"渴病\"], \"症状\": [\"渴症\", \"渴病\"], \"病机\": [\"瘟病\"], \"病位\": [\"腹满\", \"口燥\"], \"治法\": [\"饮水多\"]}, \"relations\": [{\"head\": \"渴症\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"渴病\", \"relation\": \"症状\", \"tail\": \"渴症\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:13:32+0800"
+}

@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-10-22T14:54:58.954887+00:00",
+  "books": 488,
+  "reconstructed_units": 405884,
+  "candidate_passages": 5924,
+  "manuscript_candidate_count": 5924,
+  "candidate_count_matches": true,
+  "network_calls": 0,
+  "elapsed_seconds": 73.11000000000058,
+  "code_sha256": "d7ae9a5e96cf1386935558f991e5a8fcf10077064d9444382e63b4259ee53e6f"
+}

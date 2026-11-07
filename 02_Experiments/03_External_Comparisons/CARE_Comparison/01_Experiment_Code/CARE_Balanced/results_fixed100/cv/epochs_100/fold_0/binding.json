@@ -1,0 +1,14 @@
+{
+  "version": "CARE_balanced_fixed100_20261004",
+  "config_sha256": "54c8122a5ce63a741a5476f9a80c9bcbcd2343180f5fa7db5c3132c260e0565b",
+  "asset_manifest_sha256": "da825496b747a5f54a6a9ec28f8e61a5a534e6eb039fb4a19e22870d9630fdbe",
+  "model_manifest_sha256": "dd705e7e278901d1cf843629beaa6a2069b41a183b5c210006f4eb843427a579",
+  "torch": "2.8.0+cu128",
+  "transformers": "4.55.4",
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "test_gold_access": false,
+  "seed": 20260823,
+  "epochs": 100,
+  "train_sha256": "4cdea828fb3986f1f20408e2cc02108cc0d2a1d22c09708388a21ad9d2651740",
+  "valid_sha256": "8d33032f9b5f6adef4e9d064690136613c84beecef046a887e172964baa1e69b"
+}

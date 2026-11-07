@@ -1,0 +1,12 @@
+{
+  "ablation_id": "A4",
+  "name": "去除关系候选语义判别_Schema即输出",
+  "records": 300,
+  "entities": 854,
+  "relations": 1023,
+  "model": "qwen-plus-2025-07-28",
+  "temperature": 0.0,
+  "seed": 20260813,
+  "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A4_去除关系候选语义判别_Schema即输出\\A4_300条结构化预测.jsonl",
+  "completed_at": "2026-08-23 12:53:53"
+}

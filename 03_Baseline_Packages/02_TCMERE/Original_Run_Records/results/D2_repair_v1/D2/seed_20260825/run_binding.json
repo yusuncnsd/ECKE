@@ -1,0 +1,20 @@
+{
+  "method": "D2_repair_v1",
+  "seed": 20260825,
+  "quick": false,
+  "development_file": "development_100_span_supervision.jsonl",
+  "test_file": "independent_test_300_input_only.jsonl",
+  "development_sha256": "8e141df03015cebaf75da3c85a20d099485dda13e498fa23f4b601ce21afdc34",
+  "test_sha256": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
+  "schema_sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+  "code_version": "D2_repair_v1_20260824",
+  "code_sha256": "6e1f8c2e7ccd54f2316c7a746210bac7ddcb0dff9a4e096f8a405014566fb8c6",
+  "epochs": 20,
+  "entity_threshold": 0.5,
+  "relation_threshold": 0.4,
+  "optimizer_groups": {
+    "encoder": "AdamW@5e-5",
+    "extraction": "Adam@8e-4",
+    "CompGCN": "Adam@1e-4"
+  }
+}

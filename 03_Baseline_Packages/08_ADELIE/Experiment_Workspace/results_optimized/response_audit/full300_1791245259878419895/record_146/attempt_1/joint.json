@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002536",
+  "ann_id": "test_146",
+  "text": "龙脑鸡苏丸。除烦热，郁热，肺热咳嗽，吐血鼻衄，血崩下血，热脉消渴，惊悸，解酒毒，膈热，口臭口疮，清心明目。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n龙脑鸡苏丸。除烦热，郁热，肺热咳嗽，吐血鼻衄，血崩下血，热脉消渴，惊悸，解酒毒，膈热，口臭口疮，清心明目。",
+  "seed": 20261103,
+  "repetition_penalty": 1.1,
+  "input_tokens": 472,
+  "generated_tokens": 768,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    134,
+    141,
+    233,
+    133,
+    187,
+    10758,
+    8853,
+    2813,
+    1115,
+    376,
+    236,
+    134
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"龙脑鸡苏丸\"], \"方药\": [\"鸡苏丸\"], \"疾病\": [\"除烦热\", \"郁热\", \"肺热咳嗽\", \"吐血鼻衄\", \"血崩下血\", \"热脉消渴\", \"惊悸\", \"解酒毒\", \"膈热\", \"口臭口疮\", \"清心明目\"], \"症状\": [\"除烦热\", \"郁热\", \"肺热咳嗽\", \"吐血鼻衄\", \"血崩下血\", \"热脉消渴\", \"惊悸\", \"解酒毒\", \"膈热\", \"口臭口疮\", \"清心明目\"]}, \"relations\": [{\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"肺热咳嗽\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"吐血鼻衄\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"血崩下血\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"热脉消渴\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"惊悸\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"解酒毒\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"膈热\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"口臭口疮\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"清心明目\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"肺热咳嗽\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"吐血鼻衄\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"血崩下血\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"热脉消渴\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"惊悸\"}, {\"head\": \"��",
+  "response_with_special_tokens": "{\"entities\": {\"中药\": [\"龙脑鸡苏丸\"], \"方药\": [\"鸡苏丸\"], \"疾病\": [\"除烦热\", \"郁热\", \"肺热咳嗽\", \"吐血鼻衄\", \"血崩下血\", \"热脉消渴\", \"惊悸\", \"解酒毒\", \"膈热\", \"口臭口疮\", \"清心明目\"], \"症状\": [\"除烦热\", \"郁热\", \"肺热咳嗽\", \"吐血鼻衄\", \"血崩下血\", \"热脉消渴\", \"惊悸\", \"解酒毒\", \"膈热\", \"口臭口疮\", \"清心明目\"]}, \"relations\": [{\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"肺热咳嗽\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"吐血鼻衄\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"血崩下血\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"热脉消渴\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"惊悸\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"解酒毒\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"膈热\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"口臭口疮\"}, {\"head\": \"除烦热\", \"relation\": \"症状\", \"tail\": \"清心明目\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"肺热咳嗽\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"吐血鼻衄\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"血崩下血\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"热脉消渴\"}, {\"head\": \"郁热\", \"relation\": \"症状\", \"tail\": \"惊悸\"}, {\"head\": \"��",
+  "reached_budget_without_eos": true,
+  "created_at": "2026-10-06T08:19:39+0800"
+}

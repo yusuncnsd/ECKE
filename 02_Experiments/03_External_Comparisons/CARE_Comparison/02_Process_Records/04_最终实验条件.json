@@ -1,0 +1,25 @@
+{
+  "version": "CARE_second_calibrated_20261005",
+  "adopted_by_user": true,
+  "author_commit": "93ea51306a94b617deb412e9bb8372a94a59dacf",
+  "final_entity_threshold": 0.9999,
+  "final_relation_threshold": 0.9999,
+  "epochs": 100,
+  "seeds": [
+    20260823,
+    20260824,
+    20260825
+  ],
+  "development_records": 100,
+  "test_records_per_seed": 300,
+  "training_config_sha256": "54c8122a5ce63a741a5476f9a80c9bcbcd2343180f5fa7db5c3132c260e0565b",
+  "selection_sha256": "8e233dd1b9526bce2716a4c7743d480bf7cb0743a581fc7065f157b2cca41dec",
+  "cloud_archive_sha256": "9ea418533155c74e68f6ae410d00d948bafc9141563b8d01f04fae208a5218fd",
+  "model_weights_downloaded": false,
+  "first_version_test_predictions_retained": false,
+  "matching": "entity(surface,type); directed relation(head,relation,tail); strict sets",
+  "history": "Threshold calibration on development only, after first-version test metrics had already been evaluated.",
+  "server_model_weights_deleted_by_user": true,
+  "original_training_asset_manifest_sha256": "da825496b747a5f54a6a9ec28f8e61a5a534e6eb039fb4a19e22870d9630fdbe",
+  "submission_asset_manifest_sha256": "440bb37d957e853c499cbc2894d4a8c3d19e6ccb89cdf96c526dec6c4249cd05"
+}

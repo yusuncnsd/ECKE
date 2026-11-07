@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000130",
+  "ann_id": "test_079",
+  "text": "葛根。（味甜者甘葛，味苦者苦葛）。味甘，性微寒。入阳明经。治胃虚消渴，伤风、伤暑、伤寒，解表邪，发寒热往来。湿疟、解中酒热毒。小儿痘疹初出要药。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n葛根。（味甜者甘葛，味苦者苦葛）。味甘，性微寒。入阳明经。治胃虚消渴，伤风、伤暑、伤寒，解表邪，发寒热往来。湿疟、解中酒热毒。小儿痘疹初出要药。",
+  "seed": 20260969,
+  "repetition_penalty": 1.1,
+  "input_tokens": 501,
+  "generated_tokens": 515,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    135,
+    194,
+    234,
+    154,
+    155,
+    234,
+    153,
+    188,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"葛根\"], \"方药\": [\"葛根\"], \"疾病\": [\"胃虚消渴\", \"伤风\", \"伤暑\", \"伤寒\", \"表表邪\", \"发寒热往来\", \"湿疟\", \"解中酒热毒\", \"小儿痘疹\"], \"症状\": [\"胃虚消渴\", \"伤风\", \"伤暑\", \"伤寒\", \"表表邪\", \"发寒热往来\", \"湿疟\", \"解中酒热毒\", \"小儿痘疹\"], \"病机\": [\"胃虚\"], \"病位\": [\"胃\"], \"治法\": [\"入阳明经\"]}, \"relations\": [{\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"胃虚消渴\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤风\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤暑\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤寒\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"表表邪\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"发寒热往来\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"湿疟\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"解中酒热毒\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"小儿痘疹\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"葛根\"], \"方药\": [\"葛根\"], \"疾病\": [\"胃虚消渴\", \"伤风\", \"伤暑\", \"伤寒\", \"表表邪\", \"发寒热往来\", \"湿疟\", \"解中酒热毒\", \"小儿痘疹\"], \"症状\": [\"胃虚消渴\", \"伤风\", \"伤暑\", \"伤寒\", \"表表邪\", \"发寒热往来\", \"湿疟\", \"解中酒热毒\", \"小儿痘疹\"], \"病机\": [\"胃虚\"], \"病位\": [\"胃\"], \"治法\": [\"入阳明经\"]}, \"relations\": [{\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"胃虚消渴\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤风\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤暑\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"伤寒\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"表表邪\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"发寒热往来\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"湿疟\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"解中酒热毒\"}, {\"head\":\"葛根\", \"relation\":\"治疗\", \"tail\":\"小儿痘疹\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:14:05+0800"
+}

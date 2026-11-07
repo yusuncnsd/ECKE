@@ -1,0 +1,300 @@
+{"record_id": "XK_001231", "entities": [["天雄散", "方药"], ["消肾", "疾病"]], "relations": []}
+{"record_id": "XK_002235", "entities": [["上消", "疾病"], ["上消、中消", "疾病"], ["上消、中消、下消", "疾病"], ["上消、中消、下消。谓上消", "疾病"], ["上消、中消、下消。谓上消口干舌燥，饮水不能解渴", "疾病"], ["上消口干舌燥，饮水不能解渴", "疾病"], ["下消", "疾病"], ["下消。谓上消", "疾病"], ["下消。谓上消口干舌燥，饮水不能解渴", "疾病"], ["中消", "疾病"], ["中消、下消", "疾病"], ["中消、下消。谓上消", "疾病"], ["肺", "病位"], ["肾", "病位"], ["胃", "病位"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_002074", "entities": [["消渴", "疾病"], ["竹笋", "中药"]], "relations": []}
+{"record_id": "XK_002113", "entities": [["三消", "疾病"], ["下消", "疾病"], ["下消消肾", "疾病"], ["中消", "疾病"], ["中消消脾", "疾病"], ["小便多", "症状"], ["消肾", "疾病"], ["消脾", "疾病"], ["肾", "病位"], ["肾消", "疾病"], ["脾", "病位"], ["脾消", "疾病"]], "relations": []}
+{"record_id": "XK_000167", "entities": [["消渴", "疾病"], ["鲟鱼", "中药"]], "relations": []}
+{"record_id": "XK_000637", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000472", "entities": [["松香", "中药"], ["消渴", "疾病"], ["脾", "病位"], ["脾肺", "病位"]], "relations": []}
+{"record_id": "XK_001708", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002437", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_001654", "entities": [["肺", "病位"], ["肺消", "疾病"], ["肺肾", "病位"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_002487", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001339", "entities": [["消渴", "疾病"], ["肺", "病位"], ["肺热则膀胱绝其化源，故淋 ，肺", "病位"], ["龙脑鸡苏丸", "方药"]], "relations": []}
+{"record_id": "XK_001046", "entities": [["五味饮", "方药"], ["小便数", "症状"], ["消肾", "疾病"]], "relations": []}
+{"record_id": "XK_002217", "entities": [["消中", "疾病"], ["消渴", "疾病"], ["生津甘露汤", "方药"]], "relations": []}
+{"record_id": "XK_002170", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000031", "entities": [["水萍", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002980", "entities": [["消渴", "疾病"], ["紫石英", "中药"]], "relations": []}
+{"record_id": "XK_000056", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001033", "entities": [["消肾", "疾病"], ["金银箔丸", "方药"]], "relations": []}
+{"record_id": "XK_001058", "entities": [["小便不利", "症状"], ["消渴", "疾病"], ["翠碧丸", "方药"]], "relations": []}
+{"record_id": "XK_001060", "entities": [["冬瓜饮", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001797", "entities": [["肺消", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_000055", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_000160", "entities": [["消渴", "疾病"], ["竹鸡", "中药"], ["肠胃", "病位"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_001561", "entities": [["消渴", "疾病"], ["苦楝根", "中药"]], "relations": []}
+{"record_id": "XK_000863", "entities": [["消渴", "疾病"], ["烂金丸", "方药"]], "relations": []}
+{"record_id": "XK_000572", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002414", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000744", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002610", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002126", "entities": [["三消渴", "疾病"], ["消渴", "疾病"], ["茯菟丸", "方药"]], "relations": []}
+{"record_id": "XK_000664", "entities": [["竹叶汤", "方药"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_000508", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000005", "entities": [["栝蒌根", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001061", "entities": [["消渴", "疾病"], ["黄连丸", "方药"]], "relations": []}
+{"record_id": "XK_001446", "entities": [["上消", "疾病"], ["下消", "疾病"], ["中消", "疾病"], ["肺", "病位"], ["肺热", "病机"], ["肺热也，心火移热于肺", "病位"], ["肾", "病位"], ["肾热", "病机"], ["胃", "病位"], ["胃热", "病机"]], "relations": []}
+{"record_id": "XK_002314", "entities": [["三消", "疾病"], ["燥热", "病机"]], "relations": []}
+{"record_id": "XK_000654", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002838", "entities": [], "relations": []}
+{"record_id": "XK_002674", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001631", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_003003", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000793", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002731", "entities": [["梅苏丸", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002028", "entities": [["消渴", "疾病"], ["茯神煮散", "方药"]], "relations": []}
+{"record_id": "XK_001045", "entities": [["小便无度", "症状"], ["消肾", "疾病"], ["肾", "病位"], ["黄 丸", "方药"]], "relations": []}
+{"record_id": "XK_000870", "entities": [["猪肚丸", "方药"]], "relations": []}
+{"record_id": "XK_000063", "entities": [["消渴", "疾病"], ["龙石膏", "中药"]], "relations": []}
+{"record_id": "XK_001988", "entities": [["大麦", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000046", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001677", "entities": [["胃", "病位"]], "relations": []}
+{"record_id": "XK_002626", "entities": [["消渴", "疾病"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_000258", "entities": [["消中", "疾病"], ["消渴", "疾病"], ["消渴消中", "疾病"], ["消渴，日饮水数斗，饭亦倍进，小便频数，服消渴", "疾病"], ["肾", "病位"], ["肾脉不衰，当由酒果过度，积热在脾", "病位"], ["脾", "病位"]], "relations": []}
+{"record_id": "XK_003061", "entities": [["乌梅丸", "方药"], ["消渴", "疾病"], ["苦酒。乌梅丸", "方药"]], "relations": []}
+{"record_id": "XK_001548", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000952", "entities": [["消渴", "疾病"], ["独胜散", "方药"]], "relations": []}
+{"record_id": "XK_000460", "entities": [["冰糖", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000569", "entities": [["栝蒌根", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000642", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002233", "entities": [["中消", "疾病"], ["胃", "病位"], ["胃若因大气下陷，而运化之力减者，必然少食；若大气下陷，脾胃", "病位"], ["脾", "病位"], ["脾胃", "病位"], ["脾胃若因大气下陷，而运化之力减者，必然少食；若大气下陷，脾", "病位"], ["脾胃若因大气下陷，而运化之力减者，必然少食；若大气下陷，脾胃", "病位"]], "relations": []}
+{"record_id": "XK_002752", "entities": [["三消", "疾病"], ["上消", "疾病"], ["上消者，有火游于胃而为中消", "疾病"], ["上消者，有火游于胃而为中消者，有火烁阴精而为下消", "疾病"], ["下消", "疾病"], ["中消", "疾病"], ["中消者，有火烁阴精而为下消", "疾病"], ["肾", "病位"], ["肾，而多从火治，是固然矣，然以余论之，则三焦之火多有病本于肾", "病位"], ["胃", "病位"], ["胃，下焦属肾", "病位"]], "relations": []}
+{"record_id": "XK_002712", "entities": [["消渴", "疾病"], ["甘露膏", "方药"]], "relations": []}
+{"record_id": "XK_000216", "entities": [["消渴", "疾病"], ["绿豆", "中药"]], "relations": []}
+{"record_id": "XK_000879", "entities": [["小便频数", "症状"], ["消渴", "疾病"], ["消渴。中焦得此病。谓之脾消", "疾病"], ["肾", "病位"], ["脾消", "疾病"]], "relations": []}
+{"record_id": "XK_002200", "entities": [["三消", "疾病"], ["上消", "疾病"], ["上消， 消谷善饥为中消", "疾病"], ["下消", "疾病"], ["中消", "疾病"]], "relations": []}
+{"record_id": "XK_000169", "entities": [["消渴", "疾病"], ["白石英", "中药"]], "relations": []}
+{"record_id": "XK_001926", "entities": [["五苓散", "方药"], ["小便不利", "症状"], ["消渴", "疾病"], ["肾气丸", "病机"]], "relations": []}
+{"record_id": "XK_001465", "entities": [["三消", "疾病"], ["上消", "疾病"], ["上消症也于小肠、膀胱，即下消", "疾病"], ["下消", "疾病"]], "relations": []}
+{"record_id": "XK_000579", "entities": [["松脂", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001043", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002048", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002317", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001098", "entities": [["消渴", "疾病"], ["麦门冬汤", "方药"]], "relations": []}
+{"record_id": "XK_001565", "entities": [], "relations": []}
+{"record_id": "XK_001351", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000827", "entities": [["消渴", "疾病"], ["绿豆", "中药"]], "relations": []}
+{"record_id": "XK_000455", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002029", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000130", "entities": [["消渴", "疾病"], ["葛根", "中药"]], "relations": []}
+{"record_id": "XK_001897", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_002645", "entities": [["消渴", "疾病"], ["牡丹", "中药"]], "relations": []}
+{"record_id": "XK_000556", "entities": [["消渴", "疾病"], ["白石英", "中药"]], "relations": []}
+{"record_id": "XK_002019", "entities": [["小便数", "症状"], ["消渴", "疾病"], ["肾消渴", "疾病"], ["茯神丸", "方药"]], "relations": []}
+{"record_id": "XK_001304", "entities": [["消渴", "疾病"], ["石燕散", "方药"]], "relations": []}
+{"record_id": "XK_002953", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000009", "entities": [["戎盐", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000083", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002526", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000430", "entities": [["消渴", "疾病"], ["肾", "病位"], ["肾气。去胃脾", "病位"], ["胃", "病位"], ["胃脾", "病位"], ["胃脾中热。益气。陈者味苦。主胃", "病位"], ["脾", "病位"]], "relations": []}
+{"record_id": "XK_002274", "entities": [], "relations": []}
+{"record_id": "XK_001188", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000103", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000979", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000824", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000849", "entities": [["小便少", "症状"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002524", "entities": [["消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_000254", "entities": [["消渴", "疾病"], ["苦楝子", "中药"]], "relations": []}
+{"record_id": "XK_002188", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000840", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000185", "entities": [["忍冬藤", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000745", "entities": [["消渴", "疾病"], ["消渴口干烦闷，灸足厥阴百壮，又灸阳池十壮，消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_000914", "entities": [["消渴", "疾病"], ["竹龙散", "方药"]], "relations": []}
+{"record_id": "XK_001223", "entities": [["消渴", "疾病"], ["肾沥汤", "方药"]], "relations": []}
+{"record_id": "XK_001911", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_003009", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000947", "entities": [["消渴", "疾病"], ["独胜散", "方药"]], "relations": []}
+{"record_id": "XK_002562", "entities": [["三消", "疾病"], ["琼玉膏", "方药"]], "relations": []}
+{"record_id": "XK_002837", "entities": [["肺消", "疾病"]], "relations": []}
+{"record_id": "XK_001788", "entities": [["消瘅", "疾病"]], "relations": []}
+{"record_id": "XK_000115", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000972", "entities": [["消渴", "疾病"], ["苁蓉丸", "方药"], ["苁蓉丸。断渴汤", "方药"]], "relations": []}
+{"record_id": "XK_000476", "entities": [["大麦", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001937", "entities": [["消中", "疾病"], ["胃", "病位"], ["胃气滞。实而浮。脾", "病位"], ["脾", "病位"]], "relations": []}
+{"record_id": "XK_000857", "entities": [["消渴", "疾病"], ["胃", "病位"], ["胃之本。假若胃", "病位"], ["胃热", "病机"], ["胃热者。胃", "病位"]], "relations": []}
+{"record_id": "XK_001990", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002440", "entities": [["肠", "病位"], ["肠胃", "病位"], ["肠胃之消，甚则消及脾", "病位"], ["肺", "病位"], ["肺脏；在中则为肠胃", "病位"], ["肾", "病位"], ["胃", "病位"], ["胃之消，甚则消及脾", "病位"], ["脾", "病位"], ["脾脏；在下则为膏液之消，甚则消及肾", "病位"]], "relations": []}
+{"record_id": "XK_001410", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002873", "entities": [["消渴", "疾病"], ["胃", "病位"], ["胃行其津液，肺", "病位"], ["脾", "病位"]], "relations": []}
+{"record_id": "XK_001392", "entities": [["二冬汤", "方药"], ["肺消", "疾病"]], "relations": []}
+{"record_id": "XK_000583", "entities": [["消渴", "疾病"], ["胃", "病位"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_001107", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000026", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000737", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002591", "entities": [], "relations": []}
+{"record_id": "XK_000090", "entities": [["葛根", "中药"]], "relations": []}
+{"record_id": "XK_000028", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002179", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000523", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001745", "entities": [["八味丸", "方药"], ["肾消", "疾病"]], "relations": []}
+{"record_id": "XK_002081", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002738", "entities": [], "relations": []}
+{"record_id": "XK_002554", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000997", "entities": [["消中", "疾病"], ["猪肾荠 汤", "方药"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_002116", "entities": [["三消", "疾病"], ["鹿茸丸", "方药"]], "relations": []}
+{"record_id": "XK_000008", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_002186", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002791", "entities": [["三消", "疾病"], ["茯菟丸", "方药"]], "relations": []}
+{"record_id": "XK_001126", "entities": [["天竺黄散", "方药"]], "relations": []}
+{"record_id": "XK_002122", "entities": [["三消", "疾病"], ["猪肚丸", "方药"]], "relations": []}
+{"record_id": "XK_000013", "entities": [["消渴", "疾病"], ["白石英", "中药"]], "relations": []}
+{"record_id": "XK_001270", "entities": [["参五味汤", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002858", "entities": [["下消", "疾病"]], "relations": []}
+{"record_id": "XK_001660", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002552", "entities": [["上消", "疾病"]], "relations": []}
+{"record_id": "XK_002773", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002536", "entities": [["消渴", "疾病"], ["龙脑鸡苏丸", "方药"]], "relations": []}
+{"record_id": "XK_000329", "entities": [["消渴", "疾病"], ["竹沥", "中药"]], "relations": []}
+{"record_id": "XK_002904", "entities": [["三圣膏", "方药"], ["消中", "疾病"], ["消中消渴", "疾病"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001147", "entities": [["楮叶散", "方药"], ["消渴", "疾病"], ["黄连散", "方药"], ["黄连散。楮叶散", "方药"]], "relations": []}
+{"record_id": "XK_000221", "entities": [["松香", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_003054", "entities": [["消渴", "疾病"], ["肾气丸", "方药"]], "relations": []}
+{"record_id": "XK_002108", "entities": [["消渴", "疾病"], ["猪肚丸", "方药"]], "relations": []}
+{"record_id": "XK_002704", "entities": [["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_001526", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001268", "entities": [["消渴", "疾病"], ["消肾", "疾病"], ["磁石饮", "方药"]], "relations": []}
+{"record_id": "XK_000986", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000985", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001706", "entities": [["消中", "疾病"], ["消渴", "疾病"], ["消瘦者，名曰消中", "疾病"], ["肾", "病位"], ["肾消", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_001877", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000465", "entities": [["消渴", "疾病"], ["蚕茧", "中药"]], "relations": []}
+{"record_id": "XK_002908", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002764", "entities": [], "relations": []}
+{"record_id": "XK_002716", "entities": [["消中", "疾病"], ["消肾", "疾病"], ["消肾，因消中", "疾病"], ["白茯苓丸", "方药"], ["肾", "病位"], ["肾，因消中之后，胃", "病位"], ["胃", "病位"], ["胃热", "病机"], ["胃热入肾", "病位"]], "relations": []}
+{"record_id": "XK_002935", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002555", "entities": [["上消", "疾病"], ["中消", "疾病"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_002850", "entities": [["三消", "疾病"], ["上消", "疾病"], ["下消", "疾病"], ["中消", "疾病"], ["六味地黄丸", "方药"], ["小便黄赤", "症状"], ["消渴", "疾病"], ["消渴有三：上消", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_000123", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002164", "entities": [["消渴", "疾病"], ["消肾", "疾病"], ["葛根丸", "方药"]], "relations": []}
+{"record_id": "XK_002621", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001427", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001799", "entities": [["胃", "病位"], ["胃移热于胆", "病位"], ["胃，善食而瘦，又谓之食亦；胃", "病位"]], "relations": []}
+{"record_id": "XK_000274", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002213", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002404", "entities": [["中消", "疾病"], ["消渴", "疾病"], ["肺消", "疾病"], ["肾消", "疾病"]], "relations": []}
+{"record_id": "XK_000798", "entities": [["消渴", "疾病"], ["硝石", "中药"]], "relations": []}
+{"record_id": "XK_001580", "entities": [["消渴", "疾病"], ["肝肾", "病位"], ["肾", "病位"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_003062", "entities": [["消渴", "疾病"], ["牡丹皮", "中药"], ["牡丹皮。《金匮》肾气丸", "方药"], ["肾气丸", "方药"], ["肾气丸方在地黄。用之治消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000145", "entities": [["渴消", "疾病"]], "relations": []}
+{"record_id": "XK_001013", "entities": [["消中", "疾病"], ["胃", "病位"], ["脾", "病位"], ["脾胃", "病位"], ["黄芩汤", "方药"]], "relations": []}
+{"record_id": "XK_002669", "entities": [["消渴", "疾病"], ["蛤蜊", "中药"]], "relations": []}
+{"record_id": "XK_000184", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002561", "entities": [["当归润燥汤", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001884", "entities": [["五苓散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002379", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000646", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000984", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000669", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000164", "entities": [["消渴", "疾病"], ["蛤蜊", "中药"]], "relations": []}
+{"record_id": "XK_001806", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_000586", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002334", "entities": [["三消", "疾病"], ["上消", "疾病"], ["下消", "疾病"], ["中消", "疾病"], ["消中", "疾病"], ["白虎汤", "方药"], ["肾", "病位"], ["肾消", "疾病"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_002030", "entities": [], "relations": []}
+{"record_id": "XK_000155", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001865", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002025", "entities": [["地黄丸", "方药"], ["消肾", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_002815", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001923", "entities": [["消渴", "疾病"], ["消渴。消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_000230", "entities": [["乌骨鸡", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001412", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000822", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001281", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002535", "entities": [["消渴", "疾病"], ["补阴丸", "方药"]], "relations": []}
+{"record_id": "XK_000957", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000412", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001311", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002682", "entities": [["消渴", "疾病"], ["竹叶黄芪汤", "方药"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_000751", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001462", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000224", "entities": [["桑叶", "中药"]], "relations": []}
+{"record_id": "XK_001094", "entities": [["人参散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000188", "entities": [["消渴", "疾病"], ["肾", "病位"], ["肾之谷也。肾", "病位"], ["肾病也。\n渗利小便，所以泄肾", "病位"], ["肾病也。\n渗利小便，所以泄肾邪也。降胃", "病位"], ["肾病也。\n渗利小便，所以泄肾邪也。降胃火，而脾胃", "病位"], ["肾邪也。降胃", "病位"], ["肾邪也。降胃火，而脾胃", "病位"], ["胃", "病位"], ["胃火，而脾", "病位"], ["胃火，而脾胃", "病位"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_000743", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001625", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002673", "entities": [["消渴", "疾病"], ["澡丝汤", "方药"]], "relations": []}
+{"record_id": "XK_001681", "entities": [["消瘅", "疾病"]], "relations": []}
+{"record_id": "XK_000390", "entities": [["泽兰", "中药"], ["消瘅", "疾病"]], "relations": []}
+{"record_id": "XK_002381", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001484", "entities": [["消中", "疾病"], ["胃", "病位"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_001798", "entities": [["肺", "病位"], ["肺移热于肾", "病位"], ["肺移热于肾，传为柔 ；肾移热于脾", "病位"], ["肺移热于肾，传为柔 ；肾移热于脾，传为虚，肠 ，死不可治。\n脾", "病位"], ["肾", "病位"], ["肾移热于脾", "病位"], ["肾移热于脾，传为虚，肠 ，死不可治。\n脾", "病位"], ["肾，传为柔 ；肾", "病位"], ["肾，传为柔 ；肾移热于脾", "病位"], ["肾，传为柔 ；肾移热于脾，传为虚，肠 ，死不可治。\n脾", "病位"], ["脾", "病位"], ["脾，传为虚，肠 ，死不可治。\n脾", "病位"]], "relations": []}
+{"record_id": "XK_000694", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001146", "entities": [["消渴", "疾病"], ["黄连散", "方药"]], "relations": []}
+{"record_id": "XK_002353", "entities": [["肺", "病位"], ["肺热", "病机"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_000318", "entities": [["栗壳", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000995", "entities": [["消中", "疾病"], ["牡蛎丸", "方药"]], "relations": []}
+{"record_id": "XK_000049", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000638", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000531", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000769", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001474", "entities": [["三消", "疾病"]], "relations": []}
+{"record_id": "XK_001037", "entities": [["小便数", "症状"], ["消肾", "疾病"], ["鹿茸丸", "方药"], ["鹿茸丸。栝蒌根丸", "方药"]], "relations": []}
+{"record_id": "XK_002276", "entities": [["三消", "疾病"]], "relations": []}
+{"record_id": "XK_001160", "entities": [["土瓜根丸", "方药"], ["土瓜根丸。麦门冬散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002559", "entities": [["当归润燥汤", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000682", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000708", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000896", "entities": [["人参散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000801", "entities": [["消渴", "疾病"], ["石膏", "中药"]], "relations": []}
+{"record_id": "XK_001791", "entities": [["消瘅", "疾病"]], "relations": []}
+{"record_id": "XK_002671", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001772", "entities": [["肺", "病位"], ["肺消", "疾病"]], "relations": []}
+{"record_id": "XK_002291", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000100", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000276", "entities": [["消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_001022", "entities": [["消中", "疾病"]], "relations": []}
+{"record_id": "XK_000406", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002493", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002821", "entities": [["丹砂", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001903", "entities": [["五苓散", "方药"], ["消渴", "疾病"], ["消渴也，注者不审消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000408", "entities": [["消水肿。止消渴", "疾病"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002573", "entities": [["二消丸", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002463", "entities": [["五苓散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002323", "entities": [["三消", "疾病"]], "relations": []}
+{"record_id": "XK_002467", "entities": [["上消", "疾病"], ["中消", "疾病"], ["中消之病成矣。夫既瘅成为消中", "疾病"], ["消中", "疾病"], ["消中。随其或上或下。火热炽盛之区。以次传入矣。上消", "疾病"], ["肺", "病位"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_002919", "entities": [["消渴", "疾病"], ["消渴嗌干（烦渴引饮，多食善饥，为消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001461", "entities": [["下消", "疾病"]], "relations": []}
+{"record_id": "XK_001800", "entities": [["中消", "疾病"], ["肺", "病位"], ["肺胃", "病位"], ["肺胃相连，故大肠", "病位"], ["肺胃相连，故大肠亦能移热于胃", "病位"], ["肺胃相连，故大肠亦能移热于胃，胃", "病位"], ["胃", "病位"], ["胃，胃", "病位"], ["脾", "病位"], ["脾胃", "病位"]], "relations": []}
+{"record_id": "XK_001970", "entities": [["五苓散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000992", "entities": [["三消", "疾病"]], "relations": []}
+{"record_id": "XK_000315", "entities": [["水萍", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001097", "entities": [["小便数", "症状"], ["消渴", "疾病"], ["茅根汤", "方药"]], "relations": []}
+{"record_id": "XK_002319", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001623", "entities": [["消渴", "疾病"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_000131", "entities": [["消渴", "疾病"], ["青粱米", "中药"]], "relations": []}
+{"record_id": "XK_002425", "entities": [["上消", "疾病"], ["中消", "疾病"], ["消渴", "疾病"], ["肾消", "疾病"], ["胃", "病位"], ["胃热传肾", "病位"]], "relations": []}
+{"record_id": "XK_001015", "entities": [["小便黄赤", "症状"], ["消中", "疾病"], ["胃", "病位"], ["顺气散", "方药"]], "relations": []}
+{"record_id": "XK_002871", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000215", "entities": [["消渴", "疾病"], ["肾", "病位"], ["黑豆", "中药"]], "relations": []}
+{"record_id": "XK_000375", "entities": [["消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_002121", "entities": [["乌金散", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001394", "entities": [["人参白虎汤", "方药"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_002878", "entities": [["上消", "疾病"], ["中消", "疾病"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002911", "entities": [["上消", "疾病"], ["上消，趺阳脉浮为中消，男子消渴", "疾病"], ["下消", "疾病"], ["中消", "疾病"], ["中消，男子消渴", "疾病"], ["中消，男子消渴即为下消", "疾病"], ["消渴", "疾病"], ["消渴即为下消", "疾病"], ["肾", "病位"], ["胃", "病位"]], "relations": []}
+{"record_id": "XK_001834", "entities": [["消中", "疾病"]], "relations": []}
+{"record_id": "XK_002475", "entities": [["消中", "疾病"], ["消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_000534", "entities": [["乌芋", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002697", "entities": [["消渴", "疾病"], ["肾", "病位"], ["胃", "病位"], ["脾", "病位"], ["脾胃", "病位"], ["龙脑鸡苏丸", "方药"]], "relations": []}
+{"record_id": "XK_001445", "entities": [["三消", "疾病"]], "relations": []}
+{"record_id": "XK_002825", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002969", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001849", "entities": [["栝蒌根", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000417", "entities": [["消渴", "疾病"], ["消结热。治消渴", "疾病"]], "relations": []}
+{"record_id": "XK_000547", "entities": [["消渴", "疾病"], ["苎根", "中药"]], "relations": []}
+{"record_id": "XK_001698", "entities": [["消中", "疾病"]], "relations": []}
+{"record_id": "XK_002933", "entities": [["下消", "疾病"], ["肾", "病位"], ["肾热", "病机"]], "relations": []}
+{"record_id": "XK_001711", "entities": [["肺消", "疾病"]], "relations": []}
+{"record_id": "XK_001179", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001736", "entities": [], "relations": []}
+{"record_id": "XK_002295", "entities": [["六味地黄汤", "方药"], ["消渴", "疾病"], ["肾", "病位"]], "relations": []}
+{"record_id": "XK_001584", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_003050", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_001743", "entities": [["人参石膏汤", "方药"], ["膈消", "疾病"]], "relations": []}
+{"record_id": "XK_001760", "entities": [["消中", "疾病"]], "relations": []}
+{"record_id": "XK_000678", "entities": [["消渴", "疾病"], ["竹叶汤", "方药"]], "relations": []}
+{"record_id": "XK_001893", "entities": [["文蛤散", "方药"], ["文蛤汤", "方药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002239", "entities": [["消渴", "疾病"], ["肾", "病位"], ["肾气丸", "方药"], ["脾", "病位"]], "relations": []}
+{"record_id": "XK_000893", "entities": [["消渴", "疾病"], ["茯苓丸", "方药"]], "relations": []}
+{"record_id": "XK_000328", "entities": [["土瓜根", "中药"], ["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002617", "entities": [["消渴", "疾病"]], "relations": []}
+{"record_id": "XK_002327", "entities": [["中消", "疾病"]], "relations": []}
+{"record_id": "XK_000688", "entities": [["乌梅汤", "方药"], ["消渴", "疾病"]], "relations": []}

@@ -1,0 +1,32 @@
+{
+  "version": "CARE_dev_threshold_calibration_v1_20261005",
+  "sources": {
+    "config.json": "54c8122a5ce63a741a5476f9a80c9bcbcd2343180f5fa7db5c3132c260e0565b",
+    "asset_manifest.json": "da825496b747a5f54a6a9ec28f8e61a5a534e6eb039fb4a19e22870d9630fdbe",
+    "CARE_run.py": "948a67eaf907342929b51070e385d1050df0534935e5e3bf5604cb3df77d15d5",
+    "care_model.py": "e0b1cefe041d716a64fbfeea0cb9abd2263677b5a59f6a9bd49cd55bee06cda6",
+    "care_data.py": "80bdc3f25a9ebfaf1d19a6bfe3be61b10059c80b4b9ee1da0c81feb5ec1c86f0",
+    "CARE_calibrate.py": "9786eef983d983118efb6346403a9fe726e484c9ecd457bf935aadb16e9de303",
+    "CARE_resume_decode.py": "307766da56f6508f9d6f419253193c3c8a002d2945fcaa52129933ee251c2ad7"
+  },
+  "model_manifest_sha256": "dd705e7e278901d1cf843629beaa6a2069b41a183b5c210006f4eb843427a579",
+  "grid": [
+    0.5,
+    0.8,
+    0.95,
+    0.99,
+    0.999,
+    0.9999
+  ],
+  "checkpoint_sha256": {
+    "cv/epochs_100/fold_0": "9f23581c301c96798cab004c52b1a662fb31b94739dce52401bf9e895ff6ac3a",
+    "cv/epochs_100/fold_1": "61f181501f5781dae1018747b2f8795797f17c302c01740b60164222c463251c",
+    "cv/epochs_100/fold_2": "3350905e40b74b49dc26cfb161899e9d67d4000bb6f43b0cf740f31abfe14bfa",
+    "cv/epochs_100/fold_3": "3f72b04e0cd5f2fe4953bcce944555487df3e56603acb2db2c33d773d2d740bc",
+    "cv/epochs_100/fold_4": "fa5cbff76a35623dd8f8997c6cbe4f1b9de3ecf8e6e6db0fe70a1fbab8b2c651",
+    "seed_20260823": "be62c4d8d0b9f0b97fb3af1810b6487a99ea9251b28e865606162335f52d80c0",
+    "seed_20260824": "68138d0b36394873b00f2332c8eb4eea81423b5055fee6e8ff71faea35fa5823",
+    "seed_20260825": "58bdbe52ca868be92239c296f008bc901cdf04cf2f11947ecf73226ff18bf001"
+  },
+  "test_gold_access": false
+}

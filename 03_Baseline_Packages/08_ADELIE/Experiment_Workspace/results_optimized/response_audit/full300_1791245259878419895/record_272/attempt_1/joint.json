@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002911",
+  "ann_id": "test_272",
+  "text": "麻黄薏苡甘草汤方。男子消渴，小便反多，以饮一斗，小便亦一斗，肾气丸主之（见妇人杂病）今之议病者，皆以寸口脉数浮为上消，趺阳脉浮为中消，男子消渴即为下消，此不知本之言也，惟黄坤载以阳明篇为消渴之原最得主要，素问别论云，二阳结，谓之消，黄氏引而申之曰，二阳者，阳明也，手阳明主燥化，燥在大肠则消，水而便坚，足阳明亦从燥化，在胃则消杀而溲数，太阴行气于三阴，脉候于寸口，阳明行气于三阳，脉候于趺阳，太阴主升，阴中之阳升于脉络，则经气盛，阳明主降，阳中之阴降于肠胃，则腑气和，太阴虚而经气衰，故寸口浮而迟，阳明盛而府气旺，故趺阳浮而数，虚劳其营卫，为发热作渴之原，燥热耗其精液，为消杀引饮之渐，胃热渗于大肠，故大便坚，水饮并入三焦，故小便多，经气虚而腑气实，所谓壮火食气也。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n麻黄薏苡甘草汤方。男子消渴，小便反多，以饮一斗，小便亦一斗，肾气丸主之（见妇人杂病）今之议病者，皆以寸口脉数浮为上消，趺阳脉浮为中消，男子消渴即为下消，此不知本之言也，惟黄坤载以阳明篇为消渴之原最得主要，素问别论云，二阳结，谓之消，黄氏引而申之曰，二阳者，阳明也，手阳明主燥化，燥在大肠则消，水而便坚，足阳明亦从燥化，在胃则消杀而溲数，太阴行气于三阴，脉候于寸口，阳明行气于三阳，脉候于趺阳，太阴主升，阴中之阳升于脉络，则经气盛，阳明主降，阳中之阴降于肠胃，则腑气和，太阴虚而经气衰，故寸口浮而迟，阳明盛而府气旺，故趺阳浮而数，虚劳其营卫，为发热作渴之原，燥热耗其精液，为消杀引饮之渐，胃热渗于大肠，故大便坚，水饮并入三焦，故小便多，经气虚而腑气实，所谓壮火食气也。",
+  "seed": 20261355,
+  "repetition_penalty": 1.1,
+  "input_tokens": 918,
+  "generated_tokens": 155,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    1115,
+    376,
+    30446,
+    231,
+    193,
+    194,
+    31908,
+    30923,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"麻黄\", \"薏苡\"], \"方药\": [\"甘草\"], \"疾病\": [\"消渴\"], \"症状\": [\"小便反多\"], \"病机\": [\"燥热耗其精液为消杀\"], \"病位\": [\"大便坚\"], \"治法\": [\"饮一斗\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"表现\", \"tail\": \"小便反多\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"麻黄\", \"薏苡\"], \"方药\": [\"甘草\"], \"疾病\": [\"消渴\"], \"症状\": [\"小便反多\"], \"病机\": [\"燥热耗其精液为消杀\"], \"病位\": [\"大便坚\"], \"治法\": [\"饮一斗\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"表现\", \"tail\": \"小便反多\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:30:03+0800"
+}

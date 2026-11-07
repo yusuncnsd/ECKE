@@ -1,0 +1,49 @@
+{
+  "version": "CARE_balanced_fixed100_20261004",
+  "status": "new_condition_pending_validation",
+  "author_commit": "93ea51306a94b617deb412e9bb8372a94a59dacf",
+  "model_id": "google-bert/bert-base-chinese",
+  "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+  "seeds": [
+    20260823,
+    20260824,
+    20260825
+  ],
+  "cv_seed": 20260823,
+  "epoch_candidates": [
+    100
+  ],
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "dropout": 0.1,
+  "share_hidden_size": 128,
+  "dist_emb_size": 20,
+  "co_attention_layers": 3,
+  "clip": 0.25,
+  "effective_batch_size": 8,
+  "micro_batch_size": 1,
+  "gradient_checkpointing": true,
+  "checkpoint_every_batches": 5,
+  "threshold": 0.5,
+  "max_sequence_length": 512,
+  "long_text_policy": "fail_without_truncation",
+  "training": "User-approved fixed100 epochs; one frozen five-fold development validation, then three all100 training seeds and test predictions.",
+  "evaluation": "entity (surface,type) and directed relation (head,relation,tail) strict set matching",
+  "adaptations": [
+    "Chinese BERT and character offsets",
+    "Author co-attention/classifier layers, retained logits for stable loss",
+    "User-approved balanced loss; not original CARE",
+    "Microbatch1/effective batch8/gradient checkpointing",
+    "Frozen folds, epoch candidates, seeds, Schema and threshold"
+  ],
+  "paper_code_difference": "Author CARE starts x,x in co-attention; do not invent pre-attention task MLPs shown in paper.",
+  "quick_epochs": 60,
+  "loss": "Each head/record: equal means of positive and negative valid-cell softplus; negative mean when no positives. Sum heads; average records within effective batch.",
+  "cv_mode": "fixed100_fivefold_diagnostic_then_three_seeds",
+  "quick_criterion": "Complete quick run with nonempty entity/relation outputs on training and held-out development; precision and F1 are recorded without minimums.",
+  "legacy_quick_binding": {
+    "version": "CARE_balanced_chinese_low_resource_20261004",
+    "config_sha256": "a1019a5f6a9d8f1e8319d6aba9d836f37f0cfc5d32c13cdc20c6e89975bf6206",
+    "asset_manifest_sha256": "0db9314603d127b682e8dccc5dbbd8654fe8dceec4b80fb5bfb89d8686111f29"
+  }
+}

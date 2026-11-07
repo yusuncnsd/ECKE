@@ -1,0 +1,46 @@
+{
+  "records_per_seed": 300,
+  "seeds": [
+    20260823,
+    20260824,
+    20260825
+  ],
+  "unit": "fraction_0_to_1",
+  "summary": {
+    "entity": {
+      "precision": {
+        "mean": 0.27881398346542136,
+        "sample_std": 0.03461974551522288
+      },
+      "recall": {
+        "mean": 0.6348293057153817,
+        "sample_std": 0.016768310697655893
+      },
+      "f1": {
+        "mean": 0.3865745430294872,
+        "sample_std": 0.034163693602006724
+      }
+    },
+    "relation": {
+      "precision": {
+        "mean": 0.0335888062527722,
+        "sample_std": 0.013371267583437877
+      },
+      "recall": {
+        "mean": 0.3884514435695538,
+        "sample_std": 0.02381266051394232
+      },
+      "f1": {
+        "mean": 0.06128765958032295,
+        "sample_std": 0.02215153986498917
+      }
+    }
+  },
+  "thresholds": [
+    0.9999,
+    0.9999
+  ],
+  "bootstrap_n": 5000,
+  "bootstrap_seed": 20260822,
+  "macro_definition": "Seven entity types; six relation labels; frozen evaluator empty-class convention"
+}

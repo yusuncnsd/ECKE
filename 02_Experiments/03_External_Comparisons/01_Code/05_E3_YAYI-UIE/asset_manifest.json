@@ -1,0 +1,11 @@
+{
+  "version": "E3_YAYI_UIE_formal_v3_official_task_markers_20260826",
+  "method": "YAYI-UIE strict zero-shot",
+  "paper": "YAYI-UIE: A Chat-Enhanced Instruction Tuning Framework for Universal Information Extraction",
+  "model_repository": "wenge-research/yayi-uie",
+  "test_input_sha256": "FDF183FA85D337EF34DE8CDAFC7C67BCF1DBE78450815E56B5E9602EBCBAEF49",
+  "schema_sha256": "32A37F9F1D210F1059A561460D32701394AAB098D333E52B63B7BEBC90E06DE4",
+  "test_gold_included": false,
+  "target_domain_training": false,
+  "records": 300
+}

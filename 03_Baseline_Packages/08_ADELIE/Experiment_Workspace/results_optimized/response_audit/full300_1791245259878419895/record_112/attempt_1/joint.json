@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000476",
+  "ann_id": "test_112",
+  "text": "大麦。【主治】主消渴。除热。益气。调中。（本经）补虚劣。壮血脉。化谷食。止泄泻。不动风气满。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n大麦。【主治】主消渴。除热。益气。调中。（本经）补虚劣。壮血脉。化谷食。止泄泻。不动风气满。",
+  "seed": 20261035,
+  "repetition_penalty": 1.1,
+  "input_tokens": 439,
+  "generated_tokens": 641,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    166,
+    145,
+    233,
+    179,
+    151,
+    233,
+    190,
+    164,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"大麦\"], \"方药\": [\"本经\"], \"疾病\": [\"消渴\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"症状\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病位\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"治法\": [\"除热\", \"益气\", \"调中\", \"补虚劣\", \"壮血脉\", \"化谷食\", \"止泄泻\", \"不动风气满\"]}, \"relations\": [{\"head\": \"渴症\", \"relation\": \"症状\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"症状\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"病机\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"病位\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"除热\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"益气\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"调中\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"补虚劣\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"化谷食\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"止泄泻\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"不动风气满\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"大麦\"], \"方药\": [\"本经\"], \"疾病\": [\"消渴\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"症状\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病位\": [\"渴症\", \"渴疾\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"治法\": [\"除热\", \"益气\", \"调中\", \"补虚劣\", \"壮血脉\", \"化谷食\", \"止泄泻\", \"不动风气满\"]}, \"relations\": [{\"head\": \"渴症\", \"relation\": \"症状\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"症状\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"病机\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"病位\", \"tail\": \"渴疾\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"除热\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"益气\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"调中\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"补虚劣\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"化谷食\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"止泄泻\"}, {\"head\": \"渴疾\", \"relation\": \"治法\", \"tail\": \"不动风气满\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:16:43+0800"
+}

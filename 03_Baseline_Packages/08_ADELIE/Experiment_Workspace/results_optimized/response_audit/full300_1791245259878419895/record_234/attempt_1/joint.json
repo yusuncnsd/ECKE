@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000682",
+  "ann_id": "test_234",
+  "text": "治消渴心脾实，躁热多渴，化为小便。知母饮方知母（切焙） 生芦根（各三两） 土瓜根（二两） 黄芩（去黑心） 甘草（炙各一两半） 龙上七味， 咀，每服五钱匕，水三盏，煎取二盏，去滓下生麦门冬汁二合，食后分温三服。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n治消渴心脾实，躁热多渴，化为小便。知母饮方知母（切焙） 生芦根（各三两） 土瓜根（二两） 黄芩（去黑心） 甘草（炙各一两半） 龙上七味， 咀，每服五钱匕，水三盏，煎取二盏，去滓下生麦门冬汁二合，食后分温三服。",
+  "seed": 20261279,
+  "repetition_penalty": 1.1,
+  "input_tokens": 523,
+  "generated_tokens": 284,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    233,
+    187,
+    183,
+    30869,
+    235,
+    135,
+    193,
+    31195,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"生芦根\", \"土瓜根\", \"黄芩\", \"甘草\"], \"方药\": [\"知母饮方\"], \"疾病\": [\"消渴心脾实\"], \"症状\": [\"躁热多渴\"], \"病机\": [\"化为小便\"], \"病位\": [\"心脾\"], \"治法\": [\"生芦根（各三两） 土瓜根（二两） 黄芩（去黑心） 甘草（炙各一两半） 龙上七味， 咀，每服五钱匕，水三盏，煎取二盏，去滓下生麦门冬汁二合，食后分温三服.\"]}, \"relations\": [{\"head\": \"躁热多渴\", \"relation\": \"症状\", \"tail\": \"消渴心脾实\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"生芦根\", \"土瓜根\", \"黄芩\", \"甘草\"], \"方药\": [\"知母饮方\"], \"疾病\": [\"消渴心脾实\"], \"症状\": [\"躁热多渴\"], \"病机\": [\"化为小便\"], \"病位\": [\"心脾\"], \"治法\": [\"生芦根（各三两） 土瓜根（二两） 黄芩（去黑心） 甘草（炙各一两半） 龙上七味， 咀，每服五钱匕，水三盏，煎取二盏，去滓下生麦门冬汁二合，食后分温三服.\"]}, \"relations\": [{\"head\": \"躁热多渴\", \"relation\": \"症状\", \"tail\": \"消渴心脾实\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:27:17+0800"
+}

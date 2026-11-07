@@ -1,0 +1,7 @@
+{
+  "record_id": "XK_001798",
+  "attempt": 1,
+  "stage": "normalization",
+  "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+  "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_219/attempt_1"
+}

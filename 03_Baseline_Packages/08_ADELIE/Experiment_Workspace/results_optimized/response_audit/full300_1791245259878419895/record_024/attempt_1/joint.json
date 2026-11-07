@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000160",
+  "ann_id": "test_024",
+  "text": "竹鸡。五脏气逆喘息不止，及消渴小便多者殊功；肠胃气虚下痢无度，兼禁口大孔痛者立效。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n竹鸡。五脏气逆喘息不止，及消渴小便多者殊功；肠胃气虚下痢无度，兼禁口大孔痛者立效。",
+  "seed": 20260859,
+  "repetition_penalty": 1.1,
+  "input_tokens": 436,
+  "generated_tokens": 321,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    232,
+    153,
+    155,
+    31021,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"竹鸡\"], \"方药\": [], \"疾病\": [\"消渴\", \"肠胃气虚下痢\", \"喘息\"], \"症状\": [\"消渴小便多\", \"兼禁口大孔痛\"], \"病机\": [\"五脏气逆\"], \"病位\": [\"肠胃\"], \"治法\": [\"竹鸡\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"小便多\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"兼禁口大孔痛\"}, {\"head\": \"肠胃气虚下痢\", \"relation\": \"症状\", \"tail\": \"下痢\"}, {\"head\": \"肠胃气虚下痢\", \"relation\": \"病机\", \"tail\": \"五脏气逆\"}, {\"head\": \"喘息\", \"relation\": \"症状\", \"tail\": \"喘息\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"竹鸡\"], \"方药\": [], \"疾病\": [\"消渴\", \"肠胃气虚下痢\", \"喘息\"], \"症状\": [\"消渴小便多\", \"兼禁口大孔痛\"], \"病机\": [\"五脏气逆\"], \"病位\": [\"肠胃\"], \"治法\": [\"竹鸡\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"小便多\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"兼禁口大孔痛\"}, {\"head\": \"肠胃气虚下痢\", \"relation\": \"症状\", \"tail\": \"下痢\"}, {\"head\": \"肠胃气虚下痢\", \"relation\": \"病机\", \"tail\": \"五脏气逆\"}, {\"head\": \"喘息\", \"relation\": \"症状\", \"tail\": \"喘息\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:09:42+0800"
+}

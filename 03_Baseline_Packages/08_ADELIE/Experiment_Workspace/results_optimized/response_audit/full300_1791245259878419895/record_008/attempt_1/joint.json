@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001708",
+  "ann_id": "test_008",
+  "text": "此人必数食甘美而多肥也，肥者令人内热，甘者令人中满，故其气上溢，转为消渴。（肥者，味浓助阳，故能生热。甘者，性缓不散，故能留中。热留不去，久必伤阴，其气上溢，故转变为消渴之病。）治之以兰，除陈气也。（兰草性味甘寒，能利水道，辟不祥，除胸中痰癖，其气清香，能生津止渴，润肌肉，故可除陈积蓄热之气。）",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n此人必数食甘美而多肥也，肥者令人内热，甘者令人中满，故其气上溢，转为消渴。（肥者，味浓助阳，故能生热。甘者，性缓不散，故能留中。热留不去，久必伤阴，其气上溢，故转变为消渴之病。）治之以兰，除陈气也。（兰草性味甘寒，能利水道，辟不祥，除胸中痰癖，其气清香，能生津止渴，润肌肉，故可除陈积蓄热之气。）",
+  "seed": 20260827,
+  "repetition_penalty": 1.1,
+  "input_tokens": 599,
+  "generated_tokens": 198,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    613,
+    376,
+    18237,
+    1115,
+    376,
+    232,
+    136,
+    179,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"兰\"], \"方药\": [], \"疾病\": [\"消渴\"], \"症状\": [\"内消\", \"胃消\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"转化为消渴之病\"], \"病位\": [], \"治法\": [\"兰\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"转化为消渴之病\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"兰\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"兰\"], \"方药\": [], \"疾病\": [\"消渴\"], \"症状\": [\"内消\", \"胃消\", \"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"转化为消渴之病\"], \"病位\": [], \"治法\": [\"兰\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"病机\", \"tail\": \"转化为消渴之病\"}, {\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"兰\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:08:38+0800"
+}

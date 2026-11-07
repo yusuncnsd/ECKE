@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001677",
+  "ann_id": "test_051",
+  "text": "三诊 舌转嫩黄尚腻，脉两手弦细，口尚甜。系脾瘅，胃钝。宜泻心汤加减。\n仙半夏（钱半） 焦神曲（三钱） 炒谷芽（三钱） 新会皮（钱半） 炒川连（六分） 杏仁（三钱） 赤苓（三钱） 滑石（四钱） 炒枳实（钱半） 蔻壳（钱半） 省头草（三钱）清煎三帖。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n三诊 舌转嫩黄尚腻，脉两手弦细，口尚甜。系脾瘅，胃钝。宜泻心汤加减。\n仙半夏（钱半） 焦神曲（三钱） 炒谷芽（三钱） 新会皮（钱半） 炒川连（六分） 杏仁（三钱） 赤苓（三钱） 滑石（四钱） 炒枳实（钱半） 蔻壳（钱半） 省头草（三钱）清煎三帖。",
+  "seed": 20260913,
+  "repetition_penalty": 1.1,
+  "input_tokens": 580,
+  "generated_tokens": 319,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    18237,
+    4710,
+    235,
+    134,
+    134,
+    236,
+    149,
+    160,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"滑石\", \"赤苓\"], \"方药\": [\"仙半夏\", \"炒谷芽\", \"炒川连\", \"新会皮\", \"炒枳实\", \"蔻壳\"], \"疾病\": [\"脾瘅\", \"胃钝\"], \"症状\": [\"舌转嫩黄尚腻\", \"脉两手弦细\", \"口尚甜\"], \"病机\": [\"脾瘅\", \"胃钝\"], \"病位\": [\"脾瘅\", \"胃钝\"], \"治法\": [\"泻心汤加减\"]}, \"relations\": [{\"head\":\"滑石\", \"relation\":\"治疗\", \"tail\":\"脾瘅\"}, {\"head\":\"赤苓\", \"relation\":\"治疗\", \"tail\":\"脾瘅\"}, {\"head\":\"滑石\", \"relation\":\"治疗\", \"tail\":\"胃钝\"}, {\"head\":\"赤苓\", \"relation\":\"治疗\", \"tail\":\"胃钝\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"滑石\", \"赤苓\"], \"方药\": [\"仙半夏\", \"炒谷芽\", \"炒川连\", \"新会皮\", \"炒枳实\", \"蔻壳\"], \"疾病\": [\"脾瘅\", \"胃钝\"], \"症状\": [\"舌转嫩黄尚腻\", \"脉两手弦细\", \"口尚甜\"], \"病机\": [\"脾瘅\", \"胃钝\"], \"病位\": [\"脾瘅\", \"胃钝\"], \"治法\": [\"泻心汤加减\"]}, \"relations\": [{\"head\":\"滑石\", \"relation\":\"治疗\", \"tail\":\"脾瘅\"}, {\"head\":\"赤苓\", \"relation\":\"治疗\", \"tail\":\"脾瘅\"}, {\"head\":\"滑石\", \"relation\":\"治疗\", \"tail\":\"胃钝\"}, {\"head\":\"赤苓\", \"relation\":\"治疗\", \"tail\":\"胃钝\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:11:55+0800"
+}

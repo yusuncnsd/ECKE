@@ -1,0 +1,8 @@
+{
+  "total": 300,
+  "success": 221,
+  "failed": 79,
+  "failed_retained_in_denominator": true,
+  "decode_condition": "user_approved_joint_prompt_greedy_rp1.1_20261006",
+  "test_adaptation_disclosure": "Pilot adaptation used fixed test inputs; disclose this limitation."
+}

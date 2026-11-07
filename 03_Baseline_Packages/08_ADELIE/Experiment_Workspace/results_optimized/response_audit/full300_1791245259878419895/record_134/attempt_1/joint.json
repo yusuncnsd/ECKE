@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002116",
+  "ann_id": "test_134",
+  "text": "三消。小便无度。唇口干焦。黄 饮、吞玄兔丹。八味丸。鹿茸丸。加减肾气丸。小菟丝子丸。灵砂丹皆可选用。或未效。黄 饮加苁蓉北五味山茱萸各四分。荠笼丸。苁蓉丸。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n三消。小便无度。唇口干焦。黄 饮、吞玄兔丹。八味丸。鹿茸丸。加减肾气丸。小菟丝子丸。灵砂丹皆可选用。或未效。黄 饮加苁蓉北五味山茱萸各四分。荠笼丸。苁蓉丸。",
+  "seed": 20261079,
+  "repetition_penalty": 1.1,
+  "input_tokens": 503,
+  "generated_tokens": 247,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    138,
+    30856,
+    232,
+    188,
+    181,
+    234,
+    135,
+    169,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"黄饮\", \"吞玄兔丹\", \"八味丸\", \"鹿茸丸\", \"加减肾气丸\", \"小菟丝子丸\"], \"方药\": [\"灵砂丹\"], \"疾病\": [\"三消\"], \"症状\": [\"小便无度\", \"唇口干焦\"], \"病机\": [\"小便无度\"], \"病位\": [\"小便\"], \"治法\": [\"黄饮加苁蓉北五味山茱萸\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"症状\", \"tail\": \"小便无度\"}, {\"head\": \"三消\", \"relation\": \"症状\", \"tail\": \"唇口干焦\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"黄饮\", \"吞玄兔丹\", \"八味丸\", \"鹿茸丸\", \"加减肾气丸\", \"小菟丝子丸\"], \"方药\": [\"灵砂丹\"], \"疾病\": [\"三消\"], \"症状\": [\"小便无度\", \"唇口干焦\"], \"病机\": [\"小便无度\"], \"病位\": [\"小便\"], \"治法\": [\"黄饮加苁蓉北五味山茱萸\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"症状\", \"tail\": \"小便无度\"}, {\"head\": \"三消\", \"relation\": \"症状\", \"tail\": \"唇口干焦\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:18:33+0800"
+}

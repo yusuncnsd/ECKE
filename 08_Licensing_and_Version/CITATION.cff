@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the ECKE manuscript and the exact archived release used."
+title: "ECKE Evidence-Constrained Knowledge Extraction"
+type: software
+version: "2026-11-07"
+date-released: "2026-11-07"
+authors:
+  - family-names: Zhou
+    given-names: Yang
+  - family-names: Sun
+    given-names: Yu
+  - family-names: Zheng
+    given-names: Wenjie
+  - family-names: Li
+    given-names: Jie
+  - family-names: Shao
+    given-names: Yumeng
+license: MIT
+repository-code: "https://github.com/yusuncnsd/ECKE"

@@ -1,0 +1,20 @@
+{
+  "package": "LLMRE two-stage method adapted to Xiaoke, independent 300-record run",
+  "created_date": "2026-10-06",
+  "model": "qwen-plus-2025-07-28",
+  "temperature": 0.0,
+  "seed": 20260813,
+  "gold_used_for_prediction": false,
+  "files": {
+    "01_运行LLMRE任务适配.py": "5d60da714d893f2430b3055ca8b3dc6f7db9d93e5ab833a5570572c6c19400bb",
+    "02_评价结果.py": "ff288720417373c5938b17ae37296c3c60b77c12fb1274a831f292d52176773f",
+    "方法映射与边界.md": "be4b9e8ca7ffc991b4100feb448091af015c5513313e4eb7c9d8f67bcdff754a",
+    "评价专用/测试Gold.txt": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+    "资料/Zero-shot document-level biomedical relation extraction via scenario-based prompt design in two-stage with LLM.pdf": "6a88966b47e13bdf352bd55cf22ee0366348672b15d3f5c1f33794a283744b67",
+    "输入/schema.json": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+    "输入/开发100_仅原文.jsonl": "75d2ae84bfd72cb61c82439df3b7a0da76f3014ac2f4b75cecf08e11cc963380",
+    "输入/提示.json": "d066d8a42ef4a0d542771463edb1557acb065feee78257e905e4fb99c8816c18",
+    "输入/测试300.jsonl": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
+    "运行说明.md": "e03b162b07e40f0efa48d78a66d83f0ad9d4b0220491ef2a24250856ce9989c6"
+  }
+}

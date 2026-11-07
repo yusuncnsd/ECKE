@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002850",
+  "ann_id": "test_166",
+  "text": "六味地黄丸。消渴有三：上消者属肺，多饮而少食，大小便如常；中消者属胃，善饥多饮食，而小便黄赤；下消者属肾，小便浊淋如膏，烦渴引饮，耳轮焦黑，小便频数。能食者，必发痈疽背疮；不能食者，必传中满腹胀。大抵三消，皆因火热之气煎熬脏腑，消烁血液也。治以四物汤为主。上消加人参、五味、麦冬、花粉，煎成后兑入藕汁、人乳、生地汁，饮酒之人加生葛根汁。中消加石膏，以降胃火。下消加黄柏、知母、五味子，以滋肾水。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n六味地黄丸。消渴有三：上消者属肺，多饮而少食，大小便如常；中消者属胃，善饥多饮食，而小便黄赤；下消者属肾，小便浊淋如膏，烦渴引饮，耳轮焦黑，小便频数。能食者，必发痈疽背疮；不能食者，必传中满腹胀。大抵三消，皆因火热之气煎熬脏腑，消烁血液也。治以四物汤为主。上消加人参、五味、麦冬、花粉，煎成后兑入藕汁、人乳、生地汁，饮酒之人加生葛根汁。中消加石膏，以降胃火。下消加黄柏、知母、五味子，以滋肾水。",
+  "seed": 20261143,
+  "repetition_penalty": 1.1,
+  "input_tokens": 686,
+  "generated_tokens": 768,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    1115,
+    376,
+    234,
+    154,
+    138,
+    31531,
+    613,
+    376,
+    18237,
+    1115,
+    376,
+    235
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"六味地黄丸\"], \"方药\": [\"四物汤\"], \"疾病\": [\"消渴\", \"大渴\", \"下焦渴\", \"谷消\", \"中焦渴\", \"上焦渴\"], \"症状\": [\"大渴\", \"谷消\", \"中焦渴\", \"上焦渴\", \"下焦渴\"]}, \"relations\": [{\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"中满腹胀\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃火\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"�",
+  "response_with_special_tokens": "{\"entities\": {\"中药\": [\"六味地黄丸\"], \"方药\": [\"四物汤\"], \"疾病\": [\"消渴\", \"大渴\", \"下焦渴\", \"谷消\", \"中焦渴\", \"上焦渴\"], \"症状\": [\"大渴\", \"谷消\", \"中焦渴\", \"上焦渴\", \"下焦渴\"]}, \"relations\": [{\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"中满腹胀\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃火\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痞\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃痛\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"胃疼\"}, {\"head\": \"中焦渴\", \"relation\": \"症状\", \"tail\": \"�",
+  "reached_budget_without_eos": true,
+  "created_at": "2026-10-06T08:21:33+0800"
+}

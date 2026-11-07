@@ -1,0 +1,24 @@
+{
+  "passages": 3065,
+  "entity_mentions": 8176,
+  "relation_instances": 4867,
+  "distinct_surface_type_entities": 2378,
+  "distinct_surface_relations": 3220,
+  "entity_types": {
+    "中药": 815,
+    "疾病": 3664,
+    "病机": 961,
+    "方药": 1285,
+    "治法": 118,
+    "症状": 1032,
+    "病位": 301
+  },
+  "relation_labels": {
+    "治疗": 2193,
+    "导致": 931,
+    "主治": 116,
+    "提示": 359,
+    "涉及": 331,
+    "表现": 937
+  }
+}

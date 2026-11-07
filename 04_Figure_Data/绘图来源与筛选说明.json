@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-09-28T20:38:32.159443",
+  "input": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\02_主实验\\02_全库正式抽取\\xiaoke_full_corpus_predictions_v612.jsonl",
+  "input_sha256": "3b71aeccf6796a4b9bff3d4b3cab2780c9cf8a7982dab09cd448530d3dc9b14a",
+  "script_sha256": "3ea25233587bd408a5e9c60bab5e9d69cb213577d3dc583759c08d81d32678f9",
+  "records": 3065,
+  "relation_instances": 4867,
+  "unique_typed_triples": 3224,
+  "selection": "按（头实体表面形式及类型、关系类型、尾实体表面形式及类型）出现次数降序；同频沿用输入首次出现顺序",
+  "node_key": "原文表面形式+实体类型，不做规范概念合并",
+  "seed": 42,
+  "note": "全库系统抽取结果的局部展示，不代表逐条专家核验后的知识；Top N为关系条数，不是节点数。",
+  "model": {
+    "model": "qwen-plus-2025-07-28",
+    "temperature": 0.0,
+    "random_seed": 20260813,
+    "prompt_version": "xiaoke_final_v6_overlap_disambiguation_20260817",
+    "postprocess_version": "xiaoke_final_rules_v612_quality_gate_separation_20260817",
+    "explicit_candidate_count": 3,
+    "relation_candidate_count": 1
+  },
+  "versions": {
+    "matplotlib": "3.11.2",
+    "networkx": "3.7"
+  },
+  "figures": [
+    {
+      "top_relations": 100,
+      "nodes": 104,
+      "edges": 100,
+      "represented_instances": 925,
+      "cutoff_frequency": 5,
+      "node_types": {
+        "方药": 24,
+        "疾病": 10,
+        "病机": 12,
+        "中药": 38,
+        "症状": 16,
+        "病位": 4
+      }
+    },
+    {
+      "top_relations": 200,
+      "nodes": 190,
+      "edges": 200,
+      "represented_instances": 1329,
+      "cutoff_frequency": 3,
+      "node_types": {
+        "方药": 49,
+        "疾病": 10,
+        "病机": 22,
+        "中药": 69,
+        "症状": 35,
+        "病位": 5
+      }
+    },
+    {
+      "top_relations": 300,
+      "nodes": 266,
+      "edges": 300,
+      "represented_instances": 1629,
+      "cutoff_frequency": 3,
+      "node_types": {
+        "方药": 76,
+        "疾病": 14,
+        "病机": 31,
+        "中药": 87,
+        "症状": 51,
+        "病位": 7
+      }
+    }
+  ]
+}

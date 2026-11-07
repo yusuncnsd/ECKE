@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002467",
+  "ann_id": "test_253",
+  "text": "气满发逆。肥贵人则膏粱之疾也。此中消之所由来也。肥而不贵。食弗给于鲜。贵而不肥。餐弗过于饕。肥而且贵。醇酒浓味。孰为限量哉。久之食饮酿成内热。津液干涸。求济于水。然水入尚能消之也。愈消愈渴。其膏粱愈无已。而中消之病成矣。夫既瘅成为消中。随其或上或下。火热炽盛之区。以次传入矣。上消者。胃以其热上输于肺。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n气满发逆。肥贵人则膏粱之疾也。此中消之所由来也。肥而不贵。食弗给于鲜。贵而不肥。餐弗过于饕。肥而且贵。醇酒浓味。孰为限量哉。久之食饮酿成内热。津液干涸。求济于水。然水入尚能消之也。愈消愈渴。其膏粱愈无已。而中消之病成矣。夫既瘅成为消中。随其或上或下。火热炽盛之区。以次传入矣。上消者。胃以其热上输于肺。",
+  "seed": 20261317,
+  "repetition_penalty": 1.1,
+  "input_tokens": 616,
+  "generated_tokens": 768,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    30467,
+    10758,
+    8853,
+    2813,
+    4710,
+    235,
+    134,
+    134,
+    613,
+    376,
+    23445,
+    4710
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"水\"], \"方药\": [], \"疾病\": [\"膏粱之疾\", \"消中\"], \"症状\": [\"气满发逆\", \"肥贵人则膏粱之疾\", \"肥而不贵\", \"食弗给于鲜\", \"贵而不肥\", \"餐弗过于饕\", \"肥而且贵\", \"醇酒浓味\", \"久之食饮酿成内热\", \"津液干涸\", \"愈消愈渴\", \"其膏粱愈无已\", \"中消之病成矣\"], \"病机\": [\"火热炽盛之区\"], \"病位\": [\"胃\"], \"治法\": [\"水\"]}, \"relations\": [{\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"",
+  "response_with_special_tokens": "{\"entities\": {\"中药\": [\"水\"], \"方药\": [], \"疾病\": [\"膏粱之疾\", \"消中\"], \"症状\": [\"气满发逆\", \"肥贵人则膏粱之疾\", \"肥而不贵\", \"食弗给于鲜\", \"贵而不肥\", \"餐弗过于饕\", \"肥而且贵\", \"醇酒浓味\", \"久之食饮酿成内热\", \"津液干涸\", \"愈消愈渴\", \"其膏粱愈无已\", \"中消之病成矣\"], \"病机\": [\"火热炽盛之区\"], \"病位\": [\"胃\"], \"治法\": [\"水\"]}, \"relations\": [{\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"涉及\", \"tail\":\"火热炽盛之区\"}, {\"head\":\"胃\", \"relation\":\"",
+  "reached_budget_without_eos": true,
+  "created_at": "2026-10-06T08:28:36+0800"
+}

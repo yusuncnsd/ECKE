@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "records": 300,
+  "sha256": "f88a237eca7503855ba3921b2f5614960c64301022be717ad943b1fe4d4139b3",
+  "thresholds": [
+    0.9999,
+    0.9999
+  ],
+  "seed": 20260824,
+  "test_gold_access": false
+}

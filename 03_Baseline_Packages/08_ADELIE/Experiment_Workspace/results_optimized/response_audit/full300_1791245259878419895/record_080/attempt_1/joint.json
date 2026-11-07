@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001897",
+  "ann_id": "test_080",
+  "text": "杨氏活人总括云。张氏有言。厥阴为病。消渴。气上冲心。饥不欲食。食即吐蛔。吐蛔既出于胃冷。役有消渴之证。何哉。盖热在上焦。而中焦下焦。虚寒无热耳。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n杨氏活人总括云。张氏有言。厥阴为病。消渴。气上冲心。饥不欲食。食即吐蛔。吐蛔既出于胃冷。役有消渴之证。何哉。盖热在上焦。而中焦下焦。虚寒无热耳。",
+  "seed": 20260971,
+  "repetition_penalty": 1.1,
+  "input_tokens": 497,
+  "generated_tokens": 364,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    1115,
+    376,
+    234,
+    134,
+    176,
+    235,
+    131,
+    182,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"杨氏活人总括云\"], \"方药\": [\"张氏\"], \"疾病\": [\"消渴\", \"热\", \"虚寒\", \"热耳\"], \"症状\": [\"消渴\", \"饥不欲食\", \"吐蛔\", \"胃冷\"], \"病机\": [\"厥阴为病\"], \"病位\": [\"胃\"], \"治法\": [\"役有消渴之证\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"饥不欲食\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"吐蛔\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃冷\"}, {\"head\": \"热\", \"relation\": \"症状\", \"tail\": \"热耳\"}, {\"head\": \"热\", \"relation\": \"病机\", \"tail\": \"中焦\"}, {\"head\": \"热\", \"relation\": \"病机\", \"tail\": \"下焦\"}, {\"head\": \"虚寒\", \"relation\": \"症状\", \"tail\": \"热耳\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"杨氏活人总括云\"], \"方药\": [\"张氏\"], \"疾病\": [\"消渴\", \"热\", \"虚寒\", \"热耳\"], \"症状\": [\"消渴\", \"饥不欲食\", \"吐蛔\", \"胃冷\"], \"病机\": [\"厥阴为病\"], \"病位\": [\"胃\"], \"治法\": [\"役有消渴之证\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"饥不欲食\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"吐蛔\"}, {\"head\": \"消渴\", \"relation\": \"症状\", \"tail\": \"胃冷\"}, {\"head\": \"热\", \"relation\": \"症状\", \"tail\": \"热耳\"}, {\"head\": \"热\", \"relation\": \"病机\", \"tail\": \"中焦\"}, {\"head\": \"热\", \"relation\": \"病机\", \"tail\": \"下焦\"}, {\"head\": \"虚寒\", \"relation\": \"症状\", \"tail\": \"热耳\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:14:12+0800"
+}

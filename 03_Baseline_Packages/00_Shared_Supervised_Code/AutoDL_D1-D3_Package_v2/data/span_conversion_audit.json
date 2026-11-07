@@ -1,0 +1,38 @@
+[
+  {
+    "ann_id": "ann_014",
+    "surface": "猪肾荠汤",
+    "entity_type": "方药",
+    "reason": "discontinuous_by_gloss",
+    "span_training": false,
+    "relation_endpoint_training": false
+  },
+  {
+    "ann_id": "ann_014",
+    "surface": "栝楼丸",
+    "entity_type": "方药",
+    "reason": "discontinuous_by_gloss",
+    "span_training": false,
+    "relation_endpoint_training": false
+  },
+  {
+    "ann_id": "ann_014",
+    "triple": [
+      "猪肾荠汤",
+      "治疗",
+      "消渴"
+    ],
+    "reason": "discontinuous_endpoint_excluded",
+    "relation_endpoint_training": false
+  },
+  {
+    "ann_id": "ann_014",
+    "triple": [
+      "栝楼丸",
+      "治疗",
+      "消渴"
+    ],
+    "reason": "discontinuous_endpoint_excluded",
+    "relation_endpoint_training": false
+  }
+]

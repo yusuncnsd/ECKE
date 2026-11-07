@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001160",
+  "ann_id": "test_232",
+  "text": "土瓜根丸。麦门冬散 治消渴日夜饮水过度。口干燥。小便数。\n麦门冬（去心） 栝蒌根 知母 黄 （各一两锉） 甘草（半两炙微赤锉） 牡蛎（一两半烧为粉） 上为散。每服四钱。以水一中盏。入生姜半分。煎至六分。去滓不计时候温服。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n土瓜根丸。麦门冬散 治消渴日夜饮水过度。口干燥。小便数。\n麦门冬（去心） 栝蒌根 知母 黄 （各一两锉） 甘草（半两炙微赤锉） 牡蛎（一两半烧为粉） 上为散。每服四钱。以水一中盏。入生姜半分。煎至六分。去滓不计时候温服。",
+  "seed": 20261275,
+  "repetition_penalty": 1.1,
+  "input_tokens": 537,
+  "generated_tokens": 208,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    169,
+    31649,
+    232,
+    137,
+    175,
+    233,
+    152,
+    166,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"土瓜根丸\"], \"方药\": [\"麦门冬散\", \"栝蒌根\", \"知母\", \"黄\", \"甘草\", \"牡蛎\"], \"疾病\": [\"消渴\", \"日夜饮水过度\", \"口干燥\", \"小便数\"], \"症状\": [\"口干燥\", \"小便数\"], \"病机\": [\"消渴\"], \"病位\": [\"消渴\"], \"治法\": [\"麦门冬散\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"麦门冬散\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"土瓜根丸\"], \"方药\": [\"麦门冬散\", \"栝蒌根\", \"知母\", \"黄\", \"甘草\", \"牡蛎\"], \"疾病\": [\"消渴\", \"日夜饮水过度\", \"口干燥\", \"小便数\"], \"症状\": [\"口干燥\", \"小便数\"], \"病机\": [\"消渴\"], \"病位\": [\"消渴\"], \"治法\": [\"麦门冬散\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"麦门冬散\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:27:03+0800"
+}

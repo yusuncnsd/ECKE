@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000276",
+  "ann_id": "test_243",
+  "text": "【知母】。主消渴热中。除邪气。肢体浮肿。下水。补不足。益气。（去毛盐水炒）知母气寒。禀天冬寒之水气。入足少阴肾经。味苦无毒。得地南方之火味。入手少阴心经。\n气味俱降。阴也。肾属水。心属火。水不制火。火烁津液。则病消渴。火熏五内。则病热中。其苦之者。苦清心火。寒滋肾水也。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n【知母】。主消渴热中。除邪气。肢体浮肿。下水。补不足。益气。（去毛盐水炒）知母气寒。禀天冬寒之水气。入足少阴肾经。味苦无毒。得地南方之火味。入手少阴心经。\n气味俱降。阴也。肾属水。心属火。水不制火。火烁津液。则病消渴。火熏五内。则病热中。其苦之者。苦清心火。寒滋肾水也。",
+  "seed": 20261297,
+  "repetition_penalty": 1.1,
+  "input_tokens": 584,
+  "generated_tokens": 204,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    158,
+    234,
+    158,
+    147,
+    30716,
+    234,
+    133,
+    149,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"知母\"], \"方药\": [\"去毛盐水\"], \"疾病\": [\"消渴热中\"], \"症状\": [\"肢体浮肿\", \"下水\", \"补不足\", \"益气\"], \"病机\": [\"除邪气\"], \"病位\": [\"足\"], \"治法\": [\"去毛盐水炒\"]}, \"relations\": [{\"head\": \"消渴热中\", \"relation\": \"治法\", \"tail\": \"去毛盐水\"}, {\"head\": \"消渴热中\", \"relation\": \"治法\", \"tail\": \"去毛盐水炒\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"知母\"], \"方药\": [\"去毛盐水\"], \"疾病\": [\"消渴热中\"], \"症状\": [\"肢体浮肿\", \"下水\", \"补不足\", \"益气\"], \"病机\": [\"除邪气\"], \"病位\": [\"足\"], \"治法\": [\"去毛盐水炒\"]}, \"relations\": [{\"head\": \"消渴热中\", \"relation\": \"治法\", \"tail\": \"去毛盐水\"}, {\"head\": \"消渴热中\", \"relation\": \"治法\", \"tail\": \"去毛盐水炒\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:27:53+0800"
+}

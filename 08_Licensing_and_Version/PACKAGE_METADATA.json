@@ -1,0 +1,17 @@
+{
+  "title": "ECKE reproducibility materials",
+  "created_at": "2026-10-22T22:46:35.386566+08:00",
+  "package_version": "2026-11-07",
+  "manuscript_file": "ECKE Evidence-constrained knowledge extraction with LLMs for ancient Chinese medical texts.docx",
+  "manuscript_sha256": "2dcdbebd169fe53958430524cbff969708a4692e2fa66b6a288674b7c9ab6580",
+  "model": "qwen-plus-2025-07-28",
+  "temperature": 0,
+  "seed": 20260813,
+  "api_calls_during_packaging": 0,
+  "upload_performed": false,
+  "doi": null,
+  "public_repository": "https://github.com/yusuncnsd/ECKE",
+  "sharing_authorization": "Author authorized distribution of all materials and MIT for own code / CC BY 4.0 for own lexicon and annotations on 2026-10-22; third-party rights retained.",
+  "finalized_at": "2026-11-07",
+  "offline_verification_checks": 142
+}

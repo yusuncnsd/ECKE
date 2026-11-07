@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "mode": "full300",
+  "records": 300,
+  "nonempty_entity_records": 299,
+  "parse_warning_records": [
+    "XK_001791"
+  ],
+  "prediction_sha256": "4f436183435f6b6cbc330f7a46846ecdc46416a5af4d09e8a68dbcbe2d8f1d87",
+  "test_input_sha256": "fdf183fa85d337ef34de8cdafc7c67bcf1dbe78450815e56b5e9602ebcbaef49"
+}

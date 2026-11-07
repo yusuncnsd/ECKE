@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001660",
+  "ann_id": "test_143",
+  "text": "故消渴一症，调之而不下，则小润小濡，固不能杀炎上之势；下之而不调，亦旋饮旋消，终不能沃膈膜之干；下之调之而不减滋味，不戒嗜欲，不节喜怒，病已而复作。能从此三者，消渴亦不足忧矣。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n故消渴一症，调之而不下，则小润小濡，固不能杀炎上之势；下之而不调，亦旋饮旋消，终不能沃膈膜之干；下之调之而不减滋味，不戒嗜欲，不节喜怒，病已而复作。能从此三者，消渴亦不足忧矣。",
+  "seed": 20261097,
+  "repetition_penalty": 1.1,
+  "input_tokens": 507,
+  "generated_tokens": 157,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    18237,
+    1115,
+    376,
+    31268,
+    30577,
+    31325,
+    30413,
+    30557,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"消渴\"], \"方药\": [\"消渴\"], \"疾病\": [\"消渴\"], \"症状\": [\"小润小濡\", \"旋饮旋消\", \"嗜欲\", \"节喜怒\"], \"病机\": [\"消渴\"], \"病位\": [\"膈膜\"], \"治法\": [\"调之而不下\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"调之而不下\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"消渴\"], \"方药\": [\"消渴\"], \"疾病\": [\"消渴\"], \"症状\": [\"小润小濡\", \"旋饮旋消\", \"嗜欲\", \"节喜怒\"], \"病机\": [\"消渴\"], \"病位\": [\"膈膜\"], \"治法\": [\"调之而不下\"]}, \"relations\": [{\"head\": \"消渴\", \"relation\": \"治法\", \"tail\": \"调之而不下\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:19:07+0800"
+}

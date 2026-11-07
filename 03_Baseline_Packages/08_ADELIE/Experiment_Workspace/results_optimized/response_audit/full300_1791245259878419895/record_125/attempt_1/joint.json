@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000090",
+  "ann_id": "test_125",
+  "text": "葛根。大治中热、酒、渴病，多食行小便，亦能使人利。病酒及渴者，得之甚良。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n葛根。大治中热、酒、渴病，多食行小便，亦能使人利。病酒及渴者，得之甚良。",
+  "seed": 20261061,
+  "repetition_penalty": 1.1,
+  "input_tokens": 419,
+  "generated_tokens": 257,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    30545,
+    613,
+    376,
+    18237,
+    1115,
+    376,
+    30257,
+    31032,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"葛根\"], \"方药\": [\"酒\"], \"疾病\": [\"中热\", \"渴病\"], \"症状\": [\"大渴\", \"小便\", \"渴病\"], \"病机\": [\"中热\"], \"病位\": [\"中热\"], \"治法\": [\"大治\"]}, \"relations\": [{\"head\": \"中热\", \"relation\": \"病机\", \"tail\": \"中热\"}, {\"head\": \"渴病\", \"relation\": \"病机\", \"tail\": \"渴病\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"小便\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"渴病\", \"relation\": \"治法\", \"tail\": \"大治\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"葛根\"], \"方药\": [\"酒\"], \"疾病\": [\"中热\", \"渴病\"], \"症状\": [\"大渴\", \"小便\", \"渴病\"], \"病机\": [\"中热\"], \"病位\": [\"中热\"], \"治法\": [\"大治\"]}, \"relations\": [{\"head\": \"中热\", \"relation\": \"病机\", \"tail\": \"中热\"}, {\"head\": \"渴病\", \"relation\": \"病机\", \"tail\": \"渴病\"}, {\"head\": \"大渴\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"小便\", \"relation\": \"症状\", \"tail\": \"渴病\"}, {\"head\": \"渴病\", \"relation\": \"治法\", \"tail\": \"大治\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:17:59+0800"
+}

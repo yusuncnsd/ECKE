@@ -1,0 +1,73 @@
+{
+  "freeze_version": "external_baselines_v1",
+  "frozen_at": "2026-08-26",
+  "status": "frozen_no_repeat_evaluation",
+  "evaluation_protocol": "同一300条冻结专家盲标Gold；实体(surface,type)严格集合匹配；关系(head,relation,tail)严格集合匹配；条目内顺序无关；关系方向严格区分",
+  "gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+  "schema_sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+  "methods": {
+    "D1": {
+      "name": "BERT-CRF + GPLinker",
+      "runs": 3,
+      "seeds": [
+        20260823,
+        20260824,
+        20260825
+      ],
+      "entity_f1_mean": 0.5742386107842928,
+      "relation_f1_mean": 0.18947409430542225,
+      "prediction_sha256": [
+        "e8ef08e07e1c7c7a2ece2459354bea1e292c01891821296dc9b2617481ecb982",
+        "cde227cdd5b7ca0ac5a634e90214cdd416f3fb1b9561fc2d54810bef76349d9a",
+        "d238c575284031efa130d986e78e1e7d7974345384d910e1f12cf7ee04ad03cd"
+      ]
+    },
+    "D2_repair": {
+      "name": "TCMERE复现（修复版）",
+      "runs": 3,
+      "seeds": [
+        20260823,
+        20260824,
+        20260825
+      ],
+      "entity_f1_mean": 0.42257808652511947,
+      "relation_f1_mean": 0.03816983032499673,
+      "prediction_sha256": [
+        "899958da6a5e1b9a2a1f30505373143caee597f27c4180e8a3cb25f9e764dcfb",
+        "7b467635ff43cd9a7a0e104ec74f4379a62b7f2cc42b7c3dc775037a4875e2d6",
+        "5f10f17be4731e3414bc19bec3eec3bc86bd70d5e5b1d02044a42e0e1d586737"
+      ]
+    },
+    "D3": {
+      "name": "BSTR-GPRel",
+      "runs": 3,
+      "seeds": [
+        20260823,
+        20260824,
+        20260825
+      ],
+      "entity_f1_mean": 0.6046860909854547,
+      "relation_f1_mean": 0.35523285329272025,
+      "prediction_sha256": [
+        "7f0ec3a9760f49d8cd2ea72886063000f962f447ff361c781d3e100da4805dbe",
+        "d12d14ca5b20665591d3dc2bc89096ac9c05143ea50eacf86c2eba6f323fc7a9",
+        "0b5694103f3677d9f89f2940106c4fed3bb3888c785c10c70e1f13653f1fe90f"
+      ]
+    },
+    "E1": {
+      "name": "OneKE-Qwen",
+      "runs": 1,
+      "setting": "无目标领域参数训练",
+      "entity_f1": 0.6515837104072398,
+      "relation_f1": 0.46454767726161367,
+      "prediction_sha256": "7ac6ebe6370f654a01fba167a7bb3eab86dbfce933647d080a68ac532f73423e"
+    }
+  },
+  "evaluation_files": {
+    "D1_D3_summary_sha256": "0b00ed7138966947eb015f832de3c25fa36ff5b6fb60473870dddd2682c13caf",
+    "E1_evaluation_sha256": "28f7f697f6ee177695f147f836c1260a942aae373da57bec0e3d0f939028c3dd",
+    "E2_evaluation_sha256": "66f301211415ff1da642cbc526187391259916def715529989304e38c33762f0"
+  },
+  "change_policy": "除非形成新的、事先声明的实验条件，否则不得覆盖上述预测和评价；新增E3/E4使用同一Gold和统一评价脚本另行追加。",
+  "scope_updated_at": "2026-09-27"
+}

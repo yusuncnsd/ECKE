@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002295",
+  "ann_id": "test_288",
+  "text": "人有消渴饮水，时而渴甚，时而渴轻，人以为心肾二火之沸腾，谁知是三焦之气燥乎。夫消症有上、中、下之分，其实皆三焦之火炽也。下焦火动，而上、中二焦之火翕然相从，故尔渴甚。迨下焦火息，而中、上二焦之火浮游不定，故又时而渴轻。三焦同是一火，何悉听于下焦之令？盖下焦之火，一发而不可遏，故下焦之火，宜静而不宜动，又易动而难静也。必得肾中之水以相制，肾旺而水静，肾虚而水动矣。天下安有肾足之人哉，肾水虚而取资于水者又多也。水亏奚能制火乎？火动必烁干三焦之气，则三焦更燥，势必仰望于外水之相救，以迅止其大渴也。欲解三焦之渴，舍补肾水何法哉。方用六味地黄汤加味治之。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n人有消渴饮水，时而渴甚，时而渴轻，人以为心肾二火之沸腾，谁知是三焦之气燥乎。夫消症有上、中、下之分，其实皆三焦之火炽也。下焦火动，而上、中二焦之火翕然相从，故尔渴甚。迨下焦火息，而中、上二焦之火浮游不定，故又时而渴轻。三焦同是一火，何悉听于下焦之令？盖下焦之火，一发而不可遏，故下焦之火，宜静而不宜动，又易动而难静也。必得肾中之水以相制，肾旺而水静，肾虚而水动矣。天下安有肾足之人哉，肾水虚而取资于水者又多也。水亏奚能制火乎？火动必烁干三焦之气，则三焦更燥，势必仰望于外水之相救，以迅止其大渴也。欲解三焦之渴，舍补肾水何法哉。方用六味地黄汤加味治之。",
+  "seed": 20261387,
+  "repetition_penalty": 1.1,
+  "input_tokens": 802,
+  "generated_tokens": 251,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"地黄\"], \"方药\": [\"六味地黄汤\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴甚\", \"渴轻\", \"大渴\"], \"病机\": [\"三焦之火燥乎\"], \"病位\": [\"肾\"], \"治法\": [\"六味地黄汤\"]}, \"relations\": [{\"head\": \"渴甚\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"渴轻\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"三焦之火燥乎\", \"relation\": \"病机\", \"tail\": \"消渴\"}, {\"head\": \"六味地黄汤\", \"relation\": \"治法\", \"tail\": \"消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"地黄\"], \"方药\": [\"六味地黄汤\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴甚\", \"渴轻\", \"大渴\"], \"病机\": [\"三焦之火燥乎\"], \"病位\": [\"肾\"], \"治法\": [\"六味地黄汤\"]}, \"relations\": [{\"head\": \"渴甚\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"渴轻\", \"relation\": \"症状\", \"tail\": \"消渴\"}, {\"head\": \"三焦之火燥乎\", \"relation\": \"病机\", \"tail\": \"消渴\"}, {\"head\": \"六味地黄汤\", \"relation\": \"治法\", \"tail\": \"消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:31:40+0800"
+}

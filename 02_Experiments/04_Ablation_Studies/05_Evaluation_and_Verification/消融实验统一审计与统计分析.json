@@ -1,0 +1,957 @@
+{
+  "audit": {
+    "status": "passed",
+    "gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+    "test_list_sha256": "b96b534960d3b9e896781ed7bceaa612b340990d5ca3945ea023ecf3043f4d10",
+    "engine_sha256": "b9735ff3e5ebdf7e80b7bf735dd0b89e6b5f4a520a8ca0029e399c36766cc27d",
+    "issues": [],
+    "methods": {
+      "F": {
+        "name": "完整框架V6.1.2",
+        "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\02_主实验\\03_独立测试集\\independent_test_300_machine_predictions_v612_frozen.jsonl",
+        "prediction_sha256": "756adcae7e8ae1189a3a684aadd9ef129445f03e071c53466e7b3ba7ca672b74",
+        "records": 300,
+        "issues": [],
+        "evaluation_gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+        "run_summary": null
+      },
+      "A1": {
+        "name": "去除显式词表锚定",
+        "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A1_去除显式词表锚定\\A1_300条结构化预测.jsonl",
+        "prediction_sha256": "4a1abe52b7cfb76cf969b9623bdd5c615b39d815399ebb689411205998283388",
+        "records": 300,
+        "issues": [],
+        "evaluation_gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+        "run_summary": {
+          "ablation_id": "A1",
+          "name": "去除显式词表锚定",
+          "records": 300,
+          "entities": 1104,
+          "relations": 844,
+          "model": "qwen-plus-2025-07-28",
+          "temperature": 0.0,
+          "seed": 20260813,
+          "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A1_去除显式词表锚定\\A1_300条结构化预测.jsonl",
+          "completed_at": "2026-08-23 12:07:17"
+        }
+      },
+      "A2": {
+        "name": "去除LLM语义补充",
+        "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A2_去除LLM语义补充\\A2_300条结构化预测.jsonl",
+        "prediction_sha256": "8d7a2952790dc2edeb8c7fb7134d30827ae6f8239ba896cc0c3b545c9ada675a",
+        "records": 300,
+        "issues": [],
+        "evaluation_gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+        "run_summary": {
+          "ablation_id": "A2",
+          "name": "去除LLM语义补充",
+          "records": 300,
+          "entities": 1408,
+          "relations": 432,
+          "model": "qwen-plus-2025-07-28",
+          "temperature": 0.0,
+          "seed": 20260813,
+          "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A2_去除LLM语义补充\\A2_300条结构化预测.jsonl",
+          "completed_at": "2026-08-23 12:15:05"
+        }
+      },
+      "A3": {
+        "name": "去除证据对齐融合",
+        "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A3_去除证据对齐融合_简单并集\\A3_300条结构化预测.jsonl",
+        "prediction_sha256": "ed8d5132e6a5b5c13626f526b4bab00add6a67a94e72ce3a99d176df56683fa8",
+        "records": 300,
+        "issues": [],
+        "evaluation_gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+        "run_summary": {
+          "ablation_id": "A3",
+          "name": "去除证据对齐融合_简单并集",
+          "records": 300,
+          "entities": 2194,
+          "relations": 1930,
+          "model": "qwen-plus-2025-07-28",
+          "temperature": 0.0,
+          "seed": 20260813,
+          "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A3_去除证据对齐融合_简单并集\\A3_300条结构化预测.jsonl",
+          "completed_at": "2026-08-23 12:52:35"
+        }
+      },
+      "A4": {
+        "name": "Schema兼容即输出关系",
+        "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A4_去除关系候选语义判别_Schema即输出\\A4_300条结构化预测.jsonl",
+        "prediction_sha256": "6222ad4cd2915c0c5961b80c7959e706cef51b4b6adebf17e47bb71e110b9209",
+        "records": 300,
+        "issues": [],
+        "evaluation_gold_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
+        "run_summary": {
+          "ablation_id": "A4",
+          "name": "去除关系候选语义判别_Schema即输出",
+          "records": 300,
+          "entities": 854,
+          "relations": 1023,
+          "model": "qwen-plus-2025-07-28",
+          "temperature": 0.0,
+          "seed": 20260813,
+          "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A4_去除关系候选语义判别_Schema即输出\\A4_300条结构化预测.jsonl",
+          "completed_at": "2026-08-23 12:53:53"
+        }
+      }
+    },
+    "design_classification": {
+      "A1": "组件分支消融；移除显式候选并采用无词表语义结果合法化，不能表述为只删除一行词表匹配",
+      "A2": "组件分支消融；实体退化为确定性词表候选，关系模块保持",
+      "A3": "组件替换消融；融合替换为简单并集，语义候选提示标志也随融合输出移除，属于机制的直接后果",
+      "A4": "严格单因素消融；逐条复用完整框架实体，仅删除关系语义判别"
+    }
+  },
+  "configuration": {
+    "records": 300,
+    "bootstrap_n": 10000,
+    "seed": 20260823,
+    "difference_direction": "完整框架F1减消融F1",
+    "multiple_testing": "四组消融；F1随机化检验按实体和关系分别Holm校正；McNemar按实体/关系/联合分别Holm校正",
+    "script_sha256": "822c2db6b8fcc062f705e0600e7a3dc2c14a0eb3ccf719ec04d5bd52fb778688",
+    "generated_at": "2026-09-27T21:50:11.447458"
+  },
+  "results": {
+    "F": {
+      "name": "完整框架V6.1.2",
+      "entity": {
+        "tp": 789,
+        "fp": 64,
+        "fn": 80,
+        "precision": 0.9249706916764361,
+        "recall": 0.9079401611047181,
+        "f1": 0.9163763066202091
+      },
+      "relation": {
+        "tp": 422,
+        "fp": 103,
+        "fn": 86,
+        "precision": 0.8038095238095239,
+        "recall": 0.8307086614173228,
+        "f1": 0.8170377541142305
+      },
+      "entity_passage_exact": 0.7966666666666666,
+      "relation_passage_exact": 0.8033333333333333,
+      "joint_passage_exact": 0.79,
+      "entity_by_type": {
+        "中药": {
+          "tp": 84,
+          "fp": 7,
+          "fn": 7,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "f1": 0.9230769230769231
+        },
+        "方药": {
+          "tp": 138,
+          "fp": 7,
+          "fn": 11,
+          "precision": 0.9517241379310345,
+          "recall": 0.9261744966442953,
+          "f1": 0.9387755102040818
+        },
+        "疾病": {
+          "tp": 357,
+          "fp": 7,
+          "fn": 1,
+          "precision": 0.9807692307692307,
+          "recall": 0.9972067039106145,
+          "f1": 0.9889196675900276
+        },
+        "症状": {
+          "tp": 84,
+          "fp": 23,
+          "fn": 39,
+          "precision": 0.7850467289719626,
+          "recall": 0.6829268292682927,
+          "f1": 0.7304347826086957
+        },
+        "病机": {
+          "tp": 84,
+          "fp": 15,
+          "fn": 15,
+          "precision": 0.8484848484848485,
+          "recall": 0.8484848484848485,
+          "f1": 0.8484848484848486
+        },
+        "病位": {
+          "tp": 32,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "治法": {
+          "tp": 10,
+          "fp": 3,
+          "fn": 5,
+          "precision": 0.7692307692307693,
+          "recall": 0.6666666666666666,
+          "f1": 0.7142857142857142
+        }
+      },
+      "relation_by_type": {
+        "治疗": {
+          "tp": 226,
+          "fp": 28,
+          "fn": 16,
+          "precision": 0.889763779527559,
+          "recall": 0.9338842975206612,
+          "f1": 0.9112903225806451
+        },
+        "主治": {
+          "tp": 7,
+          "fp": 3,
+          "fn": 7,
+          "precision": 0.7,
+          "recall": 0.5,
+          "f1": 0.5833333333333334
+        },
+        "导致": {
+          "tp": 76,
+          "fp": 17,
+          "fn": 13,
+          "precision": 0.8172043010752689,
+          "recall": 0.8539325842696629,
+          "f1": 0.8351648351648352
+        },
+        "涉及": {
+          "tp": 20,
+          "fp": 16,
+          "fn": 6,
+          "precision": 0.5555555555555556,
+          "recall": 0.7692307692307693,
+          "f1": 0.6451612903225806
+        },
+        "提示": {
+          "tp": 11,
+          "fp": 19,
+          "fn": 4,
+          "precision": 0.36666666666666664,
+          "recall": 0.7333333333333333,
+          "f1": 0.4888888888888889
+        },
+        "表现": {
+          "tp": 82,
+          "fp": 20,
+          "fn": 40,
+          "precision": 0.803921568627451,
+          "recall": 0.6721311475409836,
+          "f1": 0.7321428571428572
+        }
+      }
+    },
+    "A1": {
+      "name": "去除显式词表锚定",
+      "entity": {
+        "tp": 683,
+        "fp": 421,
+        "fn": 186,
+        "precision": 0.6186594202898551,
+        "recall": 0.7859608745684695,
+        "f1": 0.6923466801824633
+      },
+      "relation": {
+        "tp": 325,
+        "fp": 519,
+        "fn": 183,
+        "precision": 0.38507109004739337,
+        "recall": 0.639763779527559,
+        "f1": 0.48076923076923084
+      },
+      "entity_passage_exact": 0.4633333333333333,
+      "relation_passage_exact": 0.51,
+      "joint_passage_exact": 0.45666666666666667,
+      "entity_by_type": {
+        "中药": {
+          "tp": 80,
+          "fp": 19,
+          "fn": 11,
+          "precision": 0.8080808080808081,
+          "recall": 0.8791208791208791,
+          "f1": 0.8421052631578948
+        },
+        "方药": {
+          "tp": 137,
+          "fp": 40,
+          "fn": 12,
+          "precision": 0.7740112994350282,
+          "recall": 0.9194630872483222,
+          "f1": 0.8404907975460122
+        },
+        "疾病": {
+          "tp": 322,
+          "fp": 52,
+          "fn": 36,
+          "precision": 0.8609625668449198,
+          "recall": 0.8994413407821229,
+          "f1": 0.8797814207650274
+        },
+        "症状": {
+          "tp": 68,
+          "fp": 135,
+          "fn": 55,
+          "precision": 0.33497536945812806,
+          "recall": 0.5528455284552846,
+          "f1": 0.4171779141104295
+        },
+        "病机": {
+          "tp": 66,
+          "fp": 107,
+          "fn": 33,
+          "precision": 0.3815028901734104,
+          "recall": 0.6666666666666666,
+          "f1": 0.4852941176470588
+        },
+        "病位": {
+          "tp": 3,
+          "fp": 35,
+          "fn": 31,
+          "precision": 0.07894736842105263,
+          "recall": 0.08823529411764706,
+          "f1": 0.08333333333333334
+        },
+        "治法": {
+          "tp": 7,
+          "fp": 33,
+          "fn": 8,
+          "precision": 0.175,
+          "recall": 0.4666666666666667,
+          "f1": 0.2545454545454546
+        }
+      },
+      "relation_by_type": {
+        "治疗": {
+          "tp": 198,
+          "fp": 84,
+          "fn": 44,
+          "precision": 0.7021276595744681,
+          "recall": 0.8181818181818182,
+          "f1": 0.7557251908396947
+        },
+        "主治": {
+          "tp": 3,
+          "fp": 31,
+          "fn": 11,
+          "precision": 0.08823529411764706,
+          "recall": 0.21428571428571427,
+          "f1": 0.125
+        },
+        "导致": {
+          "tp": 62,
+          "fp": 83,
+          "fn": 27,
+          "precision": 0.42758620689655175,
+          "recall": 0.6966292134831461,
+          "f1": 0.5299145299145299
+        },
+        "涉及": {
+          "tp": 1,
+          "fp": 56,
+          "fn": 25,
+          "precision": 0.017543859649122806,
+          "recall": 0.038461538461538464,
+          "f1": 0.024096385542168672
+        },
+        "提示": {
+          "tp": 1,
+          "fp": 124,
+          "fn": 14,
+          "precision": 0.008,
+          "recall": 0.06666666666666667,
+          "f1": 0.014285714285714289
+        },
+        "表现": {
+          "tp": 60,
+          "fp": 141,
+          "fn": 62,
+          "precision": 0.29850746268656714,
+          "recall": 0.4918032786885246,
+          "f1": 0.37151702786377705
+        }
+      }
+    },
+    "A2": {
+      "name": "去除LLM语义补充",
+      "entity": {
+        "tp": 462,
+        "fp": 683,
+        "fn": 407,
+        "precision": 0.4034934497816594,
+        "recall": 0.5316455696202531,
+        "f1": 0.45878848063555117
+      },
+      "relation": {
+        "tp": 75,
+        "fp": 290,
+        "fn": 433,
+        "precision": 0.2054794520547945,
+        "recall": 0.14763779527559054,
+        "f1": 0.17182130584192437
+      },
+      "entity_passage_exact": 0.08666666666666667,
+      "relation_passage_exact": 0.24333333333333335,
+      "joint_passage_exact": 0.08666666666666667,
+      "entity_by_type": {
+        "中药": {
+          "tp": 23,
+          "fp": 272,
+          "fn": 68,
+          "precision": 0.07796610169491526,
+          "recall": 0.25274725274725274,
+          "f1": 0.11917098445595857
+        },
+        "方药": {
+          "tp": 43,
+          "fp": 28,
+          "fn": 106,
+          "precision": 0.6056338028169014,
+          "recall": 0.28859060402684567,
+          "f1": 0.39090909090909093
+        },
+        "疾病": {
+          "tp": 349,
+          "fp": 14,
+          "fn": 9,
+          "precision": 0.9614325068870524,
+          "recall": 0.9748603351955307,
+          "f1": 0.9680998613037448
+        },
+        "症状": {
+          "tp": 7,
+          "fp": 63,
+          "fn": 116,
+          "precision": 0.1,
+          "recall": 0.056910569105691054,
+          "f1": 0.07253886010362694
+        },
+        "病机": {
+          "tp": 10,
+          "fp": 8,
+          "fn": 89,
+          "precision": 0.5555555555555556,
+          "recall": 0.10101010101010101,
+          "f1": 0.17094017094017094
+        },
+        "病位": {
+          "tp": 30,
+          "fp": 295,
+          "fn": 4,
+          "precision": 0.09230769230769231,
+          "recall": 0.8823529411764706,
+          "f1": 0.1671309192200557
+        },
+        "治法": {
+          "tp": 0,
+          "fp": 3,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "relation_by_type": {
+        "治疗": {
+          "tp": 60,
+          "fp": 213,
+          "fn": 182,
+          "precision": 0.21978021978021978,
+          "recall": 0.24793388429752067,
+          "f1": 0.23300970873786406
+        },
+        "主治": {
+          "tp": 0,
+          "fp": 1,
+          "fn": 14,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "导致": {
+          "tp": 5,
+          "fp": 11,
+          "fn": 84,
+          "precision": 0.3125,
+          "recall": 0.056179775280898875,
+          "f1": 0.09523809523809523
+        },
+        "涉及": {
+          "tp": 3,
+          "fp": 25,
+          "fn": 23,
+          "precision": 0.10714285714285714,
+          "recall": 0.11538461538461539,
+          "f1": 0.11111111111111112
+        },
+        "提示": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 15,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "表现": {
+          "tp": 7,
+          "fp": 40,
+          "fn": 115,
+          "precision": 0.14893617021276595,
+          "recall": 0.05737704918032787,
+          "f1": 0.08284023668639053
+        }
+      }
+    },
+    "A3": {
+      "name": "去除证据对齐融合",
+      "entity": {
+        "tp": 759,
+        "fp": 1165,
+        "fn": 110,
+        "precision": 0.39449064449064447,
+        "recall": 0.8734177215189873,
+        "f1": 0.5435016111707841
+      },
+      "relation": {
+        "tp": 378,
+        "fp": 1167,
+        "fn": 130,
+        "precision": 0.2446601941747573,
+        "recall": 0.7440944881889764,
+        "f1": 0.36824159766195813
+      },
+      "entity_passage_exact": 0.15333333333333332,
+      "relation_passage_exact": 0.41,
+      "joint_passage_exact": 0.15,
+      "entity_by_type": {
+        "中药": {
+          "tp": 84,
+          "fp": 310,
+          "fn": 7,
+          "precision": 0.2131979695431472,
+          "recall": 0.9230769230769231,
+          "f1": 0.3463917525773196
+        },
+        "方药": {
+          "tp": 141,
+          "fp": 89,
+          "fn": 8,
+          "precision": 0.6130434782608696,
+          "recall": 0.9463087248322147,
+          "f1": 0.7440633245382587
+        },
+        "疾病": {
+          "tp": 357,
+          "fp": 54,
+          "fn": 1,
+          "precision": 0.8686131386861314,
+          "recall": 0.9972067039106145,
+          "f1": 0.928478543563069
+        },
+        "症状": {
+          "tp": 64,
+          "fp": 237,
+          "fn": 59,
+          "precision": 0.21262458471760798,
+          "recall": 0.5203252032520326,
+          "f1": 0.30188679245283023
+        },
+        "病机": {
+          "tp": 73,
+          "fp": 140,
+          "fn": 26,
+          "precision": 0.3427230046948357,
+          "recall": 0.7373737373737373,
+          "f1": 0.467948717948718
+        },
+        "病位": {
+          "tp": 32,
+          "fp": 308,
+          "fn": 2,
+          "precision": 0.09411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.17112299465240643
+        },
+        "治法": {
+          "tp": 8,
+          "fp": 27,
+          "fn": 7,
+          "precision": 0.22857142857142856,
+          "recall": 0.5333333333333333,
+          "f1": 0.32
+        }
+      },
+      "relation_by_type": {
+        "治疗": {
+          "tp": 219,
+          "fp": 231,
+          "fn": 23,
+          "precision": 0.4866666666666667,
+          "recall": 0.9049586776859504,
+          "f1": 0.6329479768786127
+        },
+        "主治": {
+          "tp": 4,
+          "fp": 28,
+          "fn": 10,
+          "precision": 0.125,
+          "recall": 0.2857142857142857,
+          "f1": 0.17391304347826086
+        },
+        "导致": {
+          "tp": 68,
+          "fp": 155,
+          "fn": 21,
+          "precision": 0.30493273542600896,
+          "recall": 0.7640449438202247,
+          "f1": 0.43589743589743585
+        },
+        "涉及": {
+          "tp": 17,
+          "fp": 246,
+          "fn": 9,
+          "precision": 0.06463878326996197,
+          "recall": 0.6538461538461539,
+          "f1": 0.11764705882352941
+        },
+        "提示": {
+          "tp": 7,
+          "fp": 258,
+          "fn": 8,
+          "precision": 0.026415094339622643,
+          "recall": 0.4666666666666667,
+          "f1": 0.05
+        },
+        "表现": {
+          "tp": 63,
+          "fp": 249,
+          "fn": 59,
+          "precision": 0.20192307692307693,
+          "recall": 0.5163934426229508,
+          "f1": 0.2903225806451613
+        }
+      }
+    },
+    "A4": {
+      "name": "Schema兼容即输出关系",
+      "entity": {
+        "tp": 789,
+        "fp": 64,
+        "fn": 80,
+        "precision": 0.9249706916764361,
+        "recall": 0.9079401611047181,
+        "f1": 0.9163763066202091
+      },
+      "relation": {
+        "tp": 426,
+        "fp": 589,
+        "fn": 82,
+        "precision": 0.41970443349753694,
+        "recall": 0.8385826771653543,
+        "f1": 0.5594221930400526
+      },
+      "entity_passage_exact": 0.7966666666666666,
+      "relation_passage_exact": 0.7033333333333334,
+      "joint_passage_exact": 0.7033333333333334,
+      "entity_by_type": {
+        "中药": {
+          "tp": 84,
+          "fp": 7,
+          "fn": 7,
+          "precision": 0.9230769230769231,
+          "recall": 0.9230769230769231,
+          "f1": 0.9230769230769231
+        },
+        "方药": {
+          "tp": 138,
+          "fp": 7,
+          "fn": 11,
+          "precision": 0.9517241379310345,
+          "recall": 0.9261744966442953,
+          "f1": 0.9387755102040818
+        },
+        "疾病": {
+          "tp": 357,
+          "fp": 7,
+          "fn": 1,
+          "precision": 0.9807692307692307,
+          "recall": 0.9972067039106145,
+          "f1": 0.9889196675900276
+        },
+        "症状": {
+          "tp": 84,
+          "fp": 23,
+          "fn": 39,
+          "precision": 0.7850467289719626,
+          "recall": 0.6829268292682927,
+          "f1": 0.7304347826086957
+        },
+        "病机": {
+          "tp": 84,
+          "fp": 15,
+          "fn": 15,
+          "precision": 0.8484848484848485,
+          "recall": 0.8484848484848485,
+          "f1": 0.8484848484848486
+        },
+        "病位": {
+          "tp": 32,
+          "fp": 2,
+          "fn": 2,
+          "precision": 0.9411764705882353,
+          "recall": 0.9411764705882353,
+          "f1": 0.9411764705882353
+        },
+        "治法": {
+          "tp": 10,
+          "fp": 3,
+          "fn": 5,
+          "precision": 0.7692307692307693,
+          "recall": 0.6666666666666666,
+          "f1": 0.7142857142857142
+        }
+      },
+      "relation_by_type": {
+        "治疗": {
+          "tp": 226,
+          "fp": 159,
+          "fn": 16,
+          "precision": 0.587012987012987,
+          "recall": 0.9338842975206612,
+          "f1": 0.7208931419457735
+        },
+        "主治": {
+          "tp": 9,
+          "fp": 21,
+          "fn": 5,
+          "precision": 0.3,
+          "recall": 0.6428571428571429,
+          "f1": 0.4090909090909091
+        },
+        "导致": {
+          "tp": 78,
+          "fp": 106,
+          "fn": 11,
+          "precision": 0.42391304347826086,
+          "recall": 0.8764044943820225,
+          "f1": 0.5714285714285715
+        },
+        "涉及": {
+          "tp": 20,
+          "fp": 58,
+          "fn": 6,
+          "precision": 0.2564102564102564,
+          "recall": 0.7692307692307693,
+          "f1": 0.38461538461538464
+        },
+        "提示": {
+          "tp": 11,
+          "fp": 75,
+          "fn": 4,
+          "precision": 0.12790697674418605,
+          "recall": 0.7333333333333333,
+          "f1": 0.21782178217821782
+        },
+        "表现": {
+          "tp": 82,
+          "fp": 170,
+          "fn": 40,
+          "precision": 0.3253968253968254,
+          "recall": 0.6721311475409836,
+          "f1": 0.4385026737967914
+        }
+      }
+    }
+  },
+  "paired_comparisons": {
+    "A1": {
+      "entity_f1": {
+        "difference_full_minus_ablation": 0.22402962643774582,
+        "ci95": [
+          0.1870969633313081,
+          0.26104363313651346
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "relation_f1": {
+        "difference_full_minus_ablation": 0.3362685233449997,
+        "ci95": [
+          0.24275983300373538,
+          0.42398518834395066
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "entity_exact_mcnemar": {
+        "full_correct_ablation_wrong": 108,
+        "ablation_correct_full_wrong": 8,
+        "discordant": 116,
+        "exact_two_sided_p": 1.6492278067940443e-23,
+        "holm_p": 3.2984556135880887e-23
+      },
+      "relation_exact_mcnemar": {
+        "full_correct_ablation_wrong": 98,
+        "ablation_correct_full_wrong": 10,
+        "discordant": 108,
+        "exact_two_sided_p": 2.651075204657039e-19,
+        "holm_p": 5.302150409314078e-19
+      },
+      "joint_exact_mcnemar": {
+        "full_correct_ablation_wrong": 108,
+        "ablation_correct_full_wrong": 8,
+        "discordant": 116,
+        "exact_two_sided_p": 1.6492278067940443e-23,
+        "holm_p": 3.2984556135880887e-23
+      }
+    },
+    "A2": {
+      "entity_f1": {
+        "difference_full_minus_ablation": 0.4575878259846579,
+        "ci95": [
+          0.4181602924171111,
+          0.49697071821934913
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "relation_f1": {
+        "difference_full_minus_ablation": 0.6452164482723062,
+        "ci95": [
+          0.5558626768877206,
+          0.7311966072339987
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "entity_exact_mcnemar": {
+        "full_correct_ablation_wrong": 219,
+        "ablation_correct_full_wrong": 6,
+        "discordant": 225,
+        "exact_two_sided_p": 6.423964063587081e-57,
+        "holm_p": 2.5695856254348323e-56
+      },
+      "relation_exact_mcnemar": {
+        "full_correct_ablation_wrong": 182,
+        "ablation_correct_full_wrong": 14,
+        "discordant": 196,
+        "exact_two_sided_p": 1.8977325942891337e-38,
+        "holm_p": 7.590930377156535e-38
+      },
+      "joint_exact_mcnemar": {
+        "full_correct_ablation_wrong": 217,
+        "ablation_correct_full_wrong": 6,
+        "discordant": 223,
+        "exact_two_sided_p": 2.434690679992258e-56,
+        "holm_p": 9.738762719969032e-56
+      }
+    },
+    "A3": {
+      "entity_f1": {
+        "difference_full_minus_ablation": 0.372874695449425,
+        "ci95": [
+          0.3315210046469079,
+          0.41393466928528144
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "relation_f1": {
+        "difference_full_minus_ablation": 0.4487961564522724,
+        "ci95": [
+          0.3620197405987436,
+          0.5306327982853686
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "entity_exact_mcnemar": {
+        "full_correct_ablation_wrong": 197,
+        "ablation_correct_full_wrong": 4,
+        "discordant": 201,
+        "exact_two_sided_p": 4.191322262897703e-53,
+        "holm_p": 1.2573966788693108e-52
+      },
+      "relation_exact_mcnemar": {
+        "full_correct_ablation_wrong": 123,
+        "ablation_correct_full_wrong": 5,
+        "discordant": 128,
+        "exact_two_sided_p": 1.6197373698416143e-30,
+        "holm_p": 4.859212109524843e-30
+      },
+      "joint_exact_mcnemar": {
+        "full_correct_ablation_wrong": 196,
+        "ablation_correct_full_wrong": 4,
+        "discordant": 200,
+        "exact_two_sided_p": 8.216676583874543e-53,
+        "holm_p": 2.465002975162363e-52
+      }
+    },
+    "A4": {
+      "entity_f1": {
+        "difference_full_minus_ablation": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "bootstrap_tail_probability": 1.0,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 1.0,
+        "randomization_holm_p": 1.0
+      },
+      "relation_f1": {
+        "difference_full_minus_ablation": 0.25761556107417793,
+        "ci95": [
+          0.15610847730864286,
+          0.32769598951123513
+        ],
+        "bootstrap_tail_probability": 0.00019998000199980003,
+        "bootstrap_n": 10000,
+        "seed": 20260823,
+        "paired_randomization_p": 9.999000099990002e-05,
+        "randomization_holm_p": 0.00039996000399960006
+      },
+      "entity_exact_mcnemar": {
+        "full_correct_ablation_wrong": 0,
+        "ablation_correct_full_wrong": 0,
+        "discordant": 0,
+        "exact_two_sided_p": 1.0,
+        "holm_p": 1.0
+      },
+      "relation_exact_mcnemar": {
+        "full_correct_ablation_wrong": 31,
+        "ablation_correct_full_wrong": 1,
+        "discordant": 32,
+        "exact_two_sided_p": 1.5366822481155396e-08,
+        "holm_p": 1.5366822481155396e-08
+      },
+      "joint_exact_mcnemar": {
+        "full_correct_ablation_wrong": 27,
+        "ablation_correct_full_wrong": 1,
+        "discordant": 28,
+        "exact_two_sided_p": 2.1606683731079102e-07,
+        "holm_p": 2.1606683731079102e-07
+      }
+    }
+  }
+}

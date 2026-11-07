@@ -1,0 +1,68 @@
+{
+  "binding": {
+    "version": "ADELIE_adapted_joint_greedy_20261006",
+    "test_sha256": "fdf183fa85d337ef34de8cdafc7c67bcf1dbe78450815e56b5e9602ebcbaef49",
+    "schema_sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4",
+    "config_sha256": "ebbee92cd6fd50a19e916f6e502af4c4ff0aeb591c9895ed995a6669409c61ca",
+    "script_sha256": "01688df3a6c7e6477fe0ba10bf5dc92869c236e070ea522099e65a369d3b9a4a",
+    "model": {
+      "repository": "THU-KEG/ADELIE-DPO",
+      "resolved_revision": "e173b01e177c7ca0a87a7c19b1323869f7cf5d3b",
+      "status": "complete",
+      "files": {
+        "README.md": {
+          "size": 3226,
+          "sha256": "956918a0b4ce19c7e4df26f53cf2791db480e8f8ac889977dfbd352dce4719c5"
+        },
+        "added_tokens.json": {
+          "size": 21,
+          "sha256": "39c257654f85e478a9cb3bf34da53b3e4625e7b05ce15f193fe41724fae7b825"
+        },
+        "config.json": {
+          "size": 745,
+          "sha256": "23846fc420d0a47ef1de8c7f1539c2dc963b4a6fdd0f8a7b07455ce84c68f130"
+        },
+        "generation_config.json": {
+          "size": 132,
+          "sha256": "5b3483ac487c163175e8ff639766cbc61051171f8ae03aec7e95ceddb4dc0195"
+        },
+        "pytorch_model-00001-of-00003.bin": {
+          "size": 4939016818,
+          "sha256": "b4835f97b994be52e71282e4106f7000f385eeaffff34749f8c81a4ab16f7209"
+        },
+        "pytorch_model-00002-of-00003.bin": {
+          "size": 4947415002,
+          "sha256": "fec8ff8cd23e750be376c7ddd12b713a4d257b0e6228cbcb5fc046b5a3e434cf"
+        },
+        "pytorch_model-00003-of-00003.bin": {
+          "size": 3590513913,
+          "sha256": "bf09a0491b58be3c716231db1398548cc8a1edcb67b1331defab518d60b8822d"
+        },
+        "pytorch_model.bin.index.json": {
+          "size": 23949,
+          "sha256": "812a662375fe8cf3dcc91b7e27dc0d454918b5a6567bd456cb9dd64a6bd05b83"
+        },
+        "special_tokens_map.json": {
+          "size": 552,
+          "sha256": "358c249e2fb29060c6b73157d428853b0c48710deffc8ee670ab1013880946c9"
+        },
+        "tokenizer.json": {
+          "size": 1842948,
+          "sha256": "d2990c87efd705fc07bf3a279fd0905e764bf69c335f4f7dd00de92a9aa2ff36"
+        },
+        "tokenizer.model": {
+          "size": 499723,
+          "sha256": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347"
+        },
+        "tokenizer_config.json": {
+          "size": 1106,
+          "sha256": "de371f0dd63990786b7a020e1e3fcc6ecb6ddd5e2cbb0526cc5241915d507359"
+        }
+      },
+      "index_generated": true
+    }
+  },
+  "created_at": "2026-10-06T08:07:39+0800",
+  "torch": "2.8.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4090 D"
+}

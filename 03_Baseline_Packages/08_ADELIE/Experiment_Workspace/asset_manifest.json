@@ -1,0 +1,12 @@
+{
+  "version": "20261004",
+  "paper": "ADELIE: Aligning Large Language Models on Information Extraction",
+  "venue": "EMNLP 2024",
+  "doi": "10.18653/v1/2024.emnlp-main.419",
+  "model_repository": "THU-KEG/ADELIE-DPO",
+  "records": 300,
+  "test_gold_included": false,
+  "source_input_directory": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_外部对比\\01_代码\\05_E3_YAYI-UIE\\data",
+  "test_input_sha256": "fdf183fa85d337ef34de8cdafc7c67bcf1dbe78450815e56b5e9602ebcbaef49",
+  "schema_sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4"
+}

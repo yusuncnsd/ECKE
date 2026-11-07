@@ -1,0 +1,12 @@
+{
+  "ablation_id": "A3",
+  "name": "去除证据对齐融合_简单并集",
+  "records": 300,
+  "entities": 2194,
+  "relations": 1930,
+  "model": "qwen-plus-2025-07-28",
+  "temperature": 0.0,
+  "seed": 20260813,
+  "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A3_去除证据对齐融合_简单并集\\A3_300条结构化预测.jsonl",
+  "completed_at": "2026-08-23 12:52:35"
+}

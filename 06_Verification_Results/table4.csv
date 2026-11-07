@@ -1,0 +1,11 @@
+Task,Method,Precision,Recall,F1
+Entity recognition,w/o Lexicon Anchoring,0.6187,0.7860,0.6923
+Entity recognition,w/o Semantic Supplementation,0.4035,0.5316,0.4588
+Entity recognition,Simple Union,0.3945,0.8734,0.5435
+Entity recognition,Schema-only RE,0.9250,0.9079,0.9164
+Entity recognition,ECKE,0.9250,0.9079,0.9164
+Relation extraction,w/o Lexicon Anchoring,0.3851,0.6398,0.4808
+Relation extraction,w/o Semantic Supplementation,0.2055,0.1476,0.1718
+Relation extraction,Simple Union,0.2447,0.7441,0.3682
+Relation extraction,Schema-only RE,0.4197,0.8386,0.5594
+Relation extraction,ECKE,0.8038,0.8307,0.8170

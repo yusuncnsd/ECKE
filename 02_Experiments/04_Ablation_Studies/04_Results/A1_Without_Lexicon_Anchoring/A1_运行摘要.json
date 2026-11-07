@@ -1,0 +1,12 @@
+{
+  "ablation_id": "A1",
+  "name": "去除显式词表锚定",
+  "records": 300,
+  "entities": 1104,
+  "relations": 844,
+  "model": "qwen-plus-2025-07-28",
+  "temperature": 0.0,
+  "seed": 20260813,
+  "prediction": "D:\\OneDrive\\桌面\\2论文升级\\主实验\\03_消融实验\\A1_去除显式词表锚定\\A1_300条结构化预测.jsonl",
+  "completed_at": "2026-08-23 12:07:17"
+}

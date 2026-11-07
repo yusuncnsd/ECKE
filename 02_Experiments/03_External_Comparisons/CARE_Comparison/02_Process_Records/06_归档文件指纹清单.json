@@ -1,0 +1,404 @@
+{
+  "generated_at": "2026-10-05T12:05:29.429502+08:00",
+  "final_version": "CARE_second_calibrated_20261005",
+  "files": [
+    {
+      "path": "01_实验代码/CARE_Balanced/asset_manifest.json",
+      "bytes": 3042,
+      "sha256": "440bb37d957e853c499cbc2894d4a8c3d19e6ccb89cdf96c526dec6c4249cd05"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/author_source/code/model/care.py",
+      "bytes": 7949,
+      "sha256": "eecc4cae80c4365f54aa0b127cc88d8991c16e39f2d2bc0c39f4db0124328785"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/author_source/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/care_data.py",
+      "bytes": 8955,
+      "sha256": "80bdc3f25a9ebfaf1d19a6bfe3be61b10059c80b4b9ee1da0c81feb5ec1c86f0"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/care_model.py",
+      "bytes": 6818,
+      "sha256": "e0b1cefe041d716a64fbfeea0cb9abd2263677b5a59f6a9bd49cd55bee06cda6"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/CARE_run.py",
+      "bytes": 22322,
+      "sha256": "948a67eaf907342929b51070e385d1050df0534935e5e3bf5604cb3df77d15d5"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/config.json",
+      "bytes": 2225,
+      "sha256": "54c8122a5ce63a741a5476f9a80c9bcbcd2343180f5fa7db5c3132c260e0565b"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold0_train.jsonl",
+      "bytes": 62576,
+      "sha256": "8ac013919a4ed12f70212367ec840da08c3230b845959f7daa6aa768894f7989"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold0_valid.jsonl",
+      "bytes": 13689,
+      "sha256": "5be54b8baaab795379c87c4d89a8dbf6565be1a3892c0b14d1e7da0e133e467b"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold1_train.jsonl",
+      "bytes": 59390,
+      "sha256": "f41b662272b537385cbe98660600b063b9124450ea896c1956394402da996865"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold1_valid.jsonl",
+      "bytes": 16875,
+      "sha256": "15fc527c0b9b25ce47f6458374a526cf61429a57c34306295b071aab7bdcf7d3"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold2_train.jsonl",
+      "bytes": 59334,
+      "sha256": "7ea478711112e99faa310970d4b0e2c104949a514fc6cce4e87125115540cb4b"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold2_valid.jsonl",
+      "bytes": 16931,
+      "sha256": "dd29b3333d4e203f149e8ab25352f3bcea532b4fd5a51d86fc2b7e74d414b880"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold3_train.jsonl",
+      "bytes": 61318,
+      "sha256": "9d99226ead0cdc5b8674c472d36dc66640f92d745eae056640fdb577cf235016"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold3_valid.jsonl",
+      "bytes": 14947,
+      "sha256": "1b17c7305707a4251af759ece6a5cd6c2310312c5f793fa18c34f003aff994d3"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold4_train.jsonl",
+      "bytes": 62442,
+      "sha256": "ee81da212dc0d3c18d8f1953ee1c8885999336e534cd1410bcec76dcd8bcbb04"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_fold4_valid.jsonl",
+      "bytes": 13823,
+      "sha256": "f9853ef2d465775a3be124cdeae0f420d297e464a044054cf243634117e6af08"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/cv_manifest.json",
+      "bytes": 2448,
+      "sha256": "4f11f8bb8f8e9f90adfe29815e16643fdb24ff2b507a7330deac4296d19a77b1"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/development_100_gold.jsonl",
+      "bytes": 49927,
+      "sha256": "34aafe57d8d1496230438d875b7345daa0949dbf7818fbedeffb0f8471e10c19"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/development_100_span_supervision.jsonl",
+      "bytes": 76265,
+      "sha256": "8e141df03015cebaf75da3c85a20d099485dda13e498fa23f4b601ce21afdc34"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/independent_test_300_input_only.jsonl",
+      "bytes": 82026,
+      "sha256": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/span_conversion_audit.json",
+      "bytes": 835,
+      "sha256": "8db8aab638805bc31d8aba95ad1e0b96cc95483ffa65a9b9d11cc2e5b8dd95e7"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/data/xiaoke_schema_v5.json",
+      "bytes": 1917,
+      "sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/evaluation_source/01_外部方法配对统计比较.py",
+      "bytes": 7791,
+      "sha256": "1d166821996a4a59e98990c6a78a9d74812162f8e67213aa55dec527ea9cd5e5"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/evaluation_source/03_统一评价.py",
+      "bytes": 6631,
+      "sha256": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/evaluation_source/统一结构.py",
+      "bytes": 3723,
+      "sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/binding.json",
+      "bytes": 1693,
+      "sha256": "172526fdabceffa0b9a2fe510a54176552b741ceab2d790e72aec23c429f223d"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/formal_audit.json",
+      "bytes": 755,
+      "sha256": "df9cfc80c936bbb4fd92481364d7cb52bca84b903ec327f2885ec353935529b4"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260823/complete.json",
+      "bytes": 215,
+      "sha256": "13d8b47eee3dc523ff355d6327f520a18e1975e11bff0dd54074675d37391172"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260823/predictions.jsonl",
+      "bytes": 3985200,
+      "sha256": "f36b4c15848a0889fd7cdb430d36744d261a7f5a3cdda3b60e41d6cbf88f83a4"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260824/complete.json",
+      "bytes": 215,
+      "sha256": "02b58c55be1bb18732d0c08373d505def6c67e75f835d741a829ef42008c18ef"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260824/predictions.jsonl",
+      "bytes": 1818315,
+      "sha256": "f88a237eca7503855ba3921b2f5614960c64301022be717ad943b1fe4d4139b3"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260825/complete.json",
+      "bytes": 215,
+      "sha256": "ecf312a5805a32dc5cf85df981a9dfd21067bb7c1b73d8463a7c315d65b67a7c"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/seed_20260825/predictions.jsonl",
+      "bytes": 2884362,
+      "sha256": "8d8065b36bba22a8d9089a19530d54f4391ea5b6e2681fd554238189af3ceb90"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_calibrated_v1/threshold_selection.json",
+      "bytes": 18301,
+      "sha256": "8e233dd1b9526bce2716a4c7743d480bf7cb0743a581fc7065f157b2cca41dec"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_0/binding.json",
+      "bytes": 657,
+      "sha256": "ad2bfb3133ad7fb7d8ab4477a2f316dc0b372c003432194be9ab059fce9c66d3"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_0/complete.json",
+      "bytes": 532,
+      "sha256": "f06000b4b5b48e048a3ad9dd892a7f80705c5a34d15cad34e2f9500c01d69e13"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_0/training_log.jsonl",
+      "bytes": 115015,
+      "sha256": "b5d8d51014ffbd8c0f528ea8b421dd6bb53b626821a1a28477769fe88f98c0ff"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_1/binding.json",
+      "bytes": 657,
+      "sha256": "008fd12df5d43101b9f83fe5ff479e4286ac3cb9194cfded480b3c4119016c30"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_1/complete.json",
+      "bytes": 532,
+      "sha256": "20728ccf40555cd76c356b677959c8c7ceeb3be97294d74099206e7aa4d01dd4"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_1/training_log.jsonl",
+      "bytes": 115276,
+      "sha256": "fa01f1dd0fe59c9a8b6ba65797f787f62a77491511c4cd3507ea5673760bba40"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_2/binding.json",
+      "bytes": 657,
+      "sha256": "b7e3005e7f7c7f8844c9adaf25b5028d7d5e957148feff31a10c1440efacc2f6"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_2/complete.json",
+      "bytes": 542,
+      "sha256": "42f23393520231fcc2b433dd9a6a34265ec519a68b8ae1fb76b081baa2fbd144"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_2/training_log.jsonl",
+      "bytes": 115266,
+      "sha256": "bcffb6fd630342f82d994c2a0360b9466ef76b3d310088c4a3c2ffe3353ac5ec"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_3/binding.json",
+      "bytes": 657,
+      "sha256": "a1b9bd4a525002e076020d8770853ad0e477d077a3965b74f1d1ee2752b1877a"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_3/complete.json",
+      "bytes": 531,
+      "sha256": "a7ef38085d996ab83f5bdcc7ae18333f6ef2b26bf33ac5f2fb516c95beefcb24"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_3/training_log.jsonl",
+      "bytes": 115049,
+      "sha256": "67acff28b7affb24e339910532e2177b2eb3f8e03d08aa138df9c9da5d107f40"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_4/binding.json",
+      "bytes": 657,
+      "sha256": "c9a3ceb442a9b12f4b85877090d5265238a85312b87d5d35734a23a25e5cf0bc"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_4/complete.json",
+      "bytes": 522,
+      "sha256": "279b386a707c0ef37f9af1c67770669225c53797685e5487b8ed7924cc3250bf"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/cv/epochs_100/fold_4/training_log.jsonl",
+      "bytes": 115110,
+      "sha256": "5963298184dc95da8ea82a6925b0b86f7aabaf22ff0438ef0453ce2092bbe257"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260823/binding.json",
+      "bytes": 657,
+      "sha256": "3471c4ad33cdc2ad321411b51790144301859fbb2d7a2540842033fc629be03a"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260823/training_log.jsonl",
+      "bytes": 149891,
+      "sha256": "a3cd725400dad74afcc4a9a9ea6595e2272dd4ed0b145cd26c48bc5b06035ae3"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260824/binding.json",
+      "bytes": 657,
+      "sha256": "05e5f56e9cfcdcfc4f68165121f9366ba45280d75ac7d0390652cd68e139b8e5"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260824/training_log.jsonl",
+      "bytes": 150109,
+      "sha256": "115fc0f6dae31200475f099ddc50dc055580c0301cc913d47b86cf22e65d244d"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260825/binding.json",
+      "bytes": 657,
+      "sha256": "ba272e48b1c4305c5fa1474cd87219e4ae6e655e271f6be6e9e231583861cd7e"
+    },
+    {
+      "path": "01_实验代码/CARE_Balanced/results_fixed100/seed_20260825/training_log.jsonl",
+      "bytes": 149478,
+      "sha256": "18a823b0093e1a59e330c6b9de83bebac9380a3fa29f26f249087c02f12a9a38"
+    },
+    {
+      "path": "01_实验代码/CARE_calibrate.py",
+      "bytes": 15756,
+      "sha256": "9786eef983d983118efb6346403a9fe726e484c9ecd457bf935aadb16e9de303"
+    },
+    {
+      "path": "01_实验代码/CARE_evaluate_second.py",
+      "bytes": 9561,
+      "sha256": "8e59f23b9cb1226bb647ac2139073211cb7e573077cdd7a9a07a6f8ec6bc90a4"
+    },
+    {
+      "path": "01_实验代码/CARE_resume_decode.py",
+      "bytes": 6434,
+      "sha256": "307766da56f6508f9d6f419253193c3c8a002d2945fcaa52129933ee251c2ad7"
+    },
+    {
+      "path": "02_过程文档/01_最终实验说明.md",
+      "bytes": 7055,
+      "sha256": "004c9f0f31c29638fa600292f8003fc68d1ae46a817e98cbf73f219b67b7317a"
+    },
+    {
+      "path": "02_过程文档/04_最终实验条件.json",
+      "bytes": 1224,
+      "sha256": "2f600d92e35822be22f1f892bc0dbee8e1dbe49ab486c55a1e720eca44483e24"
+    },
+    {
+      "path": "03_结果文档/CARE_Calibrated_results.tar.gz",
+      "bytes": 257702,
+      "sha256": "9ea418533155c74e68f6ae410d00d948bafc9141563b8d01f04fae208a5218fd"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_seed_20260823_正式评价.json",
+      "bytes": 362782,
+      "sha256": "ab07ef21cc4b0fe43e8393f8be6a168312190bfc810a155c37be571e98308b30"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_seed_20260824_正式评价.json",
+      "bytes": 314209,
+      "sha256": "30f283a543d451bbc409fd2cfaa1d3a1e5e0a182cd0fc1101a678f555b4a05e2"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_seed_20260825_正式评价.json",
+      "bytes": 349412,
+      "sha256": "ad7e093df0ce247a3bf55bcfb672b71c8d82c04e0bf943abbe8b670628092c3d"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_三种子汇总.json",
+      "bytes": 1065,
+      "sha256": "54d990455f273be5507f85e122e622a1de1c25521eb651f7f42350c448e482c5"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_与ECKE配对统计.json",
+      "bytes": 3303,
+      "sha256": "e8bca3969da2231443444beb7caa225355e44c38176a82a0604acb622e97ef79"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_正式结果报告.md",
+      "bytes": 1088,
+      "sha256": "2a0086d3ebea3e698507c28cb5bc150852760864b02f0076bea434ddbfcf1ac6"
+    },
+    {
+      "path": "03_结果文档/CARE第二版_逐种子指标.csv",
+      "bytes": 842,
+      "sha256": "32bd8fb3b7bc97b15b682ac60c0841e9ae433c3a7432de826084e89ddd41791d"
+    },
+    {
+      "path": "04_原始资料/bert-base-chinese-vocab.txt",
+      "bytes": 109540,
+      "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c"
+    },
+    {
+      "path": "04_原始资料/BERT_repository.json",
+      "bytes": 3980,
+      "sha256": "fd4ef9df133a3b2e149b9439f2f7c1dcaca6b341077caf88176a65f9c53b0108"
+    },
+    {
+      "path": "04_原始资料/CARE_2024_正式论文.pdf",
+      "bytes": 418023,
+      "sha256": "18153ac532d8281e76bc42e2019237c84a28823fef4ce84d116d3fe723647708"
+    },
+    {
+      "path": "04_原始资料/CARE_author_code.zip",
+      "bytes": 12632,
+      "sha256": "b7f85db4b8b1cc3e159181f523df1891e09d8a2797eb574a84539bd586293708"
+    },
+    {
+      "path": "04_原始资料/CARE_commit.json",
+      "bytes": 5138,
+      "sha256": "d8704bb683dbe997607deba5b58f22e765af348c4d7cc569be771c37c9553385"
+    },
+    {
+      "path": "04_原始资料/CARE_LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "04_原始资料/CARE_README.md",
+      "bytes": 156,
+      "sha256": "5f67def54073fc82ccf63cae3ca3239f4554994a8b2572c6a8dd2a2519c6d2c9"
+    },
+    {
+      "path": "05_运行日志/care_calibrate.log",
+      "bytes": 103318,
+      "sha256": "dfe41fdea37a5f859ac39625c61d9b906796e377307baa5cb41f84187576348c"
+    },
+    {
+      "path": "05_运行日志/CARE_Calibrated_results.tar.sha256.json",
+      "bytes": 126,
+      "sha256": "184fa9c28cffcccfa3097e127c09f77115a20d68d9625b31954b80d55a9fba04"
+    }
+  ],
+  "verification": {
+    "frozen_assets": "passed",
+    "three_prediction_hashes": "passed",
+    "records_per_seed": 300,
+    "evidence_schema": "passed",
+    "first_version_predictions_present": false,
+    "model_checkpoints_present": false
+  }
+}

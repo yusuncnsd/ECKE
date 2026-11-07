@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002122",
+  "ann_id": "test_139",
+  "text": "猪肚丸（三因） 三消。\n黄连 粟米 栝蒌根 茯神（各四两） 知母 麦冬（去心。各二两）上为末。用大猪肚一个。洗净。入药末于内。线缝置甑中。炊极烂。将猪肚捣膏。加炼蜜和药末。杵匀。丸如梧桐子大。每服五十丸。入人参汤下。一方加人参、熟 、干葛。一方加小麦。去知母、粟米。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n猪肚丸（三因） 三消。\n黄连 粟米 栝蒌根 茯神（各四两） 知母 麦冬（去心。各二两）上为末。用大猪肚一个。洗净。入药末于内。线缝置甑中。炊极烂。将猪肚捣膏。加炼蜜和药末。杵匀。丸如梧桐子大。每服五十丸。入人参汤下。一方加人参、熟 、干葛。一方加小麦。去知母、粟米。",
+  "seed": 20261089,
+  "repetition_penalty": 1.1,
+  "input_tokens": 574,
+  "generated_tokens": 149,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    234,
+    143,
+    173,
+    235,
+    133,
+    157,
+    31818,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"猪肚丸\", \"黄连\", \"栝蒌根\", \"茯神\", \"麦冬\"], \"方药\": [\"知母\", \"麦冬\"], \"疾病\": [\"三消\"], \"症状\": [\"三消\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"病机\", \"tail\": \"猪肚丸\"}, {\"head\": \"三消\", \"relation\": \"治法\", \"tail\": \"猪肚丸\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"猪肚丸\", \"黄连\", \"栝蒌根\", \"茯神\", \"麦冬\"], \"方药\": [\"知母\", \"麦冬\"], \"疾病\": [\"三消\"], \"症状\": [\"三消\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"病机\", \"tail\": \"猪肚丸\"}, {\"head\": \"三消\", \"relation\": \"治法\", \"tail\": \"猪肚丸\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:18:49+0800"
+}

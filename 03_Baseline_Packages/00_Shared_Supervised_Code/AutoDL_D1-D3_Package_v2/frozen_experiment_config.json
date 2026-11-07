@@ -1,0 +1,41 @@
+{
+  "version": "external_supervised_D1-D3_v1_20260823",
+  "device": "single NVIDIA GPU >=20GB VRAM",
+  "recommended_gpu": "RTX 4090 24GB",
+  "development": "100条专家Gold；五折80/20；只用于训练和配置选择",
+  "test": "300条无答案输入；测试Gold不在云端包",
+  "seeds": [20260823, 20260824, 20260825],
+  "entity_evaluation_key": ["surface_form", "entity_type"],
+  "relation_evaluation_key": ["head_surface", "relation_type", "tail_surface"],
+  "entity_types": ["中药", "方药", "疾病", "症状", "病机", "病位", "治法"],
+  "relation_schema_count": 7,
+  "D1": {
+    "encoder": "google-bert/bert-base-chinese",
+    "ner_window": 256,
+    "ner_overlap": 64,
+    "mechanisms": ["BiLSTM", "CLN grid", "dilated convolutions 1/2/3", "dual CTP", "typed subject/object boundary markers"],
+    "cv_epoch_candidates": [8, 12]
+  },
+  "D2": {
+    "encoder": "hfl/chinese-roberta-wwm-ext，替代未公开TCMroberta",
+    "dictionary": "每个训练折Gold实体表面形式构建；不使用消渴领域词表",
+    "dictionary_channels": ["START", "MIDDLE", "END", "SINGLE", "DICTIONARY"],
+    "max_span": 15,
+    "candidate_cap_inference": 64,
+    "candidate_cap_training": 96,
+    "compgcn_layers": 3,
+    "entity_threshold": 0.5,
+    "relation_threshold": 0.5,
+    "cv_epoch_candidates": [12, 20]
+  },
+  "D3": {
+    "encoder": "google-bert/bert-base-chinese",
+    "features": ["Jieba POS", "dynamic mask 0.15", "FGM epsilon 1.0", "learnable uncertainty task weights"],
+    "decoder": "entity/head/tail GlobalPointer consistency",
+    "logit_threshold": 0.0,
+    "cv_epoch_candidates": [20, 30]
+  },
+  "span_policy": "同形实体全部位置展开训练；评价前按表面形式与类型折叠",
+  "discontinuous_exceptions": ["ann_014/猪肾荠汤", "ann_014/栝楼丸"],
+  "resume": "epoch checkpoints + run binding + per-record prediction cache"
+}

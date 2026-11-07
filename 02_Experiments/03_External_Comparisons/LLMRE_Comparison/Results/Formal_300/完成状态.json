@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "success": 300,
+  "failed_ids": [],
+  "failed_reasons": {},
+  "elapsed_seconds": 2606.3120000000054,
+  "version": "LLMRE_method_adapted_resume_fix1_20261006",
+  "requests": 14190,
+  "request_stats": [
+    {
+      "stage": "上下位批量",
+      "count": 4322,
+      "mean_seconds": 1.1365969458585747
+    },
+    {
+      "stage": "关系批量",
+      "count": 3668,
+      "mean_seconds": 1.427476826608891
+    },
+    {
+      "stage": "同义批量",
+      "count": 5899,
+      "mean_seconds": 1.1335750127144884
+    },
+    {
+      "stage": "实体",
+      "count": 300,
+      "mean_seconds": 3.7712166666672178
+    },
+    {
+      "stage": "连接",
+      "count": 1,
+      "mean_seconds": 1.0460000000020955
+    }
+  ],
+  "prediction_sha256": "6fadd02d390a7f63b828873af16cc876def68ce70140b4758726d8c861ea7f84"
+}

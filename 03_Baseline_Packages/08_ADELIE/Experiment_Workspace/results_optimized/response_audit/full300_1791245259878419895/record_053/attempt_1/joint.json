@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_000258",
+  "ann_id": "test_053",
+  "text": "枳子。《东坡集》曰∶杨颖臣病消渴，日饮水数斗，饭亦倍进，小便频数，服消渴药，日甚。延张肱诊之，笑曰∶君几误死，取麝香当门子，以酒濡作十许丸，枳 子煎汤吞之遂愈。问其故，肱曰∶消渴消中，皆脾弱肾败、土不制水而成。今颖臣脾脉极热，肾脉不衰，当由酒果过度，积热在脾，所以多食多饮，饮多溲不得不多，非消非渴也。麝香坏酒果，枳 能胜酒，故假二物以去其酒果之毒也。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n枳子。《东坡集》曰∶杨颖臣病消渴，日饮水数斗，饭亦倍进，小便频数，服消渴药，日甚。延张肱诊之，笑曰∶君几误死，取麝香当门子，以酒濡作十许丸，枳 子煎汤吞之遂愈。问其故，肱曰∶消渴消中，皆脾弱肾败、土不制水而成。今颖臣脾脉极热，肾脉不衰，当由酒果过度，积热在脾，所以多食多饮，饮多溲不得不多，非消非渴也。麝香坏酒果，枳 能胜酒，故假二物以去其酒果之毒也。",
+  "seed": 20260917,
+  "repetition_penalty": 1.1,
+  "input_tokens": 679,
+  "generated_tokens": 188,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31276,
+    233,
+    187,
+    183,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"枳子\"], \"方药\": [\"麝香\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"脾弱肾败\", \"土不制水而成\"], \"病位\": [\"脾脉\", \"肾脉\"], \"治法\": [\"酒果过度\"]}, \"relations\": [{\"head\": \"枳子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"枳子\"], \"方药\": [\"麝香\"], \"疾病\": [\"消渴\"], \"症状\": [\"渴疾\", \"渴症\", \"大渴\", \"中焦渴\", \"下焦渴\", \"谷消\"], \"病机\": [\"脾弱肾败\", \"土不制水而成\"], \"病位\": [\"脾脉\", \"肾脉\"], \"治法\": [\"酒果过度\"]}, \"relations\": [{\"head\": \"枳子\", \"relation\": \"治疗\", \"tail\": \"消渴\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:12:01+0800"
+}

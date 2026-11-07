@@ -1,0 +1,555 @@
+[
+  {
+    "record_id": "XK_000472",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_007/attempt_1"
+  },
+  {
+    "record_id": "XK_001033",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_019/attempt_1"
+  },
+  {
+    "record_id": "XK_001797",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_022/attempt_1"
+  },
+  {
+    "record_id": "XK_000863",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_026/attempt_1"
+  },
+  {
+    "record_id": "XK_000744",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_029/attempt_1"
+  },
+  {
+    "record_id": "XK_002610",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_030/attempt_1"
+  },
+  {
+    "record_id": "XK_002126",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_031/attempt_1"
+  },
+  {
+    "record_id": "XK_002314",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_037/attempt_1"
+  },
+  {
+    "record_id": "XK_000654",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_038/attempt_1"
+  },
+  {
+    "record_id": "XK_002838",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_039/attempt_1"
+  },
+  {
+    "record_id": "XK_000793",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_043/attempt_1"
+  },
+  {
+    "record_id": "XK_001677",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_051/attempt_1"
+  },
+  {
+    "record_id": "XK_002626",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_052/attempt_1"
+  },
+  {
+    "record_id": "XK_001548",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_055/attempt_1"
+  },
+  {
+    "record_id": "XK_000460",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_057/attempt_1"
+  },
+  {
+    "record_id": "XK_002752",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_061/attempt_1"
+  },
+  {
+    "record_id": "XK_000579",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_069/attempt_1"
+  },
+  {
+    "record_id": "XK_002317",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_072/attempt_1"
+  },
+  {
+    "record_id": "XK_000455",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_077/attempt_1"
+  },
+  {
+    "record_id": "XK_002645",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_081/attempt_1"
+  },
+  {
+    "record_id": "XK_001304",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_084/attempt_1"
+  },
+  {
+    "record_id": "XK_002526",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_088/attempt_1"
+  },
+  {
+    "record_id": "XK_000430",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_089/attempt_1"
+  },
+  {
+    "record_id": "XK_000745",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_101/attempt_1"
+  },
+  {
+    "record_id": "XK_001788",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_109/attempt_1"
+  },
+  {
+    "record_id": "XK_001937",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_113/attempt_1"
+  },
+  {
+    "record_id": "XK_000857",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_114/attempt_1"
+  },
+  {
+    "record_id": "XK_002440",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_116/attempt_1"
+  },
+  {
+    "record_id": "XK_001410",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_117/attempt_1"
+  },
+  {
+    "record_id": "XK_000583",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_120/attempt_1"
+  },
+  {
+    "record_id": "XK_000026",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_122/attempt_1"
+  },
+  {
+    "record_id": "XK_000090",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_125/attempt_1"
+  },
+  {
+    "record_id": "XK_002081",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_130/attempt_1"
+  },
+  {
+    "record_id": "XK_001660",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_143/attempt_1"
+  },
+  {
+    "record_id": "XK_002773",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_145/attempt_1"
+  },
+  {
+    "record_id": "XK_002536",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_146/attempt_1"
+  },
+  {
+    "record_id": "XK_001526",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_154/attempt_1"
+  },
+  {
+    "record_id": "XK_001706",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_158/attempt_1"
+  },
+  {
+    "record_id": "XK_002764",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_162/attempt_1"
+  },
+  {
+    "record_id": "XK_002935",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_164/attempt_1"
+  },
+  {
+    "record_id": "XK_002850",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_166/attempt_1"
+  },
+  {
+    "record_id": "XK_002164",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_168/attempt_1"
+  },
+  {
+    "record_id": "XK_001580",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_176/attempt_1"
+  },
+  {
+    "record_id": "XK_001013",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_179/attempt_1"
+  },
+  {
+    "record_id": "XK_002561",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_182/attempt_1"
+  },
+  {
+    "record_id": "XK_002334",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_191/attempt_1"
+  },
+  {
+    "record_id": "XK_002815",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_196/attempt_1"
+  },
+  {
+    "record_id": "XK_002535",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_202/attempt_1"
+  },
+  {
+    "record_id": "XK_002682",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_206/attempt_1"
+  },
+  {
+    "record_id": "XK_000751",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_207/attempt_1"
+  },
+  {
+    "record_id": "XK_001094",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_210/attempt_1"
+  },
+  {
+    "record_id": "XK_000188",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_211/attempt_1"
+  },
+  {
+    "record_id": "XK_000743",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_212/attempt_1"
+  },
+  {
+    "record_id": "XK_001625",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_213/attempt_1"
+  },
+  {
+    "record_id": "XK_002381",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_217/attempt_1"
+  },
+  {
+    "record_id": "XK_001798",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_219/attempt_1"
+  },
+  {
+    "record_id": "XK_000769",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_228/attempt_1"
+  },
+  {
+    "record_id": "XK_001474",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_229/attempt_1"
+  },
+  {
+    "record_id": "XK_002276",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_231/attempt_1"
+  },
+  {
+    "record_id": "XK_001160",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_232/attempt_1"
+  },
+  {
+    "record_id": "XK_002559",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_233/attempt_1"
+  },
+  {
+    "record_id": "XK_000708",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_235/attempt_1"
+  },
+  {
+    "record_id": "XK_002821",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_247/attempt_1"
+  },
+  {
+    "record_id": "XK_002467",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_253/attempt_1"
+  },
+  {
+    "record_id": "XK_002919",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_254/attempt_1"
+  },
+  {
+    "record_id": "XK_000992",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_258/attempt_1"
+  },
+  {
+    "record_id": "XK_002425",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_264/attempt_1"
+  },
+  {
+    "record_id": "XK_001834",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('响应不是完整JSON/安全字面量')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_273/attempt_1"
+  },
+  {
+    "record_id": "XK_002475",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_274/attempt_1"
+  },
+  {
+    "record_id": "XK_000534",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_275/attempt_1"
+  },
+  {
+    "record_id": "XK_001849",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_280/attempt_1"
+  },
+  {
+    "record_id": "XK_002933",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_284/attempt_1"
+  },
+  {
+    "record_id": "XK_001711",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_285/attempt_1"
+  },
+  {
+    "record_id": "XK_001179",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_286/attempt_1"
+  },
+  {
+    "record_id": "XK_001743",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "ValueError('关系项结构错误')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_291/attempt_1"
+  },
+  {
+    "record_id": "XK_001760",
+    "attempt": 1,
+    "stage": "joint_generation",
+    "error": "ValueError('输出达到长度上限，禁止视为完整预测；原始响应已保存')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_292/attempt_1"
+  },
+  {
+    "record_id": "XK_000893",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_296/attempt_1"
+  },
+  {
+    "record_id": "XK_002617",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_298/attempt_1"
+  },
+  {
+    "record_id": "XK_002327",
+    "attempt": 1,
+    "stage": "normalization",
+    "error": "RuntimeError('同一surface跨3类复制，结构验收停止')",
+    "response_directory": "/root/autodl-tmp/ADELIE/results_optimized/response_audit/full300_1791245259878419895/record_299/attempt_1"
+  }
+]

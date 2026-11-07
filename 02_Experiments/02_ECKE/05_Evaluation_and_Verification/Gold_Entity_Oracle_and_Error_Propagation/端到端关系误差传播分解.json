@@ -1,0 +1,3428 @@
+{
+  "gold_relation_fn_entity_endpoint_missing": 82,
+  "gold_relation_fn_endpoints_present_but_relation_missed": 4,
+  "pred_relation_fp_non_gold_endpoint": 71,
+  "pred_relation_fp_gold_endpoints_but_semantically_wrong": 32,
+  "details": [
+    {
+      "ann_id": "test_001",
+      "record_id": "XK_001231",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_002",
+      "record_id": "XK_002235",
+      "fn_entity_stage": [
+        [
+          "上消",
+          "表现",
+          "口干舌燥"
+        ],
+        [
+          "中消",
+          "表现",
+          "多食犹饥"
+        ],
+        [
+          "下消",
+          "表现",
+          "饮一斗溲亦一斗"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_003",
+      "record_id": "XK_002074",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_004",
+      "record_id": "XK_002113",
+      "fn_entity_stage": [
+        [
+          "血之虚",
+          "导致",
+          "三消"
+        ],
+        [
+          "脾气热燥",
+          "导致",
+          "中消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_005",
+      "record_id": "XK_000167",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_006",
+      "record_id": "XK_000637",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_007",
+      "record_id": "XK_000472",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_008",
+      "record_id": "XK_001708",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_009",
+      "record_id": "XK_002437",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_010",
+      "record_id": "XK_001654",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_011",
+      "record_id": "XK_002487",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_012",
+      "record_id": "XK_001339",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_013",
+      "record_id": "XK_001046",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_014",
+      "record_id": "XK_002217",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_015",
+      "record_id": "XK_002170",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "消渴",
+          "表现",
+          "脉沉小者，生"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_016",
+      "record_id": "XK_000031",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_017",
+      "record_id": "XK_002980",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_018",
+      "record_id": "XK_000056",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_019",
+      "record_id": "XK_001033",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_020",
+      "record_id": "XK_001058",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_021",
+      "record_id": "XK_001060",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_022",
+      "record_id": "XK_001797",
+      "fn_entity_stage": [
+        [
+          "肺消",
+          "表现",
+          "饮一溲二"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_023",
+      "record_id": "XK_000055",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_024",
+      "record_id": "XK_000160",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_025",
+      "record_id": "XK_001561",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_026",
+      "record_id": "XK_000863",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_027",
+      "record_id": "XK_000572",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_028",
+      "record_id": "XK_002414",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "气上冲心",
+          "提示",
+          "热证"
+        ],
+        [
+          "消渴",
+          "表现",
+          "气上冲心"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_029",
+      "record_id": "XK_000744",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_030",
+      "record_id": "XK_002610",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_031",
+      "record_id": "XK_002126",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_032",
+      "record_id": "XK_000664",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_033",
+      "record_id": "XK_000508",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_034",
+      "record_id": "XK_000005",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_035",
+      "record_id": "XK_001061",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_036",
+      "record_id": "XK_001446",
+      "fn_entity_stage": [
+        [
+          "胃热",
+          "导致",
+          "中消"
+        ],
+        [
+          "下消",
+          "表现",
+          "渴而小便数"
+        ],
+        [
+          "中消",
+          "表现",
+          "多食善饥"
+        ],
+        [
+          "上消",
+          "表现",
+          "渴而每饮"
+        ],
+        [
+          "肺热",
+          "导致",
+          "上消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_037",
+      "record_id": "XK_002314",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "三消",
+          "表现",
+          "脉见数大"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_038",
+      "record_id": "XK_000654",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_039",
+      "record_id": "XK_002838",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "茶茗",
+          "治疗",
+          "热渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_040",
+      "record_id": "XK_002674",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_041",
+      "record_id": "XK_001631",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_042",
+      "record_id": "XK_003003",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_043",
+      "record_id": "XK_000793",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_044",
+      "record_id": "XK_002731",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_045",
+      "record_id": "XK_002028",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_046",
+      "record_id": "XK_001045",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_047",
+      "record_id": "XK_000870",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_048",
+      "record_id": "XK_000063",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_049",
+      "record_id": "XK_001988",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_050",
+      "record_id": "XK_000046",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_051",
+      "record_id": "XK_001677",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_052",
+      "record_id": "XK_002626",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_053",
+      "record_id": "XK_000258",
+      "fn_entity_stage": [
+        [
+          "土不制水",
+          "导致",
+          "消中"
+        ],
+        [
+          "土不制水",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_054",
+      "record_id": "XK_003061",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_055",
+      "record_id": "XK_001548",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_056",
+      "record_id": "XK_000952",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_057",
+      "record_id": "XK_000460",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_058",
+      "record_id": "XK_000569",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_059",
+      "record_id": "XK_000642",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_060",
+      "record_id": "XK_002233",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": [
+        [
+          "大气下陷",
+          "涉及",
+          "脾胃"
+        ],
+        [
+          "大气下陷",
+          "涉及",
+          "胸"
+        ],
+        [
+          "忽然饮食甚多",
+          "提示",
+          "大气下陷"
+        ]
+      ]
+    },
+    {
+      "ann_id": "test_061",
+      "record_id": "XK_002752",
+      "fn_entity_stage": [
+        [
+          "火游于胃",
+          "导致",
+          "中消"
+        ],
+        [
+          "火游于肺",
+          "导致",
+          "上消"
+        ],
+        [
+          "火烁阴精",
+          "导致",
+          "下消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_062",
+      "record_id": "XK_002712",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_063",
+      "record_id": "XK_000216",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_064",
+      "record_id": "XK_000879",
+      "fn_entity_stage": [
+        [
+          "脾消",
+          "表现",
+          "小便如油"
+        ],
+        [
+          "脾消",
+          "表现",
+          "小便频数"
+        ],
+        [
+          "脾消",
+          "表现",
+          "腰膝无力"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "家宝方大救生丸",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_065",
+      "record_id": "XK_002200",
+      "fn_entity_stage": [
+        [
+          "下消",
+          "表现",
+          "渴而便数"
+        ],
+        [
+          "中消",
+          "表现",
+          "消谷善饥"
+        ],
+        [
+          "上消",
+          "表现",
+          "渴而多饮"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "三消",
+          "表现",
+          "数大之脉"
+        ],
+        [
+          "数大之脉",
+          "提示",
+          "燥热太过"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_066",
+      "record_id": "XK_000169",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_067",
+      "record_id": "XK_001926",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_068",
+      "record_id": "XK_001465",
+      "fn_entity_stage": [
+        [
+          "风消",
+          "表现",
+          "烦躁不宁"
+        ],
+        [
+          "风消",
+          "表现",
+          "多饮渴不止"
+        ],
+        [
+          "风消",
+          "表现",
+          "唇口干裂"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "风消",
+          "表现",
+          "多饮渴不止，唇口干裂，烦躁不宁"
+        ],
+        [
+          "上消",
+          "表现",
+          "多饮渴不止，唇口干裂，烦躁不宁"
+        ],
+        [
+          "多饮渴不止，唇口干裂，烦躁不宁",
+          "提示",
+          "燥火"
+        ],
+        [
+          "三消",
+          "表现",
+          "多饮渴不止，唇口干裂，烦躁不宁"
+        ],
+        [
+          "下消",
+          "表现",
+          "多饮渴不止，唇口干裂，烦躁不宁"
+        ]
+      ],
+      "fp_relation_stage": [
+        [
+          "燥火",
+          "导致",
+          "风消"
+        ],
+        [
+          "燥火",
+          "导致",
+          "三消"
+        ],
+        [
+          "燥火",
+          "导致",
+          "下消"
+        ],
+        [
+          "燥火",
+          "涉及",
+          "膀胱"
+        ],
+        [
+          "燥火",
+          "涉及",
+          "肺"
+        ],
+        [
+          "燥火",
+          "涉及",
+          "小肠"
+        ]
+      ]
+    },
+    {
+      "ann_id": "test_069",
+      "record_id": "XK_000579",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_070",
+      "record_id": "XK_001043",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_071",
+      "record_id": "XK_002048",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_072",
+      "record_id": "XK_002317",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_073",
+      "record_id": "XK_001098",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_074",
+      "record_id": "XK_001565",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "口渴不止",
+          "提示",
+          "去肉桂"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_075",
+      "record_id": "XK_001351",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_076",
+      "record_id": "XK_000827",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_077",
+      "record_id": "XK_000455",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_078",
+      "record_id": "XK_002029",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_079",
+      "record_id": "XK_000130",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_080",
+      "record_id": "XK_001897",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_081",
+      "record_id": "XK_002645",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_082",
+      "record_id": "XK_000556",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_083",
+      "record_id": "XK_002019",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_084",
+      "record_id": "XK_001304",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_085",
+      "record_id": "XK_002953",
+      "fn_entity_stage": [
+        [
+          "香附子",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "白茯苓",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_086",
+      "record_id": "XK_000009",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_087",
+      "record_id": "XK_000083",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_088",
+      "record_id": "XK_002526",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_089",
+      "record_id": "XK_000430",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_090",
+      "record_id": "XK_002274",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [
+        [
+          "津液之枯涸",
+          "导致",
+          "消瘅"
+        ]
+      ],
+      "fp_entity_stage": [
+        [
+          "消瘅",
+          "表现",
+          "骨蒸"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_091",
+      "record_id": "XK_001188",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "又方",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_092",
+      "record_id": "XK_000103",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_093",
+      "record_id": "XK_000979",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_094",
+      "record_id": "XK_000824",
+      "fn_entity_stage": [
+        [
+          "李核仁",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "李核仁。根皮",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_095",
+      "record_id": "XK_000849",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_096",
+      "record_id": "XK_002524",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "疝痛",
+          "提示",
+          "肾虚"
+        ],
+        [
+          "消渴",
+          "表现",
+          "疝痛"
+        ],
+        [
+          "赤白痢",
+          "提示",
+          "肾虚"
+        ],
+        [
+          "肠冷",
+          "提示",
+          "肾虚"
+        ],
+        [
+          "消渴",
+          "表现",
+          "汗不出"
+        ],
+        [
+          "消渴",
+          "表现",
+          "肠冷"
+        ],
+        [
+          "胁腹胀",
+          "提示",
+          "肾虚"
+        ],
+        [
+          "消渴",
+          "表现",
+          "赤白痢"
+        ],
+        [
+          "汗不出",
+          "提示",
+          "肾虚"
+        ],
+        [
+          "消渴",
+          "表现",
+          "胁腹胀"
+        ],
+        [
+          "消渴",
+          "表现",
+          "腰脊强不得俯仰"
+        ],
+        [
+          "腰脊强不得俯仰",
+          "提示",
+          "肾虚"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_097",
+      "record_id": "XK_000254",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_098",
+      "record_id": "XK_002188",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_099",
+      "record_id": "XK_000840",
+      "fn_entity_stage": [
+        [
+          "心火炎上",
+          "导致",
+          "消渴"
+        ],
+        [
+          "消渴",
+          "表现",
+          "口舌干燥"
+        ],
+        [
+          "肺金受克",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "莲子清心饮",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "心火炎上。肺金受克",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_100",
+      "record_id": "XK_000185",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_101",
+      "record_id": "XK_000745",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_102",
+      "record_id": "XK_000914",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_103",
+      "record_id": "XK_001223",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_104",
+      "record_id": "XK_001911",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [
+        [
+          "扶正祛邪",
+          "主治",
+          "消渴"
+        ],
+        [
+          "酸苦泄热",
+          "主治",
+          "消渴"
+        ]
+      ],
+      "fp_entity_stage": [
+        [
+          "寒热似疟",
+          "提示",
+          "暑邪陷于厥阴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_105",
+      "record_id": "XK_003009",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_106",
+      "record_id": "XK_000947",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_107",
+      "record_id": "XK_002562",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_108",
+      "record_id": "XK_002837",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "饮一溲二",
+          "提示",
+          "死不治"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_109",
+      "record_id": "XK_001788",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "消瘅",
+          "表现",
+          "脆"
+        ],
+        [
+          "脆",
+          "提示",
+          "液少内燥"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_110",
+      "record_id": "XK_000115",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_111",
+      "record_id": "XK_000972",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_112",
+      "record_id": "XK_000476",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_113",
+      "record_id": "XK_001937",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_114",
+      "record_id": "XK_000857",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_115",
+      "record_id": "XK_001990",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_116",
+      "record_id": "XK_002440",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "心火太盛，津液耗涸",
+          "涉及",
+          "心"
+        ],
+        [
+          "心火太盛",
+          "涉及",
+          "心"
+        ],
+        [
+          "心火太盛",
+          "导致",
+          "膈消"
+        ],
+        [
+          "心火太盛",
+          "涉及",
+          "肺"
+        ]
+      ],
+      "fp_relation_stage": [
+        [
+          "心火太盛，津液耗涸",
+          "涉及",
+          "肺"
+        ]
+      ]
+    },
+    {
+      "ann_id": "test_117",
+      "record_id": "XK_001410",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_118",
+      "record_id": "XK_002873",
+      "fn_entity_stage": [
+        [
+          "理中丸汤",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_119",
+      "record_id": "XK_001392",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_120",
+      "record_id": "XK_000583",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_121",
+      "record_id": "XK_001107",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_122",
+      "record_id": "XK_000026",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_123",
+      "record_id": "XK_000737",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_124",
+      "record_id": "XK_002591",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_125",
+      "record_id": "XK_000090",
+      "fn_entity_stage": [
+        [
+          "葛根",
+          "治疗",
+          "渴病"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_126",
+      "record_id": "XK_000028",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_127",
+      "record_id": "XK_002179",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_128",
+      "record_id": "XK_000523",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_129",
+      "record_id": "XK_001745",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_130",
+      "record_id": "XK_002081",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_131",
+      "record_id": "XK_002738",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_132",
+      "record_id": "XK_002554",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_133",
+      "record_id": "XK_000997",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_134",
+      "record_id": "XK_002116",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_135",
+      "record_id": "XK_000008",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_136",
+      "record_id": "XK_002186",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_137",
+      "record_id": "XK_002791",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_138",
+      "record_id": "XK_001126",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_139",
+      "record_id": "XK_002122",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_140",
+      "record_id": "XK_000013",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_141",
+      "record_id": "XK_001270",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_142",
+      "record_id": "XK_002858",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_143",
+      "record_id": "XK_001660",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_144",
+      "record_id": "XK_002552",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_145",
+      "record_id": "XK_002773",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_146",
+      "record_id": "XK_002536",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_147",
+      "record_id": "XK_000329",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_148",
+      "record_id": "XK_002904",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_149",
+      "record_id": "XK_001147",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_150",
+      "record_id": "XK_000221",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_151",
+      "record_id": "XK_003054",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_152",
+      "record_id": "XK_002108",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_153",
+      "record_id": "XK_002704",
+      "fn_entity_stage": [
+        [
+          "麦门冬饮子",
+          "治疗",
+          "膈消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_154",
+      "record_id": "XK_001526",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_155",
+      "record_id": "XK_001268",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_156",
+      "record_id": "XK_000986",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_157",
+      "record_id": "XK_000985",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_158",
+      "record_id": "XK_001706",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "肾消",
+          "表现",
+          "渴"
+        ],
+        [
+          "虽多饮于中，终不能浸润于外",
+          "提示",
+          "燥热太甚"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_159",
+      "record_id": "XK_001877",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_160",
+      "record_id": "XK_000465",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "引清气上朝于口",
+          "主治",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_161",
+      "record_id": "XK_002908",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_162",
+      "record_id": "XK_002764",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "（三八）",
+          "治疗",
+          "三消"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_163",
+      "record_id": "XK_002716",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_164",
+      "record_id": "XK_002935",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_165",
+      "record_id": "XK_002555",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_166",
+      "record_id": "XK_002850",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_167",
+      "record_id": "XK_000123",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_168",
+      "record_id": "XK_002164",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_169",
+      "record_id": "XK_002621",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_170",
+      "record_id": "XK_001427",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_171",
+      "record_id": "XK_001799",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_172",
+      "record_id": "XK_000274",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_173",
+      "record_id": "XK_002213",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_174",
+      "record_id": "XK_002404",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_175",
+      "record_id": "XK_000798",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_176",
+      "record_id": "XK_001580",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_177",
+      "record_id": "XK_003062",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "小便反多",
+          "提示",
+          "肝木藏血而性疏泄，木郁血凝，不能疏泄水道，风生而燥盛"
+        ],
+        [
+          "消渴",
+          "表现",
+          "小便反多"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_178",
+      "record_id": "XK_000145",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_179",
+      "record_id": "XK_001013",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_180",
+      "record_id": "XK_002669",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_181",
+      "record_id": "XK_000184",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "益气养阴",
+          "主治",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_182",
+      "record_id": "XK_002561",
+      "fn_entity_stage": [
+        [
+          "大黄甘草饮子",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_183",
+      "record_id": "XK_001884",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_184",
+      "record_id": "XK_002379",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_185",
+      "record_id": "XK_000646",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "食之",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_186",
+      "record_id": "XK_000984",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_187",
+      "record_id": "XK_000669",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_188",
+      "record_id": "XK_000164",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_189",
+      "record_id": "XK_001806",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_190",
+      "record_id": "XK_000586",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "微寒",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_191",
+      "record_id": "XK_002334",
+      "fn_entity_stage": [
+        [
+          "加减八昧丸",
+          "治疗",
+          "肾消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_192",
+      "record_id": "XK_002030",
+      "fn_entity_stage": [
+        [
+          "三黄丸",
+          "治疗",
+          "热渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "巴郡太守奏三黄丸",
+          "治疗",
+          "热渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_193",
+      "record_id": "XK_000155",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_194",
+      "record_id": "XK_001865",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_195",
+      "record_id": "XK_002025",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_196",
+      "record_id": "XK_002815",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_197",
+      "record_id": "XK_001923",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_198",
+      "record_id": "XK_000230",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_199",
+      "record_id": "XK_001412",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_200",
+      "record_id": "XK_000822",
+      "fn_entity_stage": [
+        [
+          "屎白",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "乌雄鸡。屎白",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_201",
+      "record_id": "XK_001281",
+      "fn_entity_stage": [
+        [
+          "三消",
+          "表现",
+          "肌肉消"
+        ],
+        [
+          "三消",
+          "表现",
+          "饮食倍常"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_202",
+      "record_id": "XK_002535",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_203",
+      "record_id": "XK_000957",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_204",
+      "record_id": "XK_000412",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_205",
+      "record_id": "XK_001311",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_206",
+      "record_id": "XK_002682",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_207",
+      "record_id": "XK_000751",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [
+        [
+          "肾气不足",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_208",
+      "record_id": "XK_001462",
+      "fn_entity_stage": [
+        [
+          "田螺",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_209",
+      "record_id": "XK_000224",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_210",
+      "record_id": "XK_001094",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_211",
+      "record_id": "XK_000188",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_212",
+      "record_id": "XK_000743",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_213",
+      "record_id": "XK_001625",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_214",
+      "record_id": "XK_002673",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_215",
+      "record_id": "XK_001681",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_216",
+      "record_id": "XK_000390",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_217",
+      "record_id": "XK_002381",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "消渴",
+          "表现",
+          "消渴饮水"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_218",
+      "record_id": "XK_001484",
+      "fn_entity_stage": [
+        [
+          "消中",
+          "表现",
+          "多食亦肌虚"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "脾脉实并浮",
+          "导致",
+          "消中"
+        ],
+        [
+          "口干饶饮水",
+          "提示",
+          "脾脉实并浮"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_219",
+      "record_id": "XK_001798",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "膈热善于消水",
+          "导致",
+          "肺消"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_220",
+      "record_id": "XK_000694",
+      "fn_entity_stage": [
+        [
+          "填骨煎",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_221",
+      "record_id": "XK_001146",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_222",
+      "record_id": "XK_002353",
+      "fn_entity_stage": [
+        [
+          "人参白虎汤",
+          "治疗",
+          "膈消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_223",
+      "record_id": "XK_000318",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_224",
+      "record_id": "XK_000995",
+      "fn_entity_stage": [
+        [
+          "消中",
+          "表现",
+          "背膊疼闷"
+        ],
+        [
+          "消中",
+          "表现",
+          "食已即饥"
+        ],
+        [
+          "消中",
+          "表现",
+          "手足烦热"
+        ],
+        [
+          "消中",
+          "表现",
+          "小便稠浊"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_225",
+      "record_id": "XK_000049",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_226",
+      "record_id": "XK_000638",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_227",
+      "record_id": "XK_000531",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_228",
+      "record_id": "XK_000769",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_229",
+      "record_id": "XK_001474",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_230",
+      "record_id": "XK_001037",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_231",
+      "record_id": "XK_002276",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "痈疽疮疡",
+          "提示",
+          "金病至极"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_232",
+      "record_id": "XK_001160",
+      "fn_entity_stage": [
+        [
+          "消渴",
+          "表现",
+          "口干燥"
+        ],
+        [
+          "消渴",
+          "表现",
+          "小便数"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_233",
+      "record_id": "XK_002559",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_234",
+      "record_id": "XK_000682",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_235",
+      "record_id": "XK_000708",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_236",
+      "record_id": "XK_000896",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_237",
+      "record_id": "XK_000801",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_238",
+      "record_id": "XK_001791",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_239",
+      "record_id": "XK_002671",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_240",
+      "record_id": "XK_001772",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "饮一溲二",
+          "提示",
+          "肺已伤甚"
+        ],
+        [
+          "肺已伤甚",
+          "涉及",
+          "肺"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_241",
+      "record_id": "XK_002291",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "重亡津液",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_242",
+      "record_id": "XK_000100",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_243",
+      "record_id": "XK_000276",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_244",
+      "record_id": "XK_001022",
+      "fn_entity_stage": [
+        [
+          "葵根",
+          "治疗",
+          "消中"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "又方",
+          "治疗",
+          "消中"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_245",
+      "record_id": "XK_000406",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_246",
+      "record_id": "XK_002493",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_247",
+      "record_id": "XK_002821",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_248",
+      "record_id": "XK_001903",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_249",
+      "record_id": "XK_000408",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_250",
+      "record_id": "XK_002573",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_251",
+      "record_id": "XK_002463",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_252",
+      "record_id": "XK_002323",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "三消",
+          "表现",
+          "复发热者"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_253",
+      "record_id": "XK_002467",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_254",
+      "record_id": "XK_002919",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_255",
+      "record_id": "XK_001461",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_256",
+      "record_id": "XK_001800",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_257",
+      "record_id": "XK_001970",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_258",
+      "record_id": "XK_000992",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_259",
+      "record_id": "XK_000315",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_260",
+      "record_id": "XK_001097",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_261",
+      "record_id": "XK_002319",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_262",
+      "record_id": "XK_001623",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_263",
+      "record_id": "XK_000131",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_264",
+      "record_id": "XK_002425",
+      "fn_entity_stage": [
+        [
+          "通摄兼施",
+          "主治",
+          "肾消"
+        ],
+        [
+          "心肺热",
+          "涉及",
+          "肺"
+        ],
+        [
+          "中消",
+          "表现",
+          "面黄肌瘦"
+        ],
+        [
+          "热在肌肉",
+          "涉及",
+          "肌肉"
+        ],
+        [
+          "补而兼摄",
+          "主治",
+          "肾消"
+        ],
+        [
+          "心肺热",
+          "涉及",
+          "心"
+        ],
+        [
+          "胃火",
+          "涉及",
+          "胃"
+        ],
+        [
+          "中消",
+          "表现",
+          "腿细足痿"
+        ],
+        [
+          "补而兼泻",
+          "主治",
+          "肾消"
+        ],
+        [
+          "下消",
+          "表现",
+          "溺如膏油"
+        ],
+        [
+          "食已如饥",
+          "提示",
+          "胃热"
+        ],
+        [
+          "中消",
+          "表现",
+          "溺数"
+        ],
+        [
+          "中消",
+          "表现",
+          "便秘"
+        ],
+        [
+          "六味丸加知、柏",
+          "治疗",
+          "肾消"
+        ],
+        [
+          "下消",
+          "表现",
+          "渴饮"
+        ],
+        [
+          "中消",
+          "表现",
+          "不思饮食"
+        ],
+        [
+          "中消",
+          "表现",
+          "渴饮"
+        ],
+        [
+          "干渴",
+          "提示",
+          "水亏火炎"
+        ],
+        [
+          "中消",
+          "表现",
+          "胸满胁胀"
+        ],
+        [
+          "丹溪藕汁膏",
+          "治疗",
+          "热渴"
+        ],
+        [
+          "胃热传肾",
+          "涉及",
+          "胃"
+        ],
+        [
+          "不思饮食",
+          "提示",
+          "脾肺津干"
+        ],
+        [
+          "中消",
+          "表现",
+          "易饥"
+        ],
+        [
+          "中消",
+          "表现",
+          "干渴"
+        ],
+        [
+          "肾消",
+          "表现",
+          "淋浊"
+        ],
+        [
+          "易饥",
+          "提示",
+          "胃火"
+        ],
+        [
+          "胃热传肾",
+          "涉及",
+          "肾"
+        ],
+        [
+          "中消",
+          "表现",
+          "食已如饥"
+        ],
+        [
+          "摄固",
+          "主治",
+          "下消"
+        ],
+        [
+          "中消",
+          "表现",
+          "能食而瘦"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "淋浊有火",
+          "涉及",
+          "肾"
+        ],
+        [
+          "肾消虚涩",
+          "涉及",
+          "肾"
+        ],
+        [
+          "淋浊有火",
+          "导致",
+          "肾消"
+        ],
+        [
+          "淋浊有火",
+          "导致",
+          "消渴"
+        ],
+        [
+          "肾消虚涩",
+          "导致",
+          "肾消"
+        ],
+        [
+          "肾消虚涩",
+          "导致",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": [
+        [
+          "玉女煎",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "胃热",
+          "涉及",
+          "肌肉"
+        ],
+        [
+          "元菟丸",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "胃热",
+          "涉及",
+          "肾"
+        ],
+        [
+          "水亏火炎",
+          "导致",
+          "消渴"
+        ],
+        [
+          "大补地黄丸",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "本事黄 汤",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "兰香饮子",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "下左饮",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "双补丸",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "胃热",
+          "导致",
+          "中消"
+        ],
+        [
+          "白茯苓丸",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "脾肺津干",
+          "导致",
+          "消渴"
+        ],
+        [
+          "泻黄散",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "胃热",
+          "导致",
+          "消渴"
+        ],
+        [
+          "黄连猪肚丸",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "大补元煎",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "秘元煎",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "水亏火炎",
+          "涉及",
+          "肾"
+        ],
+        [
+          "七味白术散",
+          "治疗",
+          "消渴"
+        ]
+      ]
+    },
+    {
+      "ann_id": "test_265",
+      "record_id": "XK_001015",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_266",
+      "record_id": "XK_002871",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_267",
+      "record_id": "XK_000215",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_268",
+      "record_id": "XK_000375",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_269",
+      "record_id": "XK_002121",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_270",
+      "record_id": "XK_001394",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "又方",
+          "治疗",
+          "膈消"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_271",
+      "record_id": "XK_002878",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": [
+        [
+          "天花粉",
+          "治疗",
+          "消渴"
+        ],
+        [
+          "缫丝汤",
+          "治疗",
+          "消渴"
+        ]
+      ]
+    },
+    {
+      "ann_id": "test_272",
+      "record_id": "XK_002911",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_273",
+      "record_id": "XK_001834",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_274",
+      "record_id": "XK_002475",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_275",
+      "record_id": "XK_000534",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_276",
+      "record_id": "XK_002697",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_277",
+      "record_id": "XK_001445",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_278",
+      "record_id": "XK_002825",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_279",
+      "record_id": "XK_002969",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_280",
+      "record_id": "XK_001849",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_281",
+      "record_id": "XK_000417",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_282",
+      "record_id": "XK_000547",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_283",
+      "record_id": "XK_001698",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_284",
+      "record_id": "XK_002933",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_285",
+      "record_id": "XK_001711",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_286",
+      "record_id": "XK_001179",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "又方",
+          "治疗",
+          "消渴"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_287",
+      "record_id": "XK_001736",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_288",
+      "record_id": "XK_002295",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_289",
+      "record_id": "XK_001584",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_290",
+      "record_id": "XK_003050",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_291",
+      "record_id": "XK_001743",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_292",
+      "record_id": "XK_001760",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_293",
+      "record_id": "XK_000678",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_294",
+      "record_id": "XK_001893",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_295",
+      "record_id": "XK_002239",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_296",
+      "record_id": "XK_000893",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_297",
+      "record_id": "XK_000328",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_298",
+      "record_id": "XK_002617",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_299",
+      "record_id": "XK_002327",
+      "fn_entity_stage": [
+        [
+          "补养精血",
+          "主治",
+          "中消"
+        ]
+      ],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [
+        [
+          "补养精血，俾脂膏足而自复如常",
+          "主治",
+          "中消"
+        ],
+        [
+          "脏腑之脂膏耗竭，有阳无阴，所以孤阳用事",
+          "涉及",
+          "脏腑"
+        ],
+        [
+          "脏腑之脂膏耗竭，有阳无阴，所以孤阳用事",
+          "导致",
+          "中消"
+        ]
+      ],
+      "fp_relation_stage": []
+    },
+    {
+      "ann_id": "test_300",
+      "record_id": "XK_000688",
+      "fn_entity_stage": [],
+      "fn_relation_stage": [],
+      "fp_entity_stage": [],
+      "fp_relation_stage": []
+    }
+  ]
+}

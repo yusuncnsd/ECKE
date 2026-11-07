@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001033",
+  "ann_id": "test_019",
+  "text": "金银箔丸。治消肾口干眼涩阴萎。手足烦疼。小便多。\n金箔 银箔（各一百片细研） 泽泻（一两半） 肉苁蓉（酒浸一宿焙干各二两半） 白茯苓（去各一两半）栝蒌根（二两） 丹砂（细研二两） 麦门冬（焙去心三两半） 上除别研外。捣罗为末。\n再研匀炼蜜和丸。如梧桐子大。每服二三十丸。煎枣米饮下。不拘时候。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n金银箔丸。治消肾口干眼涩阴萎。手足烦疼。小便多。\n金箔 银箔（各一百片细研） 泽泻（一两半） 肉苁蓉（酒浸一宿焙干各二两半） 白茯苓（去各一两半）栝蒌根（二两） 丹砂（细研二两） 麦门冬（焙去心三两半） 上除别研外。捣罗为末。\n再研匀炼蜜和丸。如梧桐子大。每服二三十丸。煎枣米饮下。不拘时候。",
+  "seed": 20260849,
+  "repetition_penalty": 1.1,
+  "input_tokens": 615,
+  "generated_tokens": 354,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    30659,
+    236,
+    150,
+    185,
+    234,
+    177,
+    151,
+    31818,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"泽泻\", \"肉苁蓉\", \"栝蒌根\", \"丹砂\", \"麦门冬\"], \"方药\": [\"梧桐子\"], \"疾病\": [\"消肾\", \"口干眼涩阴萎\", \"手足烦疼\", \"小便多\"], \"症状\": [\"消肾\", \"口干眼涩阴萎\", \"手足烦疼\", \"小便多\"], \"病机\": [\"消肾\"], \"病位\": [\"消肾\"], \"治法\": [\"金银箔丸\"]}, \"relations\": [{\"head\": \"消肾\", \"relation\": \"病机\", \"tail\": \"金银箔丸\"}, {\"head\": \"口干眼涩阴萎\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}, {\"head\": \"手足烦疼\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}, {\"head\": \"小便多\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"泽泻\", \"肉苁蓉\", \"栝蒌根\", \"丹砂\", \"麦门冬\"], \"方药\": [\"梧桐子\"], \"疾病\": [\"消肾\", \"口干眼涩阴萎\", \"手足烦疼\", \"小便多\"], \"症状\": [\"消肾\", \"口干眼涩阴萎\", \"手足烦疼\", \"小便多\"], \"病机\": [\"消肾\"], \"病位\": [\"消肾\"], \"治法\": [\"金银箔丸\"]}, \"relations\": [{\"head\": \"消肾\", \"relation\": \"病机\", \"tail\": \"金银箔丸\"}, {\"head\": \"口干眼涩阴萎\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}, {\"head\": \"手足烦疼\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}, {\"head\": \"小便多\", \"relation\": \"症状\", \"tail\": \"金银箔丸\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:09:22+0800"
+}

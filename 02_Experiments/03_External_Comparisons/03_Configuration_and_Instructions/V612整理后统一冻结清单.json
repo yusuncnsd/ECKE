@@ -1,0 +1,27 @@
+{
+  "version": "V6.1.2-final-reproduction-20260822",
+  "status": "frozen",
+  "note": "现有正式结果保持冻结；入口脚本仅支持3065条全库复现，复现输出写入独立目录。实体识别、融合、关系候选、关系语义判别、Gold示例选择和质量门核心函数经AST逐函数哈希核验，与整理前脚本一致。",
+  "records": {"full_corpus": 3065, "development": 100, "independent_test": 300, "entities": 8176, "relations": 4867},
+  "assets": [
+    {"path": "01_方法开发数据\\100与300条数据划分核验.json", "bytes": 5450, "sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d"},
+    {"path": "01_方法开发数据\\消渴知识抽取_100条专家标注_V3.txt", "bytes": 107276, "sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db"},
+    {"path": "01_方法开发数据\\method_development_100.jsonl", "bytes": 74251, "sha256": "055a2ff2444973dc6cedbfa36908e6a10fa80be413597a07dfaef626a0555109"},
+    {"path": "02_正式配置\\消渴知识抽取最终冻结策略_v612.txt", "bytes": 13502, "sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7"},
+    {"path": "02_正式配置\\xiaoke_lexicon_normalized_v1.json", "bytes": 109422, "sha256": "a9025150158e5360e0651f812182d788548ed4a06ad9afc083fc89a9572b64b4"},
+    {"path": "02_正式配置\\xiaoke_schema_v5.json", "bytes": 1917, "sha256": "32a37f9f1d210f1059a561460d32701394aab098d333e52b63b7bebc90e06de4"},
+    {"path": "01_运行V612全库知识抽取.py", "bytes": 82316, "sha256": "dfdf3721efd5338fe9b6c14e84a5c68cd43906756c9e5db1934979d693ba3749"},
+    {"path": "03_全库抽取结果\\全库动态质量核验_V612_抽样清单.json", "bytes": 60345, "sha256": "fe993deec5f12a353546b7eb7f58e6686cfe6928f2ff420e487c81ffc4734aef"},
+    {"path": "03_全库抽取结果\\全库动态质量核验_V612_累计抽样.txt", "bytes": 151511, "sha256": "6c14c69265abd48ab6c80d36d8410054f7783bfbac5c7c794ed8df111871d4b3"},
+    {"path": "03_全库抽取结果\\消渴知识抽取_全库正式结果_V612.txt", "bytes": 1512796, "sha256": "984b1ffeb6ab0847317973fd104be4867a904ebe8811b9983941fa9af4496a1d"},
+    {"path": "03_全库抽取结果\\V612全库运行摘要.json", "bytes": 773, "sha256": "9df7b47b9c0c752bbce5ad7c312ac680d4c44bc8cd1306634e50d8902c8eecd6"},
+    {"path": "03_全库抽取结果\\xiaoke_full_corpus_predictions_v612.jsonl", "bytes": 8253701, "sha256": "3b71aeccf6796a4b9bff3d4b3cab2780c9cf8a7982dab09cd448530d3dc9b14a"},
+    {"path": "04_独立测试集\\消渴知识抽取_300条独立测试集专家标注-盲标定.txt", "bytes": 148577, "sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d"},
+    {"path": "04_独立测试集\\消渴知识抽取_300条独立测试集专家预标注_V612.txt", "bytes": 251199, "sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880"},
+    {"path": "04_独立测试集\\independent_test_300_frozen.jsonl", "bytes": 219514, "sha256": "b96b534960d3b9e896781ed7bceaa612b340990d5ca3945ea023ecf3043f4d10"},
+    {"path": "04_独立测试集\\independent_test_300_machine_predictions_v612_frozen.jsonl", "bytes": 852622, "sha256": "756adcae7e8ae1189a3a684aadd9ef129445f03e071c53466e7b3ba7ca672b74"},
+    {"path": "02_评价300条独立测试集.py", "bytes": 17916, "sha256": "d396f5af7b5d9a268a701ac1aa68c80bbf5c92d8ed5db659d61ae50a9b7191da"},
+    {"path": "05_性能评价\\300条独立测试集正式性能评估_V612_GoldV1.txt", "bytes": 5029, "sha256": "42a00847cb9812e64b0d51086d0a8f3667d99004a7d7b8beb7e059c28cbe8185"},
+    {"path": "05_性能评价\\300条独立测试集正式性能评估_V612_GoldV1.json", "bytes": 99990, "sha256": "59b19c7861484f2fdd5ad91ef0d1b93cf64180f5963627b85236c25c739e11f9"}
+  ]
+}

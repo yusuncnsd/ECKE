@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_001474",
+  "ann_id": "test_229",
+  "text": "方 五汁饮总治三消川黄连（一钱五分） 麦门冬（一钱五分） 天花粉（一钱） 生甘草（三分） 人参（八分） 石膏（一钱五分） 知母（一钱五分） 归身（一钱） 白芍药（八分） 黄柏（七分） 梨汁（以下临服加入） 藕汁 生地黄汁 人乳汁（各一盏） 姜汁（二匙） 竹沥（半盏）上作一服。加兰草叶一钱。同煎。食远服。临服时。将五汁加入。连药服之。外无加减。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n方 五汁饮总治三消川黄连（一钱五分） 麦门冬（一钱五分） 天花粉（一钱） 生甘草（三分） 人参（八分） 石膏（一钱五分） 知母（一钱五分） 归身（一钱） 白芍药（八分） 黄柏（七分） 梨汁（以下临服加入） 藕汁 生地黄汁 人乳汁（各一盏） 姜汁（二匙） 竹沥（半盏）上作一服。加兰草叶一钱。同煎。食远服。临服时。将五汁加入。连药服之。外无加减。",
+  "seed": 20261269,
+  "repetition_penalty": 1.1,
+  "input_tokens": 619,
+  "generated_tokens": 588,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    376,
+    18237,
+    1115,
+    376,
+    31709,
+    233,
+    181,
+    168,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"五汁\", \"天花粉\", \"生甘草\", \"人参\", \"石膏\", \"知母\", \"归身\", \"白芍药\", \"黄柏\", \"梨汁\", \"藕汁\", \"生地黄汁\", \"人乳汁\", \"姜汁\", \"竹沥\"], \"方药\": [\"五汁\"], \"疾病\": [\"三消\"], \"症状\": [\"渴疾\", \"渴症\"], \"病机\": [\"三消\"], \"病位\": [\"三消\"], \"治法\": [\"方五汁饮\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"五汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"天花粉\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"生甘草\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"人参\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"石膏\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"知母\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"归身\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"白芍药\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"黄柏\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"梨汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"藕汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"生地黄汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"人乳汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"姜汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"竹沥\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"五汁\", \"天花粉\", \"生甘草\", \"人参\", \"石膏\", \"知母\", \"归身\", \"白芍药\", \"黄柏\", \"梨汁\", \"藕汁\", \"生地黄汁\", \"人乳汁\", \"姜汁\", \"竹沥\"], \"方药\": [\"五汁\"], \"疾病\": [\"三消\"], \"症状\": [\"渴疾\", \"渴症\"], \"病机\": [\"三消\"], \"病位\": [\"三消\"], \"治法\": [\"方五汁饮\"]}, \"relations\": [{\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"五汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"天花粉\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"生甘草\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"人参\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"石膏\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"知母\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"归身\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"白芍药\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"黄柏\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"梨汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"藕汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"生地黄汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"人乳汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"姜汁\"}, {\"head\": \"三消\", \"relation\": \"治疗\", \"tail\": \"竹沥\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:26:54+0800"
+}

@@ -1,0 +1,32 @@
+{
+  "record_id": "XK_002235",
+  "ann_id": "test_002",
+  "text": "1。玉液汤。方书消证，分上消、中消、下消。谓上消口干舌燥，饮水不能解渴，系心移热于肺，或肺金本体自热不能生水，当用人参白虎汤；中消多食犹饥，系脾胃蕴有实热，当用调胃承气汤下之；下消谓饮一斗溲亦一斗，系相火虚衰，肾关不固，宜用八味肾气丸。",
+  "task": "joint",
+  "attempt": 1,
+  "prompt": "Extract only xiaoke (消渴) knowledge explicitly supported by this text. Return ONE JSON object, no explanation: {\"entities\": {\"中药\": [], \"方药\": [], \"疾病\": [], \"症状\": [], \"病机\": [], \"病位\": [], \"治法\": []}, \"relations\": []}. Entity values must be exact text spans, not category names. Disease requires a written disease name. Do not include unrelated medicine or formula ingredients. 内消/胃消/渴疾/渴症/大渴/中焦渴/下焦渴/谷消 are 症状. Each relation is {\"head\":\"exact entity span\",\"relation\":\"allowed relation label\",\"tail\":\"exact entity span\"}. Both endpoints must appear in your entities with these allowed types: 中药|治疗|疾病; 方药|治疗|疾病; 治法|主治|疾病; 病机|导致|疾病; 病机|涉及|病位; 症状|提示|病机; 疾病|表现|症状. A compatible pair alone is not evidence of a relation. Use [] when absent. Text:\n1。玉液汤。方书消证，分上消、中消、下消。谓上消口干舌燥，饮水不能解渴，系心移热于肺，或肺金本体自热不能生水，当用人参白虎汤；中消多食犹饥，系脾胃蕴有实热，当用调胃承气汤下之；下消谓饮一斗溲亦一斗，系相火虚衰，肾关不固，宜用八味肾气丸。",
+  "seed": 20260815,
+  "repetition_penalty": 1.1,
+  "input_tokens": 557,
+  "generated_tokens": 465,
+  "max_new_tokens": 768,
+  "eos_token_id": 2,
+  "last_token_ids": [
+    30990,
+    31313,
+    235,
+    156,
+    157,
+    235,
+    164,
+    179,
+    29908,
+    6525,
+    29913,
+    2
+  ],
+  "raw_response": "{\"entities\": {\"中药\": [\"人参白虎汤\", \"调胃承气汤\"], \"方药\": [\"八味肾气丸\"], \"疾病\": [\"上消\", \"中消\", \"下消\"], \"症状\": [\"口干舌燥\", \"饮水不能解渴\", \"多食犹饥\", \"相火虚衰\", \"肾关不固\"], \"病机\": [\"心移热于肺\", \"脾胃蕴有实热\", \"相火虚衰\"], \"病位\": [\"肾\"], \"治法\": [\"人参白虎汤\", \"调胃承气汤\", \"八味肾气丸\"]}, \"relations\": [{\"head\":\"上消\", \"relation\":\"导致\", \"tail\":\"脾胃蕴有实热\"}, {\"head\":\"中消\", \"relation\":\"导致\", \"tail\":\"脾胃蕴有实热\"}, {\"head\":\"下消\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}, {\"head\":\"相火虚衰\", \"relation\":\"导致\", \"tail\":\"肾关不固\"}, {\"head\":\"脾胃蕴有实热\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}, {\"head\":\"相火虚衰\", \"relation\":\"导致\", \"tail\":\"肾关不固\"}, {\"head\":\"肾关不固\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}]}",
+  "response_with_special_tokens": " {\"entities\": {\"中药\": [\"人参白虎汤\", \"调胃承气汤\"], \"方药\": [\"八味肾气丸\"], \"疾病\": [\"上消\", \"中消\", \"下消\"], \"症状\": [\"口干舌燥\", \"饮水不能解渴\", \"多食犹饥\", \"相火虚衰\", \"肾关不固\"], \"病机\": [\"心移热于肺\", \"脾胃蕴有实热\", \"相火虚衰\"], \"病位\": [\"肾\"], \"治法\": [\"人参白虎汤\", \"调胃承气汤\", \"八味肾气丸\"]}, \"relations\": [{\"head\":\"上消\", \"relation\":\"导致\", \"tail\":\"脾胃蕴有实热\"}, {\"head\":\"中消\", \"relation\":\"导致\", \"tail\":\"脾胃蕴有实热\"}, {\"head\":\"下消\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}, {\"head\":\"相火虚衰\", \"relation\":\"导致\", \"tail\":\"肾关不固\"}, {\"head\":\"脾胃蕴有实热\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}, {\"head\":\"相火虚衰\", \"relation\":\"导致\", \"tail\":\"肾关不固\"}, {\"head\":\"肾关不固\", \"relation\":\"导致\", \"tail\":\"相火虚衰\"}]}</s>",
+  "reached_budget_without_eos": false,
+  "created_at": "2026-10-06T08:07:59+0800"
+}

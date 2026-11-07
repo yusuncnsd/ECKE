@@ -1,0 +1,74 @@
+{
+  "version": "e1_frozen_scope_revision_20260927",
+  "shared": {
+    "entity_types": [
+      "中药",
+      "方药",
+      "疾病",
+      "症状",
+      "病机",
+      "病位",
+      "治法"
+    ],
+    "relation_schemas": [
+      [
+        "中药",
+        "治疗",
+        "疾病"
+      ],
+      [
+        "方药",
+        "治疗",
+        "疾病"
+      ],
+      [
+        "治法",
+        "主治",
+        "疾病"
+      ],
+      [
+        "病机",
+        "导致",
+        "疾病"
+      ],
+      [
+        "病机",
+        "涉及",
+        "病位"
+      ],
+      [
+        "症状",
+        "提示",
+        "病机"
+      ],
+      [
+        "疾病",
+        "表现",
+        "症状"
+      ]
+    ],
+    "scope": "仅抽取消渴专题相关实体与关系",
+    "test_records": 300,
+    "test_gold_forbidden_during_inference": true,
+    "matching": "strict_set_based_order_invariant"
+  },
+  "E1": {
+    "name": "OneKE-Qwen",
+    "backbone": "qwen-plus-2025-07-28",
+    "api_url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "temperature_primary": 0.0,
+    "self_consistency_temperatures": [
+      0.0,
+      0.5,
+      1.0
+    ],
+    "case_repository": "100条方法开发Gold，只读",
+    "case_retrieval_top_k": 2,
+    "retrieval": "0.5*字符TF-IDF余弦归一化 + 0.5*字符串相似度归一化",
+    "reflection": "三次结果无多数一致时执行一次Schema与原文反思",
+    "case_update_during_test": false,
+    "max_retries": 6,
+    "workers": 5,
+    "seed": 20260813
+  }
+}
