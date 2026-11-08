@@ -1,0 +1,23 @@
+Baseline publication and code asset manifest V1
+
+Historical local source: the project's external-comparison publication directory. Publication filenames and original hashes identify the sources independently of later directory organization.
+
+D1.pdf — Chinese Relation Extraction Pipeline Model Based on Entity Cascading Types;5 pages.
+SHA-256:0400FC0D4276F487A4C001ED2BAE89F5E156959183E45339EF164E9B3E60E761
+No official code located; paper-based reimplementation.
+
+D2.pdf — A joint entity Relation Extraction method for document level Traditional Chinese Medicine texts;11 pages.
+SHA-256:21B7A3F82DDBEE976E45F02EF76B19B4D59D84A8CC6BAA38A4C0D3770C2B98A5
+Code:https://github.com/xxxxwx/TCMERE
+Frozen commit:8d69994a5c7d95789a16af8737257a98a4ab1e26
+
+D3.pdf — Entity and relation joint extraction from materia medica classics based on BSTR-GPRel;10 pages.
+SHA-256:6134D7466E404E538453830AF7906BC51753D64B659DD13CD9DFE70C05C74EC8
+No official code located; paper-based reimplementation.
+
+E1.pdf — OneKE: A Dockerized Schema-Guided LLM Agent-based Knowledge Extraction System;4 pages.
+SHA-256:F1C1795F32B8E2D0F38EA32F25D1757D1137591CFE690B6FDD64002535D4F116
+Code:https://github.com/zjunlp/OneKE
+Frozen commit:55f701a5d99d76bbad092bd2552d45a82199e516
+
+A replaced paper, upgraded repository or changed commit constitutes a new experimental version and requires a new manifest; do not silently overwrite this historical record.

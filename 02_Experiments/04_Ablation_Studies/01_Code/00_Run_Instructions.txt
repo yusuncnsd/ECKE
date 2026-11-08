@@ -1,0 +1,14 @@
+A1–A4 ablation run instructions
+
+Four component ablations use the same frozen 300-passage test set, seven entity types, seven patterns/six relation labels, qwen-plus-2025-07-28, temperature 0.0 and seed base 20260813.
+
+A1 / w/o Lexicon Anchoring removes the explicit lexicon-candidate branch and applies basic legality checks to semantic outputs; subsequent relation judgment remains.
+A2 / w/o Semantic Supplementation retains deterministic lexicon candidates and necessary structural processing; subsequent relation judgment remains.
+A3 / Simple Union replaces fusion with a union of explicit/semantic candidates, retaining source localization and type validity checks. Auxiliary semantic-candidate hints disappear with fusion output; this is not merely removal of character-position verification.
+A4 / Schema-only RE reuses the full framework's frozen entities passage by passage and outputs every Schema-compatible relation, testing contextual judgment.
+
+Formal predictions, metrics and summaries are retained under the ablation experiment directory. Statistical updates do not regenerate predictions. A new extraction run must use a new version and never overwrite frozen outputs.
+
+07_Unified_Audit_and_Statistical_Analysis.py reads existing predictions and Gold, recomputes metrics and performs 10000 paired passage-bootstrap and 10000 paired randomization samples, with Holm correction for the four comparisons. It does not invoke the model. Original randomization seed offsets are A1=20/21, A2=30/31, A3=40/41, A4=50/51 for entity/relation tasks.
+
+Only explicit extraction reruns require a personal API credential in the corresponding entry. Never save credentials in logs/results. Independent caches support resumption. Do not start paid extraction without authorization.

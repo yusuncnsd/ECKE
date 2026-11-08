@@ -1,0 +1,19 @@
+Baseline selection record V2 (historical)
+
+1. Initially retained methods
+Supervised: CENTRELINE(2024), Chinese cascading-type entity–relation pipeline; TCMERE(2024), document-level TCM span/dictionary/CompGCN extraction; BSTR-GPRel(2026), ancient materia medica BERT/POS/adversarial/three-level GlobalPointer.
+LLM: OneKE(WWW Companion2025), Schema/case/reflection agents without parameter tuning. Main framework: V6.1.2 evidence-aligned explicit–implicit entities and Schema-candidate semantic judgment.
+
+2. Earlier methods considered but not run as main comparisons
+CasRel — A Novel Cascade Binary Tagging Framework for Relational Triple Extraction,ACL2020. BERT identifies subjects and relation-conditioned objects, modeling subject→object mappings for SEO/EPO. Excluded from the main table as outside the then-selected recent window, already compared in the original D2 paper, and structurally covered by newer overlap extractors. Use only as related-work/architecture background.
+OneRel — OneRel: Joint Entity and Relation Extraction with One Module in One Step,AAAI2022. Relation-specific token-pair triple classification with horn tagging supports overlap. Excluded from the then-selected recent main window; structurally close to D3 and retained only as a decoding reference or reviewer-requested historical appendix candidate, not a required experiment.
+CopyMTL — CopyMTL: Copy Mechanism for Joint Extraction of Entities and Relations with Multi-Task Learning,AAAI2020. Sequence generation/copy with auxiliary sequence labeling supports multi-token entities. Excluded for age and costly adaptation of generation order/copy decoding to Chinese character boundaries, repeated surfaces and strict span evaluation. Related-work use only.
+
+3. TCMERE
+Retain as a supervised TCM joint method, not a generic span-only model: domain RoBERTa, ten dictionary roles/categories, BiLSTM spans, initial graph and collective CompGCN inference. Original-method specification favors BCE, three CompGCN layers and effective batch128 rather than public CrossEntropy/argmax defaults. Actual unavailable assets/resource adaptations are documented in the final implementation audit.
+
+4. OneKE
+Retain as a tuning-free LLM-agent framework. Freeze seven-type/seven-pattern Schema, cases built only from100 development records, backbone, Top2 retrieval, reflection and sampling. Disable test-time repository updates. Joint task adaptation of the current framework must be distinguished from the paper's separate NER/RE experiments; later Triple Extraction is not retrospectively an original-paper condition.
+
+5. Historical table organization
+Initial main rows D1,D2,D3,E1 and V6.1.2; later E3/E4 selections were recorded separately. A1–A4 remain separate ablations. CasRel,OneRel,CopyMTL are not present main comparison methods. The final submitted eight-baseline table supersedes this planning list.

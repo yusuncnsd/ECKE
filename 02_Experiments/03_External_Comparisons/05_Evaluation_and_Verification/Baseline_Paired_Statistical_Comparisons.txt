@@ -1,0 +1,19 @@
+Historical baseline paired comparisons
+==========================================================================================
+300 passage-paired records; 10000 nonparametric bootstrap F1-difference samples and 10000 paired randomizations; Holm correction over 12 formal runs per task. D1–D3 retain three seeds rather than pooling them as one prediction. This is the historical comparison family, not the final eight-baseline family.
+
+Method   Task            Baseline F1       Framework minus baseline     Maximum Holm p         Significant in all three seeds
+D1   Entity          0.5742      0.3421     0.00119988            True
+D1   Relation          0.1895      0.6276     0.00119988            True
+D2   Entity          0.4226      0.4938     0.00119988            True
+D2   Relation          0.0382      0.7789     0.00119988            True
+D3   Entity          0.6047      0.3117     0.00119988            True
+D3   Relation          0.3552      0.4618     0.00119988            True
+E1   Entity          0.6516      0.2648     0.00119988            True
+E1   Relation          0.4645      0.3525     0.00119988            True
+E3   Entity          0.2811      0.6353     0.00119988            True
+E3   Relation          0.1543      0.6627     0.00119988            True
+E4   Entity          0.1591      0.7573     0.00119988            True
+E4   Relation          0.0000      0.8170     0.00119988            True
+
+Full run-level intervals, randomization p-values and exact McNemar p-values are in the companion JSON.

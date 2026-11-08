@@ -5,7 +5,7 @@ import argparse, hashlib, importlib.util, json, time
 ROOT=Path(__file__).resolve().parents[1]
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,default=ROOT/'reproduced/cleaning_verification.json');a=ap.parse_args()
- base=ROOT/'02_Experiments/01_Corpus_Preparation';src=base/'01_Code/02_运行488部古籍深度清洗.py';spec=importlib.util.spec_from_file_location('cleaning',src);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+ base=ROOT/'02_Experiments/01_Corpus_Preparation';src=base/'01_Code/02_Clean_488_Books.py';spec=importlib.util.spec_from_file_location('cleaning',src);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
  raw=base/'02_Input_Data/488_Original_Books';clean=base/'04_Results/488_Cleaned_Books';files=sorted(raw.glob('*.txt'));issues=[];rows=[];start=time.monotonic()
  for i,p in enumerate(files,1):
   got,_=m.清洗(m.读取(p));expected=m.读取(clean/p.name);ok=got==expected

@@ -14,7 +14,7 @@ Historical hash bindings remain records of the original runs. Copies with person
 python 09_Reproduction_Tools/prepare_run.py ecke --workdir ../ECKE-new-run
 ```
 
-Fill `API密钥 = ""` in the prepared `02_Experiments/02_ECKE/01_Code/01_运行V612全库知识抽取.py`, then run that file. It uses the supplied complete passage corpus, full lexicon, development annotations and Schema. The model is `qwen-plus-2025-07-28`, temperature 0, seed base 20260813, max retries 6 and workers 5. The original pipeline writes new results under its `复现运行` directory.
+Fill the empty API credential placeholder in the prepared `02_Experiments/02_ECKE/01_Code/01_Run_V612_Full_Corpus_Extraction.py`, then run that file. It uses the supplied complete passage corpus, full lexicon, development annotations and Schema. The model is `qwen-plus-2025-07-28`, temperature 0, seed base 20260813, max retries 6 and workers 5. The original pipeline writes new results under its `复现运行` directory.
 
 The script uses the Python standard library. A valid personal DashScope-compatible credential and access to the named model are necessary. Temperature 0 and a seed do not guarantee byte-identical future API outputs.
 
@@ -24,7 +24,7 @@ The script uses the Python standard library. A valid personal DashScope-compatib
 python 09_Reproduction_Tools/prepare_run.py screening --workdir ../ECKE-screening-new-run
 ```
 
-The prepared stage-01 directory contains the 488 raw and cleaned books, original cleaning/reconstruction/screening programs, actual XLSX lexicon and risk-review workbook. The screening entry is `01_Code/03_运行消渴主题条文筛选.py`. Fill your own credential before explicitly running it. Deterministic reconstruction and candidate retrieval alone can be checked with `09_Reproduction_Tools/verify_screening.py`, without any credential.
+The prepared stage-01 directory contains the 488 raw and cleaned books, original cleaning/reconstruction/screening programs, actual XLSX lexicon and risk-review workbook. The screening entry is `01_Code/03_Screen_Xiaoke_Passages.py`. Fill your own credential before explicitly running it. Deterministic reconstruction and candidate retrieval alone can be checked with `09_Reproduction_Tools/verify_screening.py`, without any credential.
 
 ## Ablations
 
@@ -32,13 +32,13 @@ The prepared stage-01 directory contains the 488 raw and cleaned books, original
 python 09_Reproduction_Tools/prepare_run.py ablation --workdir ../ECKE-ablation-new-run
 ```
 
-The four entries in `02_Experiments/04_Ablation_Studies/01_Code/` are `02_运行A1_去除显式词表锚定.py`, `03_运行A2_去除LLM语义补充.py`, `04_运行A3_去除证据对齐融合.py`, and `05_运行A4_Schema兼容即输出关系.py`. They share `消融实验公共引擎.py` and the stage-02 main program. A1–A3 may require API calls; do not execute them merely to re-evaluate the supplied predictions.
+The four entries in `02_Experiments/04_Ablation_Studies/01_Code/` are `02_Run_A1_Without_Lexicon_Anchoring.py`, `03_Run_A2_Without_Semantic_Supplementation.py`, `04_Run_A3_Simple_Union.py`, and `05_Run_A4_Schema_Only_Relations.py`. They share `ablation_engine.py` and the stage-02 main program. A1–A3 may require API calls; do not execute them merely to re-evaluate the supplied predictions.
 
 ## OneKE-Qwen and LLMRE
 
-Prepare `oneke` or `llmre`. OneKE entry: `02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_运行E1_OneKE-Qwen.py`. It additionally imports scikit-learn for character TF-IDF retrieval. Install `scikit-learn==1.7.2`, as used by the retained supervised package environment; the original OneKE-specific environment freeze was not retained separately.
+Prepare `oneke` or `llmre`. OneKE entry: `02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_Run_OneKE_Qwen.py`. It additionally imports scikit-learn for character TF-IDF retrieval. Install `scikit-learn==1.7.2`, as used by the retained supervised package environment; the original OneKE-specific environment freeze was not retained separately.
 
-LLMRE entry: `02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_运行LLMRE任务适配.py`. Its `Inputs/提示.json`, development-text-only input, test input and Schema are included. It uses the standard library and the same Qwen API model. The preparation command excludes the old SQLite cache so a new run cannot silently reuse historical responses.
+LLMRE entry: `02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_Run_LLMRE_Adaptation.py`. Its `Inputs/Prompts.json`, development-text-only input, test input and Schema are included. It uses the standard library and the same Qwen API model. The preparation command excludes the old SQLite cache so a new run cannot silently reuse historical responses.
 
 ## CENTRELINE, TCMERE and BSTR-GPRel
 
@@ -46,7 +46,7 @@ LLMRE entry: `02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_运行L
 python 09_Reproduction_Tools/prepare_run.py supervised --workdir ../ECKE-supervised-new-run
 ```
 
-Within the prepared `03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/`, follow the original `README_CN.txt`, install script, model downloader and preflight. The original environment specifies transformers 4.55.4, scikit-learn 1.7.2, jieba 0.42.1 and CUDA PyTorch on a suitable GPU. Model downloads are separate and governed by provider terms.
+Within the prepared `03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/`, follow the original `README_EN.txt`, install script, model downloader and preflight. The original environment specifies transformers 4.55.4, scikit-learn 1.7.2, jieba 0.42.1 and CUDA PyTorch on a suitable GPU. Model downloads are separate and governed by provider terms.
 
 CENTRELINE and BSTR-GPRel use the original D1/D3 cross-validation and formal training programs. The reported TCMERE predictions come from **D2_repair_v1**, not the older D2 path. The preparation command places this repair folder inside the base package as expected by its original README; run `python D2_repair_v1/00_run_all_d2_repair.py` there. It performs development-fold selection followed by three formal seeds. Do not select settings using test Gold.
 

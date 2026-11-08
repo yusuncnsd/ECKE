@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite the ECKE manuscript and the exact archived release used."
 title: "ECKE Evidence-Constrained Knowledge Extraction"
 type: software
-version: "2026-11-07"
-date-released: "2026-11-07"
+version: "2026-11-08"
+date-released: "2026-11-08"
 authors:
   - family-names: Zhou
     given-names: Yang

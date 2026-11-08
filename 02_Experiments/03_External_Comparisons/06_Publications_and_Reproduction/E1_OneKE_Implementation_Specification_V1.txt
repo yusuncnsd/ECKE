@@ -1,0 +1,24 @@
+OneKE E1: paper-to-code implementation specification V1
+
+Review decision: retain as LLM extraction method E1. The supplied PDF hash matches the previously examined final PDF; the new formal constraint freezes the Case Repository and prohibits updating it from the 300 test answers.
+
+1. Publication
+OneKE: A Dockerized Schema-Guided LLM Agent-based Knowledge Extraction System. Yujie Luo et al. Companion Proceedings of the ACM Web Conference2025,4 pages. DOI:10.1145/3701716.3715189. Code:https://github.com/zjunlp/OneKE. Paper and code were cross-checked.
+
+2. Nature
+OneKE is a tuning-free Schema-guided multi-agent system, not a single supervised network. The paper evaluates NER and RE separately. Triple Extraction added later in the current repository must not be attributed retrospectively to the original experiments.
+
+3. Structure
+Schema Agent loads/chunks HTML/PDF/Word/text and chooses repository Schema or asks an LLM to derive it; Pydantic objects serialize to JSON. Extraction Agent receives source, instructions, Schema and retrieved correct cases, supports LLaMA/Qwen/ChatGLM/GPT-4, and generates structured outputs. Retrieval combines all-MiniLM-L6-v2 semantic similarity and FuzzyWuzzy matching, defaultTop2, for few-shot context. Reflection Agent uses self-consistency to identify uncertainty, retrieves similar Bad Cases/reflections and requests correction. Outputs satisfy Schema and are adapted to spans/triples here.
+
+4. Training
+The framework has no parameter-training loss, optimizer, learning rate or epochs; this is a method property, not missing reporting. Correct answers are needed to update cases. Only the 100 development labels may construct the frozen repository; test Gold must never update it.
+
+5. Pipeline and original experiments
+Parsing/chunking → Schema → Top2 retrieval → generation → parsing → self-consistency uncertainty → bad-case reflection → Schema validation. Sampling count, thresholds, temperature, token budget and complete prompts were not reported and must be frozen from the actual implementation. Original data: CrossNER for NER and NYT-11-HRL for RE; LLaMA-3-8B-Instruct and GPT-4-turbo. Vanilla/retrieval/reflection F1 are plotted, without a full numerical table.
+
+6. Study condition
+Predefine the seven-type/seven-pattern Schema, disable self-derived Schema and use one passage per input. Freeze a repository from100 development records; disable automatic correct/error case writeback in testing. With the same Qwen base as ECKE, label the condition OneKE-Qwen, distinct from a paper-backbone LLaMA-3-8B run. Apply common format/Schema conversion, not ECKE lexicon, evidence-fusion or candidate-relation semantic rules.
+
+7. Interpretation
+Scores depend on backbone, cases and prompts, all of which must be fixed. Joint entity+relation output is a task adaptation because the paper evaluates them separately; do not claim identical original experiments.

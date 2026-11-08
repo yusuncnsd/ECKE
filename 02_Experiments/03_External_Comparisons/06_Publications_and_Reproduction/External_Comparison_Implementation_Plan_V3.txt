@@ -1,0 +1,38 @@
+External comparison implementation plan V3 (historical planning record)
+
+1. Question
+Does the complete framework outperform representative recent supervised complete extractors and LLM extractors under the same wasting-thirst ancient-text inputs, Schema and strict evaluation?
+
+2. Frozen publications
+The historical publication asset directory contained D1.pdf(CENTRELINE,2024), D2.pdf(TCMERE,2024), D3.pdf(BSTR-GPRel,2026), E1.pdf(OneKE,2025). Use their frozen hashes and official commits rather than scattered copies.
+
+3. Groups
+D1: BERT/BiLSTM/CLN/multiscale dilated convolution/cascading NER, then typed-marker BERT relation classification.
+D2: domain RoBERTa/dictionary fusion/BiLSTM spans/initial graph/CompGCN/BCE joint learning.
+D3: BERT/WordPiece/POS/Transformer/dynamic masks/adversarial learning/three-level GlobalPointer/multitask Focal Loss.
+E1: predefined Schema, Top2 cases, extraction/reflection agents, no parameter training. Main framework: frozen V6.1.2.
+CasRel, OneRel and CopyMTL are related work, not main comparison rows. OneRel is only a D3 decoding reference/possible reviewer-requested appendix candidate.
+
+4. Common data
+100 expert development labels; 300 independent blind-annotated test labels. D1–D3 train/select only on100. E1 cases use100 and remain read-only in testing. All methods share original passages, IDs, seven entity types, seven relation patterns and strict evaluation.
+
+5. Low-resource supervision
+Fixed stratified five-fold development selects omitted thresholds, stopping epochs and necessary resource settings. Prefer reported paper settings; use small predefined candidate ranges rather than broad search. Retrain on all100 after selection; use three fixed seeds, preserving each300-record prediction. Report means, SDs and CIs where applicable. Test Gold is provided only to evaluation.
+
+6. Adaptation boundaries
+D1/D3 are paper-based R3 reimplementations. D1 keeps head-tail grid/cascading types and uses predicted test entities. D2 prioritizes paper BCE, three-layer CompGCN, learning rates/dropout over conflicting public defaults; disclose effective batch/gradient accumulation and dictionary source, without injecting ECKE's refined topic lexicon. D3's omitted thresholds, perturbation and weighting are study settings selected only in development. E1 freezes Schema, cases, backbone, Top2 and reflection/sampling strategy, disabling Schema self-derivation and case writeback.
+
+7. Output contract
+Save passage ID; entity surface/start/end/type; relation head/label/tail; run status/format failures/retries; model/code/publication versions, seed and configuration hashes. Adapters may convert formats and check Schema/source positions, but must not add ECKE topic-lexicon filters, explicit–implicit fusion or semantic rechecking.
+
+8. Evaluation
+Entity Micro-P/R/F1 with type results/Macro-F1; directed strict end-to-end relation triples using predicted entities. Passage-bootstrap95%CIs and paired framework-versus-strong-baseline differences/effect sizes. Gold-entity Oracle is diagnostic, not a main comparison result.
+
+9. Historical table plan
+D1,D2,D3,E1 and V6.1.2, with later E3/E4 selections recorded separately. Columns included route, target supervision, parameter training, entity/relation P/R/F1 and95%CI. A1–A4 are a separate ablation table. This record predates final additions CARE, LLMRE and ADELIE; the submitted table, not this planning list, defines final methods.
+
+10. Gates and order
+Freeze publications/commits,100/300 lists,Schema and evaluator. Convert inputs/adapters and check3–5 spans/Schema examples. Implement D1,D2,D3 with minimal overfit checks, five-fold selection and three-seed formal runs. Implement E1 with10-record format validation and no case leakage, then full300. Finally evaluate,CIs,paired tests,errors and tables. Failed ID/span/Schema/leakage/completeness gates block formal reporting.
+
+11. Original next action
+Create the experiment directory, asset list and hashes; validate data/Schema; implement D1 first to validate the supervised train→predict→evaluate pipeline before D2/D3. This is a retained plan, not an instruction to rerun frozen experiments.

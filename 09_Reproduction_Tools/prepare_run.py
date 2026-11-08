@@ -29,7 +29,7 @@ def main():
   cp('03_Baseline_Packages/00_Shared_Supervised_Code');cp('02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code')
   shutil.copytree(out/'03_Baseline_Packages/00_Shared_Supervised_Code/D2_repair_v1',out/'03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/D2_repair_v1')
  if a.stage=='adelie':cp('03_Baseline_Packages/08_ADELIE')
- entry={'ecke':'02_Experiments/02_ECKE/01_Code/01_运行V612全库知识抽取.py','screening':'02_Experiments/01_Corpus_Preparation/01_Code/03_运行消渴主题条文筛选.py','ablation':'02_Experiments/04_Ablation_Studies/01_Code/02_运行A1_去除显式词表锚定.py','oneke':'02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_运行E1_OneKE-Qwen.py','llmre':'02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_运行LLMRE任务适配.py'}
+ entry={'ecke':'02_Experiments/02_ECKE/01_Code/01_Run_V612_Full_Corpus_Extraction.py','screening':'02_Experiments/01_Corpus_Preparation/01_Code/03_Screen_Xiaoke_Passages.py','ablation':'02_Experiments/04_Ablation_Studies/01_Code/02_Run_A1_Without_Lexicon_Anchoring.py','oneke':'02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_Run_OneKE_Qwen.py','llmre':'02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_Run_LLMRE_Adaptation.py'}
  print('Prepared:',out)
  if a.stage in entry:print('After installing dependencies and filling YOUR OWN credential in the prepared script, run:\npython "'+str(out/entry[a.stage])+'"')
  else:print('See docs/ONLINE_RERUN.md for GPU model download, training, and run commands.')

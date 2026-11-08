@@ -1,0 +1,26 @@
+CENTRELINE D1: paper-to-code implementation specification V1
+
+1. Publication
+Chinese Relation Extraction Pipeline Model Based on Entity Cascading Types. Rao Dongning, Wu Qianmei, Huang Guanju. Application Research of Computers, 2024, 41(9):2685–2689. DOI:10.19734/j.issn.1001-3695.2023.12.0621. The final journal PDF was examined page by page. No official code was provided in the paper/journal page; this is a paper-based reimplementation (R3).
+
+2. Task and I/O
+Input: Chinese sentence X={x1,...,xN}. NER outputs spans with at most two cascading types. RE enumerates ordered predicted-entity pairs and returns subject span, object span and relation, including no-relation epsilon. RE training uses Gold entities; validation/test use predicted NER entities, giving a strict pipeline evaluation.
+
+3. Network
+BERT-base-Chinese subword representations are mapped to characters and passed through BiLSTM to obtain H. Conditional layer normalization (CLN) constructs an N×N pair grid V; relative-distance and upper/lower-region embeddings are concatenated and projected by MLP. Two-dimensional dilated convolutions at rates [1,2,3] with GELU produce concatenated multiscale features.
+Two structurally identical cascading type predictors (CTP) combine biaffine character-classification logits and MLP grid-classification logits before softmax; each outputs one type. For RE, construct a separate input for every ordered entity pair by inserting entity-type subject/object boundary markers. A dual-type subject has nested subject markers. Concatenate BERT subject/object start-marker representations and classify the relation or epsilon.
+
+4. Loss
+NER span-type cross entropy follows Eq.(11), L_e=-sum log P(e_i*|s_i). RE pair-relation cross entropy follows Eq.(12), L_r=-sum log P(r_ij*|s_i,s_j). The modules train in stages; the paper gives no weighted joint total loss. Duplicate a single entity type across both CTP targets; retain two targets for dual-type entities, then merge identical decoded types.
+
+5. Decoding
+NER uses head-to-tail grid relations whose coordinates are span boundaries, not W2NER adjacent-token relations; discontinuous entities are unsupported. Union the two CTP types for each span and deduplicate. RE applies argmax to each ordered predicted-entity pair; filter epsilon and retain directed triples.
+
+6. Published settings and omissions
+Encoder BERT-base-Chinese; NER has no fixed length cap in the paper, although implementation remains constrained by BERT positions and memory. RE maximum length: 256 for DuIE1.0/2.0, 300 for CMeIE-V2. Dilation rates [1,2,3]; RTX3090 and PyTorch. Batch size, epochs, learning rate, optimizer, dropout, BiLSTM depth/width, convolution channels, thresholds and seeds are unreported; study-specific choices must not be attributed to the paper.
+
+7. Study adaptation
+Train on 100 development annotations, evaluate on the frozen 300, and use the fixed seven entity types/seven relation patterns with strict character boundaries. Preserve the dual-type architecture, although Gold usually has one type per span. RE trains on Gold entities but tests on D1 predictions. Evaluate strict entity and end-to-end triple Micro-F1. Do not inject the study lexicon, wasting-thirst rules or ECKE V6.1.2 outputs.
+
+8. Comparability
+A recent Chinese complete entity–relation pipeline is suitable as a supervised comparison. It is not an ancient-TCM-topic method, lacks official code/key training details, and receives far less supervision here than in its original study. Disclose the low-resource condition.

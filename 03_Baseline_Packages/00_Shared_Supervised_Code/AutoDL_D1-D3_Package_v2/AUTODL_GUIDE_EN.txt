@@ -1,0 +1,17 @@
+AutoDL guide: D1–D3 supervised comparisons
+
+Do not start a billable instance before the project owner confirms the formal package is frozen.
+
+1. Register and verify an AutoDL account. Fund only the estimated run cost; use pay-as-you-go rather than advance monthly allocation. Stop billing after downloading all results.
+2. Prefer RTX 4090 24GB; RTX 3090 24GB is an alternative and A10 24GB a further fallback. Do not use 8/12/16GB GPUs or multiple GPUs. Recommended RAM: at least 32GB; a default 50GB data disk is usually sufficient. Choose a CUDA PyTorch 2.x image, preferably Python 3.10. Record GPU, image and rental start time.
+3. In JupyterLab upload the entire package under /root/autodl-tmp/. Do not upload separate test Gold; the package provides unlabeled 300-record test input. Check asset_manifest, data, code, models and results.
+4. Open Terminal:
+cd /root/autodl-tmp/AutoDL_D1-D3_Package_v2
+bash 00_install_environment.sh
+python 01_preflight.py
+Require CUDA, at least 20GB GPU memory and validated 100/300 inputs. Stop on failure.
+5. Run python 02_download_models.py to freeze BERT-base-Chinese and Chinese-RoBERTa-WWM-Ext with file hashes. All methods use those copies without switching revisions.
+6. Run bash 06_run_all.sh. It performs, for D1 then D2 then D3, a GPU smoke test, five-fold development selection and three formal seeds, followed by output audit. To inspect stages separately, run preflight/downloader, python code/formal_train.py D1 --quick, python 03_cross_validation.py D1, python 04_formal_run.py D1; repeat for D2/D3 and finish with python 05_output_audit.py. The reported final TCMERE condition uses its separate D2 repair entry.
+7. Closing a browser stops neither tasks nor billing. Keep checkpoints/run-state files and resume with the same entry after interruption. Monitor GPU use, memory, loss and ETA. Never tune using individual test answers, which are absent from this cloud input.
+8. Download all results, formal configuration, model asset manifest, summaries, logs, 300 predictions and failures. Verify local counts/SHA-256, then shut down. Release the instance/image only after confirming complete local backups; check separate disk billing.
+9. Formal test scores are computed locally against frozen expert Gold, not on the cloud. Use the unified evaluator for entity/relation scores and paired statistics.

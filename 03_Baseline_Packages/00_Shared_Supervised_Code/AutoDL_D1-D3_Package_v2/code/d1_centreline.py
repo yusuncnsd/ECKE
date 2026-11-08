@@ -153,5 +153,5 @@ def smoke_run(train: list[dict], valid: list[dict], schema: dict, out: Path, see
                     if label: relations.add((head[0], relation_labels[label - 1], tail[0]))
             predictions.append({"record_id": row["record_id"], "entities": entity_list, "relations": sorted(relations)})
     torch.save({"ner_model": ner.state_dict(), "relation_model": re_model.state_dict(), "vocab": vocab.itos, "schema": schema}, out / "D1_小样本检查点.pt")
-    (out / "D1_小样本预测.jsonl").write_text("\n".join(json.dumps(x, ensure_ascii=False) for x in predictions) + "\n", encoding="utf-8")
+    (out / "D1_小样本Predictions.jsonl").write_text("\n".join(json.dumps(x, ensure_ascii=False) for x in predictions) + "\n", encoding="utf-8")
     return {"train_records": len(train), "validation_records": len(valid), "epochs": 1, "encoder": "随机初始化微型BERT（仅流程验证）", "mean_ner_loss": sum(losses) / len(losses), "mean_relation_loss": sum(relation_losses) / len(relation_losses), "relation_training_instances": len(relation_losses), "prediction_records": len(predictions), "relations_note": "RE使用Gold实体训练、使用D1预测实体推理，端到端链路已执行。", "predictions": predictions}

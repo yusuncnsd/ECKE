@@ -1,6 +1,6 @@
 # LLMRE
 
-论文对比方法顺序：7。
+Comparison method 7 in the manuscript.
 
-[实际代码与配置所在位置](../../02_Experiments/03_External_Comparisons/LLMRE_Comparison)。
+[Code and configuration](../../02_Experiments/03_External_Comparisons/LLMRE_Comparison)
 

@@ -81,9 +81,9 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,default=ROOT/'reproduced');ap.add_argument('--integrity-audit',action='store_true',help='Also inspect source offsets and write a detailed local integrity audit.');args=ap.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
  log('Reading original Gold, input passages, and frozen predictions (offline).')
  base=MAIN/'02_ECKE';ext=MAIN/'03_External_Comparisons';abl=MAIN/'04_Ablation_Studies'
- gs=txt_records(base/'02_Input_Data/Independent_Test_300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt');gold={g['record_id']:g for g in gs}
- dev=txt_records(base/'02_Input_Data/Development_100/消渴知识抽取_100条专家标注_V3.txt','development')
- corpus=read(base/'02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.jsonl');cm={r['record_id']:r for r in corpus}
+ gs=txt_records(base/'02_Input_Data/Independent_Test_300/Independent_Test_300_Expert_Gold.txt');gold={g['record_id']:g for g in gs}
+ dev=txt_records(base/'02_Input_Data/Development_100/Development_100_Expert_Annotations_V3.txt','development')
+ corpus=read(base/'02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.jsonl');cm={r['record_id']:r for r in corpus}
  test=read(base/'02_Input_Data/Independent_Test_300/independent_test_300_frozen.jsonl');devinput=read(base/'02_Input_Data/Development_100/method_development_100.jsonl')
  check('corpus_unique_records',len(cm),3065);check('test_gold_unique_records',len(gold),300);check('development_annotations',len(dev),100)
  check('gold_entity_count',sum(len(set(map(tuple,g['entities']))) for g in gs),869);check('gold_relation_count',sum(len(set(map(tuple,g['relations']))) for g in gs),508)
@@ -112,15 +112,15 @@ def main():
   fs=sorted((ext/'04_Results/D1-D3').glob(code+'_seed_*.jsonl'));check(name+'_runs',len(fs),3);add(name,fs)
  care=ext/'CARE_Comparison/01_Experiment_Code/CARE_Balanced/results_calibrated_v1'
  add('CARE',[care/f'seed_{s}/predictions.jsonl' for s in (20260823,20260824,20260825)],'folded_entities')
- add('OneKE-Qwen',[ext/'04_Results/E1/E1_OneKE-Qwen_300条正式预测.jsonl'])
+ add('OneKE-Qwen',[ext/'04_Results/E1/E1_OneKE_Qwen_Final_Predictions_300.jsonl'])
  add('YAYI-UIE',[ext/'04_Results/E3/E3_YAYI-UIE_300_predictions.jsonl'])
- add('LLMRE',[ext/'LLMRE_Comparison/Results/Formal_300/预测300.txt'],txt=True)
+ add('LLMRE',[ext/'LLMRE_Comparison/Results/Formal_300/Predictions_300.txt'],txt=True)
  add('ADELIE',[ROOT/'03_Baseline_Packages/08_ADELIE/Experiment_Workspace/results_optimized/ADELIE_full300_predictions.jsonl'])
- add('ECKE',[base/'04_Results/Test_Predictions/消渴知识抽取_300条独立测试集专家预标注_V612.txt'],txt=True)
+ add('ECKE',[base/'04_Results/Test_Predictions/Independent_Test_300_Machine_Predictions_V612.txt'],txt=True)
  structured=normalized(read(base/'04_Results/Test_Predictions/independent_test_300_machine_predictions_v612_frozen.jsonl'))
  sm,_,_=evaluate(structured,gold);check('ECKE_TXT_JSONL_metrics_identical',sm,runs['ECKE'][0])
  for code in ['A1','A2','A3','A4']:
-  fs=list((abl/'04_Results').glob(f'{code}_*/*300条结构化预测.jsonl'));check(code+'_prediction_files',len(fs),1);add(code,fs)
+  fs=list((abl/'04_Results').glob(f'{code}_*/*Structured_Predictions_300.jsonl'));check(code+'_prediction_files',len(fs),1);add(code,fs)
  oraclefile=base/'05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/oracle_relation_cache.jsonl';add('Oracle',[oraclefile])
  # Compare all table cells with the submitted manuscript, not a hand-entered expected table.
  claim=obj(ROOT/'01_Documentation/submitted_claims.json');tables=claim['tables'];t3=next(v for v in tables.values() if v[0][:2]==['Task','Method']);t4=next(v for v in tables.values() if v[0][:2]==['Task','Setting'])
@@ -166,7 +166,7 @@ def main():
    else:present+=1
  check('relation_FN_missing_entity_endpoint',missing,82);check('relation_FN_endpoints_present',present,4)
  # Validate every displayed Top100 edge and source ID against the full frozen output.
- graphpath=ROOT/'04_Figure_Data/Top100_关系及来源.csv'
+ graphpath=ROOT/'04_Figure_Data/Top100_Relations_and_Sources.csv'
  graph=list(csv.DictReader(graphpath.open(encoding='utf-8-sig')));freq=Counter();sources=defaultdict(list)
  for row in full:
   for e in row['relations']:

@@ -1,3 +1,5 @@
 # ADELIE
 
-论文第8种对比方法。当前目录包含实际程序、配置、输入、全部300条预测、原始响应和失败记录。
+Comparison method 8 in the manuscript.
+
+This directory retains actual programs, configurations, inputs, all 300 predictions, raw responses and terminal failure records.

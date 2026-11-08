@@ -2,17 +2,17 @@
 
 ## Inputs and splits
 
-`正式消渴主题条文库.jsonl`: one passage per line. `record_id` is the stable key (for example `XK_001231`); `text` is the processed passage; `source`, `source_file` and `chapter` record provenance. `source_start/source_end` refer to a source segment of the source book, not necessarily a same-length slice of the reconstructed `text`. Do not use these source bounds as entity offsets.
+`Final_Xiaoke_Passage_Corpus.jsonl`: one passage per line. `record_id` is the stable key (for example `XK_001231`); `text` is the processed passage; `source`, `source_file` and `chapter` record provenance. `source_start/source_end` refer to a source segment of the source book, not necessarily a same-length slice of the reconstructed `text`. Do not use these source bounds as entity offsets.
 
 Development/test JSONL files add frozen role/order and sampling features. Their IDs must be disjoint. Historical split audit files may describe an earlier Schema; the only authoritative Schema for extraction and evaluation is `xiaoke_schema_v5.json` (version `xiaoke_schema_v5_20260816`). Historical metadata are retained, not silently rewritten into a claim of a different sampling chronology.
 
-Development expert TXT contains original/preannotation/corrected sections. Use `【校对实体】` and `【校对关系】` as development reference labels. Test Gold uses `【盲标实体】` and `【盲标关系】`. Machine preannotation sections are predictions, not Gold. The final test Gold alone does not establish the details of the independent-expert adjudication workflow.
+Development expert TXT contains original/preannotation/corrected sections. Use the original corrected-entity and corrected-relation sections as development reference labels. Test Gold uses the original blinded entity and relation sections. Machine preannotation sections are predictions, not Gold. The final test Gold alone does not establish the details of the independent-expert adjudication workflow.
 
 ## Structured ECKE predictions
 
 Entity fields include `surface_form`, `start`, `end`, `normalized_concept`, `entity_type`, `evidence_text`, `entity_id`, `recognition_source`, `alignment_status` and a relevance explanation. Entity offsets use zero-based, half-open Python character indices into the current passage text. UTF-8 bytes are not character offsets. An `ocr_interrupted` field requires separate interpretation and must not be presented as exact substring matching.
 
-Relation fields include head/tail entity IDs and surface/type, `relation_type`, evidence text/start/end and decision reason. Entity IDs locate endpoints in the same record. Scientific Schema: 中药–治疗–疾病; 方药–治疗–疾病; 治法–主治–疾病; 病机–导致–疾病; 病机–涉及–病位; 症状–提示–病机; 疾病–表现–症状.
+Relation fields include head/tail entity IDs and surface/type, `relation_type`, evidence text/start/end and decision reason. Entity IDs locate endpoints in the same record. Scientific Schema: Chinese medicinal–Treats–Disease; Formula–Treats–Disease; Therapeutic method–Indication–Disease; Pathogenesis–Causes–Disease; Pathogenesis–Involves–Disease location; Symptom–Suggests–Pathogenesis; Disease–Manifests as–Symptom.
 
 ## Exact reported evaluation
 

@@ -1,0 +1,26 @@
+BSTR-GPRel D3: paper-to-code implementation specification V1
+
+1. Publication
+Entity and relation joint extraction from materia medica classics based on BSTR-GPRel. Shen Wang, Sun Ke, Ma Ruolin, Li Xin, Bian Wei. Library and Information Service,2026,70(6):30–39. DOI:10.13266/j.issn.0252-3116.2026.06.003. The journal PDF was examined; no official code was provided. Paper-based faithful reimplementation (R3).
+
+2. Inputs and outputs
+Original inputs are cleaned Tangye Bencao, Shennong Bencao Jing and Diannan Bencao, represented by WordPiece, position/segment and Jieba POS features. Outputs are subject span, object span and relation triples supporting multiple relations and overlap.
+
+3. Architecture
+BERT WordPiece provides 768-dimensional contextual features with position/segment embeddings; concatenate trainable Jieba POS embeddings. BSTR uses BERT plus multilayer Transformer bidirectional self-attention, dynamic training masks and controlled embedding perturbation for adversarial training.
+Three GlobalPointer levels: entity subject/object boundary detection with RoPE, relation-specific head matrices connecting entity starts, and relation-specific tail matrices connecting entity ends. Jointly optimize entity/head/tail tasks.
+
+4. Loss
+Each task uses Focal Loss: L_entity,L_head,L_tail. Total loss is alpha*L_entity+beta*L_head+gamma*L_tail. The paper describes dynamic balancing but does not supply initial weights, update rules or Focal Loss alpha/gamma values. These must be identified as implementation choices fixed within development, not invented as published settings.
+
+5. Decoding
+For a relation to form a triple, entity spans and relation-specific head/start and tail/end pairings must agree. The structure supports an entity in multiple triples. Thresholds, conflict order and tie handling were unreported and must be frozen using development only.
+
+6. Published and omitted settings
+BERT hidden768; max sequence256; BERT lr3e-5; AdamW; max30 epochs; early stop after five validation-F1 nonimprovements; original train/validation/test8:1:1; PyTorch2.1.0, Python3.10, AutoDL. Batch, weight decay, warmup, seed, adversarial method/strength, mask rate, POS dimension, added Transformer depth, pointer head size/threshold and loss weights were not reported.
+
+7. Study adaptation
+Use seven entity types and seven relation patterns, 100 development training records and 300 frozen test inputs. Retain WordPiece/POS fusion, BERT/Transformer, adversarial training, three-level GlobalPointer and multitask loss. Do not add ECKE lexicon anchoring, topic-boundary controls or LLM decisions. Predefine small development candidate sets for omitted settings; freeze choices and evaluate the final model on test data.
+
+8. Comparability
+This is the closest D-method background: ancient TCM materia medica, joint extraction and overlapping relations. With no author code and underspecified weights/thresholds/adversarial details, call it faithful reimplementation, not official implementation.

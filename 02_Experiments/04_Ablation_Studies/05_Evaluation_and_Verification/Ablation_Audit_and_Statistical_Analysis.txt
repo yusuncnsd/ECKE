@@ -1,0 +1,50 @@
+A1–A4 implementation audit and statistical analysis
+==============================================================================
+Implementation audit: passed; 300-record test set; Gold SHA-256=2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d
+Statistics: 10000 paired passage bootstrap and randomization samples; full framework minus ablation; exact McNemar tests; within-family Holm correction.
+
+1. Implementation audit
+- Common inputs, Gold, Schema, model, temperature and seed manifests checked.
+- All five sets contain 300 unique IDs in frozen test order; source text, types, Schema and endpoints pass checks.
+- Original scores were recomputed from structured predictions and agree.
+- A4 entities equal the full framework field by field; its relations equal all Schema-compatible entity pairs.
+- Design evidence classification: 
+  A1: branch ablation removing explicit candidates and legalizing semantic output without lexicon anchoring; not a one-line matching deletion.
+  A2: branch ablation restricting entities to deterministic lexicon candidates; relation module retained.
+  A3: component replacement by simple union; auxiliary semantic hints disappear as a direct consequence of replacing fusion output.
+  A4: strict single-factor ablation reusing full-framework entities and removing only contextual relation judgment.
+
+2. Unified performance
+Method	EntityP	EntityR	EntityF1	RelationP	RelationR	RelationF1	Joint passage-exact rate
+F Full framework V6.1.2	0.9250	0.9079	0.9164	0.8038	0.8307	0.8170	0.7900
+A1 Without Lexicon Anchoring	0.6187	0.7860	0.6923	0.3851	0.6398	0.4808	0.4567
+A2 Without Semantic Supplementation	0.4035	0.5316	0.4588	0.2055	0.1476	0.1718	0.0867
+A3 Simple Union	0.3945	0.8734	0.5435	0.2447	0.7441	0.3682	0.1500
+A4 Schema-only RE	0.9250	0.9079	0.9164	0.4197	0.8386	0.5594	0.7033
+
+3. Paired comparisons with full framework
+Method	EntityF1 decrease[95%CI]	Randomization Holm-p	RelationF1 decrease[95%CI]	Randomization Holm-p	Joint exact-match rateMcNemar Holm-p
+A1	0.2240 [0.1871,0.2610]	0.00039996	0.3363 [0.2428,0.4240]	0.00039996	3.29846e-23
+A2	0.4576 [0.4182,0.4970]	0.00039996	0.6452 [0.5559,0.7312]	0.00039996	9.73876e-56
+A3	0.3729 [0.3315,0.4139]	0.00039996	0.4488 [0.3620,0.5306]	0.00039996	2.465e-52
+A4	0.0000 [0.0000,0.0000]	1	0.2576 [0.1561,0.3277]	0.00039996	2.16067e-07
+
+4. Category F1 (F/A1/A2/A3/A4)
+Entity-Chinese medicinal	0.9231	0.8421	0.1192	0.3464	0.9231
+Entity-Formula	0.9388	0.8405	0.3909	0.7441	0.9388
+Entity-Disease	0.9889	0.8798	0.9681	0.9285	0.9889
+Entity-Symptom	0.7304	0.4172	0.0725	0.3019	0.7304
+Entity-Pathogenesis	0.8485	0.4853	0.1709	0.4679	0.8485
+Entity-Disease location	0.9412	0.0833	0.1671	0.1711	0.9412
+Entity-Therapeutic method	0.7143	0.2545	0.0000	0.3200	0.7143
+Relation-Treats	0.9113	0.7557	0.2330	0.6329	0.7209
+Relation-Indication	0.5833	0.1250	0.0000	0.1739	0.4091
+Relation-Causes	0.8352	0.5299	0.0952	0.4359	0.5714
+Relation-Involves	0.6452	0.0241	0.1111	0.1176	0.3846
+Relation-Suggests	0.4889	0.0143	0.0000	0.0500	0.2178
+Relation-Manifests as	0.7321	0.3715	0.0828	0.2903	0.4385
+
+5. Interpretation boundaries
+- A4 provides strict single-factor evidence for the third mechanism.
+- A1–A3 remove/replace component branches, not merely individual rules.
+- Bootstrap estimates strict Micro-F1-difference intervals; randomization tests Micro-F1 differences; McNemar tests passage-level exact match. These answer different questions.

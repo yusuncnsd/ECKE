@@ -1,0 +1,31 @@
+TCMERE D2: paper-to-code implementation specification V2
+
+1. Source and inclusion
+A joint entity Relation Extraction method for document level Traditional Chinese Medicine texts. Wenxuan Xu, Lin Wang, Mingchuan Zhang, Junlong Zhu, Junqiang Yan, Qingtao Wu. Artificial Intelligence in Medicine, 2024,154:102915. DOI:10.1016/j.artmed.2024.102915. Code: https://github.com/xxxxwx/TCMERE. Retained as supervised complete extraction method D2: recent Chinese TCM work with a full entity–relation task and public code. Modern document-level case reports differ from passage-level ancient texts; disclose that transfer condition rather than treating the tasks as identical.
+
+2. Original task
+Whole TCM case reports: maximum 2022 characters, mean 524.2, mean 132 triples/document. Original split: 1798 training and 220 test documents; 23 entity types and 20 relation types, including normal, SEO (single-entity overlap) and EPO (entity-pair overlap) triples. Character TCMroberta and dictionary word features support contiguous-span enumeration. Outputs are entity-type probabilities per span and relation probabilities per ordered span pair.
+
+3. Architecture
+Domain continued pretraining starts from Chinese RoBERTa and approximately 4GB of case reports, textbooks and 12 TCM websites. Eq.(1) combines pretraining loss and regularization against deviation from original RoBERTa parameters to obtain TCMroberta.
+TCMroberta encodes contextual characters W={w1,...,wn}. Ten lexicon categories cover diseases, formulas, medicinals, patterns, therapies, Chinese names of Western diseases, symptoms, tongue signs, pulse signs and acupoints. At each character, gather matching START/MIDDLE/END/SINGLE/DICTIONARY word sets, using None for empty sets. Weighted set vectors are concatenated with the character vector: Eq.(4), w_i=[w_i;v(S);v(M);v(E);v(SI);v(D)].
+BiLSTM encodes fused features. Enumerate contiguous spans up to length15. Eq.(7) concatenates left/right boundaries, attention-weighted internal span features and width embedding phi(s_i), followed by ELU-FFNN. Nested entities are possible.
+Entity FFNN maps R^d to R^|E|. Relation FFNN uses [s_i;s_j;s_i elementwise-product s_j] from R^(3d) to R^|R|. Initial predictions form a directed typed multi-relation graph. Relation-weighted CompGCN jointly updates nodes and relation embeddings, projects relations into node space, and maps propagated representations back to span dimension with ELU-FFNN. Final entity classification uses m_i and relation classification uses [m_i;m_j;m_i elementwise-product m_j], Eq.(13). The paper describes ConvE-inspired triple decoding with relation embeddings.
+
+4. Loss and decoding
+Binary cross entropy, not ordinary multiclass cross entropy: L_NER=sum BCELoss(e_hat_i^k,e_i^k), L_RE=sum BCELoss(r_hat_ij^l,r_ij^l), L_total=L_NER+L_RE. Multiple labels per span/pair accommodate EPO.
+Enumerate legal spans of length<=15 and multi-label probabilities; do not replace pair multi-label decoding with argmax. Retain types exceeding frozen thresholds and form triples using enhanced node/relation representations. Explicit thresholds and same-span conflict resolution were not reported; confirm from code or determine only on the 100 development records and freeze before testing.
+
+5. Published settings
+Batch128; encoder dropout0.3; max span15; span embedding500; FFNN depth2. Encoder AdamW, betas(0.9,0.999), eps1e-6, lr5e-5. Extraction Adam lr8e-4. CompGCN3 layers, dropout0.2, lr1e-4. Gradient max norm1.0; num_workers8; three repetitions per setting; report every50 steps. RTX3090Ti; approximately106620766 parameters.
+Unspecified: max epochs, stopping rule, thresholds, seeds, pretraining regularization lambda, continued-pretraining batch/epochs, word-vector source/dimension.
+
+6. Paper/code differences
+The paper's batch128 and three-layer/dropout0.2 CompGCN differ from public basic.conf defaults batch2, GNN2/dropout0.1. Prefer paper settings and document memory adaptations, using accumulation if needed. Public main paths include CrossEntropy/argmax rather than the paper's BCE multi-label objective; reconstruct the latter instead of blindly running all repository branches. Confirm whether dictionary fusion and BiLSTM branches are actually active.
+
+7. Fair adaptation
+Use only the 100 development labels for target-domain training and frozen300 for evaluation. Do not transfer original-case-report labels into the target classifier. Replace label sets by the study Schema and preserve word fusion, spans, BiLSTM, CompGCN and BCE joint learning. Do not inject the specialized ECKE topic lexicon. Use a generally available TCM lexicon or a clearly identified dictionary built solely from development training folds. Select omitted thresholds/epochs within development CV; never on test Gold. End-to-end RE uses D2-predicted entities, not Gold entities.
+The retained final implementation audit documents substitution of Chinese-RoBERTa-WWM-Ext for unavailable TCMroberta and a training-fold-derived dictionary. This specification records original-method requirements, not a claim that unavailable assets were reproduced.
+
+8. Boundary
+The original task uses modern long case reports with dense nested/overlapping triples; this study uses low-resource ancient topic passages and a narrow Schema. This is same-domain, different-text-genre transfer.

@@ -1,0 +1,25 @@
+Final D1–D3 program audit
+Version:external_supervised_D1-D3_v1_20260823
+
+1. Data and Schema
+Development100 and independent-test300 IDs are disjoint. Cloud test records contain only ann_id,record_id,text, not expert labels. The authoritative xiaoke_schema_v5 has seven entity types/seven type-compatible patterns. Conversion of100 passage labels produces451 span instances, expanding all positions of repeated surfaces. Two OCR/interposed-note formula instances in ann_014 and their two relations are excluded from contiguous-span/endpoint supervision; original expert Gold remains unchanged.
+
+2. CENTRELINE
+Implemented Chinese BERT,BiLSTM,CLN grid,distance/region embeddings,dilation1/2/3,double CTP head-tail types and typed-marker relation classification. NER uses256-character windows with64 overlap and deduplicates after full-text recovery. RE receives full passages; training uses Gold entities and test uses D1 predictions.
+
+3. TCMERE
+Original TCMroberta weights/ten-category dictionaries were unavailable. Freeze Chinese-RoBERTa-WWM-Ext as replacement; each training fold builds its dictionary only from its own Gold surfaces, not the ECKE lexicon. Implement five role channels,BiLSTM,spans<=15,initial-entity pruning,BCE multi-label entity/relation loss,three-layer CompGCN. Report faithful reimplementation, not official original-weight reproduction.
+
+4. BSTR-GPRel
+Implemented BERT,Jieba character-aligned POS,additional Transformer,15% dynamic masking,FGM,learnable task weights and entity/head/tail GlobalPointer. Decode only mutually consistent spans/head/tail passing the formal Schema.
+
+5. Training protocol
+Fixed five-fold80/20 development compares two predefined epoch candidates per method by mean joint F1. Freeze choices, train on all100 with three seeds, predict the300 unlabeled inputs. Historical D2 threshold0.5 came from public defaults; final TCMERE repair has its own development selection. D3 uses standard pointer logit threshold0. Test Gold is never used for selection.
+
+6. Reliability
+Retain model/optimizer/epoch checkpoints; bind development,test,Schema,code,seed and epoch fingerprints. Predictions are fsync-appended per record and resume only unfinished IDs. Audit IDs/order,source spans,entity folding,relation endpoints and Schema.
+
+7. Validation evidence
+Tiny-model end-to-end regressions passed for all three methods. Formal entries completed temporary tiny-BERT training,checkpointing,prediction-cache and export CPU integration tests. Python/Shell syntax,asset hashes,fold counts,test-Gold isolation and mechanism audits passed. Full BERT/CUDA validation requires the server; the GPU smoke test blocks formal training on failure.
+
+The retained package supports single-GPU preflight,model freezing,five-fold selection,three-seed prediction and final audit. This audit describes preparation-stage checks; final run records provide the completed outputs.

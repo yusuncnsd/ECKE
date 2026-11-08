@@ -1,0 +1,5 @@
+End-to-end relation error propagation
+================================================================================
+Gold relation false negatives: missing predicted entity endpoint=82; both endpoints present but relation missed=4.
+Predicted relation false positives: non-Gold endpoint=71; Gold endpoints but incorrect relation=32.
+This is strict offline error attribution, not a Gold-entity Oracle inference run.

@@ -1,0 +1,10 @@
+OneKE-Qwen local formal experiment
+
+1. Fill the credential placeholder at the top of 01_Run_OneKE_Qwen.py; do not use environment variables.
+2. For initial format validation, select pilot10 and process the fixed first ten records.
+3. After validation select full300. The full run reuses the ten cached records and processes the remaining 290.
+4. The 100 development Gold records form a read-only case repository, with fixed Top-2 retrieval and no test-time writeback.
+5. Three self-consistency samples use temperatures 0/0.5/1; without majority agreement, invoke one Reflection Agent correction.
+6. Each successful record is immediately appended to transactional JSONL cache. Restart the same configuration to resume.
+7. Once all 300 records complete, the unified evaluator is invoked for strict entity/relation metrics.
+8. Report this condition as OneKE-Qwen, not a reproduction using the paper's original LLaMA-3-8B backbone.

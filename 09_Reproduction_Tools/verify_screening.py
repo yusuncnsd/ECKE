@@ -8,7 +8,7 @@ import argparse, hashlib, importlib.util, json, time
 ROOT=Path(__file__).resolve().parents[1]
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--out',type=Path,default=ROOT/'reproduced/screening');args=ap.parse_args();out=args.out.resolve();out.mkdir(parents=True,exist_ok=True)
- src=ROOT/'02_Experiments/01_Corpus_Preparation/01_Code/03_运行消渴主题条文筛选.py'
+ src=ROOT/'02_Experiments/01_Corpus_Preparation/01_Code/03_Screen_Xiaoke_Passages.py'
  spec=importlib.util.spec_from_file_location('historical_screening',src);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
  def blocked(*a,**kw):raise RuntimeError('API calls prohibited during offline screening verification')
  m.调用模型=blocked;m.API连通性预检=blocked

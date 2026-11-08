@@ -1,0 +1,27 @@
+E3: Formal performance on the independent 300-record test set
+========================================================================
+Prediction SHA-256: 4f436183435f6b6cbc330f7a46846ecdc46416a5af4d09e8a68dbcbe2d8f1d87
+Gold SHA-256: 2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d
+Strict set evaluation; item order is irrelevant; head/tail direction is preserved.
+Entity: P=0.2149 R=0.4062 F1=0.2811 (TP=353, FP=1290, FN=516)  95%CI=[0.2524,0.3105]
+Relation: P=0.3858 R=0.0965 F1=0.1543 (TP=49, FP=78, FN=459)  95%CI=[0.1116,0.2109]
+Entity passage-exact rate=0.0467
+Relation passage-exact rate=0.2600
+Joint passage-exact rate=0.0433
+
+Entity categories: 
+- Chinese medicinal: P=0.3179 R=0.6813 F1=0.4336 (TP=62, FP=133, FN=29)
+- Formula: P=0.2650 R=0.7987 F1=0.3980 (TP=119, FP=330, FN=30)
+- Disease: P=0.7353 R=0.3492 F1=0.4735 (TP=125, FP=45, FN=233)
+- Symptom: P=0.0513 R=0.2683 F1=0.0862 (TP=33, FP=610, FN=90)
+- Pathogenesis: P=0.0690 R=0.0202 F1=0.0312 (TP=2, FP=27, FN=97)
+- Disease location: P=0.0930 R=0.3529 F1=0.1472 (TP=12, FP=117, FN=22)
+- Therapeutic method: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=28, FN=15)
+
+Relation categories: 
+- Treats: P=0.3858 R=0.2025 F1=0.2656 (TP=49, FP=78, FN=193)
+- Indication: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=0, FN=14)
+- Causes: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=0, FN=89)
+- Involves: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=0, FN=26)
+- Suggests: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=0, FN=15)
+- Manifests as: P=0.0000 R=0.0000 F1=0.0000 (TP=0, FP=0, FN=122)

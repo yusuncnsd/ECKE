@@ -1,6 +1,6 @@
 [
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/01_古籍问题识别.py",
+    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/01_Identify_Corpus_Issues.py",
     "source": "主实验/01_古籍清洗与主题条文构建/01_代码/01_古籍问题识别.py",
     "source_sha256": "44fd52f2fcdacf42e6151fb774b7b3732b81dfa71925d820ec877e401724b369",
     "package_sha256": "13e0cd4e529711ad7b917d1f30b47a994cc61b046a2838c966543d4fdb58c22f",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/02_运行488部古籍深度清洗.py",
+    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/02_Clean_488_Books.py",
     "source": "主实验/01_古籍清洗与主题条文构建/01_代码/02_运行488部古籍深度清洗.py",
     "source_sha256": "6234bc50dd0d2ccfae62be966d717ec76743fb0735cb9fa33bda88b791e746f3",
     "package_sha256": "08564bc4cffa8b1de082ff1506e75c1e8080fadf4fc65e368afffe41c0daf45b",
@@ -20,23 +20,25 @@
     ]
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/03_运行消渴主题条文筛选.py",
+    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/03_Screen_Xiaoke_Passages.py",
     "source": "主实验/01_古籍清洗与主题条文构建/01_代码/03_运行消渴主题条文筛选.py",
     "source_sha256": "d7ae9a5e96cf1386935558f991e5a8fcf10077064d9444382e63b4259ee53e6f",
-    "package_sha256": "3e6b987cdff691c9de7eaaaccacc8a0c891d4774b4dd1f5ce93c9972aaa05466",
+    "package_sha256": "44394e4718eb30b066c5bc264280d378d804fba543ea5a09983ac9934992757f",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/04_运行消渴主题条文库质量验收.py",
+    "destination": "02_Experiments/01_Corpus_Preparation/01_Code/04_Verify_Xiaoke_Corpus_Quality.py",
     "source": "主实验/01_古籍清洗与主题条文构建/01_代码/04_运行消渴主题条文库质量验收.py",
     "source_sha256": "954e909f5fe00538c937828f6b90afd8ca5fd65bc49615b62b9bbc0fd72db4e0",
-    "package_sha256": "a24787aaaeb20c06a75c312ea0317c4c7fcf6f42a1e8d93aade2ddae518fa096",
+    "package_sha256": "1f5243a4e5f67a2caf843d868e1f3fa44e08ede0fca351c65e2ee33f32d8803a",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -3456,7 +3458,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/V612整理后统一冻结清单.json",
+    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/V612_Frozen_Asset_Manifest.json",
     "source": "主实验/01_古籍清洗与主题条文构建/03_共享配置与词表/V612整理后统一冻结清单.json",
     "source_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
     "package_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
@@ -3477,23 +3479,24 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/原始词表与JSON核验说明_20261002.md",
+    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/Lexicon_Workbook_JSON_Verification_20261002.md",
     "source": "主实验/01_古籍清洗与主题条文构建/03_共享配置与词表/原始词表与JSON核验说明_20261002.md",
     "source_sha256": "3d16beedea3f0106976e05ee362cfb5c16e6361f54fe3a8d86d927ae860e08e4",
-    "package_sha256": "d20c99c18fbfa8109ac00f57160f17b6721e1ce39ca91fd7d805506121a3ebac",
+    "package_sha256": "2f9f44dae07a70e7f58c39dd1aa7991f5449f85462dfe7ae9adfdfe9ecade34f",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/概念词表-消渴LJ-26.8.14去重.xlsx",
+    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/Xiaoke_Concept_Lexicon_Deduplicated_20260814.xlsx",
     "source": "主实验/01_古籍清洗与主题条文构建/03_共享配置与词表/概念词表-消渴LJ-26.8.14去重.xlsx",
     "source_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "package_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/消渴知识抽取最终冻结策略_v612.txt",
+    "destination": "02_Experiments/01_Corpus_Preparation/03_Shared_Configuration_and_Lexicon/Frozen_Extraction_Strategy_V612.txt",
     "source": "主实验/01_古籍清洗与主题条文构建/03_共享配置与词表/消渴知识抽取最终冻结策略_v612.txt",
     "source_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "package_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
@@ -6916,7 +6919,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/310条风险条文_人工审核表.xlsx",
+    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/Manual_Review_310_Flagged_Passages.xlsx",
     "source": "主实验/01_古籍清洗与主题条文构建/04_结果数据/消渴主题条文库/310条风险条文_人工审核表.xlsx",
     "source_sha256": "ae1197e15632dc2fba1b7444af3eb2917b444beb1307d0b1c6446d001a9ed575",
     "package_sha256": "5ff170a9a0e1b017b036b10826abae8a23824eb1bb2d9e08d88bf3b1e22ca1ef",
@@ -6925,55 +6928,58 @@
     ]
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/正式消渴主题条文库.jsonl",
+    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/Final_Xiaoke_Passage_Corpus.jsonl",
     "source": "主实验/01_古籍清洗与主题条文构建/04_结果数据/消渴主题条文库/正式消渴主题条文库.jsonl",
     "source_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "package_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/正式消渴主题条文库.txt",
+    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Xiaoke_Passage_Corpus/Final_Xiaoke_Passage_Corpus.txt",
     "source": "主实验/01_古籍清洗与主题条文构建/04_结果数据/消渴主题条文库/正式消渴主题条文库.txt",
     "source_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "package_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/01_Code/01_运行V612全库知识抽取.py",
+    "destination": "02_Experiments/02_ECKE/01_Code/01_Run_V612_Full_Corpus_Extraction.py",
     "source": "主实验/02_ECKE/01_代码/01_运行V612全库知识抽取.py",
     "source_sha256": "d2257830e05d3794b114bd64855f9e5679fe818d7ba43efb502c701cd7e434b0",
-    "package_sha256": "47f47e68f26b4e98c045e86e35c5b2bf9b903f19beb844f25c37e45ce83e6e4f",
+    "package_sha256": "b1a13932621f1b425c50679894e88888c8ab34cf7b72adfd3d0879e4fd7ebb94",
     "changes": [
       "personal absolute project path made package-relative",
       "upload directory organization: program path references updated",
       "metadata discovery path updated for requested root cleanup",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/01_Code/02_评价300条独立测试集.py",
+    "destination": "02_Experiments/02_ECKE/01_Code/02_Evaluate_Independent_Test_300.py",
     "source": "主实验/02_ECKE/01_代码/02_评价300条独立测试集.py",
     "source_sha256": "ccf9a8a5c36be2325765ed247f03e8dcec832c692d65f79359a35d7247719d38",
-    "package_sha256": "dbfcbfc48a7d2dec9cacaf62f902f36f4df42582ed1ae5b2c2d085ffc15390eb",
+    "package_sha256": "d206da2a58729a48ad5ca4a4bf28ff9221c2d0074feda8d07044c378a60f5d60",
     "changes": [
       "personal absolute project path made package-relative",
       "upload directory organization: program path references updated",
       "metadata discovery path updated for requested root cleanup",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/01_Code/03_Gold实体Oracle与误差传播.py",
+    "destination": "02_Experiments/02_ECKE/01_Code/03_Gold_Entity_Oracle_and_Error_Propagation.py",
     "source": "主实验/02_ECKE/01_代码/03_Gold实体Oracle与误差传播.py",
     "source_sha256": "7dab53801a9174656717390b0129ad52e736be1fae2297d08786fcc70f47fa7f",
-    "package_sha256": "a141a3cb6cdc3d77212ab80aa44b226ebd1f040549e33d2f639eaf3c0e1d235d",
+    "package_sha256": "a76974b0804ac1a745dfa9799282bc1d87adf83661683f48bf7e6039a529123d",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/310条风险条文_人工审核表.xlsx",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/Manual_Review_310_Flagged_Passages.xlsx",
     "source": "主实验/02_ECKE/02_输入数据/专题条文库/310条风险条文_人工审核表.xlsx",
     "source_sha256": "ae1197e15632dc2fba1b7444af3eb2917b444beb1307d0b1c6446d001a9ed575",
     "package_sha256": "5ff170a9a0e1b017b036b10826abae8a23824eb1bb2d9e08d88bf3b1e22ca1ef",
@@ -6982,21 +6988,21 @@
     ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.jsonl",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.jsonl",
     "source": "主实验/02_ECKE/02_输入数据/专题条文库/正式消渴主题条文库.jsonl",
     "source_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "package_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.txt",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.txt",
     "source": "主实验/02_ECKE/02_输入数据/专题条文库/正式消渴主题条文库.txt",
     "source_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "package_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Development_100/100与300条数据划分核验.json",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Development_100/Development_100_Test_300_Split_Verification.json",
     "source": "主实验/02_ECKE/02_输入数据/开发集100/100与300条数据划分核验.json",
     "source_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
     "package_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
@@ -7010,7 +7016,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Development_100/消渴知识抽取_100条专家标注_V3.txt",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Development_100/Development_100_Expert_Annotations_V3.txt",
     "source": "主实验/02_ECKE/02_输入数据/开发集100/消渴知识抽取_100条专家标注_V3.txt",
     "source_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
     "package_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
@@ -7024,14 +7030,14 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/02_Input_Data/Independent_Test_300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
+    "destination": "02_Experiments/02_ECKE/02_Input_Data/Independent_Test_300/Independent_Test_300_Expert_Gold.txt",
     "source": "主实验/02_ECKE/02_输入数据/独立测试集300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
     "source_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "package_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/V612整理后统一冻结清单.json",
+    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/V612_Frozen_Asset_Manifest.json",
     "source": "主实验/02_ECKE/03_配置与运行说明/V612整理后统一冻结清单.json",
     "source_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
     "package_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
@@ -7052,30 +7058,31 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/原始词表与JSON核验说明_20261002.md",
+    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/Lexicon_Workbook_JSON_Verification_20261002.md",
     "source": "主实验/02_ECKE/03_配置与运行说明/原始词表与JSON核验说明_20261002.md",
     "source_sha256": "3d16beedea3f0106976e05ee362cfb5c16e6361f54fe3a8d86d927ae860e08e4",
-    "package_sha256": "d20c99c18fbfa8109ac00f57160f17b6721e1ce39ca91fd7d805506121a3ebac",
+    "package_sha256": "2f9f44dae07a70e7f58c39dd1aa7991f5449f85462dfe7ae9adfdfe9ecade34f",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/概念词表-消渴LJ-26.8.14去重.xlsx",
+    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/Xiaoke_Concept_Lexicon_Deduplicated_20260814.xlsx",
     "source": "主实验/02_ECKE/03_配置与运行说明/概念词表-消渴LJ-26.8.14去重.xlsx",
     "source_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "package_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/消渴知识抽取最终冻结策略_v612.txt",
+    "destination": "02_Experiments/02_ECKE/03_Configuration_and_Instructions/Frozen_Extraction_Strategy_V612.txt",
     "source": "主实验/02_ECKE/03_配置与运行说明/消渴知识抽取最终冻结策略_v612.txt",
     "source_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "package_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/V612全库运行摘要.json",
+    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/V612_Full_Corpus_Run_Summary.json",
     "source": "主实验/02_ECKE/04_结果数据/全库正式抽取/V612全库运行摘要.json",
     "source_sha256": "9df7b47b9c0c752bbce5ad7c312ac680d4c44bc8cd1306634e50d8902c8eecd6",
     "package_sha256": "9df7b47b9c0c752bbce5ad7c312ac680d4c44bc8cd1306634e50d8902c8eecd6",
@@ -7089,21 +7096,21 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/全库动态质量核验_V612_抽样清单.json",
+    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/V612_Dynamic_Quality_Sample_Manifest.json",
     "source": "主实验/02_ECKE/04_结果数据/全库正式抽取/全库动态质量核验_V612_抽样清单.json",
     "source_sha256": "fe993deec5f12a353546b7eb7f58e6686cfe6928f2ff420e487c81ffc4734aef",
     "package_sha256": "fe993deec5f12a353546b7eb7f58e6686cfe6928f2ff420e487c81ffc4734aef",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/全库动态质量核验_V612_累计抽样.txt",
+    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/V612_Dynamic_Quality_Samples.txt",
     "source": "主实验/02_ECKE/04_结果数据/全库正式抽取/全库动态质量核验_V612_累计抽样.txt",
     "source_sha256": "6c14c69265abd48ab6c80d36d8410054f7783bfbac5c7c794ed8df111871d4b3",
     "package_sha256": "6c14c69265abd48ab6c80d36d8410054f7783bfbac5c7c794ed8df111871d4b3",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/消渴知识抽取_全库正式结果_V612.txt",
+    "destination": "02_Experiments/02_ECKE/04_Results/Full_Corpus_Extraction/Full_Corpus_Extraction_Results_V612.txt",
     "source": "主实验/02_ECKE/04_结果数据/全库正式抽取/消渴知识抽取_全库正式结果_V612.txt",
     "source_sha256": "984b1ffeb6ab0847317973fd104be4867a904ebe8811b9983941fa9af4496a1d",
     "package_sha256": "984b1ffeb6ab0847317973fd104be4867a904ebe8811b9983941fa9af4496a1d",
@@ -7117,39 +7124,43 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/04_Results/Test_Predictions/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
+    "destination": "02_Experiments/02_ECKE/04_Results/Test_Predictions/Independent_Test_300_Machine_Predictions_V612.txt",
     "source": "主实验/02_ECKE/04_结果数据/测试集预测/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
     "source_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "package_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/300条独立测试集正式性能评估_V612_GoldV1.json",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Independent_Test_300_Performance_V612_GoldV1.json",
     "source": "主实验/02_ECKE/05_评价与核验/300条独立测试集正式性能评估_V612_GoldV1.json",
     "source_sha256": "59b19c7861484f2fdd5ad91ef0d1b93cf64180f5963627b85236c25c739e11f9",
     "package_sha256": "59b19c7861484f2fdd5ad91ef0d1b93cf64180f5963627b85236c25c739e11f9",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/300条独立测试集正式性能评估_V612_GoldV1.txt",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Independent_Test_300_Performance_V612_GoldV1.txt",
     "source": "主实验/02_ECKE/05_评价与核验/300条独立测试集正式性能评估_V612_GoldV1.txt",
     "source_sha256": "42a00847cb9812e64b0d51086d0a8f3667d99004a7d7b8beb7e059c28cbe8185",
-    "package_sha256": "42a00847cb9812e64b0d51086d0a8f3667d99004a7d7b8beb7e059c28cbe8185",
-    "changes": []
+    "package_sha256": "1c1688e145de8a1163d4a645044973acff08a448ddfb73868c6beb0891eab2da",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/Gold实体Oracle正式结果.json",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/Gold_Entity_Oracle_Final_Results.json",
     "source": "主实验/02_ECKE/05_评价与核验/Gold实体Oracle与误差传播/Gold实体Oracle正式结果.json",
     "source_sha256": "77017b5083afb3127203d187aa222ac62fe24ca15f7e300f8940f2154e9ba23f",
     "package_sha256": "77017b5083afb3127203d187aa222ac62fe24ca15f7e300f8940f2154e9ba23f",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/Gold实体Oracle正式结果.txt",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/Gold_Entity_Oracle_Final_Results.txt",
     "source": "主实验/02_ECKE/05_评价与核验/Gold实体Oracle与误差传播/Gold实体Oracle正式结果.txt",
     "source_sha256": "5546a7dcfba7c76f465d4cc867b92f55bb702a0c208a5785e8d8ec1d48178b25",
-    "package_sha256": "5546a7dcfba7c76f465d4cc867b92f55bb702a0c208a5785e8d8ec1d48178b25",
-    "changes": []
+    "package_sha256": "a78deae01bbe363d058e863c9f46366aea74d89a990b459fc2e6b45a42b87083",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/oracle_relation_cache.jsonl",
@@ -7159,98 +7170,110 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/端到端关系误差传播分解.json",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/End_to_End_Relation_Error_Propagation.json",
     "source": "主实验/02_ECKE/05_评价与核验/Gold实体Oracle与误差传播/端到端关系误差传播分解.json",
     "source_sha256": "71e7d48a282c783b720734742e8608cc244ef549b7f04a02eece2486d2181901",
     "package_sha256": "71e7d48a282c783b720734742e8608cc244ef549b7f04a02eece2486d2181901",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/端到端关系误差传播分解.txt",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Gold_Entity_Oracle_and_Error_Propagation/End_to_End_Relation_Error_Propagation.txt",
     "source": "主实验/02_ECKE/05_评价与核验/Gold实体Oracle与误差传播/端到端关系误差传播分解.txt",
     "source_sha256": "97e78f5b0c783d3bb76ae3a434340331116764de3a1c2e26c668a7597943fadf",
-    "package_sha256": "97e78f5b0c783d3bb76ae3a434340331116764de3a1c2e26c668a7597943fadf",
-    "changes": []
+    "package_sha256": "870df5f0ab271b1a0e1739aca4a6c5dbcbf7849765963761ca544d1364117868",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Fine_Grained_Analysis/统一细粒度分析.json",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Fine_Grained_Analysis/Unified_Fine_Grained_Analysis.json",
     "source": "主实验/02_ECKE/05_评价与核验/细粒度分析/统一细粒度分析.json",
     "source_sha256": "9e739e6c2b44dc9ec1146d4caebcf5cd461f2ab5a6a522dde5074ea307e6c176",
     "package_sha256": "9e739e6c2b44dc9ec1146d4caebcf5cd461f2ab5a6a522dde5074ea307e6c176",
     "changes": []
   },
   {
-    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Fine_Grained_Analysis/统一细粒度分析.txt",
+    "destination": "02_Experiments/02_ECKE/05_Evaluation_and_Verification/Fine_Grained_Analysis/Unified_Fine_Grained_Analysis.txt",
     "source": "主实验/02_ECKE/05_评价与核验/细粒度分析/统一细粒度分析.txt",
     "source_sha256": "003d345276a06b5ed7afa86e4a9f4f6709ffeb38d43da97e698920c1c241cbb1",
-    "package_sha256": "003d345276a06b5ed7afa86e4a9f4f6709ffeb38d43da97e698920c1c241cbb1",
-    "changes": []
+    "package_sha256": "55e1d1918703347eaedcd9d45d00f4751182cdd998ade02edd4d33de6e3a3bba",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/00_运行说明.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/00_Run_Instructions.txt",
     "source": "主实验/04_消融实验/01_代码/00_运行说明.txt",
     "source_sha256": "40515f41c3714a9d656512541b1e8dd3d8618c7ed9efa9a4b68f780e3594cec4",
-    "package_sha256": "40515f41c3714a9d656512541b1e8dd3d8618c7ed9efa9a4b68f780e3594cec4",
-    "changes": []
+    "package_sha256": "4d011a8ce93b263c498dbdef495e95d3823c0bdd59a6f1d0cfe33ec8246ee3d6",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/02_运行A1_去除显式词表锚定.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/02_Run_A1_Without_Lexicon_Anchoring.py",
     "source": "主实验/04_消融实验/01_代码/02_运行A1_去除显式词表锚定.py",
     "source_sha256": "9ca771600b678982fe1946c2303d386785690ea48f537057d732c12f2410f77d",
-    "package_sha256": "a6608c1d4a5164191b065826d7598d49378b8d7a2da4e0d754cc0f33063282e9",
+    "package_sha256": "e95463dd120c813d5642267220985fc954d7ceb15d3849febfe96070927b52a3",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/03_运行A2_去除LLM语义补充.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/03_Run_A2_Without_Semantic_Supplementation.py",
     "source": "主实验/04_消融实验/01_代码/03_运行A2_去除LLM语义补充.py",
     "source_sha256": "18d8ed4cef9ffbaf1a8be8030595017a18472200dd67258d66b780aff5c76427",
-    "package_sha256": "a6c0207bde1c753a4c69bb50531f4c0e2b631b5bed1cf7ce12b4a8137ca7c256",
+    "package_sha256": "32f7f1328661cd1a764d04da353ca1f565008e8f6cf224e57b9994b47b7c28fe",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/04_运行A3_去除证据对齐融合.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/04_Run_A3_Simple_Union.py",
     "source": "主实验/04_消融实验/01_代码/04_运行A3_去除证据对齐融合.py",
     "source_sha256": "3c56436a1a41f4fb45eb9f7997211c5bba27775929d92c976f2fb5936a4e340d",
-    "package_sha256": "8ed82bdf8577643e0a64149316ee4e337b56ecc61a9b7a91017198f3dd5d4bea",
+    "package_sha256": "156e21924a3f148f24bf69635b688095f2883f531551a175d4f1800df07fde12",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/05_运行A4_Schema兼容即输出关系.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/05_Run_A4_Schema_Only_Relations.py",
     "source": "主实验/04_消融实验/01_代码/05_运行A4_Schema兼容即输出关系.py",
     "source_sha256": "f211f8c944bef53ce0e3d6626cb113b9bead9d313c4b8da4822a28627c6eb901",
-    "package_sha256": "c84cb4ac959f5be93e05046a83a4297ef2417297910e8beb178c383d7379b124",
+    "package_sha256": "2d0f63a71fce7594a58345b3425a6c9a44a19622cf6b226f762ff7fdf5db27e7",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/07_统一审计与统计分析.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/07_Unified_Audit_and_Statistical_Analysis.py",
     "source": "主实验/04_消融实验/01_代码/07_统一审计与统计分析.py",
     "source_sha256": "26d4098e2518d981e51583b5e5f9b317f2a43bf7b0de3a34046d16d6fc91fd16",
-    "package_sha256": "0dd435c679eace9f7e2d1c6ca5f79dc884abf2a5e601059b2d91adb38012242b",
+    "package_sha256": "7a6078838e6ab188ed0e111214c6df452c7e3ec76b34af1658e810a640b4895e",
     "changes": [
       "personal absolute project path made package-relative",
       "upload directory organization: program path references updated",
       "metadata discovery path updated for requested root cleanup",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/01_Code/消融实验公共引擎.py",
+    "destination": "02_Experiments/04_Ablation_Studies/01_Code/ablation_engine.py",
     "source": "主实验/04_消融实验/01_代码/消融实验公共引擎.py",
     "source_sha256": "f2aed7bbf9d37cc0636d01e87514d932e0b398729d56b7d42d65d6e887398e48",
-    "package_sha256": "0c39ad8724984772115364c7e7a813e898840c2f28b7cdb7f1847e3eb173921f",
+    "package_sha256": "c9d7c2d2612f4ac87e270c846aaa444d4ecb9e3c3085a10ecad2a8c235707ad2",
     "changes": [
       "personal absolute project path made package-relative",
       "upload directory organization: program path references updated",
       "metadata discovery path updated for requested root cleanup",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -7261,14 +7284,14 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Frozen_ECKE_Reference_Predictions/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Frozen_ECKE_Reference_Predictions/Independent_Test_300_Machine_Predictions_V612.txt",
     "source": "主实验/04_消融实验/02_输入数据/ECKE冻结预测参考/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
     "source_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "package_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/310条风险条文_人工审核表.xlsx",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/Manual_Review_310_Flagged_Passages.xlsx",
     "source": "主实验/04_消融实验/02_输入数据/专题条文库/310条风险条文_人工审核表.xlsx",
     "source_sha256": "ae1197e15632dc2fba1b7444af3eb2917b444beb1307d0b1c6446d001a9ed575",
     "package_sha256": "5ff170a9a0e1b017b036b10826abae8a23824eb1bb2d9e08d88bf3b1e22ca1ef",
@@ -7277,21 +7300,21 @@
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.jsonl",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.jsonl",
     "source": "主实验/04_消融实验/02_输入数据/专题条文库/正式消渴主题条文库.jsonl",
     "source_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "package_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.txt",
     "source": "主实验/04_消融实验/02_输入数据/专题条文库/正式消渴主题条文库.txt",
     "source_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "package_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Development_100/100与300条数据划分核验.json",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Development_100/Development_100_Test_300_Split_Verification.json",
     "source": "主实验/04_消融实验/02_输入数据/开发集100/100与300条数据划分核验.json",
     "source_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
     "package_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
@@ -7305,7 +7328,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Development_100/消渴知识抽取_100条专家标注_V3.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Development_100/Development_100_Expert_Annotations_V3.txt",
     "source": "主实验/04_消融实验/02_输入数据/开发集100/消渴知识抽取_100条专家标注_V3.txt",
     "source_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
     "package_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
@@ -7319,14 +7342,14 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Independent_Test_300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/02_Input_Data/Independent_Test_300/Independent_Test_300_Expert_Gold.txt",
     "source": "主实验/04_消融实验/02_输入数据/独立测试集300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
     "source_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "package_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/V612整理后统一冻结清单.json",
+    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/V612_Frozen_Asset_Manifest.json",
     "source": "主实验/04_消融实验/03_配置与运行说明/V612整理后统一冻结清单.json",
     "source_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
     "package_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
@@ -7347,125 +7370,128 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/原始词表与JSON核验说明_20261002.md",
+    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/Lexicon_Workbook_JSON_Verification_20261002.md",
     "source": "主实验/04_消融实验/03_配置与运行说明/原始词表与JSON核验说明_20261002.md",
     "source_sha256": "3d16beedea3f0106976e05ee362cfb5c16e6361f54fe3a8d86d927ae860e08e4",
-    "package_sha256": "d20c99c18fbfa8109ac00f57160f17b6721e1ce39ca91fd7d805506121a3ebac",
+    "package_sha256": "2f9f44dae07a70e7f58c39dd1aa7991f5449f85462dfe7ae9adfdfe9ecade34f",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/概念词表-消渴LJ-26.8.14去重.xlsx",
+    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/Xiaoke_Concept_Lexicon_Deduplicated_20260814.xlsx",
     "source": "主实验/04_消融实验/03_配置与运行说明/概念词表-消渴LJ-26.8.14去重.xlsx",
     "source_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "package_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/消渴知识抽取最终冻结策略_v612.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/03_Configuration_and_Instructions/Frozen_Extraction_Strategy_V612.txt",
     "source": "主实验/04_消融实验/03_配置与运行说明/消渴知识抽取最终冻结策略_v612.txt",
     "source_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "package_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_300条结构化预测.jsonl",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_Structured_Predictions_300.jsonl",
     "source": "主实验/04_消融实验/04_结果数据/A1_去除显式词表锚定/A1_300条结构化预测.jsonl",
     "source_sha256": "4a1abe52b7cfb76cf969b9623bdd5c615b39d815399ebb689411205998283388",
     "package_sha256": "4a1abe52b7cfb76cf969b9623bdd5c615b39d815399ebb689411205998283388",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_性能评价.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_Performance_Evaluation.json",
     "source": "主实验/04_消融实验/04_结果数据/A1_去除显式词表锚定/A1_性能评价.json",
     "source_sha256": "3464d39d385903d2d6f3411dd7b4d3a922a4889ffbc8028bdaed5295962c210b",
     "package_sha256": "3464d39d385903d2d6f3411dd7b4d3a922a4889ffbc8028bdaed5295962c210b",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_运行摘要.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A1_Without_Lexicon_Anchoring/A1_Run_Summary.json",
     "source": "主实验/04_消融实验/04_结果数据/A1_去除显式词表锚定/A1_运行摘要.json",
     "source_sha256": "5e03b4b33e0f5292496ee9d1c414242683b2245d6d5caf8504028d2a5d212605",
     "package_sha256": "5e03b4b33e0f5292496ee9d1c414242683b2245d6d5caf8504028d2a5d212605",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_300条结构化预测.jsonl",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_Structured_Predictions_300.jsonl",
     "source": "主实验/04_消融实验/04_结果数据/A2_去除LLM语义补充/A2_300条结构化预测.jsonl",
     "source_sha256": "8d7a2952790dc2edeb8c7fb7134d30827ae6f8239ba896cc0c3b545c9ada675a",
     "package_sha256": "8d7a2952790dc2edeb8c7fb7134d30827ae6f8239ba896cc0c3b545c9ada675a",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_性能评价.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_Performance_Evaluation.json",
     "source": "主实验/04_消融实验/04_结果数据/A2_去除LLM语义补充/A2_性能评价.json",
     "source_sha256": "861740f9fe7620144452c4a93341f2d0723bc8c2bc4d1054a3b6119443cfd6fa",
     "package_sha256": "861740f9fe7620144452c4a93341f2d0723bc8c2bc4d1054a3b6119443cfd6fa",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_运行摘要.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A2_Without_Semantic_Supplementation/A2_Run_Summary.json",
     "source": "主实验/04_消融实验/04_结果数据/A2_去除LLM语义补充/A2_运行摘要.json",
     "source_sha256": "13a8e2abbaaa6b0ae74780590bb99fd23e087b96dbd12bfe3cb7f0c96cbc7061",
     "package_sha256": "13a8e2abbaaa6b0ae74780590bb99fd23e087b96dbd12bfe3cb7f0c96cbc7061",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_300条结构化预测.jsonl",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_Structured_Predictions_300.jsonl",
     "source": "主实验/04_消融实验/04_结果数据/A3_去除证据对齐融合_简单并集/A3_300条结构化预测.jsonl",
     "source_sha256": "ed8d5132e6a5b5c13626f526b4bab00add6a67a94e72ce3a99d176df56683fa8",
     "package_sha256": "ed8d5132e6a5b5c13626f526b4bab00add6a67a94e72ce3a99d176df56683fa8",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_性能评价.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_Performance_Evaluation.json",
     "source": "主实验/04_消融实验/04_结果数据/A3_去除证据对齐融合_简单并集/A3_性能评价.json",
     "source_sha256": "2366f679de2e6f7a0c8c14260e25c1832b29449d509427101dc542698bb023fc",
     "package_sha256": "2366f679de2e6f7a0c8c14260e25c1832b29449d509427101dc542698bb023fc",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_运行摘要.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A3_Simple_Union/A3_Run_Summary.json",
     "source": "主实验/04_消融实验/04_结果数据/A3_去除证据对齐融合_简单并集/A3_运行摘要.json",
     "source_sha256": "31a3d3d7d79c68620a313738f43104bad15976f64c47688aacde902f1512fa55",
     "package_sha256": "31a3d3d7d79c68620a313738f43104bad15976f64c47688aacde902f1512fa55",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_300条结构化预测.jsonl",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_Structured_Predictions_300.jsonl",
     "source": "主实验/04_消融实验/04_结果数据/A4_去除关系候选语义判别_Schema即输出/A4_300条结构化预测.jsonl",
     "source_sha256": "6222ad4cd2915c0c5961b80c7959e706cef51b4b6adebf17e47bb71e110b9209",
     "package_sha256": "6222ad4cd2915c0c5961b80c7959e706cef51b4b6adebf17e47bb71e110b9209",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_性能评价.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_Performance_Evaluation.json",
     "source": "主实验/04_消融实验/04_结果数据/A4_去除关系候选语义判别_Schema即输出/A4_性能评价.json",
     "source_sha256": "d65bcb0ebe3c7423d82c39fce19c5e904f28ddae00703af4edf9dbec30ab795e",
     "package_sha256": "d65bcb0ebe3c7423d82c39fce19c5e904f28ddae00703af4edf9dbec30ab795e",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_运行摘要.json",
+    "destination": "02_Experiments/04_Ablation_Studies/04_Results/A4_Schema_Only_Relations/A4_Run_Summary.json",
     "source": "主实验/04_消融实验/04_结果数据/A4_去除关系候选语义判别_Schema即输出/A4_运行摘要.json",
     "source_sha256": "137ffb8c6c45691ca667c108a52f7712c9bceb9c4dd96216d381f6799c2e8a2c",
     "package_sha256": "137ffb8c6c45691ca667c108a52f7712c9bceb9c4dd96216d381f6799c2e8a2c",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/05_Evaluation_and_Verification/消融实验统一审计与统计分析.json",
+    "destination": "02_Experiments/04_Ablation_Studies/05_Evaluation_and_Verification/Ablation_Audit_and_Statistical_Analysis.json",
     "source": "主实验/04_消融实验/05_评价与核验/消融实验统一审计与统计分析.json",
     "source_sha256": "12b845f3bd23645d951405dc40dbd8e49518c0cc2e871965c483add7d28bac0e",
     "package_sha256": "12b845f3bd23645d951405dc40dbd8e49518c0cc2e871965c483add7d28bac0e",
     "changes": []
   },
   {
-    "destination": "02_Experiments/04_Ablation_Studies/05_Evaluation_and_Verification/消融实验统一审计与统计分析.txt",
+    "destination": "02_Experiments/04_Ablation_Studies/05_Evaluation_and_Verification/Ablation_Audit_and_Statistical_Analysis.txt",
     "source": "主实验/04_消融实验/05_评价与核验/消融实验统一审计与统计分析.txt",
     "source_sha256": "58a957fd5f7c5e790cb1c43d83c9a6329c9f146ac5888904a1d66b97088dcf43",
-    "package_sha256": "58a957fd5f7c5e790cb1c43d83c9a6329c9f146ac5888904a1d66b97088dcf43",
-    "changes": []
+    "package_sha256": "32d48c49f03b83867526c17c2d9e5e86793e56ef252e1974d2fbe984ab6f3278",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Frozen_ECKE_Reference_Predictions/independent_test_300_machine_predictions_v612_frozen.jsonl",
@@ -7475,14 +7501,14 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Frozen_ECKE_Reference_Predictions/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Frozen_ECKE_Reference_Predictions/Independent_Test_300_Machine_Predictions_V612.txt",
     "source": "主实验/03_外部对比/02_输入数据/ECKE冻结预测参考/消渴知识抽取_300条独立测试集专家预标注_V612.txt",
     "source_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "package_sha256": "78b4d2546465a55755baf2b33b394a1f9ad39d7ed9934b4899a834353d913880",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/310条风险条文_人工审核表.xlsx",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/Manual_Review_310_Flagged_Passages.xlsx",
     "source": "主实验/03_外部对比/02_输入数据/专题条文库/310条风险条文_人工审核表.xlsx",
     "source_sha256": "ae1197e15632dc2fba1b7444af3eb2917b444beb1307d0b1c6446d001a9ed575",
     "package_sha256": "5ff170a9a0e1b017b036b10826abae8a23824eb1bb2d9e08d88bf3b1e22ca1ef",
@@ -7491,21 +7517,21 @@
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.jsonl",
     "source": "主实验/03_外部对比/02_输入数据/专题条文库/正式消渴主题条文库.jsonl",
     "source_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "package_sha256": "edb828f58f0ca85cd3e683b4086e1592b6b10ea3422edeaaafe7724543ed06c7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/正式消渴主题条文库.txt",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Topic_Passage_Corpus/Final_Xiaoke_Passage_Corpus.txt",
     "source": "主实验/03_外部对比/02_输入数据/专题条文库/正式消渴主题条文库.txt",
     "source_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "package_sha256": "ced1eea7b3a33bbf612b66703ef947cbe9272190dfd24133bafc4bebc5fe0d15",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Development_100/100与300条数据划分核验.json",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Development_100/Development_100_Test_300_Split_Verification.json",
     "source": "主实验/03_外部对比/02_输入数据/开发集100/100与300条数据划分核验.json",
     "source_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
     "package_sha256": "73e346b1b22dbdf565a3cb73b63bdf70cac2fcedf9498ee7a8e4b10f6805bc3d",
@@ -7519,7 +7545,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Development_100/消渴知识抽取_100条专家标注_V3.txt",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Development_100/Development_100_Expert_Annotations_V3.txt",
     "source": "主实验/03_外部对比/02_输入数据/开发集100/消渴知识抽取_100条专家标注_V3.txt",
     "source_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
     "package_sha256": "3605c43bd89aba75977307d875268d7fa1b1f5fbca76277a8cbfce808a0cc7db",
@@ -7554,21 +7580,21 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Independent_Test_300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
+    "destination": "02_Experiments/03_External_Comparisons/02_Input_Data/Independent_Test_300/Independent_Test_300_Expert_Gold.txt",
     "source": "主实验/03_外部对比/02_输入数据/独立测试集300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
     "source_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "package_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/E1-E2正式实验冻结配置.json",
+    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/E1_E2_Frozen_Experiment_Configuration.json",
     "source": "主实验/03_外部对比/03_配置与运行说明/E1-E2正式实验冻结配置.json",
     "source_sha256": "ff14962d0481ab85acc5111beca189a6558dcd894e8743636ca76e4b399c165f",
     "package_sha256": "ff14962d0481ab85acc5111beca189a6558dcd894e8743636ca76e4b399c165f",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/V612整理后统一冻结清单.json",
+    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/V612_Frozen_Asset_Manifest.json",
     "source": "主实验/03_外部对比/03_配置与运行说明/V612整理后统一冻结清单.json",
     "source_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
     "package_sha256": "bb451b08ed155a4c750dd8e54e9b5450766566a440b866d5ebea9e9d60aadd1b",
@@ -7589,23 +7615,24 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/原始词表与JSON核验说明_20261002.md",
+    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/Lexicon_Workbook_JSON_Verification_20261002.md",
     "source": "主实验/03_外部对比/03_配置与运行说明/原始词表与JSON核验说明_20261002.md",
     "source_sha256": "3d16beedea3f0106976e05ee362cfb5c16e6361f54fe3a8d86d927ae860e08e4",
-    "package_sha256": "d20c99c18fbfa8109ac00f57160f17b6721e1ce39ca91fd7d805506121a3ebac",
+    "package_sha256": "2f9f44dae07a70e7f58c39dd1aa7991f5449f85462dfe7ae9adfdfe9ecade34f",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/概念词表-消渴LJ-26.8.14去重.xlsx",
+    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/Xiaoke_Concept_Lexicon_Deduplicated_20260814.xlsx",
     "source": "主实验/03_外部对比/03_配置与运行说明/概念词表-消渴LJ-26.8.14去重.xlsx",
     "source_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "package_sha256": "c7b55f85cd78ca01936cbddcccddcb6548007e8d266c68ba7042d8ca9ccc6ea8",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/消渴知识抽取最终冻结策略_v612.txt",
+    "destination": "02_Experiments/03_External_Comparisons/03_Configuration_and_Instructions/Frozen_Extraction_Strategy_V612.txt",
     "source": "主实验/03_外部对比/03_配置与运行说明/消渴知识抽取最终冻结策略_v612.txt",
     "source_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
     "package_sha256": "30a806d95470876bc57f475c44dc91b5d0cbd9b7e03c368d7e70cf309e09f0a7",
@@ -7675,7 +7702,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/04_Results/E1/E1_OneKE-Qwen_300条正式预测.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/04_Results/E1/E1_OneKE_Qwen_Final_Predictions_300.jsonl",
     "source": "主实验/03_外部对比/04_结果数据/E1/E1_OneKE-Qwen_300条正式预测.jsonl",
     "source_sha256": "7ac6ebe6370f654a01fba167a7bb3eab86dbfce933647d080a68ac532f73423e",
     "package_sha256": "7ac6ebe6370f654a01fba167a7bb3eab86dbfce933647d080a68ac532f73423e",
@@ -7724,48 +7751,54 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/01_D1_D3_Cloud_Package/D1-D3正式程序最终审计报告.txt",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/01_D1_D3_Cloud_Package/D1_D3_Final_Program_Audit.txt",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/D1-D3正式程序最终审计报告.txt",
     "source_sha256": "95b0b0ac15e8301a95cd1b396f77eecc582d9c5570ce8df77ddd08265bf7c4da",
-    "package_sha256": "95b0b0ac15e8301a95cd1b396f77eecc582d9c5570ce8df77ddd08265bf7c4da",
-    "changes": []
+    "package_sha256": "7b714586321bf6b24309b1fead0f475e2a655c4f2974d733f4a402467b5f3eb4",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/00_运行说明.txt",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/00_Run_Instructions.txt",
     "source": "主实验/03_外部对比/01_代码/02_E1_OneKE-Qwen/00_运行说明.txt",
     "source_sha256": "de4b337ebfdd8b8eba3a869caa1944602df65252d5e50f1bdb5ae080f765ce43",
-    "package_sha256": "de4b337ebfdd8b8eba3a869caa1944602df65252d5e50f1bdb5ae080f765ce43",
-    "changes": []
+    "package_sha256": "abdbea8bc29da7c0720154249b2fa5c20d175d0363045536ab83728a549181b6",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_运行E1_OneKE-Qwen.py",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/02_E1_OneKE-Qwen/01_Run_OneKE_Qwen.py",
     "source": "主实验/03_外部对比/01_代码/02_E1_OneKE-Qwen/01_运行E1_OneKE-Qwen.py",
     "source_sha256": "6caf4e8e6b24ed4c6a11b00ab2207a52d19ebb32c0b023ce3578a5c93c384f8b",
-    "package_sha256": "f53fef4a163e80fc41374a77822ed493bfdc26c23d783da9804d6eb71d451c03",
+    "package_sha256": "54ac26d952e784fac509199cf29e81f4d925b3fb2ad032cbc640e5288de75e13",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/03_统一评价.py",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/03_Unified_Evaluation.py",
     "source": "主实验/03_外部对比/01_代码/04_统一评价/03_统一评价.py",
     "source_sha256": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee",
-    "package_sha256": "816e2334eb07c1afd99b8661ac2c43e2202a0451071fd7f512ad52b844bccab7",
+    "package_sha256": "b5044741a73ff80a03fbdf35f4f21903ebcd72fabb245c0b2c647eb8242c92c8",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/E1-E2正式实验冻结配置.json",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/E1_E2_Frozen_Experiment_Configuration.json",
     "source": "主实验/03_外部对比/01_代码/04_统一评价/E1-E2正式实验冻结配置.json",
     "source_sha256": "ff14962d0481ab85acc5111beca189a6558dcd894e8743636ca76e4b399c165f",
     "package_sha256": "ff14962d0481ab85acc5111beca189a6558dcd894e8743636ca76e4b399c165f",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/统一结构.py",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/04_Unified_Evaluation/shared_structures.py",
     "source": "主实验/03_外部对比/01_代码/04_统一评价/统一结构.py",
     "source_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
     "package_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
@@ -7775,8 +7808,10 @@
     "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/00_install_environment.sh",
     "source": "主实验/03_外部对比/01_代码/05_E3_YAYI-UIE/00_install_environment.sh",
     "source_sha256": "3c44b78c3cdd9d337aa494568ab902bc871c3b6ff103fa1e87cfa30363cebcb8",
-    "package_sha256": "3c44b78c3cdd9d337aa494568ab902bc871c3b6ff103fa1e87cfa30363cebcb8",
-    "changes": []
+    "package_sha256": "560f34654259ae0fcd439bce7a7fe95e00eeca71d65f8a71b21bd37b474c95c8",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/01_preflight.py",
@@ -7830,15 +7865,19 @@
     "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/05_package_results.sh",
     "source": "主实验/03_外部对比/01_代码/05_E3_YAYI-UIE/05_package_results.sh",
     "source_sha256": "03b1cad12500182bb732d96b50e73bb5d9e53c1ca4f64a64f4a10d283dcba369",
-    "package_sha256": "03b1cad12500182bb732d96b50e73bb5d9e53c1ca4f64a64f4a10d283dcba369",
-    "changes": []
+    "package_sha256": "c3ba7211bea18f3b329cfc85aec75cedb16515a502891b3c58970206e22cd6bb",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/06_run_all.sh",
     "source": "主实验/03_外部对比/01_代码/05_E3_YAYI-UIE/06_run_all.sh",
     "source_sha256": "6768d1aeb42dccbb6f8909c8b611eabb4f8ba2cbbad034df33e1ccf13a99a6d6",
-    "package_sha256": "6768d1aeb42dccbb6f8909c8b611eabb4f8ba2cbbad034df33e1ccf13a99a6d6",
-    "changes": []
+    "package_sha256": "5e6dbc27db127f85865ea43157481ea59ffe1eda2729bd5096069e205dbd7ff9",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/asset_manifest.json",
@@ -7862,11 +7901,13 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/README_CN.txt",
+    "destination": "02_Experiments/03_External_Comparisons/01_Code/05_E3_YAYI-UIE/README_EN.txt",
     "source": "主实验/03_外部对比/01_代码/05_E3_YAYI-UIE/README_CN.txt",
     "source_sha256": "e479813e9f7bd7dd38c25f872a8b7caee92b1f32fb4d64565abcd82942395b36",
-    "package_sha256": "e479813e9f7bd7dd38c25f872a8b7caee92b1f32fb4d64565abcd82942395b36",
-    "changes": []
+    "package_sha256": "b067fae854102a51992b13b67c74249621223462d33ed06bc91c940e51ac2503",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/01_Code/AutoDL_E3_YAYI-UIE_Formal_v3_20260826_SHA256.txt",
@@ -7876,88 +7917,108 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/E3_300条正式性能评价.json",
+    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/E3_Final_Performance_300.json",
     "source": "主实验/03_外部对比/05_评价与核验/E3_300条正式性能评价.json",
     "source_sha256": "dbd528d71ad1d8b982d90e066c7bde86125b834fa44648fd953a46e23f07f79c",
     "package_sha256": "dbd528d71ad1d8b982d90e066c7bde86125b834fa44648fd953a46e23f07f79c",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/E3_300条正式性能评价.txt",
+    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/E3_Final_Performance_300.txt",
     "source": "主实验/03_外部对比/05_评价与核验/E3_300条正式性能评价.txt",
     "source_sha256": "ac9b5a6b397374a5e726c63d87bad72e5396fd828535a7f5bc9bdf9e891673f3",
-    "package_sha256": "ac9b5a6b397374a5e726c63d87bad72e5396fd828535a7f5bc9bdf9e891673f3",
-    "changes": []
+    "package_sha256": "ae5d0162fe2ca00fbdb8a548c82f17a4bdad738a0d2302804e3b9744d9049b24",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/外部基线D1-D3_E1-E2最终冻结清单_20260826.json",
+    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/External_Baseline_Frozen_Manifest_20260826.json",
     "source": "主实验/03_外部对比/05_评价与核验/外部基线D1-D3_E1-E2最终冻结清单_20260826.json",
     "source_sha256": "23ebe5ca9ba0f2c6bbc98d6ad6a143cfeea787e761866287bcb6cd92a3924f87",
     "package_sha256": "23ebe5ca9ba0f2c6bbc98d6ad6a143cfeea787e761866287bcb6cd92a3924f87",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/外部方法配对统计比较.txt",
+    "destination": "02_Experiments/03_External_Comparisons/05_Evaluation_and_Verification/Baseline_Paired_Statistical_Comparisons.txt",
     "source": "主实验/03_外部对比/05_评价与核验/外部方法配对统计比较.txt",
     "source_sha256": "366e593dab6273fd303071b1fb201cdd08fb6d1772e2c55f1fad2c79a51eea8f",
-    "package_sha256": "366e593dab6273fd303071b1fb201cdd08fb6d1772e2c55f1fad2c79a51eea8f",
-    "changes": []
+    "package_sha256": "fdba2422e1f2e819b36473e7c6088fabbe4dfbdeb1576148bc041ed096b96a24",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D1_CENTRELINE_论文-代码复现规格表_V1.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D1_CENTRELINE_Implementation_Specification_V1.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/D1_CENTRELINE_论文-代码复现规格表_V1.txt",
     "source_sha256": "68ea2e97d7ec5fa0f3592aeb8b6dcb9c48039228e9ba240d7fa6fc4794b19c56",
-    "package_sha256": "68ea2e97d7ec5fa0f3592aeb8b6dcb9c48039228e9ba240d7fa6fc4794b19c56",
-    "changes": []
+    "package_sha256": "5ace766dbb3cdfc240ba5b2303f68e76642023215fe3afb784d5b30128cd9d3c",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D2_TCMERE_论文-代码复现规格表_V2.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D2_TCMERE_Implementation_Specification_V2.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/D2_TCMERE_论文-代码复现规格表_V2.txt",
     "source_sha256": "c003d3e4d87968d79ad4775118bfbe238d8f87007cace7fddff3a02e27ac799b",
-    "package_sha256": "c003d3e4d87968d79ad4775118bfbe238d8f87007cace7fddff3a02e27ac799b",
-    "changes": []
+    "package_sha256": "2c48a70bde5b4e9f5ddcde7579f5ab11704343a90a81e3ba922d6e499756b3f2",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D3_BSTR-GPRel_论文-代码复现规格表_V1.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/D3_BSTR_GPRel_Implementation_Specification_V1.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/D3_BSTR-GPRel_论文-代码复现规格表_V1.txt",
     "source_sha256": "d6e6c58c0f645d9d4b08e5d2aa377b0d38f775873d42307623ba275f0258666e",
-    "package_sha256": "d6e6c58c0f645d9d4b08e5d2aa377b0d38f775873d42307623ba275f0258666e",
-    "changes": []
+    "package_sha256": "66a3003be20f301f6786121f7987ef66d7c00001831e66d82813b269cb7a6054",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/E1_OneKE_论文-代码复现规格表_V1.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/E1_OneKE_Implementation_Specification_V1.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/E1_OneKE_论文-代码复现规格表_V1.txt",
     "source_sha256": "538d86d685f387d770148ef4736e666f5ab340e0454c16c66951528ed64cb2bd",
-    "package_sha256": "538d86d685f387d770148ef4736e666f5ab340e0454c16c66951528ed64cb2bd",
-    "changes": []
+    "package_sha256": "a7a46ac769099a8c9ccbd5dc89f0bee46708a2d71a1ad0b563b0838d7416bee4",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/外部对比实验最终实施方案_V3.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/External_Comparison_Implementation_Plan_V3.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/外部对比实验最终实施方案_V3.txt",
     "source_sha256": "2863bc7191561ac35c282a14f5cf7a839a32e87d7e7fd7d9870407a726ae4a3a",
-    "package_sha256": "2863bc7191561ac35c282a14f5cf7a839a32e87d7e7fd7d9870407a726ae4a3a",
-    "changes": []
+    "package_sha256": "499524f602ab90a79f7443b9140374e97c872e658d6f851744ddf19537c86d5c",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/外部对比论文与代码资产清单_V1.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/Baseline_Publication_and_Code_Assets_V1.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/外部对比论文与代码资产清单_V1.txt",
     "source_sha256": "131d000ea03da32f16c0a8f4bf7fd53720168b5eed4d63f7de814328af2eb2b7",
-    "package_sha256": "131d000ea03da32f16c0a8f4bf7fd53720168b5eed4d63f7de814328af2eb2b7",
-    "changes": []
+    "package_sha256": "b88261c3216b79dbd83b6773258a37ff545a85eb0812d3905a8d5d965389fa7a",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/外部方法重新遴选结论_V2.txt",
+    "destination": "02_Experiments/03_External_Comparisons/06_Publications_and_Reproduction/Baseline_Selection_Record_V2.txt",
     "source": "主实验/03_外部对比/06_论文与复现说明/外部方法重新遴选结论_V2.txt",
     "source_sha256": "d85174db984095f82222fc7063baa0185d9bcfe7a342a92b2e0a77435546948c",
-    "package_sha256": "d85174db984095f82222fc7063baa0185d9bcfe7a342a92b2e0a77435546948c",
-    "changes": []
+    "package_sha256": "7f5dcff2d725efd7f468e6aa01842edc0bf926a32533cb4035e31e24213c6f29",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/00_install_environment.sh",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D1-D3_Formal_Package_v2_20260824.zip!AutoDL_D1-D3_Package_v2/00_install_environment.sh",
     "source_sha256": "3c4ec8cf518129de67c7891f4c3d448b8f79af566193a90797b3a8ab4d0c58a9",
-    "package_sha256": "3c4ec8cf518129de67c7891f4c3d448b8f79af566193a90797b3a8ab4d0c58a9",
-    "changes": []
+    "package_sha256": "6744e0459de3830e1c7ca05b01e33b06a02d64538884f6590a8e271169281b2f",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/01_preflight.py",
@@ -8011,8 +8072,10 @@
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/06_run_all.sh",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D1-D3_Formal_Package_v2_20260824.zip!AutoDL_D1-D3_Package_v2/06_run_all.sh",
     "source_sha256": "4fb7b7107446f8bac7605370e7fe460609eff942890d40d4665043680fb76bee",
-    "package_sha256": "4fb7b7107446f8bac7605370e7fe460609eff942890d40d4665043680fb76bee",
-    "changes": []
+    "package_sha256": "fbaf357c9e069900b63d13b0cd0a707c57ed6bbbb3c220346f12fb5f92f27ff1",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/asset_manifest.json",
@@ -8022,11 +8085,13 @@
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/AUTODL_GUIDE_CN.txt",
+    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/AUTODL_GUIDE_EN.txt",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D1-D3_Formal_Package_v2_20260824.zip!AutoDL_D1-D3_Package_v2/AUTODL_GUIDE_CN.txt",
     "source_sha256": "7572e111e9c8c7c80c488622940250ea654adc26bec8512207a8597af62e7438",
-    "package_sha256": "7572e111e9c8c7c80c488622940250ea654adc26bec8512207a8597af62e7438",
-    "changes": []
+    "package_sha256": "b7586c81c2d9aa064412431f27c181a1c9b4243420d250c27fa1dbaf0e9e94c0",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/frozen_experiment_config.json",
@@ -8036,19 +8101,22 @@
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/README_CN.txt",
+    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/README_EN.txt",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D1-D3_Formal_Package_v2_20260824.zip!AutoDL_D1-D3_Package_v2/README_CN.txt",
     "source_sha256": "98ae349b0cbb341756a227c504a83baf6a11202aec9ff8e2da6cd903eabdd56c",
-    "package_sha256": "98ae349b0cbb341756a227c504a83baf6a11202aec9ff8e2da6cd903eabdd56c",
-    "changes": []
+    "package_sha256": "d38c0d480b2c62624da4035287fec4d9052c7a56006d6ca9a2938754b82f8ba4",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/AutoDL_D1-D3_Package_v2/code/d1_centreline.py",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D1-D3_Formal_Package_v2_20260824.zip!AutoDL_D1-D3_Package_v2/code/d1_centreline.py",
     "source_sha256": "c27b9406ce259cecaadde380a1a62d11306471d48b2bd5bd449455135714026b",
-    "package_sha256": "87da3446799bf6716dcd7cad86a90c796129344f5fa0b0d1fbffe36665ba257a",
+    "package_sha256": "60fd2ee613479d4203022156d4f429cc19b74beb9242e33473570266c7946d83",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -8241,18 +8309,22 @@
     ]
   },
   {
-    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/D2_repair_v1/README_CN.txt",
+    "destination": "03_Baseline_Packages/00_Shared_Supervised_Code/D2_repair_v1/README_EN.txt",
     "source": "主实验/03_外部对比/01_代码/01_D1-D3云端包/AutoDL_D2_Repair_v1_20260824.zip!D2_repair_v1/README_CN.txt",
     "source_sha256": "aa7ca218e1677c6ae5df41186a664f495b87009b9a223111332179c30c9b7819",
-    "package_sha256": "aa7ca218e1677c6ae5df41186a664f495b87009b9a223111332179c30c9b7819",
-    "changes": []
+    "package_sha256": "075095205285e6413f2b5055e29aadb19ca66fc000e4cf6587fb792b80e41311",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/00_install_environment.sh",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!实验工作目录/00_install_environment.sh",
     "source_sha256": "bc96797db1e43b9f66e9e1472ffaecb45ae58847b5212052e322440b82893b02",
-    "package_sha256": "bc96797db1e43b9f66e9e1472ffaecb45ae58847b5212052e322440b82893b02",
-    "changes": []
+    "package_sha256": "410af3c291b7b8e1f6b519c460ee732175743d1aa5524cd65c894791e84338eb",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/01_download_model.py",
@@ -8277,10 +8349,11 @@
     "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/03_evaluate_local_optimized.py",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!实验工作目录/03_evaluate_local_optimized.py",
     "source_sha256": "4b08174e87d4c43668b3ba25ba595c696a5ee5ea34ba10f9ff65634cd5a08f6a",
-    "package_sha256": "d6e6a62be3f63413cf7765e03ddd65be2ffc148efdfe89502d708c08d880141a",
+    "package_sha256": "6343225c3a47b623193865c16c75ab5bc9da089d95131a9324e80de7a318592a",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -8319,18 +8392,20 @@
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.json",
+    "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/evaluation_optimized/ADELIE-DPO-7B-Optimized_Final_Performance_300.json",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!实验工作目录/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.json",
     "source_sha256": "0714898733cd58072091dce0913aaec769f4a88dc7733571f492f63490b2ad39",
     "package_sha256": "0714898733cd58072091dce0913aaec769f4a88dc7733571f492f63490b2ad39",
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.txt",
+    "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/evaluation_optimized/ADELIE-DPO-7B-Optimized_Final_Performance_300.txt",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!实验工作目录/evaluation_optimized/ADELIE-DPO-7B-Optimized_300条正式性能评价.txt",
     "source_sha256": "a75e1aed2379a6e9174061632d69bf54c28014313613e53a07612a1aa890416b",
-    "package_sha256": "a75e1aed2379a6e9174061632d69bf54c28014313613e53a07612a1aa890416b",
-    "changes": []
+    "package_sha256": "4ded19bf91737ff1c0b707c3d5c427e2e59a66e21011c7c35d186455069eb667",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "03_Baseline_Packages/08_ADELIE/Experiment_Workspace/evaluation_optimized/ADELIE_processing_coverage.json",
@@ -11035,61 +11110,66 @@
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/03_统一评价.py",
+    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/03_Unified_Evaluation.py",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!统一评价依赖/03_统一评价.py",
     "source_sha256": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee",
-    "package_sha256": "816e2334eb07c1afd99b8661ac2c43e2202a0451071fd7f512ad52b844bccab7",
+    "package_sha256": "b5044741a73ff80a03fbdf35f4f21903ebcd72fabb245c0b2c647eb8242c92c8",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/统一结构.py",
+    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/shared_structures.py",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!统一评价依赖/统一结构.py",
     "source_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
     "package_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Gold_Snapshot/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
+    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Gold_Snapshot/Independent_Test_300_Expert_Gold.txt",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!评价Gold快照/消渴知识抽取_300条独立测试集专家标注-盲标定.txt",
     "source_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "package_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "changes": []
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/归档说明.md",
+    "destination": "03_Baseline_Packages/08_ADELIE/Archive_Notes.md",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!归档说明.md",
     "source_sha256": "1c5adc23e6cee81fedfb24bf494560da8f47b07a7d61702731fe432e60f1b0eb",
-    "package_sha256": "884ba1166377326131275485febda436add538b237a2ef3e5aa2ca539e482452",
-    "changes": [
-      "upload directory organization: program path references updated"
-    ]
-  },
-  {
-    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/运行归档评价.py",
-    "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!统一评价依赖/运行归档评价.py",
-    "source_sha256": "4a255dabdd52905d7e797320c737671102be6b26a4cba01a4f7c1c94ece5d8ef",
-    "package_sha256": "8bcde9952a5c82b2d664b18ad378582425fe208f588029512e289a50e911bcc6",
+    "package_sha256": "335496a37a5cea14172ba1fe050749083520494f88328977a88cc999b68e6a9c",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "03_Baseline_Packages/08_ADELIE/文件指纹清单.json",
+    "destination": "03_Baseline_Packages/08_ADELIE/Evaluation_Dependencies/evaluate_archived_run.py",
+    "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!统一评价依赖/运行归档评价.py",
+    "source_sha256": "4a255dabdd52905d7e797320c737671102be6b26a4cba01a4f7c1c94ece5d8ef",
+    "package_sha256": "0d61af0227257ccdce0d9f118ca9b43cef1d7980c0d587f6d92228b93f9fe173",
+    "changes": [
+      "upload directory organization: program path references updated",
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
+  },
+  {
+    "destination": "03_Baseline_Packages/08_ADELIE/File_Checksum_Manifest.json",
     "source": "主实验/03_外部对比/ADELIE-对比/ADELIE_原始实验数据.zip!文件指纹清单.json",
     "source_sha256": "1f63a1f429fea5752f9f96fb714646ee30ba821d7a89795599967495ebd12534",
     "package_sha256": "1f63a1f429fea5752f9f96fb714646ee30ba821d7a89795599967495ebd12534",
     "changes": []
   },
   {
-    "destination": "01_Documentation/source_notes/ADELIE_归档说明.md",
+    "destination": "01_Documentation/source_notes/ADELIE_Archive_Notes.md",
     "source": "主实验/03_外部对比/ADELIE-对比/归档说明.md",
     "source_sha256": "884ba1166377326131275485febda436add538b237a2ef3e5aa2ca539e482452",
-    "package_sha256": "884ba1166377326131275485febda436add538b237a2ef3e5aa2ca539e482452",
-    "changes": []
+    "package_sha256": "335496a37a5cea14172ba1fe050749083520494f88328977a88cc999b68e6a9c",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
     "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/asset_manifest.json",
@@ -11253,17 +11333,18 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/evaluation_source/03_统一评价.py",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/evaluation_source/03_Unified_Evaluation.py",
     "source": "主实验/03_外部对比/CARE-对比/01_实验代码/CARE_Balanced/evaluation_source/03_统一评价.py",
     "source_sha256": "b659ddff76a852c229eb5819615cab46dc03ab89ddf2e38e353e6035fff394ee",
-    "package_sha256": "816e2334eb07c1afd99b8661ac2c43e2202a0451071fd7f512ad52b844bccab7",
+    "package_sha256": "b5044741a73ff80a03fbdf35f4f21903ebcd72fabb245c0b2c647eb8242c92c8",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/evaluation_source/统一结构.py",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_Balanced/evaluation_source/shared_structures.py",
     "source": "主实验/03_外部对比/CARE-对比/01_实验代码/CARE_Balanced/evaluation_source/统一结构.py",
     "source_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
     "package_sha256": "068256b0c80406d521b9fe8b4f22e4f5caadb44a95854109dde9c76727ea209c",
@@ -11493,10 +11574,11 @@
     "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/01_Experiment_Code/CARE_evaluate_second.py",
     "source": "主实验/03_外部对比/CARE-对比/01_实验代码/CARE_evaluate_second.py",
     "source_sha256": "8e59f23b9cb1226bb647ac2139073211cb7e573077cdd7a9a07a6f8ec6bc90a4",
-    "package_sha256": "4f6501e93951961675ac859c6732aea910b2fefbcad9a12ae54fad85777e29d5",
+    "package_sha256": "d7c75b44608346e56009f71cd857041623ced333ac284977711eadb89d07d2d8",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -11509,70 +11591,74 @@
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/01_最终实验说明.md",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/01_Final_Experiment_Description.md",
     "source": "主实验/03_外部对比/CARE-对比/02_过程文档/01_最终实验说明.md",
     "source_sha256": "004c9f0f31c29638fa600292f8003fc68d1ae46a817e98cbf73f219b67b7317a",
-    "package_sha256": "004c9f0f31c29638fa600292f8003fc68d1ae46a817e98cbf73f219b67b7317a",
-    "changes": []
+    "package_sha256": "a6ee5723a9ee63dd68cbec49821a185dc0c69ddc9deea81d98382ab58a9383ba",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/04_最终实验条件.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/04_Final_Experimental_Conditions.json",
     "source": "主实验/03_外部对比/CARE-对比/02_过程文档/04_最终实验条件.json",
     "source_sha256": "2f600d92e35822be22f1f892bc0dbee8e1dbe49ab486c55a1e720eca44483e24",
     "package_sha256": "2f600d92e35822be22f1f892bc0dbee8e1dbe49ab486c55a1e720eca44483e24",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/06_归档文件指纹清单.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/02_Process_Records/06_Archive_File_Checksums.json",
     "source": "主实验/03_外部对比/CARE-对比/02_过程文档/06_归档文件指纹清单.json",
     "source_sha256": "d51ca856f4e918a93d0bdeb3a278580449b13215b1454edaf3c925fe68b2f42e",
     "package_sha256": "d51ca856f4e918a93d0bdeb3a278580449b13215b1454edaf3c925fe68b2f42e",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_seed_20260823_正式评价.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_seed_20260823_Evaluation.json",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_seed_20260823_正式评价.json",
     "source_sha256": "ab07ef21cc4b0fe43e8393f8be6a168312190bfc810a155c37be571e98308b30",
     "package_sha256": "ab07ef21cc4b0fe43e8393f8be6a168312190bfc810a155c37be571e98308b30",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_seed_20260824_正式评价.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_seed_20260824_Evaluation.json",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_seed_20260824_正式评价.json",
     "source_sha256": "30f283a543d451bbc409fd2cfaa1d3a1e5e0a182cd0fc1101a678f555b4a05e2",
     "package_sha256": "30f283a543d451bbc409fd2cfaa1d3a1e5e0a182cd0fc1101a678f555b4a05e2",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_seed_20260825_正式评价.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_seed_20260825_Evaluation.json",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_seed_20260825_正式评价.json",
     "source_sha256": "ad7e093df0ce247a3bf55bcfb672b71c8d82c04e0bf943abbe8b670628092c3d",
     "package_sha256": "ad7e093df0ce247a3bf55bcfb672b71c8d82c04e0bf943abbe8b670628092c3d",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_三种子汇总.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_Three_Seed_Summary.json",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_三种子汇总.json",
     "source_sha256": "54d990455f273be5507f85e122e622a1de1c25521eb651f7f42350c448e482c5",
     "package_sha256": "54d990455f273be5507f85e122e622a1de1c25521eb651f7f42350c448e482c5",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_与ECKE配对统计.json",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_Paired_Comparison_with_ECKE.json",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_与ECKE配对统计.json",
     "source_sha256": "e8bca3969da2231443444beb7caa225355e44c38176a82a0604acb622e97ef79",
     "package_sha256": "e8bca3969da2231443444beb7caa225355e44c38176a82a0604acb622e97ef79",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_正式结果报告.md",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_Final_Results.md",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_正式结果报告.md",
     "source_sha256": "2a0086d3ebea3e698507c28cb5bc150852760864b02f0076bea434ddbfcf1ac6",
-    "package_sha256": "2a0086d3ebea3e698507c28cb5bc150852760864b02f0076bea434ddbfcf1ac6",
-    "changes": []
+    "package_sha256": "6285470ee13b55f933cdf15e758dc78dcb60dfeff7ebe4ec8152b19564d2032b",
+    "changes": [
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
+    ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE第二版_逐种子指标.csv",
+    "destination": "02_Experiments/03_External_Comparisons/CARE_Comparison/03_Result_Reports/CARE_V2_Metrics_by_Seed.csv",
     "source": "主实验/03_外部对比/CARE-对比/03_结果文档/CARE第二版_逐种子指标.csv",
     "source_sha256": "32bd8fb3b7bc97b15b682ac60c0841e9ae433c3a7432de826084e89ddd41791d",
     "package_sha256": "32bd8fb3b7bc97b15b682ac60c0841e9ae433c3a7432de826084e89ddd41791d",
@@ -11616,98 +11702,101 @@
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_运行LLMRE任务适配.py",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/01_Run_LLMRE_Adaptation.py",
     "source": "主实验/03_外部对比/LLMRE-对比/01_运行LLMRE任务适配.py",
     "source_sha256": "5d60da714d893f2430b3055ca8b3dc6f7db9d93e5ab833a5570572c6c19400bb",
-    "package_sha256": "3d4029a58ecaac016ee94a01ef69ccd4b47831fbddadeec080af0b47dc027165",
+    "package_sha256": "1c9bb8af7cf99dff7a52865925fdc7af59e7254d692cb7edb0a9f0523fe26ba4",
     "changes": [
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/02_评价结果.py",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/02_Evaluate_Results.py",
     "source": "主实验/03_外部对比/LLMRE-对比/02_评价结果.py",
     "source_sha256": "ff288720417373c5938b17ae37296c3c60b77c12fb1274a831f292d52176773f",
-    "package_sha256": "0d4a24a9f4cef923ea454c4149c77b899a3a1ad3fe5009aaec3509d7eec8dc85",
+    "package_sha256": "3ab92261b55cced9344d651c857b20418da54d1fac2fac05d347e0640f23b529",
     "changes": [
       "upload directory organization: program path references updated",
-      "English directory names and required code/link path references"
+      "English directory names and required code/link path references",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/文件指纹.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/File_Checksums.json",
     "source": "主实验/03_外部对比/LLMRE-对比/文件指纹.json",
     "source_sha256": "6c1cff584da82c9f5e2f8f3c8528aa08075f2d093b10d6adb3e27e0d04c3fcab",
     "package_sha256": "6c1cff584da82c9f5e2f8f3c8528aa08075f2d093b10d6adb3e27e0d04c3fcab",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/方法映射与边界.md",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Method_Mapping_and_Adaptation.md",
     "source": "主实验/03_外部对比/LLMRE-对比/方法映射与边界.md",
     "source_sha256": "be4b9e8ca7ffc991b4100feb448091af015c5513313e4eb7c9d8f67bcdff754a",
-    "package_sha256": "693609ef6361c5c41481f9970b862bf7a4e9cd941fcb322d33d891cd14f92c30",
+    "package_sha256": "b8f604100992a6cab15efde24890e5f8b39e26db5e9c688ec5f59bbba07ab2f9",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/JSON格式修复记录.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/JSON_Format_Repair_Log.jsonl",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/JSON格式修复记录.jsonl",
     "source_sha256": "7335a4dea5daefd9c286f54fab2b6e3efc2b41298d691de8e545bdb1ed7cbc1d",
     "package_sha256": "7335a4dea5daefd9c286f54fab2b6e3efc2b41298d691de8e545bdb1ed7cbc1d",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/完成状态.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Completion_Status.json",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/完成状态.json",
     "source_sha256": "1c17d5c2ff59f47c06615260ece1a35c32f71f915a8cdd1b597e7e0d93415bde",
     "package_sha256": "1c17d5c2ff59f47c06615260ece1a35c32f71f915a8cdd1b597e7e0d93415bde",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/证据过滤记录.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Evidence_Filter_Log.jsonl",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/证据过滤记录.jsonl",
     "source_sha256": "2446d0d1a12f9631d4c6da1acd9cae14c895556d996a6271d817616ee77558f7",
     "package_sha256": "2446d0d1a12f9631d4c6da1acd9cae14c895556d996a6271d817616ee77558f7",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/运行指纹.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Run_Fingerprint.json",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/运行指纹.json",
     "source_sha256": "4fddf7fb185528248c7ead0b948e2e57df370d845c2b26640e307f35f2a9f184",
     "package_sha256": "4fddf7fb185528248c7ead0b948e2e57df370d845c2b26640e307f35f2a9f184",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/运行指纹_修复前备份.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Run_Fingerprint_Before_Repair.json",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/运行指纹_修复前备份.json",
     "source_sha256": "283c123b320f90c9b53de3d1bc4f3f44e49c310e3a70cbb062be25c4f5a5e2bd",
     "package_sha256": "283c123b320f90c9b53de3d1bc4f3f44e49c310e3a70cbb062be25c4f5a5e2bd",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/错误诊断.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Error_Diagnostics.jsonl",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/错误诊断.jsonl",
     "source_sha256": "c72dce83fa7346c5628160da6d87afdb48216a6cdbb5168c8255393e21460497",
     "package_sha256": "c72dce83fa7346c5628160da6d87afdb48216a6cdbb5168c8255393e21460497",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/预测.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Predictions.json",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/预测.json",
     "source_sha256": "1b56a785b886d53f77137b105f5c79c53ac095b387f50cbd63d8b23a72e32e46",
     "package_sha256": "1b56a785b886d53f77137b105f5c79c53ac095b387f50cbd63d8b23a72e32e46",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/预测300.txt",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Results/Formal_300/Predictions_300.txt",
     "source": "主实验/03_外部对比/LLMRE-对比/结果/正式300/预测300.txt",
     "source_sha256": "6fadd02d390a7f63b828873af16cc876def68ce70140b4758726d8c861ea7f84",
     "package_sha256": "6fadd02d390a7f63b828873af16cc876def68ce70140b4758726d8c861ea7f84",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Evaluation_Only/测试Gold.txt",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Evaluation_Only/Test_Gold.txt",
     "source": "主实验/03_外部对比/LLMRE-对比/评价专用/测试Gold.txt",
     "source_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
     "package_sha256": "2d5272941beccc0613cd25d13885137eb47fe184db8d4a00a8752452f196400d",
@@ -11721,33 +11810,34 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/开发100_仅原文.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/Development_100_Text_Only.jsonl",
     "source": "主实验/03_外部对比/LLMRE-对比/输入/开发100_仅原文.jsonl",
     "source_sha256": "75d2ae84bfd72cb61c82439df3b7a0da76f3014ac2f4b75cecf08e11cc963380",
     "package_sha256": "75d2ae84bfd72cb61c82439df3b7a0da76f3014ac2f4b75cecf08e11cc963380",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/提示.json",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/Prompts.json",
     "source": "主实验/03_外部对比/LLMRE-对比/输入/提示.json",
     "source_sha256": "d066d8a42ef4a0d542771463edb1557acb065feee78257e905e4fb99c8816c18",
     "package_sha256": "d066d8a42ef4a0d542771463edb1557acb065feee78257e905e4fb99c8816c18",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/测试300.jsonl",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Inputs/Test_300.jsonl",
     "source": "主实验/03_外部对比/LLMRE-对比/输入/测试300.jsonl",
     "source_sha256": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
     "package_sha256": "a6c25f3542952ae617cc7a6f417ba2595d17907fd2198b54f2145f3c80b5215c",
     "changes": []
   },
   {
-    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/运行说明.md",
+    "destination": "02_Experiments/03_External_Comparisons/LLMRE_Comparison/Run_Instructions.md",
     "source": "主实验/03_外部对比/LLMRE-对比/运行说明.md",
     "source_sha256": "e03b162b07e40f0efa48d78a66d83f0ad9d4b0220491ef2a24250856ce9989c6",
-    "package_sha256": "46d328ef6d598062a0e10beafc9235a30e572cb02d04456a036ffce42886e9af",
+    "package_sha256": "6c8bf39c0df515e5ee4c2d1da85e25add8ef5c2f06a4d8f7394f96dbc89d9c2f",
     "changes": [
-      "upload directory organization: program path references updated"
+      "upload directory organization: program path references updated",
+      "English filename/path or reader-facing documentation translation; scientific payloads preserved"
     ]
   },
   {
@@ -11765,35 +11855,35 @@
     "changes": []
   },
   {
-    "destination": "04_Figure_Data/300条独立测试集正式性能评估_V612_GoldV1.json",
+    "destination": "04_Figure_Data/Independent_Test_300_Performance_V612_GoldV1.json",
     "source": "主实验/05_方法与绘图/02_图件/图2_ECKE整体与分类别知识抽取性能/300条独立测试集正式性能评估_V612_GoldV1.json",
     "source_sha256": "59b19c7861484f2fdd5ad91ef0d1b93cf64180f5963627b85236c25c739e11f9",
     "package_sha256": "59b19c7861484f2fdd5ad91ef0d1b93cf64180f5963627b85236c25c739e11f9",
     "changes": []
   },
   {
-    "destination": "04_Figure_Data/Top100_关系及来源.csv",
+    "destination": "04_Figure_Data/Top100_Relations_and_Sources.csv",
     "source": "主实验/05_方法与绘图/02_图件/消渴局部有向关系图_20260928/Top100_关系及来源.csv",
     "source_sha256": "77c10ffb040652cc0c3dc9bcf3ed754a665757ac6c7947598f3b66b23d36da17",
     "package_sha256": "77c10ffb040652cc0c3dc9bcf3ed754a665757ac6c7947598f3b66b23d36da17",
     "changes": []
   },
   {
-    "destination": "04_Figure_Data/关系标签中英对照.csv",
+    "destination": "04_Figure_Data/Relation_Label_Translations.csv",
     "source": "主实验/05_方法与绘图/02_图件/消渴局部有向关系图_20260928/关系标签中英对照.csv",
     "source_sha256": "7a55d7ad970eaf1b3d87667e87784fd6f2bbe1bbcc6d1f290c84bad5fd050a70",
     "package_sha256": "7a55d7ad970eaf1b3d87667e87784fd6f2bbe1bbcc6d1f290c84bad5fd050a70",
     "changes": []
   },
   {
-    "destination": "04_Figure_Data/绘图来源与筛选说明.json",
+    "destination": "04_Figure_Data/Figure_Data_Sources_and_Selection.json",
     "source": "主实验/05_方法与绘图/02_图件/消渴局部有向关系图_20260928/绘图来源与筛选说明.json",
     "source_sha256": "912cddec910947adf44463699351f38fb8e97d4b7791975824e89a9d16b20410",
     "package_sha256": "912cddec910947adf44463699351f38fb8e97d4b7791975824e89a9d16b20410",
     "changes": []
   },
   {
-    "destination": "04_Figure_Data/节点中英对照及图内简写.csv",
+    "destination": "04_Figure_Data/Node_Terminology_and_Display_Labels.csv",
     "source": "主实验/05_方法与绘图/02_图件/消渴局部有向关系图_20260928/节点中英对照及图内简写.csv",
     "source_sha256": "07401e10a87003e62ed7c8b6e39658bb62e739d91057026a922e4c48ac4ed26b",
     "package_sha256": "07401e10a87003e62ed7c8b6e39658bb62e739d91057026a922e4c48ac4ed26b",
@@ -12180,7 +12270,7 @@
     "changes": []
   },
   {
-    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/条文构建数量复核_20260929.json",
+    "destination": "02_Experiments/01_Corpus_Preparation/04_Results/Passage_Construction_Count_Check_20260929.json",
     "source": "主实验/05_方法与绘图/01_方法与论文/02_方法设计与研究记录/数量与修订核验_20260929/条文构建数量复核.json",
     "source_sha256": "f8a4ad6751ab248a74d85c9e22e3ed0ba28cb413c096a3da6fc3608ab8286012",
     "package_sha256": "f8a4ad6751ab248a74d85c9e22e3ed0ba28cb413c096a3da6fc3608ab8286012",

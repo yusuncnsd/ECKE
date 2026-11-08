@@ -32,11 +32,11 @@ def load(name, relative):
 
 def main():
     verify_assets()
-    ev = load('frozen_evaluator', '03_统一评价.py')
+    ev = load('frozen_evaluator', '03_Unified_Evaluation.py')
     pair = load('frozen_paired', '01_外部方法配对统计比较.py')
     old = MAIN / '03_External_Comparisons'
-    gold_path = old / '02_Input_Data/Independent_Test_300/消渴知识抽取_300条独立测试集专家标注-盲标定.txt'
-    frozen = json.loads((old / '05_Evaluation_and_Verification/外部基线D1-D3_E1-E2最终冻结清单_20260826.json').read_text('utf-8'))
+    gold_path = old / '02_Input_Data/Independent_Test_300/Independent_Test_300_Expert_Gold.txt'
+    frozen = json.loads((old / '05_Evaluation_and_Verification/External_Baseline_Frozen_Manifest_20260826.json').read_text('utf-8'))
     if sha(gold_path) != frozen['gold_sha256']:
         raise RuntimeError('Frozen test Gold fingerprint differs')
     ev.GOLD = pair.GOLD = gold_path
@@ -114,16 +114,16 @@ def main():
             comparisons[str(seed)][task] = pair.paired(task, gold, reference, baseline, pair.SEED + seed)
     for task in ('entities', 'relations'):
         pair.holm([r[task] for r in comparisons.values()], 'paired_randomization_p', 'holm_p_CARE_three_runs')
-    atomic_json(OUT / 'CARE第二版_与ECKE配对统计.json', {'design': 'Each task Holm correction across three CARE seeds only; not a global all-baseline correction',
+    atomic_json(OUT / 'CARE_V2_Paired_Comparison_with_ECKE.json', {'design': 'Each task Holm correction across three CARE seeds only; not a global all-baseline correction',
                 'bootstrap_n': pair.N_BOOT, 'permutation_n': pair.N_PERM, 'reference_sha256': sha(reference_path), 'runs': comparisons})
     summary = {t: {m: {'mean': statistics.mean(s[t]['micro'][m] for s in scores),
                        'sample_std': statistics.stdev(s[t]['micro'][m] for s in scores)}
                    for m in ('precision', 'recall', 'f1')} for t in ('entity', 'relation')}
-    atomic_json(OUT / 'CARE第二版_三种子汇总.json', {'records_per_seed': 300, 'seeds': [s['seed'] for s in scores],
+    atomic_json(OUT / 'CARE_V2_Three_Seed_Summary.json', {'records_per_seed': 300, 'seeds': [s['seed'] for s in scores],
                 'unit': 'fraction_0_to_1', 'summary': summary, 'thresholds': selection['selected']['thresholds'],
                 'bootstrap_n': ev.BOOTSTRAP_N, 'bootstrap_seed': ev.SEED,
                 'macro_definition': 'Seven entity types; six relation labels; frozen evaluator empty-class convention'})
-    with (OUT / 'CARE第二版_逐种子指标.csv').open('w', encoding='utf-8-sig', newline='') as f:
+    with (OUT / 'CARE_V2_Metrics_by_Seed.csv').open('w', encoding='utf-8-sig', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=list(table[0]))
         writer.writeheader()
         writer.writerows(table)
@@ -140,7 +140,7 @@ def main():
               '第二版是在第一版正式测试已经评价后开展的开发集校准，应在论文中披露这一顺序；未用测试Gold选择阈值。',
               '配对统计仅对CARE三个种子分别作任务内Holm校正，不能声称已完成所有外部方法的全局多重比较。',
               '关系F1仍低，不因本次改进而推断CARE在其他任务中的性能。']
-    (OUT / 'CARE第二版_正式结果报告.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
+    (OUT / 'CARE_V2_Final_Results.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print('Second-version evaluation and exports complete:', OUT, flush=True)
 
 
